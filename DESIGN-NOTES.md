@@ -2,64 +2,38 @@
 
 ## Purpose and content boundary
 
-This is a single-page concept preview prepared for owner discussion. It is not an official emergency source, does not display live alerts, and does not submit or store request-form data. Facts in public copy are limited to the supplied and independently verified official-source details. Personnel counts, apparatus specifications, ISO classification, and current operational status remain explicit content-to-confirm areas.
+This concept is a resident-utility front door, not an official emergency source. It routes urgent information to authoritative agencies, dates every changeable status claim, and never presents a simulated live incident or evacuation condition. Personnel counts, apparatus specifications, ISO classification, and production publishing workflows still require department confirmation.
 
-## Visual system
+## Regional design patterns used
 
-| Role | Implementation |
-|---|---|
-| Primary title | Georgia, weight 600, `clamp(2.8rem, 11vw, 5.8rem)`, line-height 1.08 |
-| Section title | Georgia, weight 600, `clamp(2.25rem, 8vw, 4.25rem)`, line-height 1.08 |
-| Subtitle/card title | System sans for operational modules; Georgia for narrative cards |
-| Body | System sans stack, 1rem, line-height 1.65, muted text uses `--ink-soft` |
-| Eyebrow | System sans, 900, uppercase, .16em tracking, ember or light gold |
-| Word link | Forest text with gold 2px underline; ember hover treatment |
-| Button | 48px minimum height, bold sans, filled, outline, emergency, and light variants |
-| Navigation | Uppercase sans, high contrast, collapsed button below 960px |
-| Card | 1.5rem radius, subtle border and shadow, semantic top accent line |
-| Graphic | Original inline SVG shield and redwood/forest motifs; no external assets |
-| Spacing | Shared shell max 76rem; section padding uses responsive clamps |
-| Breakpoints | Mobile first; 608px, 960px, and 1216px enhancements; target checks at 390px and 1440px |
+Regional fire-service sites consistently prioritize emergency calling, burn information, evacuation zones, alert enrollment, defensible space, public records/governance, volunteering, and clear station contact. This preview adapts that information architecture without copying another department's branding or prose.
 
-Palette: deep redwood greens for stability, ember red for emergency action, warm gold for preparedness and focus, and soft paper neutrals for legibility. The visual language pairs a civic shield with layered redwood silhouettes without reproducing an official mark.
+## Current resident utility
 
-## Route and component matrix
+- Dated CAL FIRE status for Mendocino County: Burning Suspended, effective June 15, 2026 at 8:00 AM, verified August 27, 2026.
+- Mendocino AQMD daily burn line: 707-463-4391.
+- Three-check path covering CAL FIRE status, AQMD daily determination/permit, and local confirmation.
+- Annual automatic no-burn dates from Mendocino AQMD Rule 2-530, with calculated 2026 Memorial Day and Thanksgiving dates.
+- MendoAlert, Know Your Zone, Nixle, ALERTCalifornia, Ready for Wildfire, and Brooktrails Township governance links.
+- Current official station address, business phone, fax, and `fireprev@btcsd.org` email.
 
-| Route | Title | Body | Links | Cards/effects | Graphics | 1440px | 390px |
-|---|---|---|---|---|---|---|---|
-| `/` | `.hero h1`, section `h2` tokens | Shared system sans | `.word-link`, `.button`, `.primary-nav` | Feature, emergency, snapshot, request, and notice components | Inline shield, canopy, volunteer forest | Required | Required |
-
-Intentional exceptions: the hero title is white and uses the primary title scale; the emergency-strip heading uses a compact operational sans treatment; operational service titles use sans; narrative feature and request titles use the display serif.
-
-## Content and workflow matrix
-
-| Requirement | Page component |
-|---|---|
-| Emergency and alerts | Concept warning, emergency hero, quick actions, official-source strip |
-| Evacuation | Evacuation preparedness card with Ready for Wildfire link |
-| Burn permits | Permit card with May 2024 jurisdiction note and CAL FIRE link |
-| Defensible space | Preparedness card with Ready for Wildfire link |
-| Inspection and report requests | Accessible tabbed concept form with non-submit button |
-| Volunteer recruitment | Dedicated volunteer call-to-action section |
-| Public notices | Empty-state module that makes no current-status claim |
-| Station contact | Address, emergency, business, email, and fax block |
-| Services | Fire response, basic life support, rescue, and prevention modules |
-| Personnel, apparatus, response area, ISO | Department snapshot with verified response area and content-to-confirm labels |
-| Microsoft 365 workflow | Concept explanation plus three-step routing model |
+The annual calendar is a planning aid, not a burn authorization. The live CAL FIRE status and daily AQMD recording always control.
 
 ## Accessibility and safety decisions
 
-- Semantic landmarks, a skip link, visible focus rings, descriptive link copy, and keyboard-operable tabs are included.
-- Buttons and navigation meet a 48px touch-target minimum.
-- The request action is `type="button"`; the form submit event is also prevented in JavaScript.
-- Live status is announced through `role="status"` and explicitly states that nothing was submitted or stored.
-- Reduced-motion and print fallbacks are included.
-- External links open in a new tab with `rel="noopener"`; emergency phone actions remain direct.
-- No current incident, evacuation, burn-status, or public-notice claim is made.
+- Semantic landmarks, skip link, visible focus rings, one H1, descriptive link copy, and 48px touch targets.
+- Mobile-first layout with explicit 390 px and 1440 px validation.
+- Concept disclosure remains visible; emergency actions call 911 directly.
+- Third-party camera imagery is labeled as situational awareness, not an evacuation-order source.
+- No fake request form or simulated submission remains in the utility-first revision.
+- External links use `rel="noopener"`; changeable status links point back to official sources.
 
-## Official outbound sources
+## Primary official sources
 
 - Brooktrails CSD Fire Department: <https://www.btcsd.org/brooktrails-fire-department>
-- Ready for Wildfire evacuation guide: <https://www.readyforwildfire.org/prepare-for-wildfire/go-evacuation-guide/>
-- Ready for Wildfire defensible space: <https://www.readyforwildfire.org/prepare-for-wildfire/defensible-space/>
-- CAL FIRE burn permits: <https://www.fire.ca.gov/burnpermit>
+- CAL FIRE current residential burn status: <https://burnpermit.fire.ca.gov/current-burn-status>
+- Mendocino AQMD burn information: <https://mcaqmd.org/burn-information/>
+- Mendocino County burn permits: <https://www.mendocinocounty.gov/Home/Components/ServiceDirectory/ServiceDirectory/383/3680>
+- Mendocino emergency alerts: <https://www.mendocinocounty.gov/government/executive-office/emergency-management/emergency-alerts>
+- MendoReady: <https://mendoready.org/>
+- ALERTCalifornia: <https://alertcalifornia.org/>
