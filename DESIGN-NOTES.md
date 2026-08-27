@@ -6,7 +6,22 @@ The homepage is organized as a resident-facing community resource. Emergency act
 
 ## Regional design patterns used
 
-Regional fire-service sites consistently prioritize emergency calling, evacuation information, volunteer recruitment, defensible space, alert enrollment, burn information, and clear station contacts. The Brooktrails page uses that public-service hierarchy while keeping its own visual identity and original copy.
+Regional fire-service sites consistently prioritize emergency calling, evacuation information, volunteer recruitment, defensible space, alert enrollment, burn information, and clear station contacts. They also rely on real station or apparatus imagery, compact utility navigation, dark municipal framing, and red reserved for emergency actions. The Brooktrails page synthesizes those patterns while keeping its own visual identity and original copy.
+
+The visual review included:
+
+- Burlington Township Fire Department: <https://btfd.org/>
+- Redwood Coast Fire Protection District: <https://www.rcfpd.net/>
+- Hopland Fire Protection District: <https://www.hoplandfire.gov/>
+- Redwood Valley-Calpella Fire District: <https://www.redwoodvalleycalpellafire.org/>
+- Mendocino Volunteer Fire Department: <https://www.mendocinofire.com/>
+- North Sonoma Coast Volunteer Firefighters Association: <https://tsrvfd.org/>
+
+No copy was taken from those sites. The Brooktrails page uses verified local facts and official Mendocino County resource links.
+
+## Local image provenance
+
+The hero uses a public 2018 exterior image of the actual Brooktrails Fire Department station at 24860 Birch Street from the department's Google Maps listing. The crop removes the Maps interface and is stored locally as `assets/station-exterior.jpg`. It is used only in this temporary, `noindex` concept preview and should be replaced with a department-owned original before production use.
 
 ## Current resident resources
 

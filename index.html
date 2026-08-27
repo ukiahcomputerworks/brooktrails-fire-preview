@@ -5,20 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Brooktrails Fire Department emergency information, volunteer recruitment, services, wildfire preparedness, burn permits, and station contact information.">
   <meta name="robots" content="noindex, nofollow, noarchive">
-  <meta name="theme-color" content="#0d2b24">
+  <meta name="theme-color" content="#1f2931">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath fill='%230d2b24' d='M32 2 58 11v22c0 16-10 25-26 31C16 58 6 49 6 33V11L32 2Z'/%3E%3Cpath fill='%23d6a64b' d='m32 13-11 20h6l-9 16h11v10h6V49h11l-9-16h6L32 13Z'/%3E%3C/svg%3E">
   <meta property="og:title" content="Brooktrails Fire Department">
   <meta property="og:description" content="Emergency information, volunteer opportunities, services, and wildfire preparedness for Brooktrails, Spring Creek, and Sylvandale.">
   <meta property="og:type" content="website">
   <title>Brooktrails Fire Department</title>
-  <link rel="stylesheet" href="styles.css?v=20260827-4">
+  <link rel="stylesheet" href="styles.css?v=20260827-5">
   <script src="script.js?v=20260827-2" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to main content</a>
 
   <header class="site-header" data-site-header>
-    <div class="shell header-row">
+    <div class="command-bar" aria-label="Emergency information">
+      <div class="shell command-bar__grid">
+        <a class="command-link command-link--911" href="tel:911"><span>Emergency</span><strong>Call 911</strong></a>
+        <a class="command-link command-link--incidents" href="https://mendoready.org/" target="_blank" rel="noopener"><span>Official Mendocino County updates</span><strong>Active Incidents &amp; Evacuations <span aria-hidden="true">↗</span></strong></a>
+        <a class="command-link command-link--zone" href="https://mendoready.org/" target="_blank" rel="noopener"><span>Be ready</span><strong>Know Your Zone <span aria-hidden="true">↗</span></strong></a>
+      </div>
+    </div>
+
+    <div class="shell masthead-row">
       <a class="brand" href="#top" aria-label="Brooktrails Fire Department home">
         <svg class="brand-mark" viewBox="0 0 72 84" role="img" aria-label="Shield with redwood trees and flame">
           <path class="shield-fill" d="M36 2 68 13v27c0 20-12 33-32 42C16 73 4 60 4 40V13L36 2Z"/>
@@ -26,53 +34,52 @@
           <path class="tree" d="m24 20-9 16h5l-8 14h9v12h6V50h9l-8-14h5l-9-16Zm24 4-8 14h4l-7 12h8v12h6V50h8l-7-12h4l-8-14Z"/>
           <path class="flame" d="M36 57c6-5 3-11 3-11 7 4 8 10 6 15-1.6 4-5 7-9 9-4-2-7.4-5-9-9-1.6-4 .6-8.7 4-12-.3 4 1.2 6.6 5 8Z"/>
         </svg>
-        <span class="brand-copy"><span>Brooktrails</span><strong>Fire Department</strong><small>Brooktrails Township CSD</small></span>
+        <span class="brand-copy"><strong>Brooktrails Fire Department</strong><small>Brooktrails Township Community Services District</small></span>
       </a>
+
+      <div class="station-utility">
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=24860+Birch+Street+Willits+CA+95490" target="_blank" rel="noopener"><span>Station</span><strong>24860 Birch Street, Willits</strong></a>
+        <a href="tel:+17074594441"><span>Non-emergency</span><strong>707-459-4441</strong></a>
+      </div>
 
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" data-menu-toggle>
         <span class="sr-only">Toggle navigation</span>
         <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
       </button>
 
-      <nav class="primary-nav" id="primary-navigation" aria-label="Primary navigation" data-nav>
+    </div>
+    <div class="navigation-row">
+      <nav class="shell primary-nav" id="primary-navigation" aria-label="Primary navigation" data-nav>
         <a href="#about">Who we are</a>
         <a href="#services">Services</a>
         <a href="#prepare">Be prepared</a>
         <a href="#burn">Burn permits</a>
         <a href="#contact">Contact</a>
       </nav>
-      <a class="button button--emergency header-emergency" href="tel:911">Emergency: Call 911</a>
     </div>
   </header>
 
   <main id="main-content">
     <section class="hero" id="top" aria-labelledby="hero-title">
-      <div class="hero-canopy" aria-hidden="true">
-        <svg viewBox="0 0 1440 500" preserveAspectRatio="none"><path d="M0 220c170-72 303-64 430 10 143 84 277 70 406-16 143-95 326-90 604 20v266H0V220Z"/><path d="M0 292c190-38 348 10 480 78 155 80 314 63 470-31 128-77 291-70 490 28v133H0V292Z"/></svg>
-      </div>
       <div class="shell hero-grid">
-        <div class="hero-copy">
+        <div class="hero-copy hero-panel">
           <p class="eyebrow">Neighbors serving neighbors</p>
           <h1 id="hero-title">Protecting Brooktrails, Spring Creek, and Sylvandale.</h1>
           <p class="hero-lede">Brooktrails Fire Department provides all-risk emergency response for our wooded communities and surrounding areas of northern Mendocino County.</p>
           <div class="button-row">
-            <a class="button button--emergency" href="tel:911">Emergency: Call 911</a>
-            <a class="button button--outline" href="https://mendoready.org/" target="_blank" rel="noopener">Active incidents &amp; evacuations <span aria-hidden="true">↗</span></a>
+            <a class="button button--emergency" href="mailto:fireprev@btcsd.org?subject=Volunteer%20firefighter%20interest">Volunteer with us</a>
+            <a class="button button--outline" href="#prepare">Prepare your household</a>
           </div>
-          <p class="hero-emergency-line"><strong>For fire, medical, rescue, or immediate danger, call 911.</strong></p>
         </div>
-
-        <aside class="emergency-card" aria-labelledby="emergency-resources-title">
-          <div class="emergency-card__head">
-            <span class="pulse-dot" aria-hidden="true"></span>
-            <p id="emergency-resources-title">Emergency resources</p>
-          </div>
-          <div class="emergency-card__body">
-            <a class="quick-action" href="tel:911"><span class="quick-action__icon" aria-hidden="true">911</span><span><strong>Report an emergency</strong><small>Fire, medical, rescue, or immediate danger</small></span><span aria-hidden="true">→</span></a>
-            <a class="quick-action" href="https://mendoready.org/" target="_blank" rel="noopener"><span class="quick-action__icon" aria-hidden="true">LIVE</span><span><strong>Active incidents and evacuations</strong><small>Orders, warnings, shelters, and road closures</small></span><span aria-hidden="true">↗</span></a>
-            <a class="quick-action" href="https://mendoready.org/" target="_blank" rel="noopener"><span class="quick-action__icon" aria-hidden="true">ZONE</span><span><strong>Know your evacuation zone</strong><small>Find and save the zones that matter to your household</small></span><span aria-hidden="true">↗</span></a>
-          </div>
-        </aside>
+        <figure class="hero-photo">
+          <img src="assets/station-exterior.jpg" alt="Brooktrails Fire Department station on Birch Street" width="666" height="424">
+          <figcaption>Brooktrails Fire Department · 24860 Birch Street</figcaption>
+        </figure>
+      </div>
+      <div class="shell action-deck" aria-label="Resident quick links">
+        <a href="https://mendoready.org/" target="_blank" rel="noopener"><span>Evacuation readiness</span><strong>Find Your Zone</strong><span aria-hidden="true">↗</span></a>
+        <a href="https://mendoready.org/plan-prepare/" target="_blank" rel="noopener"><span>Emergency notifications</span><strong>Sign Up for Alerts</strong><span aria-hidden="true">↗</span></a>
+        <a href="https://burnpermit.fire.ca.gov/current-burn-status" target="_blank" rel="noopener"><span>Burn permits</span><strong>Check Current Status</strong><span aria-hidden="true">↗</span></a>
       </div>
     </section>
 
