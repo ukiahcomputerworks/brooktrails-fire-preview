@@ -6,7 +6,8 @@ import path from 'node:path';
 const require = createRequire(import.meta.url);
 const { chromium } = require('playwright');
 const root = process.cwd();
-const outputDir = path.join(root, 'evidence', 'test-output');
+const liveBase = process.env.SITE_BASE?.replace(/\/$/, '');
+const outputDir = path.join(root, 'evidence', liveBase ? 'test-output-live' : 'test-output');
 await mkdir(outputDir, { recursive: true });
 
 const mime = { '.html':'text/html; charset=utf-8', '.css':'text/css', '.js':'text/javascript', '.svg':'image/svg+xml', '.png':'image/png', '.jpg':'image/jpeg', '.jpeg':'image/jpeg', '.gif':'image/gif', '.pdf':'application/pdf', '.docx':'application/vnd.openxmlformats-officedocument.wordprocessingml.document' };
@@ -44,7 +45,7 @@ for (const file of htmlFiles) {
   }
 }
 
-const server = createServer(async (req, res) => {
+const server = liveBase ? null : createServer(async (req, res) => {
   try {
     const pathname = decodeURIComponent(new URL(req.url, 'http://localhost').pathname);
     let file = path.join(root, pathname.replace(/^\/+/, ''));
@@ -59,9 +60,8 @@ const server = createServer(async (req, res) => {
   }
 });
 
-await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
-const port = server.address().port;
-const base = `http://127.0.0.1:${port}`;
+if (server) await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
+const base = liveBase || `http://127.0.0.1:${server.address().port}`;
 const routes = ['/', '/water/', '/fire/', '/parks/', '/planning/', '/government/', '/history/', '/resources/', '/archive/', '/contact/'];
 const viewports = [{ name:'desktop', width:1440, height:1000 }, { name:'mobile', width:390, height:844 }];
 const browserErrors = [];
@@ -102,10 +102,10 @@ try {
   }
 } finally {
   await browser.close();
-  server.close();
+  server?.close();
 }
 
-const report = { generatedAt:new Date().toISOString(), htmlFiles:htmlFiles.length, routesChecked:results.length, staticErrors, browserErrors, results };
+const report = { generatedAt:new Date().toISOString(), base, htmlFiles:htmlFiles.length, routesChecked:results.length, staticErrors, browserErrors, results };
 await writeFile(path.join(outputDir, 'report.json'), JSON.stringify(report, null, 2));
 console.log(JSON.stringify({ htmlFiles:htmlFiles.length, browserChecks:results.length, staticErrors:staticErrors.length, browserErrors:browserErrors.length }, null, 2));
 if (staticErrors.length || browserErrors.length) {

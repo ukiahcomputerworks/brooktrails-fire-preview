@@ -3,4 +3,5 @@ evidence/source-capture/
 
 # Local test output.
 evidence/test-output/
+evidence/test-output-live/
 node_modules/

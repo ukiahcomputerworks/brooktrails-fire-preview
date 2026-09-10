@@ -3,7 +3,7 @@
   "projectId": "brooktrails-township-csd-redesign",
   "linearProject": "https://linear.app/computerworksai/project/brooktrails-township-csd-website-redesign-and-content-migration-017a8b3693ab",
   "workingRoot": "C:\\Users\\Admin\\OneDrive - CWU\\Apps\\Prospect-Web-Mockups\\brooktrails-fire-preview",
-  "lifecycle": "validated-locally-awaiting-preview-release",
+  "lifecycle": "published-preview-awaiting-owner-review",
   "productionAuthority": "authorized-public-noindex-github-pages-preview-only",
   "selectedModules": [
     "core-intake",
@@ -26,8 +26,8 @@
     "G5": "not-applicable-preview-will-not-submit-forms-or-claim-delivery",
     "G6": "passed-2026-09-10-no-fake-forms-or-secrets",
     "G7": "passed-2026-09-10-all-html-noindex-nofollow-noarchive",
-    "G8": "in-progress-existing-github-pages-repository-with-prior-commit-rollback",
-    "G9": "required-preview-release-and-owner-review-are-separate",
+    "G8": "passed-2026-09-10-github-pages-exact-head-build-verified",
+    "G9": "preview-released-owner-review-pending",
     "G10": "not-applicable-no-universal-learning-promotion-requested"
   },
   "exceptions": [],

@@ -20,6 +20,8 @@ Preview: <https://ukiahcomputerworks.github.io/brooktrails-fire-preview/>
 node scripts/build-site.mjs
 $env:NODE_PATH='C:\Users\Admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\node_modules'
 node scripts/test-site.mjs
+$env:SITE_BASE='https://ukiahcomputerworks.github.io/brooktrails-fire-preview'
+node scripts/test-site.mjs
 ```
 
 The source capture is intentionally excluded from Git because it is an 83 MB evidence snapshot. Public documents and selected first-party images needed by the preview are committed. See `SOURCE-INVENTORY.md`, `DESIGN-RESEARCH.md`, and `VISUAL-SYSTEM.md` for the migration and design rationale.
