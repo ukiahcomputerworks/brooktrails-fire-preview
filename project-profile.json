@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "projectId": "brooktrails-township-csd-redesign",
+  "linearProject": "https://linear.app/computerworksai/project/brooktrails-township-csd-website-redesign-and-content-migration-017a8b3693ab",
+  "workingRoot": "C:\\Users\\Admin\\OneDrive - CWU\\Apps\\Prospect-Web-Mockups\\brooktrails-fire-preview",
+  "lifecycle": "validated-locally-awaiting-preview-release",
+  "productionAuthority": "authorized-public-noindex-github-pages-preview-only",
+  "selectedModules": [
+    "core-intake",
+    "content-migration",
+    "design-system",
+    "static-site",
+    "accessibility",
+    "security-boundary",
+    "seo-performance",
+    "github-pages-release",
+    "prospect-preview",
+    "evidence-learning"
+  ],
+  "gateApplicability": {
+    "G0": "passed-2026-09-10-eight-of-eight-mapping-checks",
+    "G1": "passed-2026-09-10-source-inventory-with-production-rights-review-open",
+    "G2": "passed-2026-09-10-thirty-source-routes-and-fifty-one-documents",
+    "G3": "passed-2026-09-10-shared-district-visual-system",
+    "G4": "passed-2026-09-10-thirty-nine-html-files-and-twenty-browser-checks",
+    "G5": "not-applicable-preview-will-not-submit-forms-or-claim-delivery",
+    "G6": "passed-2026-09-10-no-fake-forms-or-secrets",
+    "G7": "passed-2026-09-10-all-html-noindex-nofollow-noarchive",
+    "G8": "in-progress-existing-github-pages-repository-with-prior-commit-rollback",
+    "G9": "required-preview-release-and-owner-review-are-separate",
+    "G10": "not-applicable-no-universal-learning-promotion-requested"
+  },
+  "exceptions": [],
+  "evidenceRoot": "C:\\Users\\Admin\\OneDrive - CWU\\Apps\\Prospect-Web-Mockups\\brooktrails-fire-preview\\evidence",
+  "updated": "2026-09-10"
+}

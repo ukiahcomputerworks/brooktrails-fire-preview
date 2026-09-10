@@ -1,0 +1,6 @@
+# Public-source preservation evidence is large and reproducible.
+evidence/source-capture/
+
+# Local test output.
+evidence/test-output/
+node_modules/

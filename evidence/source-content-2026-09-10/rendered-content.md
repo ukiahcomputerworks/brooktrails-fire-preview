@@ -1,0 +1,3912 @@
+# btcsd.org rendered public content capture
+
+Pages: 30
+
+## Brooktrails Township | Brooktrails, CA
+
+Source: https://www.btcsd.org/
+
+```text
+Brooktrails Township | Brooktrails, CA
+top of page
+Brooktrails Township
+About
+The Essence of Brooktrails
+Map of Brooktrails
+Historical Photo Album
+1939 Southern Pacific Railroad Brochure
+Events
+Admin
+Township Administration
+Township Policy Manual
+Township Ordinances
+Township Enterprise Systems
+Employment With Brooktrails
+Board and Meetings
+Township Board
+Fire Department
+About Brooktrails Fire Dept
+Wildfire Preparedness & Evacuation
+Links
+Other Emergency Services
+Water & Sewer
+Application for Sewer Lateral Inspection
+Brooktrails Water System
+Water Conservation Links
+Parks & Recreation
+Brooktrails Golf Course
+Recreation Greenbelt & Conservation Cmte
+Trail Maintenance Request Form
+Community Center Rental Application
+Ohl Redwood Grove Rental Application
+Brooktrails Hiking Trail Map
+Trail Locations on GoogleMaps
+Redwood Park
+Map of Redwood Park
+Redwood Park Greenbelt Stewardship Plan
+Ordinance 63 (Establishing Redwood Park)
+Planning & Design
+Building Permits
+Development Review Process
+Development Standards & Process PDF
+Design Review Application Packet
+Water Meter Construction Application
+Chapter 20.232 (Development Review)
+Ordinance 121 (Sewer Backflow Device)
+Ordinance 112 (Construction Meters)
+Contact
+More
+Use tab to navigate through the menu items.
+Brooktrails Township
+Community Services District
+Contact Us
+Office: 24895 Birch Street
+By Mail: 24860 Birch Street
+Willits, CA 95490
+Office Phone: 707-459-2494
+Email:
+BTCSD@BTCSD.ORG
+Most Recent Board Meeting Agenda
+Pay Your Bill Online Here
+Quick Links
+Water & Sewer
+Administration
+Enterprise System Catalog
+Fire Department
+Emergency Services
+Employment
+Planning & Design
+Financials - Annual Audit
+Wildfire Preparedness
+Parks & Recreation
+Compensation
+More Services
+The Essence of Brooktrails
+Discover Our History
+Brooktrails Board of Directors
+Meet the Board
+Visit Brooktrails
+Plan Your Trip to Beautiful Mendocino County
+Rich in history, beauty, and natural resources, Mendocino County is an incredible Northern California destination to visit and experience.
+​
+Visit Mendocino
+Willits Chamber of Commerce
+Plan Your Trip
+© 2019-2026 Brooktrails Township.
+Originally Designed & Developed by Go West.
+bottom of page
+```
+
+## Site Map | Brooktrails-1
+
+Source: https://www.btcsd.org/site-map
+
+```text
+Site Map | Brooktrails-1
+top of page
+Brooktrails Township
+About
+The Essence of Brooktrails
+Map of Brooktrails
+Historical Photo Album
+1939 Southern Pacific Railroad Brochure
+Events
+Admin
+Township Administration
+Township Policy Manual
+Township Ordinances
+Township Enterprise Systems
+Employment With Brooktrails
+Board and Meetings
+Township Board
+Fire Department
+About Brooktrails Fire Dept
+Wildfire Preparedness & Evacuation
+Links
+Other Emergency Services
+Water & Sewer
+Application for Sewer Lateral Inspection
+Brooktrails Water System
+Water Conservation Links
+Parks & Recreation
+Brooktrails Golf Course
+Recreation Greenbelt & Conservation Cmte
+Trail Maintenance Request Form
+Community Center Rental Application
+Ohl Redwood Grove Rental Application
+Brooktrails Hiking Trail Map
+Trail Locations on GoogleMaps
+Redwood Park
+Map of Redwood Park
+Redwood Park Greenbelt Stewardship Plan
+Ordinance 63 (Establishing Redwood Park)
+Planning & Design
+Building Permits
+Development Review Process
+Development Standards & Process PDF
+Design Review Application Packet
+Water Meter Construction Application
+Chapter 20.232 (Development Review)
+Ordinance 121 (Sewer Backflow Device)
+Ordinance 112 (Construction Meters)
+Contact
+More
+Use tab to navigate through the menu items.
+Site Map
+Home
+About Us
+The Essence of Brooktrails
+Map of Brooktrails
+Historical Photo Album
+1939 Southern Pacific Railroad
+Events
+Administration
+Township Administration
+Township Policy Manual
+Township Ordinances
+Township Enterprise Systems
+Employment with Brooktrails
+Board of Directors
+Township Board
+Agenda for Most Recent Board Meeting
+Fire Department
+About Brooktrails Fire Dept
+Wildfire Preparedness & Evacuation Map
+Links
+Building Permits
+Development Review Process
+Development Standards & Process
+Design Review Application Process
+Water Meter Construction
+Chapter 20.232
+Ordinance 121
+Ordinance 112
+Emergency Services
+Planning & Design
+2004 Specific Plan Amendments
+Water & Sewer
+Brooktrails Water System
+Wastewater Treatment Plant
+Water Conservation Links
+2014 Update on Treatment Plant Dispute
+Redwood Park
+Map of Redwood Park
+Download Hiking Trail Map
+Ordinance 63
+Redwood Park Greenbelt
+Contact
+© 2019-2026 Brooktrails Township.
+Originally Designed & Developed by Go West.
+bottom of page
+```
+
+## Contact | Brooktrails-1
+
+Source: https://www.btcsd.org/contact
+
+```text
+Contact | Brooktrails-1
+top of page
+Brooktrails Township
+About
+The Essence of Brooktrails
+Map of Brooktrails
+Historical Photo Album
+1939 Southern Pacific Railroad Brochure
+Events
+Admin
+Township Administration
+Township Policy Manual
+Township Ordinances
+Township Enterprise Systems
+Employment With Brooktrails
+Board and Meetings
+Township Board
+Fire Department
+About Brooktrails Fire Dept
+Wildfire Preparedness & Evacuation
+Links
+Other Emergency Services
+Water & Sewer
+Application for Sewer Lateral Inspection
+Brooktrails Water System
+Water Conservation Links
+Parks & Recreation
+Brooktrails Golf Course
+Recreation Greenbelt & Conservation Cmte
+Trail Maintenance Request Form
+Community Center Rental Application
+Ohl Redwood Grove Rental Application
+Brooktrails Hiking Trail Map
+Trail Locations on GoogleMaps
+Redwood Park
+Map of Redwood Park
+Redwood Park Greenbelt Stewardship Plan
+Ordinance 63 (Establishing Redwood Park)
+Planning & Design
+Building Permits
+Development Review Process
+Development Standards & Process PDF
+Design Review Application Packet
+Water Meter Construction Application
+Chapter 20.232 (Development Review)
+Ordinance 121 (Sewer Backflow Device)
+Ordinance 112 (Construction Meters)
+Contact
+More
+Use tab to navigate through the menu items.
+Contact Information
+Township Contacts
+Brooktrails Township CSD
+24860 Birch Street Willits, CA 95490
+Business Office: 707-459-2494
+Facsimile: 707-459-0358
+Email:
+btcsd@btcsd.org
+Brooktrails Fire Department
+Emergency Dial 911
+Business Office: 707-459-4441
+​
+Brooktrails Golf Course
+Information and Tee Times: 707-459-6761
+Other Contacts
+Government Services Provided by Other Agencies:
+In an emergency, dial 911.
+​
+Road-Related Issues -
+Mendocino County Department of Transportation 707-463-4363
+Criminal Complaints/Illegal Cannabis -
+Mendocino County Sheriff (Willits Sub-Station)
+707-459-7833
+Code Enforcement/Property Violations/Abandoned Vehicles on Private Property -
+Mendocino County Planning and Building Department
+707-234-6650
+​
+Illegal Parking/Abandoned Vehicles in the Right-of-Way - California Highway Patrol
+707-463-4717
+Animals (dead or alive) -
+Mendocino County Animal Control 707-463-4427
+​
+© 2019-2026 Brooktrails Township.
+Originally Designed & Developed by Go West.
+bottom of page
+```
+
+## The Essence of Brooktrails | Brooktrails-1
+
+Source: https://www.btcsd.org/the-essence-of-brooktrails
+
+```text
+The Essence of Brooktrails | Brooktrails-1
+top of page
+Brooktrails Township
+About
+The Essence of Brooktrails
+Map of Brooktrails
+Historical Photo Album
+1939 Southern Pacific Railroad Brochure
+Events
+Admin
+Township Administration
+Township Policy Manual
+Township Ordinances
+Township Enterprise Systems
+Employment With Brooktrails
+Board and Meetings
+Township Board
+Fire Department
+About Brooktrails Fire Dept
+Wildfire Preparedness & Evacuation
+Links
+Other Emergency Services
+Water & Sewer
+Application for Sewer Lateral Inspection
+Brooktrails Water System
+Water Conservation Links
+Parks & Recreation
+Brooktrails Golf Course
+Recreation Greenbelt & Conservation Cmte
+Trail Maintenance Request Form
+Community Center Rental Application
+Ohl Redwood Grove Rental Application
+Brooktrails Hiking Trail Map
+Trail Locations on GoogleMaps
+Redwood Park
+Map of Redwood Park
+Redwood Park Greenbelt Stewardship Plan
+Ordinance 63 (Establishing Redwood Park)
+Planning & Design
+Building Permits
+Development Review Process
+Development Standards & Process PDF
+Design Review Application Packet
+Water Meter Construction Application
+Chapter 20.232 (Development Review)
+Ordinance 121 (Sewer Backflow Device)
+Ordinance 112 (Construction Meters)
+Contact
+More
+Use tab to navigate through the menu items.
+About Brooktrails
+Discover Our History
+The Essence of Brooktrails
+The name "Brooktrails" is tied to three perspectives:
+​
+One perspective derives from the governmental entity known as the Brooktrails Township which encompasses 12.6 square miles containing 6,605± parcels making it the largest community in area in Mendocino County and which was home to 3,311 residents according to the 2010 Census making it the fourth largest community in population in Mendocino County.
+Another perspective is an image derived from a confusing mishmash of conflicting individual opinions held by those who live or own property inside the Township and those who live elsewhere.
+Then there is the vision of the developer of the Brooktrails Vacation Village subdivisions, a perspective which has evolved into The Essence of Brooktrails.
+To understand Brooktrails, you must understand all three perspectives.
+Brooktrails History
+Brooktrails Vacation Village
+The name of our community comes from the development of the Brooktrails Vacation Village subdivisions in the late 1960's. Understanding the history behind the development is important to understanding the
+essence
+of the Brooktrails Township.
+Brooktrails area property was historically used for a wide range of land uses. In the 1880s, the Brooktrails Township area was occupied by the Northwestern Lumber Company (
+see all photos
+).
+As logging operations ended, the land was sold to the Diamond D Ranch which was a dude ranch. The Ranch was described in a 1938 update to a travel brochure
+Guest Ranches on the Lines of Southern Pacific
+(large file) as follows:
+​
+DIAMOND D RANCH. Wallace E. Hiatt, manager. Mail and telegraph address, Willits, California. Open all year. 50 guests. Rooms with private bath in main ranch house. Cabins with central shower and toilets. Meals served in central dining room. Rates, $40 to $50 per week; $150 to $190 per month, saddle horse included. Private or special guides, $5 per day. Take Northwestern Pacific Railroad to Willits, California, where ranch car meets you, no charge. Willits to ranch, 2 miles. Largest cattle ranch in northern California with guest accommodations. Good horses. Picturesque ranch life, swimming in private lake, tennis, fishing, small and big game hunting.
+​
+Ultimately, with the approval of the Mendocino County Board of Supervisors the land was subdivided by Brooktrails Company Ltd., of Beverly Hills and New York as Brooktrails Vacation Village in the 1960s. Approximately 6,000 lots were created most ranging in size from one-sixth to one-third of an acre, but with a few larger parcels up to 230 acres. The development was intended primarily for second homes. Most of the parcels were sold by the early 1970's.
+Of significance to anyone considering a home in Brooktrails is understanding the expressed intent of the developer of the Brooktrails Vacation Village. Located approximately three miles west of the City of Willits, California, and about 20 miles from the coastal community of Fort Bragg, Brooktrails offers residents an environment within a second growth mixed redwood forest where you can see the stars at night and breathe clean air while enjoying relatively inexpensive housing.
+Key to assuring the continuation of that environment was the dedication of approximately 2,500 acres to the Brooktrails Resort Improvement District to be preserved as a conservation area. This land is Brooktrails Redwood Park, some of which is available for recreation and some is considered greenbelt. The promise of this dedication was discussed extensively in
+newspaper articles
+of the time.
+In a December 17, 1967, article in the New York Times, Brooktrails was noted as being the first community in the United States to blend a four-square-mile redwood and mixed-growth forest conservation park with a contiguous, fully improved residential area. The term coined for this residential area built in a forest is hyleopolis (get used to this word).
+As explained in an April 11, 1969, Christian Science Monitor article, the term “hyleopolis” refers to the character of an urban-forest interface where protection of the forest is paramount in order to retain the community’s essence. This had already been made clear in the lengthy New York Times article as follows:
+​
+The Board of Supervisors of Mendocino County, a north coastal area, is represented on the board of the Brooktrails Resort Improvement District, to which the developer dedicated some 2,000 acres for conservation. There is no way, Mr. Beaumont emphasized, for the developer to regain control of the acreage and change his plans about conservation, even it he ever wished to do so.
+Dr. Gerald Partain, professor of forestry economics at Humboldt State College in Arcata, to the north, has been retained by the Brooktrails Resort Improvement District as a consultant for the conservation and recreation aspects. He expressed excitement over the prospect of setting up a management plan for the conservation area, "trying our hand at something other than timber production."
+A naturalist guide is in preparation. The park lands are a refuge for deer, raccoon, red fox and other animals. Professor Partain expects the lands to be a kind of laboratory for his students. He said a good job performed here in management practices should convince "developers who are out to make their buck that conservation practices pay better than jamming houses together."
+​
+That was The Essence of Brooktrails as proposed by the developer and approved by the Mendocino County Board of Supervisors from the beginning. Maintaining that essence is the purpose of
+Ordinance 63
+, adopted by the Township Board in 1988 formally establishing the Brooktrails Redwood Park and
+Ordinance 68
+adopting a Master Plan for Brooktrails Redwood Park.
+The tension between the desire to (a) maintain and protect the Redwood Park environment and (b) permit a comfortable 21st Century suburban lifestyle for Brooktrails residents creates an ongoing challenge for the Township. Within the Township golf, hiking, picnicking, jogging, and other activities continue to be readily available.
+Brooktrails Township Community Services District
+As noted above, the Mendocino County Board of Supervisors created the Brooktrails Resort Improvement District (BRID) and in the early period even had one of the Supervisors serve as a member of the District’s five member Board of Directors. The successor to BRID is the Brooktrails Township Community Services District (Township).
+As can be seen from the map above, the Township is divided into three service areas:
+​
+Sylvandale, a large rural parcel subdivision which the Township Fire Department serves and which according to
+2010 Census Data
+had a population of 26;
+Spring Creek, a large rural parcel subdivision which receives Township Fire Department and water utility services and which according to
+2010 Census Data
+had a population of 40; and
+Brooktrails, mostly made up of small suburban lots surrounding Brooktrails Redwood Park to which the Township provides Fire, Water, Sewer, Solid Waste, Parks and Recreation, Planning (a power shared with the County), and related services, and which according to Census Data (from these two census totals -
+Brooktrails
+and
+Condor Road Area
+) had a population of 3,245.
+​
+All other local government services are provided by the County of Mendocino. Of immediate concern to most residents are police services provided by the Mendocino County Sheriff’s Department and road maintenance and storm drainage services provided by the Mendocino County Road Department. The only exception important to some Brooktrails residents is Ells Field, a small aircraft airport operated by the City of Willits adjacent to and accessed through the Township.
+The Township has a five member elected Board of Directors who set policy for the operation of the District by adopting ordinances, resolutions, and an annual budget. The Board also appoints a General Manager who implements policies, supervises District finances, and hires and controls all District employees.
+Fire Protection in Brooktrails Township
+By definition a "hyleopolitan" community represents a community at risk for wildfire. Brooktrails is no exception and is listed on the national list of communities that are at high risk of damage from wildfire (see
+CalFire website
+and scroll down for more information). A discussion of the fire risk particularly within the greenbelt portion of Brooktrails Redwood Park can be found
+here
+. The obvious fact about being the place for which the term "hyleopolis" was coined is that the community must acknowledge the wildfire risk and effectively manage it.
+It is important to note that the land area generally logged by Northwestern Lumber Company and subsequently used by the Diamond D ranch has not been directly impacted by a large wildfire since the 1944 Ironies #2 Fire seen on the map below with current Brooktrails roads overlaid:
+In 1944 there was no
+Brooktrails Fire Department
+with two full-time professional fire officers and 20+ volunteers, nor were there
+CalFire
+helicopters and bombers dropping water and fire retardant. No newspaper articles with headlines such as
+Recent projects improve Brooktrails fire safety
+reflected an ongoing effort to construct fuel break buffers.
+Not only do the Brooktrails Fire Department personnel perform the normal duties associated with fighting fires, responding to medical emergencies, and working with CalFire on eliminating fire hazards within Brooktrails Redwood Park, they operate programs specifically oriented to the hazards facing a hyleopolitan community.
+The Brooktrails Fire Department has for three decades maintained an ongoing
+Hazard Abatement Program
+requiring private property owners to eliminate defined hazards by July 1 of each year. In 2012 the department issued 1,004 grass and 263 wooded lot notices of hazardous violations.
+The Brooktrails Fire Department sponsors the 35 member
+Community Emergency Response Team (CERT)
+, the only one in Mendocino County. It assists with the specialized emergency response needs not only in Brooktrails, but Willits and Laytonville. While a number of services provided by CERT volunteers are described on the web site, one includes helping with evacuation in the face of an approaching 2008 wildfire, which was ultimately suppressed by fire fighters but threatened homes. Which brings up the problem of evacuation during emergencies.
+Brooktrails has an
+evacuation plan
+. CERT volunteers will work with Mendocino County Sheriff's deputies and Fire Department personnel to assist Brooktrails residents should an evacuation be necessary. Brooktrails does have only one regular access road - Sherwood Road. While a second access road is well into the planning stage, it may be many years before it is constructed. But there are alternative access emergency routes over private roadways leading both to U.S. 101 and State Route 20 which would be opened in case of an emergency. (Note: these are private roadways gated to prevent use except in an emergency.)
+Brooktrails also has a number of special regulations in addition to a burning ban from June 1 until the first rains each year. Other regulations designed to prevent fires include a prohibition against the discharge of firearms, against the use of off-road vehicles in the Park, and against the picking of mushrooms in the Park because the practice has attracted many who do not honor the Park's status as a conservation forest.
+It is through its Fire Department that Brooktrails Township deals with the prevention of wildfires and with the suppression of wildfires with the assistance and support of the CalFire and Little Lake (Willits) Fire Department personnel and equipment. Township residents support the Fire Department with a special fire tax and a portion of the small post-Proposition 13 property tax revenues allocated to the Township.
+Benefits Resulting from the Development of Brooktrails
+It is hard to place the development of Brooktrails Vacation Village subdivisions in context. The proper frame of reference is California in 1965. California's population had grown 2½ times in the period from 1940 to 1960. Federal and State loan guarantee programs had pushed home ownership to an all time high despite the occasional economic downturn. The reason the Legislature approved the idea of Resort Improvement Districts was, in part, to keep the economy flowing. Encouraging second home construction was thought to be good policy.
+Obviously, in the late 1960's and early 1970's, the construction of roads and utility infrastructure - not to mention new homes - provided an economic boost to the region surrounding Brooktrails. Despite the occasional economic downturns which affected the entire nation, Brooktrails has continued to create opportunities for residential construction.
+In 2010, the Brooktrails Township had become the community of full-time residence for 3,311 people. According to Census Data, in 2010 that population controlled $83,374,291± in annual income and represented 1,660 people actively employed. This is a substantial economic contribution to the region.
+Brooktrails Redwood Park offers these residents and visitors a nine-hole golf course, picnic tables at Ohl Grove, a Par Course for running and exercise, a baseball field, and an extensive forest hiking trail system. A community center building is available to rent for events.
+But beyond providing facilities for public use, Brooktrails Township residents have continued to maintain the conservation forest envisioned in the original development plan. The most recent commitment can be found the the
+May 2006 Greenbelt Stewardship Plan
+which offers the following initial statements:
+Purpose:
+To protect and promote the ecosystem integrity and sustainability of the 2,500-acre Greenbelt.
+To maintain the resilience of the system to adapt to short-term stresses and long-term change.
+Long-term Goal:
+To develop a mosaic of native redwood, conifer and hardwood forest, consisting of a mix of types and ages that promotes a diverse natural forest.
+It is to be a preserve, with restoration and minimal intervention.
+​
+Environmental concerns have resulted in a number of projects and activities to assure the goal of keeping a conservation forest. For example, in 2001
+a coordinated effort
+to provide for the annual Chinook Salmon and Steelhead Trout spawning season was approved. The Brooktrails Township as lead agency working jointly with the State Water Resources Control Board and the Department of Fish and Wildlife, with support from the University of California at Davis, completed a $180,912 project to restore portions of 5,765 foot section of Willits Creek by installing gravel beds, six vortex weirs, significant bank stabilizing, and riparian vegetation beginning at the former Summer Lake Dam and extending to the Lake Emily spillway.
+The Township continues to maintain the habitat and manages the discharge of water from Lake Emily to maximize the Creek conditions during the spawning season. This improves Pacific marine fisheries as well as maintaining a balanced ecosystem within the Creek which is an essential element of Brooktrails Redwood Park.
+Perceived "Problems" with Brooktrails
+Within the various interest groups concerned about Brooktrails are misunderstandings, some of which have become conventional wisdom.
+One of those misunderstandings is that there is a building moratorium within Brooktrails. That is not true today nor in the foreseeable future.
+But more insidious misrepresentations of the truth are more frequently heard in a kind of cycle related to the economy. Among many “old timers” who are not Brooktrails residents or property owners, some disdain is expressed using terms like “real estate scam.” Two facts when considered in isolation have led to a false sense of validation of this type of criticism over the years.
+The “Problem” with Brooktrails - Part 1
+First there was the development itself. With the approval of the Mendocino County Board of Supervisors, the Brooktrails Company Ltd. did subdivide the land into 6,000+ parcels. It is important to note that by 1972 they had sold almost all the parcels. The target market was the American middle class homeowner. In Brooktrails a second home, a vacation home, seemed available to the many instead of the wealthy few. It was a feasible goal with affordable lots and mortgage rates hovering around 7.5%.
+Unfortunately in 1973 mortgage rates started climbing, hitting 18% in 1981. It was part of an overall severe 1973–75 recession and included the 1979 energy crisis. The best way to understand the situation for Brooktrails in the late 1970's is to think of collapse of the housing market in 2008.
+Many people “walked away” from their Brooktrails lots in the late 1970's. They quit paying their property taxes and assessments. The most significant impact of this was on assessment bonds issued by the County of Mendocino that funded roads and other improvements.
+Was this actually the result of a “real estate scam” as some would say? For those Brooktrails residents who live in homes built during that early period as this writer has for over 25 years, our answer is “obviously not.” For a person who walked away from a lot, calling it a “scam” helped to rationalize a set of personal events that began with their buying the lot and ended up with a financial loss.
+If you own one of the lots today, the current extremely low mortgage interest rates actually would permit one to own a second home at a relatively low cost. But that doesn’t mean you should start construction tomorrow.
+One thing seems fairly certain - the developer of Brooktrails had a vision for middle class Americans. That vision is not different from the recently promoted “ownership society” model that collapsed with the economy in 2008.
+This is a constantly repeating cycle in our economy. Brooktrails was, and may be, more vulnerable to economic downturns than most communities. But that is a problem to solve. It isn’t because the hyleopolis vision was a scam.
+The “Problem” with Brooktrails - Part 2
+Faced with a potential default on bonds issued by the County for Brooktrails development, a few in Brooktrails working through the District in the late 1970's sought someone to market the tax defaulted lots. The local real estate offices failed to step up. But the idea appealed to the Deerwood Corporation which through an effective marketing program sold the lots, financing the purchase and paying off the tax and assessment defaults. And those lot sales resulted in increased tax revenue due to increased assessments.
+It doesn’t take a genius to understand that in 2008, along with the rest of the nation, Brooktrails lots lost value and again owners walked away from them usually because of more pressing personal financial problems. Because of a tax revenue financing scheme known as the Teeter Plan instituted in the late 1990 by the Legislature and adopted by the County of Mendocino, there is again a debt problem for the County due to unpaid taxes and assessments in Brooktrails.
+This time around, some have called Brooktrails "a failed subdivision” because of the Deerwood sales program that bailed the County out from the 1970's economic crash. That criticism does not come from people who enjoy living in the Brooktrails homes built on those lots in the 1980's and 1990's. And despite assertions to the contrary, many of us are paying taxes based upon an assessed value established when those lots were sold in the 1990's.
+One thing seems fairly certain - the people at the Deerwood Corporation embraced the vision of the original Brooktrails developer, a vision for middle class Americans. That vision is the “ownership society” model that collapsed with the economy in 2008. But the Deerwood Corporation financed many of those lots and, like the County and the District, is still invested in Brooktrails continuing success as the economy begins its recovery.
+There Is No "Problem" with the Essence of Brooktrails
+It is simply not true that Brooktrails lots are worthless. Real estate sales are up and lots have been sold in 2020-21. The next person who builds a home to live in Brooktrails will enjoy The Essence of Brooktrails, described in a 1969 United Press International article as follows:
+​
+The only known hyleopolis in the United States is located in the mountains of northern California's Mendocino county. It is called Brooktrails and it combines a resort community with a conservation forest, mainly the revered and stately redwoods.
+​
+Today the community cannot be called a “resort” community, though some homes are occupied part time. Most of the 1,500+ homes in Brooktrails are occupied by permanent residents, about 3,800 of them. It is a community of people sharing the common experience of living with and within a conservation forest known as Brooktrails Redwood Park.
+Yes, individual residents and property owners have problems, financial and otherwise. Yes, the Brooktrails Township government and the County of Mendocino government have problems with finances and complex policy. But Americans and their local governments have problems. It is no different here.
+That in no way means The Essence of Brooktrails is lost to the community’s 3,800 residents, their neighbors, and visitors. In March 19, 2013 the Willits News reported:
+Twenty third- and fourth-graders from Willits Elementary Charter descended on Ohl Grove in Brooktrails looking for the elusive redwood trees. Luckily there were a few there waiting to be found. Students created a web of all the different animals and plants of the ecosystem, and saw how everything is interconnected....
+Many who live here know that
+Ohl Grove in Brooktrails
+is named for John Ohl, owner of Brooktrails Company Ltd., who died in 1994. His vision of a conservation forest is not dead to local school children and others who live in or visit Brooktrails Township.
+Today the Brooktrails Township strives to protect and conserve the interests of the owners of lots and larger rural parcels and of its residents by providing the following services:
+​
+fire prevention and suppression along with emergency medical response;
+water collection, treatment, and distribution;
+wastewater collection and disposal;
+solid waste collection and disposal;
+community planning and construction design review; and
+Brooktrails Redwood Park active use facilities including the Brooktrails Golf Course, the Par Course, a baseball field, a playground, and a Community Center building, along with the 2,500+ acres of passive use lands crossed by miles of hiking trails and home to Lake Emily and Lake Ada Rose.
+​
+The links at the top of this page will lead you to more information about the Brooktrails Township.
+By Michael L. Phelan
+Brooktrails Township General Manager 1988-93
+Interim General Manager 10/1/12-1/31/13
+Posted 6/30/2013
+Click here to download a PDF version of this article.
+© 2019-2026 Brooktrails Township.
+Originally Designed & Developed by Go West.
+bottom of page
+```
+
+## Map of Brooktrails | Brooktrails-1
+
+Source: https://www.btcsd.org/copy-of-development-review-process-1
+
+```text
+Map of Brooktrails | Brooktrails-1
+top of page
+Brooktrails Township
+About
+The Essence of Brooktrails
+Map of Brooktrails
+Historical Photo Album
+1939 Southern Pacific Railroad Brochure
+Events
+Admin
+Township Administration
+Township Policy Manual
+Township Ordinances
+Township Enterprise Systems
+Employment With Brooktrails
+Board and Meetings
+Township Board
+Fire Department
+About Brooktrails Fire Dept
+Wildfire Preparedness & Evacuation
+Links
+Other Emergency Services
+Water & Sewer
+Application for Sewer Lateral Inspection
+Brooktrails Water System
+Water Conservation Links
+Parks & Recreation
+Brooktrails Golf Course
+Recreation Greenbelt & Conservation Cmte
+Trail Maintenance Request Form
+Community Center Rental Application
+Ohl Redwood Grove Rental Application
+Brooktrails Hiking Trail Map
+Trail Locations on GoogleMaps
+Redwood Park
+Map of Redwood Park
+Redwood Park Greenbelt Stewardship Plan
+Ordinance 63 (Establishing Redwood Park)
+Planning & Design
+Building Permits
+Development Review Process
+Development Standards & Process PDF
+Design Review Application Packet
+Water Meter Construction Application
+Chapter 20.232 (Development Review)
+Ordinance 121 (Sewer Backflow Device)
+Ordinance 112 (Construction Meters)
+Contact
+More
+Use tab to navigate through the menu items.
+Map of Brooktrails
+and Surrounding Areas
+Contact Us
+© 2019-2026 Brooktrails Township.
+Originally Designed & Developed by Go West.
+bottom of page
+```
+
+## Historical Photo Album | Brooktrails-1
+
+Source: https://www.btcsd.org/historical-photo-album
+
+```text
+Historical Photo Album | Brooktrails-1
+top of page
+Brooktrails Township
+About
+The Essence of Brooktrails
+Map of Brooktrails
+Historical Photo Album
+1939 Southern Pacific Railroad Brochure
+Events
+Admin
+Township Administration
+Township Policy Manual
+Township Ordinances
+Township Enterprise Systems
+Employment With Brooktrails
+Board and Meetings
+Township Board
+Fire Department
+About Brooktrails Fire Dept
+Wildfire Preparedness & Evacuation
+Links
+Other Emergency Services
+Water & Sewer
+Application for Sewer Lateral Inspection
+Brooktrails Water System
+Water Conservation Links
+Parks & Recreation
+Brooktrails Golf Course
+Recreation Greenbelt & Conservation Cmte
+Trail Maintenance Request Form
+Community Center Rental Application
+Ohl Redwood Grove Rental Application
+Brooktrails Hiking Trail Map
+Trail Locations on GoogleMaps
+Redwood Park
+Map of Redwood Park
+Redwood Park Greenbelt Stewardship Plan
+Ordinance 63 (Establishing Redwood Park)
+Planning & Design
+Building Permits
+Development Review Process
+Development Standards & Process PDF
+Design Review Application Packet
+Water Meter Construction Application
+Chapter 20.232 (Development Review)
+Ordinance 121 (Sewer Backflow Device)
+Ordinance 112 (Construction Meters)
+Contact
+More
+Use tab to navigate through the menu items.
+Brooktrails Historical Photo Album
+Vintage Photos of Brooktrails Township
+Click photos to expand.
+© 2019-2026 Brooktrails Township.
+Originally Designed & Developed by Go West.
+bottom of page
+```
+
+## Events | Brooktrails-1
+
+Source: https://www.btcsd.org/events
+
+```text
+Events | Brooktrails-1
+top of page
+Brooktrails Township
+About
+The Essence of Brooktrails
+Map of Brooktrails
+Historical Photo Album
+1939 Southern Pacific Railroad Brochure
+Events
+Admin
+Township Administration
+Township Policy Manual
+Township Ordinances
+Township Enterprise Systems
+Employment With Brooktrails
+Board and Meetings
+Township Board
+Fire Department
+About Brooktrails Fire Dept
+Wildfire Preparedness & Evacuation
+Links
+Other Emergency Services
+Water & Sewer
+Application for Sewer Lateral Inspection
+Brooktrails Water System
+Water Conservation Links
+Parks & Recreation
+Brooktrails Golf Course
+Recreation Greenbelt & Conservation Cmte
+Trail Maintenance Request Form
+Community Center Rental Application
+Ohl Redwood Grove Rental Application
+Brooktrails Hiking Trail Map
+Trail Locations on GoogleMaps
+Redwood Park
+Map of Redwood Park
+Redwood Park Greenbelt Stewardship Plan
+Ordinance 63 (Establishing Redwood Park)
+Planning & Design
+Building Permits
+Development Review Process
+Development Standards & Process PDF
+Design Review Application Packet
+Water Meter Construction Application
+Chapter 20.232 (Development Review)
+Ordinance 121 (Sewer Backflow Device)
+Ordinance 112 (Construction Meters)
+Contact
+More
+Use tab to navigate through the menu items.
+Township Events
+Contact Us
+© 2019-2026 Brooktrails Township.
+Originally Designed & Developed by Go West.
+bottom of page
+```
+
+## Township Administration | Brooktrails-1
+
+Source: https://www.btcsd.org/administration
+
+```text
+Township Administration | Brooktrails-1
+top of page
+Brooktrails Township
+About
+The Essence of Brooktrails
+Map of Brooktrails
+Historical Photo Album
+1939 Southern Pacific Railroad Brochure
+Events
+Admin
+Township Administration
+Township Policy Manual
+Township Ordinances
+Township Enterprise Systems
+Employment With Brooktrails
+Board and Meetings
+Township Board
+Fire Department
+About Brooktrails Fire Dept
+Wildfire Preparedness & Evacuation
+Links
+Other Emergency Services
+Water & Sewer
+Application for Sewer Lateral Inspection
+Brooktrails Water System
+Water Conservation Links
+Parks & Recreation
+Brooktrails Golf Course
+Recreation Greenbelt & Conservation Cmte
+Trail Maintenance Request Form
+Community Center Rental Application
+Ohl Redwood Grove Rental Application
+Brooktrails Hiking Trail Map
+Trail Locations on GoogleMaps
+Redwood Park
+Map of Redwood Park
+Redwood Park Greenbelt Stewardship Plan
+Ordinance 63 (Establishing Redwood Park)
+Planning & Design
+Building Permits
+Development Review Process
+Development Standards & Process PDF
+Design Review Application Packet
+Water Meter Construction Application
+Chapter 20.232 (Development Review)
+Ordinance 121 (Sewer Backflow Device)
+Ordinance 112 (Construction Meters)
+Contact
+More
+Use tab to navigate through the menu items.
+Township Administration
+Contact Us
+District Officers
+The
+Board of Directors
+sets policy and appoints the other officers, including the Brooktrails Township
+General Manager,
+Tamara Alaniz, who is responsible for the Township government operations. State law and Township policy provide for the appointment of the
+General Manager
+by the Board and the duties and responsibilities of the
+position
+.
+​
+The two other Board appointed officers are the
+General Counsel
+Christopher J. Neary and
+Auditor
+JJACPA.
+​
+The Organizational Chart can be found
+here
+.
+​
+Financial Documents
+The Township Board has adopted Resolution 2026-07 establishing the annual
+Financial Plan for Services (the budget),
+and maintained the current
+Rates and Fees for Services
+.
+​
+A link to the PDF file of the District's legally required
+annual audit for Fiscal Year 2024-25
+can be found here and on the
+homepage
+of this website.
+​
+Policy Documents
+The Township Board has adopted a
+Policy Manual
+based upon its
+Ordinances
+, Resolutions, and other actions. Ordinances and Resolutions are available at the District office upon request.
+​
+Mendocino County Local Area Formation Commission (LAFCo) adopted a Municipal Service Review (MSR) for the Township in August 2019. This document is a comprehensive snapshot of the District's powers, responsibilities and fiscal health. Click
+here
+to download the Township MSR.
+​
+State of California Government Compensation Website
+To access the State Controller’s Government Compensation in California Internet Website click
+here
+. For quick access to data specific to Brooktrails Township click
+here
+.
+​
+The Brooktrails Township Enterprise System Catalog (SB 272: as required by the State of California)
+The State of California requires that each local agency maintain a catalog of "
+enterprise systems
+" which are defined as agency computer systems containing information collected about the public. For more information click
+here
+.
+Financials
+Compensation
+Enterprise System Catalog
+© 2019-2026 Brooktrails Township.
+Originally Designed & Developed by Go West.
+bottom of page
+```
+
+## Township Ordinances | Brooktrails-1
+
+Source: https://www.btcsd.org/township-ordinances
+
+```text
+Township Ordinances | Brooktrails-1
+top of page
+Brooktrails Township
+About
+The Essence of Brooktrails
+Map of Brooktrails
+Historical Photo Album
+1939 Southern Pacific Railroad Brochure
+Events
+Admin
+Township Administration
+Township Policy Manual
+Township Ordinances
+Township Enterprise Systems
+Employment With Brooktrails
+Board and Meetings
+Township Board
+Fire Department
+About Brooktrails Fire Dept
+Wildfire Preparedness & Evacuation
+Links
+Other Emergency Services
+Water & Sewer
+Application for Sewer Lateral Inspection
+Brooktrails Water System
+Water Conservation Links
+Parks & Recreation
+Brooktrails Golf Course
+Recreation Greenbelt & Conservation Cmte
+Trail Maintenance Request Form
+Community Center Rental Application
+Ohl Redwood Grove Rental Application
+Brooktrails Hiking Trail Map
+Trail Locations on GoogleMaps
+Redwood Park
+Map of Redwood Park
+Redwood Park Greenbelt Stewardship Plan
+Ordinance 63 (Establishing Redwood Park)
+Planning & Design
+Building Permits
+Development Review Process
+Development Standards & Process PDF
+Design Review Application Packet
+Water Meter Construction Application
+Chapter 20.232 (Development Review)
+Ordinance 121 (Sewer Backflow Device)
+Ordinance 112 (Construction Meters)
+Contact
+More
+Use tab to navigate through the menu items.
+Township Ordinances
+Contact Us
+Ord.#
+(Link)
+168
+167
+​
+166
+165
+164
+163
+162
+161
+160
+159
+158
+157
+156
+155
+154
+153
+152
+151
+150
+149
+148
+147
+146
+145
+144
+143
+142
+141
+​
+140
+139
+138
+137
+136
+135
+134
+133
+132
+131
+130
+129
+128
+127
+​
+126
+125
+124
+​
+123
+122
+121
+120
+119
+118
+117
+116
+115
+114
+113
+112
+111
+110
+​
+109
+108
+107
+106
+105
+104
+103
+102
+101
+100
+99
+98
+97
+96
+95
+94
+93
+92
+91
+90
+​
+89
+88
+87
+86
+85
+84
+83
+82
+81
+80
+79
+78
+77
+76
+75
+​
+74
+73
+72
+71
+70
+69
+68
+67
+66
+65
+64
+63
+62
+61
+60
+59
+58
+57
+56
+55
+​
+54
+​
+53
+52
+51
+50
+49
+​
+48
+47
+46
+45
+44
+43
+42
+41
+40
+39
+38
+37
+36
+35
+34
+​
+33
+32
+31
+30
+​
+29
+28
+27
+26
+​
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+​
+14
+​
+13
+12
+11
+10
+9
+8
+7
+6
+5
+​
+4
+3
+2
+1
+Title
+​
+AN ORDINANCE AMENDING ORDINANCE 76 SECTION 1-503 BY CHANGING THE UTILITY BILL DUE DATE FROM THE TWETIETH (20TH) OF THE MONTH TO THE LAST DAY OF THE MONTH
+AN ORDINANCE INCREASING THE AMOUNT OF DIRECTORS' MEETING STIPEND
+AN ORDINANCE PRESCRIBING A SEWER STANDBY ASSESSMENT
+FOR FISCAL YEAR 2024-25
+AN ORDINANCE ESTABLISHING FEES FOR WATER SERVICE - WATER USE CAP OVERAGES
+AN ORDINANCE ESTABLISHING FEES FOR WATER SERVICE - WATER THEFT
+AN ORDINANCE AMENDING ORDINANCE 76 (UTILITIES CODE) RELATING TO PROCEDURES FOR TEMPORARY DISCONNECTION OF UTILITY SERVICE FOR NON-PAYMENT OF UTILITY CHARGES
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FY 2020-21
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FY 2019-20
+AN ORDINANCE AMENDING ORDINANCE 76 (UTILITIES CODE) PROVIDING THE USE OF WATER, ESTABLISHMENT OF ACCOUNTS, PAYMENT PLANS, AND COLLECTION OF DELINQUENT ACCOUNTS FOR UTILITY SERVICES
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FY 2018-19
+AN ORDINANCE AMENDING ORDINANCE 76 (UTILITIES CODE) PROVIDING THE USE OF WATER, ESTABLISHMENT OF ACCOUNTS, PAYMENT PLANS, AND COLLECTION OF DELINQUENT ACCOUNTS FOR UTILITY SERVICES
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FY 2017-18
+AN ORDINANCE AMENDING ORDINANCE 76 (UTILITIES CODE) PROVIDING THE PROCEDURE FOR THE ABATEMENT OF PENALTIES FOR UTILITY SERVICE ACCOUNTS
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FY 2016-17
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FY 2015-16
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FY 2014-15
+_
+AN ORDINANCE AMENDING THE BROOKTRAILS UTILITIES CODE
+AN ORDINANCE AMENDING ORDINANCES 29 AND 126 (FIRE PROTECTION SPECIAL TAX INCREASE)
+AN ORDINANCE DECLARING A WATER SHORTAGE AND IMPLEMENTATION OF A WATER EMERGENCY PROGRAM
+_
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FY 2013-14
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FY 2012-13
+AN ORDINANCE AMENDING DISTRICT ORDINANCE NOS. 29 AND 126 (FIRE PROTECTION SPECIAL TAX INCREASE)
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FY 2011-12
+AN ORDINANCE AMENDING THE UTILITIES CODE (ORDINANCE 76) TO PROVIDE FOR SIDE SEWER TESTING, SEWER CLEANOUT INSTALLATION AND SEWER BACKFLOW PREVENTION VALVE INSTALLATION
+AN URGENCY ORDINANCE AMENDING ORDINANCE 76, AS AMENDED BY ORDINANCES 121 AND 123, RELATING TO CONNECTION ALLOCATIONS DURING PERIODS OF MORATORIUM
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FY 2010-11
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FY 2009-10
+AN ORDINANCE AMENDING ORDINANCE 76 (UTILITIES CODE), CHAPTERS I AND V, TO AN "EXCESSIVE USE CAP" FOR WATER USAGE AND TO CORRECT ENUMERATION WITHIN ORDINANCE 76
+AN ORDINANCE AMENDING ORDINANCE NO. 63 BY SPECIFYING REGULATIONS FOR PUBLIC USE OF BROOKTRAILS REDWOOD PARK ("THE GREENBELT")
+AN ORDINANCE AMENDING ORDINANCE NO. 63 BY REMOVING PARCEL APN 097-330-02 FROM EXHIBIT A TO ORDINANCE 63 (PARCELS CONSTITUTING BROOKTRAILS REDWOOD PARK)
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FY 08-09
+AN ORDINANCE REPEALING ORDINANCE 122 AND AMENDING ORDINANCE 76 (UTILITIES CODE), CHAPTERS I, II AND V, TO DEFINE AND REGULATE COMMERCIAL USE, DEFINE AND REGULATE EXCESSIVE USE CAP, DEFINE IRRIGATION USE, AND PROVIDE A NEW CHAPTER V ENTITLED "WATER SHORTAGES"
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FY 07-08
+AN ORDINANCE AMENDING CHAPTER II, ARTICLE 2 OF ORDINANCE 76 BY ADDING A NEW SECTION 2-212 PROHIBITING RESALE OR TRANSFER OF DISTRICT WATER BY WATER CUSTOMERS
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FY 06-07
+AN URGENCY ORDINANCE AMENDING ORDINANCE 76, AS AMENDED BY ORDINANCES 121 AND 123, RELATING TO CONNECTION ALLOCATIONS DURING PERIODS OF MORATORIUM
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FY 05-06 AND REPEALING ORDINANCE NO 125
+AN ORDINANCE AMENDING ORDINANCE NO 76 SECTION 1 CHAPTER II BY REPEALING ARTICLE 7 ("PRIVATE FIRE PROTECTION SERVICE") AND BY AMENDING ARTICLE 8 ("PRIVATE WATER TANKS") AS ESTABLISHED BY ORDINANCE 127
+AN ORDINANCE OF THE BROOKTRAILS TOWNSHIP COMMUNITY SERVICES DISTRICT AMENDING ORDINANCE NO. 76, Section 1, Chapter II, BY ADDING A NEW ARTICLE 8 PRESCRIBING STANDARDS FOR PRIVATE WATER TANKS
+​
+AN ORDINANCE AMENDING DISTRICT ORDINANCE NO. 29 (FIRE PROTECTION SPECIAL TAX)
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 2004-2005 AND REPEALING ORDINANCE NO. 120
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 93 TO AMEND SECTION 3.01 REGULAR MEETINGS, SECTION 3.11 ABSTENTIONS AND SECTION 6.02 CORRESPONDENCE RECEIVED
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 76 TO REVISE CHAPTER IV, ARTICLE 3, SECTION 4-303 TO ALLOW APPLICANTS ONE YEAR TO OBTAIN A COUNTY BUILDING PERMIT AND PAY CONNECTION FEES TO THE DISTRICT
+​
+AN ORDINANCE AMENDING ORDINANCE 76, BROOKTRAILS UTILITY CODE
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 76 TO REVISE CHAPTER III, ARTICLE 4, SECTION 3-404 TO REQUIRE A SEWER BACKFLOW PREVENTION DEVICE IN ALL NEW CONSTRUCTION, AND TO ADD THE DEFINITION OF “READY TO PROCEED” TO ARTICLE 2 OF CHAPTER IV
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 2003-2004 AND REPEALING ORDINANCE NO. 104
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 93 TO AMEND SECTION 3.05 ORDER OF BUSINESS; TO AMEND SECTION 6.03(a) CORRESPONDENCE FROM THE DISTRICT AND REPEALING ORDINANCE NO. 118
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 93 TO AMEND SECTION 3.05 ORDER OF BUSINESS AND TO AMEND SECTION 6.03(a) CORRESPONDENCE FROM THE DISTRICT
+(Repealed by Ord. 119)
+​
+_
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 76 TO LIMIT THE NUMBER OF WATER SERVICES TO ONE CONNECTION PER PARCEL OR LOT NOT ZONED FOR MULTIPLE RESIDENTIAL, AND TO CLARIFY “ANNEXATION” TO THE DISTRICT
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 76 TO LIMIT THE NUMBER OF WATER SERVICES TO ONE CONNECTION PER PARCEL OR LOT NOT ZONED FOR MULTIPLE RESIDENTIAL, AND TO CLARIFY “ANNEXATION” TO THE DISTRICT
+​
+AN ORDINANCE REPEALING ORDINANCES 69, 92 AND 96
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 76 (UTILITIES CODE) TO ALLOW FOR GRAYWATER SYSTEMS
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 76 (UTILITIES CODE) TO PROVIDE FOR CONSTRUCTION SERVICE AND REQUIRED CHANGES TO COMPLY WITH STATE GOVERNMENT CODE CHAPTER 9.6
+​
+AN ORDINANCE PROVIDING FOR THE PROTECTION OF BROOKTRAILS REDWOOD PARK BY PROVIDING FOR REGULATIONS GOVERNING THE CONDUCT OF DESIGNATED OFFICERS AND REPEALING ORD. NO.64
+​
+_
+​
+AN ORDINANCE AMENDING ORD.63 AND ESTABLISHING DISTRICT POLICY REGARDING LOTS SUBSEQUENTLY DONATED TO THE DISTRICT
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 76 TO REVISE SECTION 2-903 TO PROVIDE FOR THE DISTRICT COVERING THE COST OF ANY REQUIRED BACKFLOW PREVENTION DEVICES
+​
+AN ORDINANCE REPEALING SECTION 5.03 OF ORD. NO. 93
+​
+AN ORDINANCE AMENDING SECTION 3.05 AND ARTICLE OF ORDINANCE NO. 93 RELATING TO ORDER OF BUSINESS AND CONDUCT OF HEARINGS
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 93 TO REVISE SECTION 3.01, REGULAR MEETINGS AND REPEALING ORDINANCE NO. 90
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE EFFECTIVE OCTOBER 31, 1996
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 76 TO REVISE CHAPTER VI-SOLID WASTE COLLECTION AND DISPOSAL
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 1996 - 1997
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 93 TO AMEND SECTION 3.01 REGULAR MEETINGS, SECTION 3.05 ORDER OF BUSINESS AND SECTION 3.13 RULES OF DEBATE
+​
+AN ORDINANCE REQUIRING CLASS "A" ROOFS THROUGHOUT BROOKTRAILS, AND AUTHORIZING A CONTINUING EDUCATION PROGRAM FOR EXISTING ROOFS
+​
+AN ORDINANCE AMENDING ORDINANCE NO.98 RELATING TO NOTICE OF ABATEMENT
+​
+AN ORDINANCE PRESCRIBING A PROCEDURE FOR ABATEMENT OF CONDITIONS CONSTITUTING A PUBLIC NUISANCE UPON PRIVATE PROPERTY; AND FOR RECOVERING THE EXPENSE OF SUCH ABATEMENT
+(Amended by Ord. 99)
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 1995-1996
+​
+AN ORDINANCE REVISING ORDINANCE NO. 92 TO CHANGE THE MEETING SCHEDULE OF THE GREEN COMMITTEE
+(Repealed by Ord. 114)
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 93 PROVIDING FOR THE ELECTION OF PRESIDENT
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 1994-1995
+​
+AN ORDINANCE PROVIDING FOR THE EXERCISE OF THE AUTHORITY OF THE BOARD OF DIRECTORS AND ESTABLISHING RULES FOR THE ELECTION OF BOARD OFFICERS, THE CONDUCT OF THE MEMBERS OF THE BOARD OF DIRECTORS AND THE PROCEDURES FOR HOLDING BOARD MEETINGS INCLUDING PUBLIC HEARINGS, AND REPEALING ORDINANCE NO.72
+(Amended by Ord. 95, 101, 105, 106 and 107)
+​
+AN ORDINANCE REVISING ORDINANCE NO.69 TO CHANGE THE MEETING DAYS OF THE GREEN COMMITTEE
+(Revised by Ord. 96) (Repealed by Ord. 114)
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 1993-94
+​
+AN ORDINANCE AMENDING SECTIONS 3.01 AND 3.02 OF ORDINANCE NO. 72 BY PROVIDING FOR MEETINGS OF THE BOARD IN ITS ROLE AS THE BROOKTRAILS AREA PLANNING COMMISSION
+(Repealed by Ord. 105)
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 1992-1993
+​
+AN ORDINANCE AMENDING ORDINANCE NO.62 BY CHANGING THE REGULAR MEETING DAY OF THE ARCHITECTURAL REVIEW COMMISSION FROM THE SECOND TUESDAY OF EACH MONTH TO THE FIRST TUESDAY OF EACH MONTH AND THE PLACE FROM THE FIRE DEPARTMENT TO THE COMMUNITY CENTER
+​
+AN ORDINANCE AMENDING ORDINANCE NO.72 BY ADDING THE PLEDGE OF ALLEGIANCE TO THE ORDER OF BUSINESS AND BY ADDING PROVISIONS RELATED TO THE ORDER OF DISCUSSION ON EACH ITEM OF BUSINESS AND BY CHANGING THE DAY OF REGULAR BOARD MEETINGS AND STUDY SESSIONS FROM THURSDAY TO TUESDAY
+​
+AN ORDINANCE AMENDING SUBSECTION 4-102 OF SECTION 1 OF ORDINANCE NO. 76 BY LIMITING THE NUMBER OF WATER SERVICES TO CERTAIN PARCELS ZONED C-1 TO ONE PER PARCEL
+​
+AN ORDINANCE AMENDING ORDINANCE NO.71 BY ADOPTING THE 1991 EDITIONS OF THE UNIFORM FIRE CODE AND UNIFORM FIRE CODE STANDARDS, REPLACING THE DEFINITION OF RUBBISH IN SAID CODE, AND PROVIDING THAT MORE RESTRICTIVE PROVISIONS OF STATE AND COUNTY LAWS AND REGULATIONS REGARDING FIRE SAFETY SHALL PREVAIL
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 1991-1992
+​
+AN ORDINANCE AMENDING ORDINANCE NO.71 BY PROVIDING FOR ENFORCEMENT OF CERTAIN PROVISIONS OF THE MENDOCINO COUNTY CODE AND STATE STATUTES BY DISTRICT OFFICERS AND EMPLOYEES AND BY DELETING CERTAIN PROVISIONS RELATING TO FILING CITATIONS AND TRAINING
+​
+AN ORDINANCE ADDING LOT 34 OF BLOCK. 58 OF TRACT 86 TO EXHIBIT A OF ORDINANCE NO.63
+​
+AN ORDINANCE CANVASSING ELECTION RETURNS ON THE ELECTION HELD ON ORDINANCE NO.80 AND ADOPTING THE PROVISIONS THEREOF IN CONFIRMATION OF SAID RESULTS
+​
+AN ORDINANCE PROHIBITING THE ISSUANCE OF FIRE PERMITS DURING THE SEASON OF EXTREME FIRE DANGER
+​
+AN ORDINANCE REPEALING ORDINANCE NO. 78
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 71 BY ESTABLISHING PERIODS WHEN OUTDOOR BURNING IS PROHIBITED IN HAZARDOUS FIRE AREAS, BY EXCLUDING FROM THE DEFINITION OF “HAZARDOUS FIRE AREA” THE SPRING CREEK AND SYLVANDALE SUBDIVISIONS, AND BY PROVIDING FOR ENFORCEMENT OF CERTAIN PROVISIONS OF THE MENDOCINO COUNTY AND STATE STATUTE BY DISTRICT OFFICERS AND EMPLOYEES
+​
+AN ORDINANCE AMENDING BROOKTRAILS ARCHITECTURAL REVIEW
+CODE TO CLARIFY SIZE OF TREES REQUIRING ARCHITECTURAL
+APPROVAL PRIOR TO FELLING
+​
+AN ORDINANCE ADOPTING A UTILITIES CODE ESTABLISHING REGULATIONS FOR WATER SERVICE AND THE USE OF PUBLIC AND PRIVATE SEWERS AND DRAINS, FOR THE CONSTRUCTION THEREOF AND THE CONNECTION THERETO, PROVIDING FOR PERMITS AND FIXING FEES AND CHARGES FOR THE USE THEREOF, PROVIDING FOR THE ALLOCATION OF WATER AND SEWER SERVICE CAPACITY, PROVIDING FOR THE PROPER STORAGE OF, THE ORDERLY COLLECTION OF, THE EFFECTIVE RECYCLING OF, AND THE SAFE DISPOSAL OF SOLID WASTE, PROVIDING PENALTIES FOR THE VIOLATION OF THE PROVISIONS THEREOF, AND REPEALING ORDINANCES 34, 35, 44, 47, 58, 59, and 73
+(Amended by Ord. 86, 103, . . . 113, 121, 122, 123, 127, 128, 130 (temporary, expired), 132, 134, 138, 141, 142, 155, 157, 159, 162, and 167.)
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 1990-91
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 73 BY PROVIDING FOR THE BURNING OF GARDEN CLIPPINGS AS A LAWFUL MEANS OF DISPOSAL
+​
+AN ORDINANCE PROVIDING FOR THE PROPER STORAGE OF, THE ORDERLY COLLECTION OF, THE EFFECTIVE RECYCLING OF, AND THE SAFE DISPOSAL OF SOLID WASTE
+(Repealed by Ord.76)
+​
+AN ORDINANCE PROVIDING FOR THE EXERCISE OF THE AUTHORITY OF THE BOARD OF DIRECTORS AND ESTABLISHING RULES FOR THE ELECTION OF BOARD OFFICERS, THE CONDUCT OF MEMBERS OF THE BOARD OF DIRECTORS AND THE PROCEDURES FOR HOLDING BOARD MEETINGS INCLUDING PUBLIC HEARINGS
+(Repealed by Ord. 93)
+​
+AN ORDINANCE AMENDING AND ADOPTING THE UNIFORM FIRE CODE AND UNIFORM FIRE CODE STANDARDS PRESCRIBING REGULATIONS GOVERNING CONDITIONS HAZARDOUS TO LIFE AND PROPERTY AND PROVIDING FOR THE ISSUANCE OF PERMITS AND CERTIFICATES FOR CERTAIN USES OR ACTIVITIES: DELINEATING TEE BOUNDARIES OF LIMITS FOR STORAGE OF CERTAIN FLAMMABLE LIQUIDS, CASES, AND EXPLOSIVES AND FOR HAZARDOUS FIRE AREAS: PROVIDING FOR THE ESTABLISHMENT OF FEES FOR SERVICES: PROVIDING FOR ABATEMENT OF VIOLATIONS AND PENALTIES FOR VIOLATIONS: PROVIDING FOR ENFORCEMENT OF MISDEMEANOR VIOLATIONS OF DISTRICT ORDINANCES BY OFFICERS AND EMPLOYEES OF THE DISTRICT BY AUTHORIZING THE ISSUANCE OF ARREST CITATIONS: AND REPEALING DISTRICT ORDINANCES NUMBERS 38, 39, and 40
+(Amended by Ord. 83 and Ord. 85)
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 1989-90
+​
+AN ORDINANCE CREATING AND PROVIDING FOR THE APPOINTMENT OF A GREEN COMMITTEE, ESTABLISHING ITS DUTIES, AND PROVIDING FOR ITS RULES AND REGULATIONS
+(Repealed by Ord. 114)
+​
+AN ORDINANCE ADOPTING A MASTER PLAN FOR BROOKTRAILS REDWOOD PARK
+​
+AN ORDINANCE AMENDING THE BROOKTRAILS ARCHITECTURAL REVIEW CODE TO REQUIRE NOTICE OF ARCHITECT APPROVAL TO DEFINE THE MANNER FOR APPEALING ARCHITECT_S APPROVAL; AND TO AMEND THE PROCEDURE FOR CONDUCTING COMMISSION VOTES.
+​
+AN ORDINANCE REQUIRING THE ESTABLISHMENT OF A MERIT EMPLOYEE RELATIONS SYSTEM FOR EMPLOYEES; AND PROVIDING FOR THE APPOINTMENT OF A GENERAL COUNSEL, AND AN AUDITOR, AND PRESCRIBING THE DUTIES THEREFORE
+​
+AN ORDINANCE DETERMINING SUMS NECESSARY FOR PRINCIPAL AND INTEREST ON GENERAL OBLIGATION BONDS OF 1964 AND GENERAL OBLIGATION BONDS OF 1975
+​
+AN ORDINANCE PROVIDING FOR THE PROTECTION OF BROOKTRAILS REDWOOD PARK BY ESTABLISHING THE POSITIONS OF PARK SUPERINTENDENT, CHIEF FIRE OFFICER OF THE PARK, AND PARK RANGERS, DESIGNATING PARK RANGERS AS PEACE OFFICERS, AND PROVIDING FOR REGULATIONS GOVERNING THE CONDUCT OF PARK RANGERS, AND REPEALING ORDINANCE NO.8 WHICH ESTABLISHED A POLICE DEPARTMENT WITHIN THE DISTRICT
+(Repealed by Ord. 111)
+​
+AN ORDINANCE ESTABLISHING BROOKTRAILS REDWOOD PARK, PROVIDING FOR AND RESTRICTING THE USE THEREOF AND PROVIDING FOR THE ADOPTION OF REGULATIONS GOVERNING THE USE OF THE PARK
+(Amended by Ord. 109)
+​
+AN ORDINANCE ADOPTING A BROOKTRAILS ARCHITECTURAL REVIEW CODE
+(Amended by Ord. 88)
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 1988-89
+​
+AN ORDINANCE RELATING TO THE ENFORCEMENT OF COVENANTS, CONDITIONS, AND RESTRICTIONS: CREATING THE OFFICE OF DISTRICT ARCHITECT AND CREATING AN ARCHITECTURAL APPEALS BOARD
+​
+AN ORDINANCE AMENDING THE WATER SERVICE CODE, TO REQUIRE WATER SERVICE APPLICANTS TO DEMONSTRATE COMPLIANCE WITH COVENANTS, CONDITIONS AND RESTRICTIONS
+​
+AN ORDINANCE AMENDING WATER SERVICE CODE (ORDINANCE 44 AS AMENDED BY ORDINANCE NO. 47) INSTITUTING( A CROSS-CONNECTION CONTROL PROGRAM TO PROTECT THE PUBLIC WATER SUPPLY
+​
+AN ORDINANCE FIXING TAX LEVY FOR GENERAL OBLIGATION BONDS OF 1984 AND GENERAL OBLIGATION BONDS OF 1975
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 1987 - 1988
+​
+AN ORDINANCE IMPLEMENTING THE INFORMAL BIDDING PROCEDURES AUTHORIZED BY DIVISION TWO, PART THREE, ARTICLE THREE PUBLIC CONTRACTS
+CODE (SECTIONS 21200 ET SEQ.)
+​
+AN ORDINANCE FIXING TAX LEVY FOR GENERAL OBLIGATION BONDS OF 1964 AND GENERAL OBLIGATION BONDS OF 1975
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 1986 — 1987
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 51, SECTION 1, SALES AGENT OFFICE ESTABLISHED AND SECTION 2, GENERAL DUTIES
+(Rescinded by Res. 1986-34)
+​
+AN ORDINANCE PRESCRIBING PROCEDURE FOR SALE OF PROPERTY ACQUIRED UNDER THE DELINQUENT ASSESSMENT ACQUISITION AND SALE LAW OF 1915
+(Rescinded by Res. 1986-34)
+​
+AN ORDINANCE ESTABLISHING REGULATIONS GOVERNING ENCROACHMENTS AND OBSTRUCTIONS ON PUBLIC PROPERTY
+​
+AN ORDINANCE FIXING TAX LEVY FOR GENERAL OBLIGATION BONDS OF 1964 AND GENERAL OBLIGATION BONDS OF 1975
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 1985 — 1986
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 44, SECTION 1, CHAPTER I - WATER SERVICE CODE, ARTICLE 5, SECTIONS 1-505 and 1-510; ARTICLE 7, SECTION 1—702; ARTICLE 9, SECTIONS 1-901 AND 1-902 AND ARTICLE 13 AND SECTION 2, CHAPTER II - SEWER SERVICE CODE, ARTICLE 8, SECTION 1—807
+​
+AN ORDINANCE FIXING TAX LEVY FOR GENERAL OBLIGATION BONDS OF 1964 AND GENERAL OBLIGATION BONDS OF 1975
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 1984-1985
+​
+AN ORDINANCE ADOPTING WATER AND SEWER SERVICE CODES, ESTABLISHING RATES, RULES AND REGULATIONS FOR WATER SERVICE AND REGULATING THE USE OF PUBLIC AND PRIVATE SEWERS AND DRAINS, THE INSTALLATION AND CONNECTION OF BUILDING SEWERS, THE INSTALLATION OF SEWER LATERALS AND PUBLIC SEWER MAIN EXTENSIONS, PROVIDING FOR EMPLOYMENT OF MANAGER AND DISTRICT INSPECTOR, PROVIDING PERMITS AND FIXING FEES AND CHARGES, REGULATING THE DISCHARGE OF WATERS AND WASTES INTO THE PUBLIC SEWER SYSTEM, PROVIDING FOR THE ALLOCATION OF WATER AND SEWER SERVICE CAPACITY, PROVIDING PENALTIES FOR THE VIOLATION OF THE PROVISIONS THEREOF, AND REPEALING ORDINANCES NOS. 1, 2, 3, 4, 5, 6, 7, 9, 10, 14, 19, 20, 22, 24, 28, 32, 33 and 41.
+(amended by Ord. 47, 58, 59)
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 1983-84
+​
+AN ORDINANCE FIXING TAX LEVY FOR GENERAL OBLIGATION BONDS OF 1964 AND GENERAL OBLIGATION BONDS OP 1975
+​
+AN ORDINANCE AMENDING DISTRICT ORDINANCE 24 RE: SEWER CONNECTION CHARGES(CONDOMINIUMS)
+(Repealed by Ord. 44)
+​
+AN ORDINANCE PROVIDING FOR INSPECTION OF NEW CONSTRUCTION TO INSURE COMPLIANCE WITH FIRE HAZARD REDUCTION REQUIREMENTS
+​
+AN ORDINANCE PROVIDING FOR THE DESIGNATION OF EMPLOYEES AND OFFICERS AUTHORIZED TO ISSUE ARREST CITATIONS
+​
+AN ORDINANCE ADOPTING THE UNIFORM FIRE CODE AND UNIFORM FIRE CODE STANDARDS PRESCRIBING REGULATIONS GOVERNING CONDITIONS HAZARDOUS TO LIFE AND PROPERTY FROM FIRE OR EXPLOSION, PROVIDING FOR THE ISSUANCE OF PERMITS FOR HAZARDOUS USES OR OPERATIONS, AND ESTABLISHING A BUREAU OF FIRE PREVENTION AND PROVIDING OFFICERS THEREFOR AND DEFINING THEIR POWERS AND DUTIES
+​
+AN ORDINANCE FIXING TAX LEVY FOR GENERAL OBLIGATION BONDS OF 1964 and GENERAL OBLIGATION BONDS OF 1975
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 1982-83
+​
+AN ORDINANCE FIXING SEWER SERVICE RATES FOR BROOKTRAILS COMMUNITY SERVICES DISTRICT
+​
+AN ORDINANCE FIXING WATER SERVICE RATES FOR BROOKTRAILS COMMUNITY SERVICES DISTRICT
+​
+AN ORDINANCE FIXING WATER SERVICE AND SEWER SERVICE RATES FOR BROOKTRAILS COMMUNITY SERVICES DISTRICT
+(Rescinded by Ord.34 & 35) (Repealed by Ord. 44)
+​
+AN ORDINANCE AMENDING DISTRICT ORDINANCE NO. 22
+DECLARING CERTAIN CONDITIONS ON IMPROVED
+PRIVATE PROPERTY AS A HAZARD AND PROVIDING
+FOR THE ABATEMENT THEREOF
+(Repealed by Ord. 44)
+​
+AN ORDINANCE FIXING TAX LEVY FOR GENERAL OBLIGATION BONDS OF 1964 AND GENERAL OBLIGATION BONDS OF 1975
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 1981-1982
+​
+AN ORDINANCE DETERMINING AND PROPOSING FOR ADOPTION A SPECIAL TAX FOR FIRE PROTECTION AND PREVENTION PURSUANT TO GOVERNMENT CODE SECTION 53978
+(See Res 1981-24)
+​
+AN ORDINANCE AMENDING THE WATER SERVICE CODE WITH RESPECT TO THE RELOCATION OF METERS, NON-TRANSFERABILITY OF WATER CONNECTIONS, CASH GUARANTEE DEPOSITS AND THE RETURN OF CASH GUARANTEE DEPOSITS
+(Repealed by Ord.44)
+​
+AN ORDINANCE FIXING TAX LEVY FOR GENERAL OBLIGATION BONDS OF 1964 AND GENERAL OBLIGATION BONDS OF 1975
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 1980-1981
+​
+AN ORDINANCE FIXING TAX LEVY FOR GENERAL OBLIGATION BONDS OF 1964 AND GENERAL OBLIGATION BONDS OF 1975
+​
+AN ORDINANCE AMENDING DISTRICT ORDINANCE 10 RE: SEWER CONNECTION CHARGES
+(Amended by Ord. 41, repealed by Ord. 44)
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 1979—1980
+​
+AN ORDINANCE DECLARING CERTAIN CONDITIONS ON PRIVATE REAL PROPERTY A PUBLIC NUISANCE AND PRESCRIBING A PROCEDURE FOR THE ABATEMENT OF SAME AND MAKING THE ABATEMENT EXPENSE A LIEN UPON THE PROPERTY AND PRESCRIBING A PROCEDURE FOR ENFORCEMENT OF LIEN
+(Amended by Ord. 32, repealed by Ord. 44)
+​
+AN ORDINANCE DETERMINING REVENUES ARE INADEQUATE AND FIXING THE AMOUNT OF MONEY NECESSARY TO BE RAISED BY TAXATION - BROOKTRAILS COMMUNITY SERVICES DISTRICT ORDINANCE
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 10 WITH RESPECT
+TO GUARANTEE DEPOSIT RATE ($25.00 TO $50.00)
+(Repealed by Ord. 44)
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 10 WITH RESPECT TO THE ESTABLISHMENT OF SEWER RATES AND CHARGES
+(Repealed by Ord. 44)
+​
+AN ORDINANCE DETERMINING REVENUES ARE INADEQUATE AND FIXING THE AMOUNT OF MONEY NECESSARY TO BE RAISED By TAXATION MAINTENANCE DISTRICT NO. 1976/1
+​
+AN ORDINANCE DETERMINING REVENUES ARE INADEQUATE AND FIXING THE AMOUNT OF MONEY NECESSARY TO BE RAISED BY TAXATION - MAINTENANCE DISTRICT NO. 1
+​
+AN ORDINANCE DETERMINING REVENUES ARE INADEQUATE AND FIXING THE AMOUNT OF MONEY NECESSARY TO BE RAISED BY TAXATION - BOND INTEREST AND REDEMPTION FUND
+​
+AN ORDINANCE DETERMINING REVENUES ARE INADEQUATE AND FIXING THE AMOUNT OF MONEY NECESSARY TO BE RAISED BY TAXATION - OPERATING EXPENSES
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 10 OF THE BROOKTRAILS RESORT IMPROVEMENT DISTRICT, THE BROOKTRAILS RESORT IMPROVEMENT DISTRICT WATER AND
+SEWER SERVICE CODE
+(Repealed by Ord. 44)
+​
+AN ORDINANCE DETERMINING REVENUES ARE INADEQUATE AND FIXING THE AMOUNT OF MONEY NECESSARY TO BE RAISED BY TAXATION OPERATING EXPENSES
+​
+AN ORDINANCE DETERMINING REVENUES ARE INADEQUATE AND FIXING THE AMOUNT OF MONEY NECESSARY TO BE RAISED BY TAXATION - MAINTENANCE DISTRICT NO. 1
+​
+AN ORDINANCE DETERMINING REVENUES ARE INADEQUATE AND FIXING THE AMOUNT OF MONEY NECESSARY TO BE RAISED BY TAXATION - BOND INTEREST AND REDEMPTION FUND
+​
+AN ORDINANCE RESCINDING ORDINANCES 3 AND 5, AS AMENDED, AND ADOPTING WATER AND SEWER SERVICE CODES ESTABLISHING RATES, RULES AND REGULATIONS FOR WATER SERVICE AND REGULATING THE USE OF PUBLIC AND PRIVATE SEWERS AND DRAINS, THE INSTALLATION AND CONNECTION OF BUILDING SEWERS, THE INSTALLATION OF SEWER LATERALS AND PUBLIC SEWER MAIN EXTENSIONS, PROVIDING FOR EMPLOYMENT OF A MANAGER AND DISTRICT INSPECTOR, PROVIDING PERMITS AND FIXING FEES AND CHARGES, REGULATING THE DISCHARGE OF WATERS AND WASTES INTO THE PUBLIC SEWER SYSTEM, AND PROVIDING PENALTIES FOR THE VIOLATION OF THE PROVISIONS THEREOF.
+(Amended by Ord.14,19,20,24 & 28) (Repealed by Ord.44)
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 3
+(Repealed by Ord.44)
+​
+AN ORDINANCE ESTABLISHING A POLICE DEPARTMENT
+(Repealed by Ord.64)
+​
+AN ORDINANCE AMENDING ORDINANCE NO.5
+(Repealed by Ord.44)
+​
+AN ORDINANCE AMENDING ORDINANCE NO.5
+(Repealed by Ord.44)
+​
+AN ORDINANCE REGULATING THE USE OF PUBLIC AND PRIVATE SEWERS AND DRAINS, THE INSTALLATION AND CONNECTION OF BUILDING SEWERS, THE INSTALLATION OF SEWER LATERALS AND PUBLIC SEWER MAIN EXTENSIONS, PROVIDING FOR EMPLOYMENT OF A MANAGER AND DISTRICT INSPECTOR, PROVIDING PERMITS AND FIXING FEES AND CHARGES, REGULATING THE DISCHARGE OF WATERS AND WASTES INTO THE PUBLIC SEWER SYSTEM, AND PROVIDING PENALTIES FOR THE VIOLATION OF THE PROVISIONS THEREOF
+(Amended by Ord.6 & 7) (Rescinded by Ord.10)
+​
+AN ORDINANCE REGULATING THE USE OF LAKES WITHIN BROOKTRAILS RESORT IMPROVEMENT DISTRICT, PROVIDING FOR THE LETTING OF CONCESSIONS THEREON AND FIXING FEES AND CHARGES
+(Rescinded by Ord.44)
+​
+AN ORDINANCE ESTABLISHING RULES AND REGULATIONS FOR WATER SERVICE BY BROOKTRAILS RESORT IMPROVEMENT DISTRICT
+(Amended by Ord.9) (Rescinded by Ord.10)
+​
+ORDINANCE ESTABLISHING THE POSITION OF PURCHASING OFFICER AND PROVIDING FOR THE LETTING OF CONTRACTS FOR THE DOING OF WORK AND THE PURCHASE AND SALE OF SUPPLIES, SERVICES AND EQUIPMENT
+(Repealed by Ord.44)
+​
+AN ORDINANCE APPOINTING FINANCE OFFICER AND FIXING COMPENSATION AND BOND
+(Repealed by Ord.44)
+​
+Date
+​
+02/11/2025
+06/25/2024
+06/11/2024
+3/8/2022
+3/9/2021
+4/28/2020
+5/28/2019
+5/22/2018
+5/8/2018
+10/24/2017
+5/9/2017
+8/9/2016
+4/12/2016
+X/XX/2015
+5/27/2014
+_
+2/11/2014
+1/14/2014
+_
+4/23/2013
+4/24/2012
+2/28/2012
+4/26/2011
+2/22/2011
+4/27/2010
+4/28/2009
+4/14/2009
+2/10/2009
+5/27/2008
+4/22/2008
+5/22/2007
+4/24/2007
+9/12/2006
+4/25/2006
+2/28/2006
+4/26/2005
+5/24/2005
+11/09/04
+​
+05/11/04
+​
+05/11/04
+11/11/03
+07/22/03
+06/10/03
+07/23/02
+03/12/2002
+_
+02/13/2001
+02/06/2001
+07/11/2000
+08/08/2000
+02/08/2000
+​
+07/27/99
+_
+01/12/99
+05/26/98
+​
+04/14/98
+04/08/97
+11/12/96
+10/01/96
+08/13/96
+05/28/96
+03/27/96
+02/13/96
+10/24/95
+08/08/95
+05/23/95
+10/25/94
+10/18/94
+05/24/94
+09/14/93
+06/08/93
+08/25/92
+05/26/92
+03/26/92
+02/13/92
+07/25/91
+06/20/91
+05/23/91
+05/09/91
+04/25/91
+03/26/91
+01/10/91
+10/25/90
+02/16/10
+05/24/90
+02/22/90
+01/25/90
+07/14/89
+05/25/89
+03/09/89
+11/17/88
+11-11-88
+09-22-88
+07/28/88
+06/23/88
+07/28/88
+05/26/88
+03/24/88
+03/10/88
+02/11/88
+06/25/87
+05/28/87
+07/24/86
+06/26/86
+05/22/86
+03/27/86
+10/10/85
+07/25/85
+06/27/85
+05/23/85
+11/08/84
+06-28-84
+05-24-84
+05-10-84
+05-26-83
+04-28-83
+02-24-83
+12-09-82
+06-24-82
+05-27-82
+03-11-82
+12-17-81
+08-13-81
+04-23-81
+01-08-81
+12-11-80
+07-10-80
+05-22-80
+08—09—79
+06—14—79
+05-10-79
+11-09-78
+08-25-78
+09/14/78
+07/13/78
+08/10/77
+12/08/76
+06/16/76
+03/12/75
+_
+08/08/73
+06/09/71
+05/12/65
+04/21/65
+02/10/65
+09/09/64
+​
+07/02/64
+Note: The complete BTCSD book of ordinances is available at the district office.
+© 2019-2026 Brooktrails Township.
+Originally Designed & Developed by Go West.
+bottom of page
+```
+
+## Township Enterprise Systems | Brooktrails-1
+
+Source: https://www.btcsd.org/enterprise-systems
+
+```text
+Township Enterprise Systems | Brooktrails-1
+top of page
+Brooktrails Township
+About
+The Essence of Brooktrails
+Map of Brooktrails
+Historical Photo Album
+1939 Southern Pacific Railroad Brochure
+Events
+Admin
+Township Administration
+Township Policy Manual
+Township Ordinances
+Township Enterprise Systems
+Employment With Brooktrails
+Board and Meetings
+Township Board
+Fire Department
+About Brooktrails Fire Dept
+Wildfire Preparedness & Evacuation
+Links
+Other Emergency Services
+Water & Sewer
+Application for Sewer Lateral Inspection
+Brooktrails Water System
+Water Conservation Links
+Parks & Recreation
+Brooktrails Golf Course
+Recreation Greenbelt & Conservation Cmte
+Trail Maintenance Request Form
+Community Center Rental Application
+Ohl Redwood Grove Rental Application
+Brooktrails Hiking Trail Map
+Trail Locations on GoogleMaps
+Redwood Park
+Map of Redwood Park
+Redwood Park Greenbelt Stewardship Plan
+Ordinance 63 (Establishing Redwood Park)
+Planning & Design
+Building Permits
+Development Review Process
+Development Standards & Process PDF
+Design Review Application Packet
+Water Meter Construction Application
+Chapter 20.232 (Development Review)
+Ordinance 121 (Sewer Backflow Device)
+Ordinance 112 (Construction Meters)
+Contact
+More
+Use tab to navigate through the menu items.
+Township Enterprise Systems
+Contact Us
+Section 6270.5 of the California Government Code
+as adopted by the Legislature in Senate Bill No. 272 requires that each local agency, except a local educational agency, shall create a catalog of enterprise systems. The catalog shall be made publicly available upon request in the office of the person or officer designated by the agency’s legislative body.
+The catalog shall disclose a list of the enterprise systems utilized by the agency and, for each system, shall also disclose all of the following:
+​
+Current system vendor.
+Current system product.
+A brief statement of the system’s purpose.
+A general description of categories or types of data.
+The department that serves as the system’s primary custodian.
+How frequently system data is collected.
+How frequently system data is updated.
+​
+“Enterprise system” means a software application or computer system that collects, stores, exchanges, and analyzes information that the agency uses that is both of the following:
+​
+A multidepartmental system or a system that contains information collected about the public.
+A system of record.
+​
+An enterprise system does not include any of the following:
+​
+Information technology security systems, including firewalls and other cybersecurity systems.
+Physical access control systems, employee identification management systems, video monitoring, and other physical control systems.
+Infrastructure and mechanical control systems, including those that control or manage street lights, electrical, natural gas, or water or sewer functions.
+Systems related to 911 dispatch and operation or emergency services.
+Systems that would be restricted from disclosure pursuant to Section 6254.19.
+The specific records that the information technology system collects, stores, exchanges, or analyzes.
+For a full list of the Brooktrails Township Enterprise Systems click the links below:
+​
+Brooktrails Township Enterprise Systems
+as a web page
+Brooktrails Township Enterprise Systems
+as a printable PDF file
+© 2019-2026 Brooktrails Township.
+Originally Designed & Developed by Go West.
+bottom of page
+```
+
+## Employment With Brooktrails | Brooktrails-1
+
+Source: https://www.btcsd.org/employment
+
+```text
+Employment With Brooktrails | Brooktrails-1
+top of page
+Brooktrails Township
+About
+The Essence of Brooktrails
+Map of Brooktrails
+Historical Photo Album
+1939 Southern Pacific Railroad Brochure
+Events
+Admin
+Township Administration
+Township Policy Manual
+Township Ordinances
+Township Enterprise Systems
+Employment With Brooktrails
+Board and Meetings
+Township Board
+Fire Department
+About Brooktrails Fire Dept
+Wildfire Preparedness & Evacuation
+Links
+Other Emergency Services
+Water & Sewer
+Application for Sewer Lateral Inspection
+Brooktrails Water System
+Water Conservation Links
+Parks & Recreation
+Brooktrails Golf Course
+Recreation Greenbelt & Conservation Cmte
+Trail Maintenance Request Form
+Community Center Rental Application
+Ohl Redwood Grove Rental Application
+Brooktrails Hiking Trail Map
+Trail Locations on GoogleMaps
+Redwood Park
+Map of Redwood Park
+Redwood Park Greenbelt Stewardship Plan
+Ordinance 63 (Establishing Redwood Park)
+Planning & Design
+Building Permits
+Development Review Process
+Development Standards & Process PDF
+Design Review Application Packet
+Water Meter Construction Application
+Chapter 20.232 (Development Review)
+Ordinance 121 (Sewer Backflow Device)
+Ordinance 112 (Construction Meters)
+Contact
+More
+Use tab to navigate through the menu items.
+Employment Opportunities
+Contact Us
+EMPLOYMENT APPLICATION
+We are now hiring.
+Firefighter / Engineer (if qualified)
+Position performs varied assignments related to operation and maintenance of firefighting equipment and vehicles. Minimum requirements include possession of a high school diploma and a valid CA drivers license. Upon hire, employee will train and work toward obtaining their EMT certification and Firefighter Endorsement CADL within the first year of employment.
+If hired, must live within 10 miles of District. Salary begins at $39,699; benefits include CalPERS, health insurance, vacation, holidays, etc. Drug screen and physical exam upon hire. Applicants should submit a completed application form (link is above) along with copies of any relevant certificates.
+Applications for the following Position will be held for a Year
+Water/Sewer Utility Operator II
+Position performs varied assignments in installation, maintenance and repair of water distribution systems and wastewater collection system. Minimum of 2 years experience required, including pipelines, valves, hydrants, pump stations, regulating stations, storage facilities, meter reading and repairs and customer service orders. Heavy equipment experience required. Applicants must obtain T2 and D2 certificates from State Water Resources Control Board Drinking Water Division with
+in 6 months of employment and hold a valid CA drivers license. If hired, must live within 10 miles of District. Salary schedule begins at $48,067; benefits include CalPERS, health insurance, vacation, holidays, etc. Drug screen and physical exam upon hire. Applicants should submit a completed application form (link is above) along with copies of relevant certificates.
+Download Complete Job Description (PDF)
+Applications for the following Position will be held for a Year
+Water/Sewer Utility Operator I
+Position performs varied assignments in installation, maintenance and repair of water distribution systems and wastewater collection system. Some utility, construction and/or maintenance experience required. Heavy equipment experience desired. Applicants must obtain D1 certificate from the State Water Resources Control Board Drinking Water Division within 6 months and hold a valid CA drivers license. If hired, must live within 10 miles of District. Salary schedule begins at $43,600; benefits include CalPERS, health insurance, vacation, holidays, etc. Drug screen and physical exam upon hire. Applicants should submit a completed application form (link is above) along with copies of any relevant certificates.
+Download Complete Job Description (PDF)
+© 2019-2026 Brooktrails Township.
+Originally Designed & Developed by Go West.
+bottom of page
+```
+
+## Township Board | Brooktrails-1
+
+Source: https://www.btcsd.org/township-board
+
+```text
+Township Board | Brooktrails-1
+top of page
+Brooktrails Township
+About
+The Essence of Brooktrails
+Map of Brooktrails
+Historical Photo Album
+1939 Southern Pacific Railroad Brochure
+Events
+Admin
+Township Administration
+Township Policy Manual
+Township Ordinances
+Township Enterprise Systems
+Employment With Brooktrails
+Board and Meetings
+Township Board
+Fire Department
+About Brooktrails Fire Dept
+Wildfire Preparedness & Evacuation
+Links
+Other Emergency Services
+Water & Sewer
+Application for Sewer Lateral Inspection
+Brooktrails Water System
+Water Conservation Links
+Parks & Recreation
+Brooktrails Golf Course
+Recreation Greenbelt & Conservation Cmte
+Trail Maintenance Request Form
+Community Center Rental Application
+Ohl Redwood Grove Rental Application
+Brooktrails Hiking Trail Map
+Trail Locations on GoogleMaps
+Redwood Park
+Map of Redwood Park
+Redwood Park Greenbelt Stewardship Plan
+Ordinance 63 (Establishing Redwood Park)
+Planning & Design
+Building Permits
+Development Review Process
+Development Standards & Process PDF
+Design Review Application Packet
+Water Meter Construction Application
+Chapter 20.232 (Development Review)
+Ordinance 121 (Sewer Backflow Device)
+Ordinance 112 (Construction Meters)
+Contact
+More
+Use tab to navigate through the menu items.
+Board Meeting Materials for Upcoming/Most Recent Board Meeting
+To view the meeting agendas or minutes of a meeting from a previous session, please c
+ontact our office
+at Brooktrails Township.
+Board of Directors
+Meet the Brooktrails Township Board of Directors
+​
+Current Board Members and Terms
+​
+Tina Tyler-O'Shea, President
+Term Expires 12/1/28
+​
+Rick Williams, Vice-President
+Term Expires 12/6/26
+​
+Ed Horrick
+Term Expires 12/6/26
+​
+Susan Mahoney
+Term Expires 12/1/28
+​
+Mary Ziady
+Term Expires 12/6/26
+​
+© 2019-2026 Brooktrails Township.
+Originally Designed & Developed by Go West.
+bottom of page
+```
+
+## Fire Department | Brooktrails-1
+
+Source: https://www.btcsd.org/brooktrails-fire-department
+
+```text
+Fire Department | Brooktrails-1
+top of page
+Brooktrails Township
+About
+The Essence of Brooktrails
+Map of Brooktrails
+Historical Photo Album
+1939 Southern Pacific Railroad Brochure
+Events
+Admin
+Township Administration
+Township Policy Manual
+Township Ordinances
+Township Enterprise Systems
+Employment With Brooktrails
+Board and Meetings
+Township Board
+Fire Department
+About Brooktrails Fire Dept
+Wildfire Preparedness & Evacuation
+Links
+Other Emergency Services
+Water & Sewer
+Application for Sewer Lateral Inspection
+Brooktrails Water System
+Water Conservation Links
+Parks & Recreation
+Brooktrails Golf Course
+Recreation Greenbelt & Conservation Cmte
+Trail Maintenance Request Form
+Community Center Rental Application
+Ohl Redwood Grove Rental Application
+Brooktrails Hiking Trail Map
+Trail Locations on GoogleMaps
+Redwood Park
+Map of Redwood Park
+Redwood Park Greenbelt Stewardship Plan
+Ordinance 63 (Establishing Redwood Park)
+Planning & Design
+Building Permits
+Development Review Process
+Development Standards & Process PDF
+Design Review Application Packet
+Water Meter Construction Application
+Chapter 20.232 (Development Review)
+Ordinance 121 (Sewer Backflow Device)
+Ordinance 112 (Construction Meters)
+Contact
+More
+Use tab to navigate through the menu items.
+Brooktrails Fire Department
+BURN SEASON IS NO LONGER DETERMINED BY BROOKTRAILS.
+​
+WE UNDERSTAND THAT BURN PERMIT REGULATIONS HAVE NOT BEEN CONSISTENT OVER THE LAST FEW YEARS. AS OF MAY 2024,
+CALFIRE
+AND MENDOCINO AIR QUALITY MANAGEMENT DISTRICT ISSUE BURN PERMITS.
+CONTACT THEIR OFFICES OR GO ONLINE
+HERE
+FOR INFORMATION ON BURN PERMITS - COMPLIANCE WITH BURN PERMIT RULES IS THE RESPONSIBILITY OF THE PERMITEE.
+BROOKTRAILS FIRE DEPARTMENT IS NOT RESPOSIBLE FOR SMOKE CHECKS. IF YOU HAVE A QUESTION ABOUT BURNING IN YOUR NEIGHBORHOOD CONTACT CALFIRE AT
+(707) 459-7414
+.
+​
+Evacuation Tips, Ready, Set, Go!
+Click here
+to read evacuation tips.
+​
+ALways accepting
+applications
+for volunteers
+24860 Birch Street, Willits CA 95490-9475
+fireprev@btcsd.org
+Phone: (707) 459-4441
+Fax: (707) 459-1517
+© 2019-2026 Brooktrails Township.
+Originally Designed & Developed by Go West.
+bottom of page
+```
+
+## About Brooktrails Fire Dept | Brooktrails-1
+
+Source: https://www.btcsd.org/about-brooktrails-fire-department
+
+```text
+About Brooktrails Fire Dept | Brooktrails-1
+top of page
+Brooktrails Township
+About
+The Essence of Brooktrails
+Map of Brooktrails
+Historical Photo Album
+1939 Southern Pacific Railroad Brochure
+Events
+Admin
+Township Administration
+Township Policy Manual
+Township Ordinances
+Township Enterprise Systems
+Employment With Brooktrails
+Board and Meetings
+Township Board
+Fire Department
+About Brooktrails Fire Dept
+Wildfire Preparedness & Evacuation
+Links
+Other Emergency Services
+Water & Sewer
+Application for Sewer Lateral Inspection
+Brooktrails Water System
+Water Conservation Links
+Parks & Recreation
+Brooktrails Golf Course
+Recreation Greenbelt & Conservation Cmte
+Trail Maintenance Request Form
+Community Center Rental Application
+Ohl Redwood Grove Rental Application
+Brooktrails Hiking Trail Map
+Trail Locations on GoogleMaps
+Redwood Park
+Map of Redwood Park
+Redwood Park Greenbelt Stewardship Plan
+Ordinance 63 (Establishing Redwood Park)
+Planning & Design
+Building Permits
+Development Review Process
+Development Standards & Process PDF
+Design Review Application Packet
+Water Meter Construction Application
+Chapter 20.232 (Development Review)
+Ordinance 121 (Sewer Backflow Device)
+Ordinance 112 (Construction Meters)
+Contact
+More
+Use tab to navigate through the menu items.
+About Brooktrails Fire Department
+The Brooktrails Fire Department serves the communities of Brooktrails, Spring Creek, and Sylvandale. The Department also protects the surrounding areas in its sphere of influence. We are an ALL risk department providing basic life support, rescue services, and response to ALL fires. We also provide mutual and automatic aid to the surrounding areas within Mendocino County.
+Brooktrails is located northwest of Willits in northern Mendocino County. This area is set in a densley wooded intermix subdivision with approximately 1600 homes. Spring Creek and Sylvandale subdivisions border Brooktrails and have 100 homes in a heavy intermix forest setting. Brooktrails has an ISO rating of 4, while Spring Creek and Sylvandale have an ISO rating of 4X.
+The Brooktrails Fire Department is staffed with a full-time Fire Chief, full-time Fire Prevention Officer, 11 Volunteer Firefighters, 6 of which are EMT's.
+The Department's fleet consists of 2 Quick Attack Command Vehicles, a Utility Pick Up Truck, a Type I Interface/Rescue Engine, a Type II Interface Engine, a Rescue Squad, a Tactical WaterTender and an MCI Trailer.
+24860 Birch Street, Willits CA 95490-9475
+contact@brooktrailsfire.com
+Phone: (707) 459-4441
+Fax: (707) 459-1517
+© 2019-2026 Brooktrails Township.
+Originally Designed & Developed by Go West.
+bottom of page
+```
+
+## Links | Brooktrails-1
+
+Source: https://www.btcsd.org/fire-department-links
+
+```text
+Links | Brooktrails-1
+top of page
+Brooktrails Township
+About
+The Essence of Brooktrails
+Map of Brooktrails
+Historical Photo Album
+1939 Southern Pacific Railroad Brochure
+Events
+Admin
+Township Administration
+Township Policy Manual
+Township Ordinances
+Township Enterprise Systems
+Employment With Brooktrails
+Board and Meetings
+Township Board
+Fire Department
+About Brooktrails Fire Dept
+Wildfire Preparedness & Evacuation
+Links
+Other Emergency Services
+Water & Sewer
+Application for Sewer Lateral Inspection
+Brooktrails Water System
+Water Conservation Links
+Parks & Recreation
+Brooktrails Golf Course
+Recreation Greenbelt & Conservation Cmte
+Trail Maintenance Request Form
+Community Center Rental Application
+Ohl Redwood Grove Rental Application
+Brooktrails Hiking Trail Map
+Trail Locations on GoogleMaps
+Redwood Park
+Map of Redwood Park
+Redwood Park Greenbelt Stewardship Plan
+Ordinance 63 (Establishing Redwood Park)
+Planning & Design
+Building Permits
+Development Review Process
+Development Standards & Process PDF
+Design Review Application Packet
+Water Meter Construction Application
+Chapter 20.232 (Development Review)
+Ordinance 121 (Sewer Backflow Device)
+Ordinance 112 (Construction Meters)
+Contact
+More
+Use tab to navigate through the menu items.
+Brooktrails Fire Department
+Additional Links
+City, County, State, and Federal Government
+​
+Brooktrails Township Community Services District
+​
+Fire Departments
+​
+Albion-Little River Fire Department
+Anderson Valley Fire Department
+Comptche Fire Department
+Elk Fire Department
+Fort Bragg Fire Department
+Hopland Fire Dept.
+Laytonville Fire Department
+Mendocino Fire Department
+Redwood Valley - Calpella Fire Department
+Ukiah City Fire Department
+​
+General
+​
+Fire Safe Council of Mendocino County
+Mendocino County Online Scanner
+​
+Law Enforcement
+​
+CHP CAD Web Page
+Mendocino Sheriff
+​
+Medical Links
+​
+CALSTAR
+Coastal Valleys EMS
+Medstar Mendocino
+REACH Air Ambulance
+​
+Wildland Fire Information
+​
+Evacuation Tips
+Ready, Set, Go!
+GEOMAC Wildfire Report
+24860 Birch Street, Willits CA 95490-9475
+contact@brooktrailsfire.com
+Phone: (707) 459-4441
+Fax: (707) 459-1517
+© 2019-2026 Brooktrails Township.
+Originally Designed & Developed by Go West.
+bottom of page
+```
+
+## Other Emergency Services | Brooktrails-1
+
+Source: https://www.btcsd.org/emergency-services
+
+```text
+Other Emergency Services | Brooktrails-1
+top of page
+Brooktrails Township
+About
+The Essence of Brooktrails
+Map of Brooktrails
+Historical Photo Album
+1939 Southern Pacific Railroad Brochure
+Events
+Admin
+Township Administration
+Township Policy Manual
+Township Ordinances
+Township Enterprise Systems
+Employment With Brooktrails
+Board and Meetings
+Township Board
+Fire Department
+About Brooktrails Fire Dept
+Wildfire Preparedness & Evacuation
+Links
+Other Emergency Services
+Water & Sewer
+Application for Sewer Lateral Inspection
+Brooktrails Water System
+Water Conservation Links
+Parks & Recreation
+Brooktrails Golf Course
+Recreation Greenbelt & Conservation Cmte
+Trail Maintenance Request Form
+Community Center Rental Application
+Ohl Redwood Grove Rental Application
+Brooktrails Hiking Trail Map
+Trail Locations on GoogleMaps
+Redwood Park
+Map of Redwood Park
+Redwood Park Greenbelt Stewardship Plan
+Ordinance 63 (Establishing Redwood Park)
+Planning & Design
+Building Permits
+Development Review Process
+Development Standards & Process PDF
+Design Review Application Packet
+Water Meter Construction Application
+Chapter 20.232 (Development Review)
+Ordinance 121 (Sewer Backflow Device)
+Ordinance 112 (Construction Meters)
+Contact
+More
+Use tab to navigate through the menu items.
+Other Emergency Services
+In an emergency, dial 911.
+Brooktrails Emergency Services Links:
+Brooktrails Township Fire Department
+​
+Download Wildfire Preparedness & Evacuation Instructions & Map:
+Other Contacts
+MENDOCINO COUNTY AGENCY LINKS
+Mendocino County Sheriff's Office
+Mendocino County Animal Care Program
+STATE OF CALIFORNIA AGENCY LINKS
+California Highway Patrol
+CalFire
+California Fish & Wildlife
+​
+MEDICAL SERVICES LINKS
+​
+Howard Hospital
+MEDSTAR Ambulance
+REACH Air Ambulance
+CALSTAR Air
+© 2019-2026 Brooktrails Township.
+Originally Designed & Developed by Go West.
+bottom of page
+```
+
+## Water & Sewer | Brooktrails Township
+
+Source: https://www.btcsd.org/water-sewer
+
+```text
+Water & Sewer | Brooktrails Township
+top of page
+Brooktrails Township
+About
+The Essence of Brooktrails
+Map of Brooktrails
+Historical Photo Album
+1939 Southern Pacific Railroad Brochure
+Events
+Admin
+Township Administration
+Township Policy Manual
+Township Ordinances
+Township Enterprise Systems
+Employment With Brooktrails
+Board and Meetings
+Township Board
+Fire Department
+About Brooktrails Fire Dept
+Wildfire Preparedness & Evacuation
+Links
+Other Emergency Services
+Water & Sewer
+Application for Sewer Lateral Inspection
+Brooktrails Water System
+Water Conservation Links
+Parks & Recreation
+Brooktrails Golf Course
+Recreation Greenbelt & Conservation Cmte
+Trail Maintenance Request Form
+Community Center Rental Application
+Ohl Redwood Grove Rental Application
+Brooktrails Hiking Trail Map
+Trail Locations on GoogleMaps
+Redwood Park
+Map of Redwood Park
+Redwood Park Greenbelt Stewardship Plan
+Ordinance 63 (Establishing Redwood Park)
+Planning & Design
+Building Permits
+Development Review Process
+Development Standards & Process PDF
+Design Review Application Packet
+Water Meter Construction Application
+Chapter 20.232 (Development Review)
+Ordinance 121 (Sewer Backflow Device)
+Ordinance 112 (Construction Meters)
+Contact
+More
+Use tab to navigate through the menu items.
+Water & Sewer Systems
+Contact Us
+Pay Your Bill Online Here
+2025 Consumer Confidence Report Available Here
+Utilities Code
+Payment Plan Application
+Water Shut-Off Policy
+Water System
+The Governor may continue to declare an annual state of drought emergency in California and include Mendocino County. Brooktrails Township has a
+limited
+supply of water and customers need to conserve supplies, especially during the dry months of the year. Additionally,
+all customers are limited to a water usage cap of 9,000 gallons per month
+.
+The Brooktrails water system serves Brooktrails lots and some Spring Creek parcels, but not the Sylvandale Subdivision. Facilities include a water treatment plant with the design capacity of 1.2 million gallons per day (MGD), 60 miles of water mains, 24 water tanks with 1.9 million gallons of storage and 18 pump stations.
+Click here to learn more about our water system.
+​
+The District currently (05-31-2026) has 17 available water/sewer connections - utility connections may only be purchased at time of building permit submittal. See this
+link
+for information on building a new home in the Brooktrails Township.
+You can review our annual Consumer Confidence Report above, which contains test results and water quality information. Every drop of water supply delivered in Brooktrails comes from surface water and precipitation runoff in Brooktrails.
+Ordinance 162 amends the District Utilities Code and defines options and important steps customers need to take to restore water service that has been discontinued due to non-payment. See the link to its administrative policy above.
+Sewer System
+The Township provides wastewater collection for most of the Brooktrails area, but not Spring Creek or Sylvandale. Within the Brooktrails area there are approximately 660 lots that do not have sewer service, most located at higher elevations on streets named Ridge, Iris, Blue Lake and Alcott. This includes about 616 unimproved lots and about 45 improved lots that are on septic systems.
+The wastewater collection system includes three sewer lift stations at various elevations, about 65 miles of sewer lines throughout the collection system, and a trunk line to the Wastewater Treatment Plant in the City of Willits. Township crews have completed a smoke test of the entire Brooktrails sewer system to locate and remove sources of unauthorized inflow into our system and are engaged in an ongoing inspection of the system for infiltration from cracked pipes and displacement due to ground shifting.
+Wastewater collected within Brooktrails Township is treated at the City of Willits Wastewater Treatment Plant. The City of Willits Wastewater Treatment Plant is a secondary treatment facility.
+From 1997 through 2015, the Township and the City of Willits were involved in a dispute over matters related to the Wastewater Treatment Plant.
+Click here to learn What You Need to Know about the Willits Wastewater Treatment Plant Dispute
+.
+© 2019-2026 Brooktrails Township.
+Originally Designed & Developed by Go West.
+bottom of page
+```
+
+## Application for Sewer Lateral Inspection | Brooktrails-1
+
+Source: https://www.btcsd.org/application-for-sewer-lateral-inspe
+
+```text
+Application for Sewer Lateral Inspection | Brooktrails-1
+top of page
+Brooktrails Township
+About
+The Essence of Brooktrails
+Map of Brooktrails
+Historical Photo Album
+1939 Southern Pacific Railroad Brochure
+Events
+Admin
+Township Administration
+Township Policy Manual
+Township Ordinances
+Township Enterprise Systems
+Employment With Brooktrails
+Board and Meetings
+Township Board
+Fire Department
+About Brooktrails Fire Dept
+Wildfire Preparedness & Evacuation
+Links
+Other Emergency Services
+Water & Sewer
+Application for Sewer Lateral Inspection
+Brooktrails Water System
+Water Conservation Links
+Parks & Recreation
+Brooktrails Golf Course
+Recreation Greenbelt & Conservation Cmte
+Trail Maintenance Request Form
+Community Center Rental Application
+Ohl Redwood Grove Rental Application
+Brooktrails Hiking Trail Map
+Trail Locations on GoogleMaps
+Redwood Park
+Map of Redwood Park
+Redwood Park Greenbelt Stewardship Plan
+Ordinance 63 (Establishing Redwood Park)
+Planning & Design
+Building Permits
+Development Review Process
+Development Standards & Process PDF
+Design Review Application Packet
+Water Meter Construction Application
+Chapter 20.232 (Development Review)
+Ordinance 121 (Sewer Backflow Device)
+Ordinance 112 (Construction Meters)
+Contact
+More
+Use tab to navigate through the menu items.
+Sewer Lateral Inspections are required when home owners or tenants move to a residence that has not received an inspection within the last five years. Home owners should check with our office before moving or changing renters to find out when the last sewer lateral inspection was completed at their address.
+An
+application for sewer lateral inspection
+is available by clicking on the icon to the left.
+© 2019-2026 Brooktrails Township.
+Originally Designed & Developed by Go West.
+bottom of page
+```
+
+## Brooktrails Water System | Brooktrails Township
+
+Source: https://www.btcsd.org/brooktrails-water-sewer-system
+
+```text
+Brooktrails Water System | Brooktrails Township
+top of page
+Brooktrails Township
+About
+The Essence of Brooktrails
+Map of Brooktrails
+Historical Photo Album
+1939 Southern Pacific Railroad Brochure
+Events
+Admin
+Township Administration
+Township Policy Manual
+Township Ordinances
+Township Enterprise Systems
+Employment With Brooktrails
+Board and Meetings
+Township Board
+Fire Department
+About Brooktrails Fire Dept
+Wildfire Preparedness & Evacuation
+Links
+Other Emergency Services
+Water & Sewer
+Application for Sewer Lateral Inspection
+Brooktrails Water System
+Water Conservation Links
+Parks & Recreation
+Brooktrails Golf Course
+Recreation Greenbelt & Conservation Cmte
+Trail Maintenance Request Form
+Community Center Rental Application
+Ohl Redwood Grove Rental Application
+Brooktrails Hiking Trail Map
+Trail Locations on GoogleMaps
+Redwood Park
+Map of Redwood Park
+Redwood Park Greenbelt Stewardship Plan
+Ordinance 63 (Establishing Redwood Park)
+Planning & Design
+Building Permits
+Development Review Process
+Development Standards & Process PDF
+Design Review Application Packet
+Water Meter Construction Application
+Chapter 20.232 (Development Review)
+Ordinance 121 (Sewer Backflow Device)
+Ordinance 112 (Construction Meters)
+Contact
+More
+Use tab to navigate through the menu items.
+Our Water System
+Contact Us
+For water and sewer rates, click
+here
+.
+Brooktrails water source is comprised of two reservoirs totaling 400 acre feet on Willits Creek and a tributary. Lake Emily feeds Lake Ada Rose before transfer to the Water Treatment Plant.
+​
+Lake Emily
+Lake Ada Rose
+Brooktrails water system (the "System") facilities include a water treatment plant with the design capacity of 1.2 million gallons per day (MGD), 60 miles of water mains, 24 water tanks with 1.7 million gallons of storage and 18 pump stations. The average daily demand on the System is 240,000 gallons per day. As you might expect, with 60 miles of water mains we frequently do maintenance and repairs. See our
+Facebook
+page for notifications of repair and maintenance work that may affect water service.
+​
+Water System and Tank Locations Map
+The Township regularly gathers water samples throughout the 60 miles of water distribution system. Those samples are tested for:
+​
+Microbial contaminants, such as viruses and bacteria, that may come from sewage treatment plants, septic systems, agricultural livestock operations, and wildlife.
+Inorganic contaminants, such as salts and metals, that can be naturally-occurring or result from urban stormwater runoff, industrial or domestic wastewater discharges, oil and gas production, mining, or farming.
+Pesticides and herbicides, that may come from a variety of sources such as agriculture, urban stormwater runoff, and residential uses.
+Organic chemical contaminants, including synthetic and volatile organic chemicals, that are by-products of industrial processes and petroleum production, and can also come from gas stations, urban stormwater runoff, agricultural application, and septic systems.
+Radioactive contaminants, that can be naturally-occurring or be the result of oil and gas production and mining
+activities.
+​
+You can review or download our annual
+Consumer Confidence Report
+which contains test results and related information.
+The Brooktrails Township limits water use by each Brooktrails water customer to 9,000 gallons per month.
+To help our community save water, visit
+our links to useful water conservation information
+.
+​
+Because of the impact of the statewide drought on the Eel River, on June 30, 2014, the State Water Resources Control Board (SWRCB) issued a Curtailment Order affecting Post-1914 Water Right Holders which includes Brooktrails. That order was lifted October 24, 2014, but we need to stay vigilant about maintaining water use below the established monthly cap in the Ordinance.
+On October 17, 2014, an order establishing a moratorium on new water connections was issued by the SWRCB to all the municipal water providers around the Little Lake Valley including the Brooktrails Township, the City of Willits, and Pine Mountain Mutual Water Company. Copies of the orders may be downloaded from the
+SWRCB web site
+which indicates an additional 19 other water systems around the state received such orders at that time.
+The order was lifted and the Township currently has 21 water service connections available. For information
+contact us
+.
+​
+For irrigation purposes only, permits for rainwater collection and storage tanks can be obtained.
+Download here a sample plan prepared by the District Architect containing installation suggestions
+. For information
+contact us
+.
+Water Supply Items
+Water Supply Enhancement
+In December 2013, the Township Board initiated water conservation measures as Township policy. At the present time, the Township is relying upon mandatory water conservation as described above. Some residents have installed rainwater collection and storage tanks. But these measures do not constitute a desirable a long-term solution. So also in December 2013 Township officials at the direction of the Township Board began working with State officials to develop a water supply enhancement project.
+​
+The
+State Water Resources Control Board
+- Division of Drinking Water has accepted the Township's request for funding for ground water exploration and possible development of one or more wells should the exploration phase locate sites that could be developed.
+Phase one of the project has been funded through a grant from the public water system drought emergency response program in the amount of $60,000. Should phase one of the project yield positive results the Division has advised the Township that it would fund phase two of the project.
+​
+The obvious objective of enhancing our water supply is to supplement the surface water supply collected in Lake Emily and Lake Ada Rose. The source of that surface water supply is Willits Creek surface water flow, part of the Eel River watershed. As noted above, the extended drought in 2013-14 resulted in unusually low flows in the Eel River creating a "sharing" problem between the many community and agricultural users and between human uses and the needs of fish and wildlife within the watershed. As described above a water emergency has been declared, the State has found it necessary to issue orders with regard to water rights on the Eel River, and it appears that this situation may continue.
+One suggestion is that Brooktrails obtain groundwater from wells in the Little Lake Valley, either directly or from the City of Willits. That may be the only long-term solution to securing a water supply sufficient to support buildout in our community. It would be very expensive to construct a pumping station, storage tanks, and pipelines to implement that solution. Pumping that water up to Brooktrails would require significant use of electricity at a significant cost.
+Historically, springs have fed Willits Creek in the summer in significantly varying flows. Anecdotal information indicates that in the 1930's many springs temporarily dried up and after the 1944 wildfire some dried up and never came back. In terms of a more immediate need to supplement our surface water supply, it may be possible to tap the sources of springs within the Brooktrails area of the Township. Finding that groundwater in adequate, reliable quantities is complicated within California's Coast Range.
+​
+Within the Coast Range groundwater usually occurs in two main forms. Unconfined groundwater occurs generally in valleys such as the Little Lake Valley, where the flow of subterranean water is not narrowly confined by the presence of relatively impermeable layers.
+The presence of an impermeable layer beneath groundwater can cause the formation of a perched water table, frequently elevated some distance above the surface's main water table. Springs that flow from underground to the Earth's surface are often formed when a perched water table intersects the surface.
+The study might locate a large perched aquifer. But as noted above in our region these sources are unreliable as they can dry up in droughts. If the study determines that the main aquifer adequately extends under a portion of Brooktrails, a deep well likely will be drilled.
+​
+In an October 2014 Township Board meeting Township Manager Denise Rose presented a
+staff report providing a full explanation of the project
+along with cost information regarding an intertie with the City of Willits. At its February 24, 2015, meeting the Board received from Manager Rose a
+report providing an update on State funding for the project
+.
+Further updates will be posted here as soon as the monies become available and phase one begins. In the meantime many may find the
+1987 Department of Water Resources groundwater study
+describing the Little Lake Valley geology, groundwater, and groundwater quality conditions prepared for the City of Willits interesting and informative.
+Rain on Demand
+In another development, in December 2014 Township officials were approached regarding a possible rainfall-by-ionization pilot program.
+In January the Township Board requested staff to arrange for a presentation at a future meeting.
+You can learn more about this proposed pilot project from the January 23, 2015
+staff report which includes a PowerPoint presentation and two news articles
+regarding the installations elsewhere.
+Water Supply Enhancement
+Rain on Demand
+© 2019-2026 Brooktrails Township.
+Originally Designed & Developed by Go West.
+bottom of page
+```
+
+## Water & Sewer | Brooktrails Township
+
+Source: https://www.btcsd.org/water-conservation-links
+
+```text
+Water & Sewer | Brooktrails Township
+top of page
+Brooktrails Township
+About
+The Essence of Brooktrails
+Map of Brooktrails
+Historical Photo Album
+1939 Southern Pacific Railroad Brochure
+Events
+Admin
+Township Administration
+Township Policy Manual
+Township Ordinances
+Township Enterprise Systems
+Employment With Brooktrails
+Board and Meetings
+Township Board
+Fire Department
+About Brooktrails Fire Dept
+Wildfire Preparedness & Evacuation
+Links
+Other Emergency Services
+Water & Sewer
+Application for Sewer Lateral Inspection
+Brooktrails Water System
+Water Conservation Links
+Parks & Recreation
+Brooktrails Golf Course
+Recreation Greenbelt & Conservation Cmte
+Trail Maintenance Request Form
+Community Center Rental Application
+Ohl Redwood Grove Rental Application
+Brooktrails Hiking Trail Map
+Trail Locations on GoogleMaps
+Redwood Park
+Map of Redwood Park
+Redwood Park Greenbelt Stewardship Plan
+Ordinance 63 (Establishing Redwood Park)
+Planning & Design
+Building Permits
+Development Review Process
+Development Standards & Process PDF
+Design Review Application Packet
+Water Meter Construction Application
+Chapter 20.232 (Development Review)
+Ordinance 121 (Sewer Backflow Device)
+Ordinance 112 (Construction Meters)
+Contact
+More
+Use tab to navigate through the menu items.
+Water Conservation
+Contact Us
+With power outages expected during high heat and winds, we ask our customers to "Save Water when the Power Goes Out". We rely on electricity to pumps that fill storage tanks for delivering water to customers. When the power goes out, water conservation is key to providing water for up to several days on generator power. Please help yourself, your neighbors and the Township during outages by using less water until electricity is restored.
+Every water customer is now subject to a 9,000 gallon-per-month water usage limit. You can read your own water meter to see how many cubic feet you use by following
+the water meter reading instructions at this web site
+.
+Follow the easy tips on how to save water on the
+Save Our Water
+web page.
+For specific recommendations for water saving possibilities for each room and plumbing fixture in your home, visit this California Urban Water Conservation Council
+website:
+​
+The Alliance for Water Efficiency has a
+website
+that offers extensive information on the efficient use and conservation of water including a use calculator:
+​
+Here are additional links to help you save water:
+​
+Indoor/Outdoor
+​
+Alliance for Water Efficiency Resource Library
+EPA WaterSense
+​
+Indoors
+​
+Toiletology 101
+Plumbing Care and Repair Handbook
+Outdoors
+​
+Water Wise Gardening
+How to Set Your Irrigation Clock How to Set Your Irrigation Clock
+(how-to videos from the Southern Nevada Water Authority)
+Mendocino Coast Botanical Gardens
+CA Native Plant Society
+Daily Water Budget Model
+​
+Rainwater & Graywater
+​
+10,000 Rain Gardens Project
+American Rainwater Catchment Systems Association
+Greywater Alliance
+​
+Pools & Spas
+​
+Water Conservation Tips for Pools & Spas
+​
+Professionals
+​
+Qualified Water Efficient Landscaper
+Irrigation Association
+Irrigation Training and Resource Center
+Wateright Tutorials
+Water Use Classification of Landscape Species (WUCOLS)
+Irrigation & Green Industry Newsletter
+California Irrigation Management Information System (CIMIS)
+California Landscape Contractors Association Water Management Certification Program
+© 2019-2026 Brooktrails Township.
+Originally Designed & Developed by Go West.
+bottom of page
+```
+
+## Recreation Greenbelt & Conservation Cmte | Brooktrails-1
+
+Source: https://www.btcsd.org/recreation-greenbelt-conservation-c
+
+```text
+Recreation Greenbelt & Conservation Cmte | Brooktrails-1
+top of page
+Brooktrails Township
+About
+The Essence of Brooktrails
+Map of Brooktrails
+Historical Photo Album
+1939 Southern Pacific Railroad Brochure
+Events
+Admin
+Township Administration
+Township Policy Manual
+Township Ordinances
+Township Enterprise Systems
+Employment With Brooktrails
+Board and Meetings
+Township Board
+Fire Department
+About Brooktrails Fire Dept
+Wildfire Preparedness & Evacuation
+Links
+Other Emergency Services
+Water & Sewer
+Application for Sewer Lateral Inspection
+Brooktrails Water System
+Water Conservation Links
+Parks & Recreation
+Brooktrails Golf Course
+Recreation Greenbelt & Conservation Cmte
+Trail Maintenance Request Form
+Community Center Rental Application
+Ohl Redwood Grove Rental Application
+Brooktrails Hiking Trail Map
+Trail Locations on GoogleMaps
+Redwood Park
+Map of Redwood Park
+Redwood Park Greenbelt Stewardship Plan
+Ordinance 63 (Establishing Redwood Park)
+Planning & Design
+Building Permits
+Development Review Process
+Development Standards & Process PDF
+Design Review Application Packet
+Water Meter Construction Application
+Chapter 20.232 (Development Review)
+Ordinance 121 (Sewer Backflow Device)
+Ordinance 112 (Construction Meters)
+Contact
+More
+Use tab to navigate through the menu items.
+Recreation, Greenbelt and Conservation Committee
+The Recreation, Greenbelt and Conservation Committee meets on the third Thursday of every other month at 7:00 p.m. in the Brooktrails Community Center.
+Most Recent Agenda & Minutes
+Committee Charter
+The
+Willits Area Cyclists
+have partnered with the District to be trail stewards for the community. Whether it is an organized Trail Day for maintenance or building new trails, WAC is dialed in to the needs of our extensive trail system. To report maintenance issues, please use the link below:
+​
+Trail Maintenance Request Form
+© 2019-2026 Brooktrails Township.
+Originally Designed & Developed by Go West.
+bottom of page
+```
+
+## Redwood Park | Brooktrails-1
+
+Source: https://www.btcsd.org/brooktrails-redwood-park
+
+```text
+Redwood Park | Brooktrails-1
+top of page
+Brooktrails Township
+About
+The Essence of Brooktrails
+Map of Brooktrails
+Historical Photo Album
+1939 Southern Pacific Railroad Brochure
+Events
+Admin
+Township Administration
+Township Policy Manual
+Township Ordinances
+Township Enterprise Systems
+Employment With Brooktrails
+Board and Meetings
+Township Board
+Fire Department
+About Brooktrails Fire Dept
+Wildfire Preparedness & Evacuation
+Links
+Other Emergency Services
+Water & Sewer
+Application for Sewer Lateral Inspection
+Brooktrails Water System
+Water Conservation Links
+Parks & Recreation
+Brooktrails Golf Course
+Recreation Greenbelt & Conservation Cmte
+Trail Maintenance Request Form
+Community Center Rental Application
+Ohl Redwood Grove Rental Application
+Brooktrails Hiking Trail Map
+Trail Locations on GoogleMaps
+Redwood Park
+Map of Redwood Park
+Redwood Park Greenbelt Stewardship Plan
+Ordinance 63 (Establishing Redwood Park)
+Planning & Design
+Building Permits
+Development Review Process
+Development Standards & Process PDF
+Design Review Application Packet
+Water Meter Construction Application
+Chapter 20.232 (Development Review)
+Ordinance 121 (Sewer Backflow Device)
+Ordinance 112 (Construction Meters)
+Contact
+More
+Use tab to navigate through the menu items.
+Brooktrails Redwood Park
+Contact Us
+Of significance to anyone considering a home in Brooktrails is understanding the expressed intent of the developer of the Brooktrails Vacation Village and how the Brooktrails Township continues that intent.
+Located approximately three miles west of the City of Willits, California, and about 20 miles from the coastal community of Fort Bragg, Brooktrails offers residents an environment within a second growth mixed redwood forest where you can see the stars at night and breathe clean air while enjoying relatively inexpensive housing.
+Key to assuring the continuation of that environment was the dedication by the developer of approximately 2,500 acres to the Brooktrails Resort Improvement District (now known as the Brooktrails Township Community Services District) to be preserved as a conservation area. This land is Brooktrails Redwood Park, some of which is available for recreation and some is considered greenbelt. The promise of this dedication was discussed extensively in newspaper articles of the time. The full extent of the dedication can be seen in our
+shaded Google map
+.
+For complete copies of the newspaper articles,
+click here
+.
+On June 23, 1988, the Township Board of Directors adopted
+Ordinance 63
+formally establishing Brooktrails Redwood Park pursuant to State Law. On November 17, 1988, the Township Board of Directors adopted
+Ordinance 68
+adopting a Master Plan for Brooktrails Redwood Park. That plan divided the Park into three classes:
+​
+Active use areas;
+Neighborhood use areas;
+Passive use areas.
+​
+Following the completion of a
+Brooktrails Greenbelt Forest Management Plan
+in December 2004 which was not adopted by the Board of Directors, in the period of 2006-2013 the Recreation, Greenbelt & Conservation Committee prepared a Greenbelt Stewardship Plan which was adopted by the Board of Directors by
+Resolution 2013-14
+.
+© 2019-2026 Brooktrails Township.
+Originally Designed & Developed by Go West.
+bottom of page
+```
+
+## Map of Redwood Park | Brooktrails-1
+
+Source: https://www.btcsd.org/map-of-redwood-park
+
+```text
+Map of Redwood Park | Brooktrails-1
+top of page
+Brooktrails Township
+About
+The Essence of Brooktrails
+Map of Brooktrails
+Historical Photo Album
+1939 Southern Pacific Railroad Brochure
+Events
+Admin
+Township Administration
+Township Policy Manual
+Township Ordinances
+Township Enterprise Systems
+Employment With Brooktrails
+Board and Meetings
+Township Board
+Fire Department
+About Brooktrails Fire Dept
+Wildfire Preparedness & Evacuation
+Links
+Other Emergency Services
+Water & Sewer
+Application for Sewer Lateral Inspection
+Brooktrails Water System
+Water Conservation Links
+Parks & Recreation
+Brooktrails Golf Course
+Recreation Greenbelt & Conservation Cmte
+Trail Maintenance Request Form
+Community Center Rental Application
+Ohl Redwood Grove Rental Application
+Brooktrails Hiking Trail Map
+Trail Locations on GoogleMaps
+Redwood Park
+Map of Redwood Park
+Redwood Park Greenbelt Stewardship Plan
+Ordinance 63 (Establishing Redwood Park)
+Planning & Design
+Building Permits
+Development Review Process
+Development Standards & Process PDF
+Design Review Application Packet
+Water Meter Construction Application
+Chapter 20.232 (Development Review)
+Ordinance 121 (Sewer Backflow Device)
+Ordinance 112 (Construction Meters)
+Contact
+More
+Use tab to navigate through the menu items.
+Map of Redwood Park
+Contact Us
+© 2019-2026 Brooktrails Township.
+Originally Designed & Developed by Go West.
+bottom of page
+```
+
+## Ordinance 63 (Establishing Redwood Park) | Brooktrails-1
+
+Source: https://www.btcsd.org/ordinance-63
+
+```text
+Ordinance 63 (Establishing Redwood Park) | Brooktrails-1
+top of page
+Brooktrails Township
+About
+The Essence of Brooktrails
+Map of Brooktrails
+Historical Photo Album
+1939 Southern Pacific Railroad Brochure
+Events
+Admin
+Township Administration
+Township Policy Manual
+Township Ordinances
+Township Enterprise Systems
+Employment With Brooktrails
+Board and Meetings
+Township Board
+Fire Department
+About Brooktrails Fire Dept
+Wildfire Preparedness & Evacuation
+Links
+Other Emergency Services
+Water & Sewer
+Application for Sewer Lateral Inspection
+Brooktrails Water System
+Water Conservation Links
+Parks & Recreation
+Brooktrails Golf Course
+Recreation Greenbelt & Conservation Cmte
+Trail Maintenance Request Form
+Community Center Rental Application
+Ohl Redwood Grove Rental Application
+Brooktrails Hiking Trail Map
+Trail Locations on GoogleMaps
+Redwood Park
+Map of Redwood Park
+Redwood Park Greenbelt Stewardship Plan
+Ordinance 63 (Establishing Redwood Park)
+Planning & Design
+Building Permits
+Development Review Process
+Development Standards & Process PDF
+Design Review Application Packet
+Water Meter Construction Application
+Chapter 20.232 (Development Review)
+Ordinance 121 (Sewer Backflow Device)
+Ordinance 112 (Construction Meters)
+Contact
+More
+Use tab to navigate through the menu items.
+ORDINANCE 63: Establishing Brooktrails Redwood Park, Providing for and Restricting the Use Thereof and Providing for the Adoption of Regulations Governing the Use of the Park
+Contact Us
+WHEREAS, on November 13, 1962, the voters of the area generally known as "Brooktrails" unanimously voted to
+create the "Brooktrails Resort Improvement District"; and,
+WHEREAS, under the Public Resources Code of the State of California and Resolution No. 63-111 of the Board of Supervisors of the County of Mendocino certain powers were granted to said District to be exercised by its Board of Directors; and,
+WHEREAS, said powers included, among others, the provision of "public recreation by means of parks, including, but not limited to, aquatic parks and recreational harbors, playgrounds, golf courses, swimming pools, or recreation buildings for all-year recreation, including, but not limited to, facilities for public and private meetings, and other public squares and places"; and,
+WHEREAS, on August 17, 1966, Sheet 1 (of a total of 124 sheets) of Tract 86, Brooktrails Vacation Village Subdivision, was recorded which dedicated over 2,000 acres to the Brooktrails Resort Improvement District to be used "for all purposes as prescribed in Section 13070 of the Public Resources Code"; and,
+WHEREAS, said acreage was accepted by said District by Resolution No. 53 on August 1, 1966, on behalf of the owners of lots in said subdivision to be held and maintained as a public trust to the benefit of future; and,
+WHEREAS, the Final Subdivision Public Report on said subdivision provided for the reference of sections of the subdivision as "Brooktrails Redwood Park" and made reference to bonds and financing for the improvements of the golf course and recreational facilities, including a maintenance district therefore; and,
+WHEREAS, on October 24, 1967, the Brooktrails Maintenance District was created by the Board of Directors of the Brooktrails Resort Improvement District for the purposes of financing "the expenses of maintaining and operating" certain specific improvements related to said dedicated land and "all other improvements of a local nature which have been or may hereafter be acquired or constructed in the Maintenance District"; and,
+WHEREAS, on November 4, 1975, the voters of the Brooktrails Resort Improvement District approved the ,.· reorganization of the Improvement District into the Brooktrails Community Services District (BCSD); and,
+WHEREAS, said reorganization provided that BCSD "shall succeed to all of the powers, rights, duties, obligations, functions and properties" of the Improvement District; and,
+WHEREAS, said ballot measure specifically authorized BCSD to exercise the power of "public recreation by means of parks, including, but not limited to, aquatic parks and recreational harbors, playgrounds, golf courses, swimming pools or recreational buildings" as provided in Section 61600 of the Government Code1 and,
+WHEREAS, the Final Subdivision Public Report for that area within the boundaries of BCSD known as Spring Creek Parcel Subdivision specifically noted that the BCSD provides such services as "water distribution, sewage collection and treatment, fire protection, golf course management and maintenance, fish and game control, etc." for which various assessments were to be collected; and,
+WHEREAS, the underlying philosophy for the use of the acreage dedicated to the Improvement District and now under the ownership, control and management of the BCSD can be defined as the "hyleopolis", as follows:
+(a) said acreage constitutes a major part of the watershed of the District which is to be primarily a conservation area to be protected from the significant impacts of development and human activity.
+(b) said acreage is considered to be a physical extension of the smaller, suburban type lots found nearby and adjacent thereto within the Brooktrails
+area, directly benefitting those properties and the owners thereof who have direct access to the acreage.
+(c) said acreage is to be an interface between the natural environment and the residents who benefit directly therefrom and was to be protected, planned, and used in a manner to avoid a direct encroachment
+impact on nearby private property because of general public use,
+(d) portion of said acreage located in the southeastern area thereof and the areas intended for golf course use were to be developed for active recreation activities to the benefit of property owners, residents, and the general public; and,
+WHEREAS, the Board of Directors of the Brooktrails Community Services District wishes to reaffirm the utility-service nature of conservation and recreation in the District as originally envisioned; and
+NOW, THEREFORE, BE IT ORDAINED BY THE BOARD OF DIRECTORS OF THE BROOKTRAILS COMMUNITY SERVICES DISTRICT AS FOLLOWS:
+Section 1. The Brooktrails Redwood Park. Those dedicated lands accepted by Resolution No. 53 of the Brooktrails Resort Improvement District and all lands subsequently dedicated or acquired by the District, as indicated in Exhibit A attached hereto, and all lands acquired by the Brooktrails Community Services District, are hereby declared to be the Brooktrails Redwood Park, hereinafter referred to as "Park".
+Section 2. Purpose and Use of Park.
+(a) The Park constitutes much of the watershed of the District and, as such, is a facility incidental to the water system of the District.
+(b) The District shall not use Park for any purposes other than those enumerated in Section 13070 of the Public Resources Code of the State of California as provided in the original dedication of the land in the Park.
+(c) The primary public purpose of the Park is hereby declared to be for the protection, conservation, and management of the trees, other vegetation and wildlife therein, in order to retain and create a natural environment readily available for the passive enjoyment of the property owners and residents of the District.
+(d) General public use for active recreation shall be pursuant to a master plan for such use in the Park adopted or amended by ordinance of the Board of Directors of the District following a public hearing.
+Section 3. Regulations Governing the Use of Park. The Board of Directors of the District may adopt by ordinance regulations binding upon all persons to govern the use of the Park as provided in Section 61621.5 of the Government Code, the violation of which is a misdemeanor.
+​
+* * * * * *
+CERTIFICATION
+I hereby certify that the foregoing is a full, true and correct copy of an Ordinance duly and regularly passed by the Board of Directors of Brooktrails Community Services District at a regular meeting thereof duly held on the 23rd day of June , 1988 by the following vote:
+AYES: Directors: Stephens, Bothwell, VanDer Wende, Nicholas, Orth
+NOES: Directors: None
+ABSENT: Directors: None
+© 2019-2026 Brooktrails Township.
+Originally Designed & Developed by Go West.
+bottom of page
+```
+
+## Planning & Design | Brooktrails-1
+
+Source: https://www.btcsd.org/planning-design
+
+```text
+Planning & Design | Brooktrails-1
+top of page
+Brooktrails Township
+About
+The Essence of Brooktrails
+Map of Brooktrails
+Historical Photo Album
+1939 Southern Pacific Railroad Brochure
+Events
+Admin
+Township Administration
+Township Policy Manual
+Township Ordinances
+Township Enterprise Systems
+Employment With Brooktrails
+Board and Meetings
+Township Board
+Fire Department
+About Brooktrails Fire Dept
+Wildfire Preparedness & Evacuation
+Links
+Other Emergency Services
+Water & Sewer
+Application for Sewer Lateral Inspection
+Brooktrails Water System
+Water Conservation Links
+Parks & Recreation
+Brooktrails Golf Course
+Recreation Greenbelt & Conservation Cmte
+Trail Maintenance Request Form
+Community Center Rental Application
+Ohl Redwood Grove Rental Application
+Brooktrails Hiking Trail Map
+Trail Locations on GoogleMaps
+Redwood Park
+Map of Redwood Park
+Redwood Park Greenbelt Stewardship Plan
+Ordinance 63 (Establishing Redwood Park)
+Planning & Design
+Building Permits
+Development Review Process
+Development Standards & Process PDF
+Design Review Application Packet
+Water Meter Construction Application
+Chapter 20.232 (Development Review)
+Ordinance 121 (Sewer Backflow Device)
+Ordinance 112 (Construction Meters)
+Contact
+More
+Use tab to navigate through the menu items.
+Brooktrails Planning & Design
+Contact Us
+Faced with a 1988 challenge to its water rights by the State Water Resources Control Board based on questions about planning for future growth, the Township obtained special legislation to allow it to develop a new plan for the community working in conjunction with the County of Mendocino. (In 2006 that special provision became a part of the powers available to all Community Services Districts.)
+Today the Township jointly administers with the County the provisions of
+The Brooktrails Specific Plan
+and its
+2004 Amendments
+. Persons interested in building in Brooktrails should review the
+development standards and review process
+.
+One critical element of the planned growth in the Township is the construction of a second access road. In 2009 a
+presentation on the alternative routes
+was made. By 2013 it was clear that funding was not available for additional planning as can be seen from this 2013
+Willits News article
+.
+© 2019-2026 Brooktrails Township.
+Originally Designed & Developed by Go West.
+bottom of page
+```
+
+## Development Review Process | Brooktrails-1
+
+Source: https://www.btcsd.org/development-review-process
+
+```text
+Development Review Process | Brooktrails-1
+top of page
+Brooktrails Township
+About
+The Essence of Brooktrails
+Map of Brooktrails
+Historical Photo Album
+1939 Southern Pacific Railroad Brochure
+Events
+Admin
+Township Administration
+Township Policy Manual
+Township Ordinances
+Township Enterprise Systems
+Employment With Brooktrails
+Board and Meetings
+Township Board
+Fire Department
+About Brooktrails Fire Dept
+Wildfire Preparedness & Evacuation
+Links
+Other Emergency Services
+Water & Sewer
+Application for Sewer Lateral Inspection
+Brooktrails Water System
+Water Conservation Links
+Parks & Recreation
+Brooktrails Golf Course
+Recreation Greenbelt & Conservation Cmte
+Trail Maintenance Request Form
+Community Center Rental Application
+Ohl Redwood Grove Rental Application
+Brooktrails Hiking Trail Map
+Trail Locations on GoogleMaps
+Redwood Park
+Map of Redwood Park
+Redwood Park Greenbelt Stewardship Plan
+Ordinance 63 (Establishing Redwood Park)
+Planning & Design
+Building Permits
+Development Review Process
+Development Standards & Process PDF
+Design Review Application Packet
+Water Meter Construction Application
+Chapter 20.232 (Development Review)
+Ordinance 121 (Sewer Backflow Device)
+Ordinance 112 (Construction Meters)
+Contact
+More
+Use tab to navigate through the menu items.
+The Development Review Process for the Brooktrails Township
+Contact Us
+Properties in the Brooktrails Township, generally known as Brooktrails (the southern portion of the map below) is subject to development review standards and a development review process consistent with the
+Brooktrails Specific Plan adopted by the County of Mendocino
+.
+Prior to any grading, tree cutting or construction, a proposed development plan must be approved by the Township and by
+Mendocino County Planning & Building Services
+. Township staff (and District Architect as required) will be evaluating your proposal based on development review standards.
+Use the following links to obtain more information or
+contact the Township Office
+.
+​
+Downloadable Packet Explaining the Development Standards and Process in Brooktrails Township
+Downloadable Design Review Application Packet
+Downloadable Application Form for Water Meter for Construction
+Chapter 20.232 of the Mendocino County Code providing for A Development Review Process for the Brooktrails Township
+Ordinance No. 121 Requiring the Installation of a Sewer Backflow Prevention Device
+Ordinance No. 112 Providing for Construction Meters
+© 2019-2026 Brooktrails Township.
+Originally Designed & Developed by Go West.
+bottom of page
+```
+
+## Chapter 20.232 (Development Review) | Brooktrails-1
+
+Source: https://www.btcsd.org/copy-of-development-review-process
+
+```text
+Chapter 20.232 (Development Review) | Brooktrails-1
+top of page
+Brooktrails Township
+About
+The Essence of Brooktrails
+Map of Brooktrails
+Historical Photo Album
+1939 Southern Pacific Railroad Brochure
+Events
+Admin
+Township Administration
+Township Policy Manual
+Township Ordinances
+Township Enterprise Systems
+Employment With Brooktrails
+Board and Meetings
+Township Board
+Fire Department
+About Brooktrails Fire Dept
+Wildfire Preparedness & Evacuation
+Links
+Other Emergency Services
+Water & Sewer
+Application for Sewer Lateral Inspection
+Brooktrails Water System
+Water Conservation Links
+Parks & Recreation
+Brooktrails Golf Course
+Recreation Greenbelt & Conservation Cmte
+Trail Maintenance Request Form
+Community Center Rental Application
+Ohl Redwood Grove Rental Application
+Brooktrails Hiking Trail Map
+Trail Locations on GoogleMaps
+Redwood Park
+Map of Redwood Park
+Redwood Park Greenbelt Stewardship Plan
+Ordinance 63 (Establishing Redwood Park)
+Planning & Design
+Building Permits
+Development Review Process
+Development Standards & Process PDF
+Design Review Application Packet
+Water Meter Construction Application
+Chapter 20.232 (Development Review)
+Ordinance 121 (Sewer Backflow Device)
+Ordinance 112 (Construction Meters)
+Contact
+More
+Use tab to navigate through the menu items.
+CHAPTER 20.232 DEVELOPMENT REVIEW PROCESS FOR
+THE BROOKTRAILS TOWNSHIP
+Contact Us
+Sec.20.232.010 Purpose.
+The Board of Supervisors of the County of Mendocino finds and declares that development conditions are unique in Brooktrails Township Community Services District where the mixture of small parcel sizes and steep wooded terrain results in the need for intensive development review.
+It further finds that, in connection with the adoption of the Brooktrails Specific Plan, the Brooktrails Township Board of Directors is authorized to provide development review consistent with the adopted Specific Plan. (Ord. No. 3885 (part), adopted 1994; Ord. No. 3898 (part), adopted 1994; Ord. No. 3959 (part), adopted 1997; Ord. No. 3986 (part), adopted 1997)
+Sec. 20.232.015 Designation of Area.
+There is hereby established a Special Review District process in the territory of Brooktrails Township Community Services District, excepting and excluding (1) those lands located within that portion of the District generally referred to as "Spring Creek" (all territory shown on Parcel Map 1-76 recorded in the office of the Mendocino County Recorder, Map Case 2, Drawer 29, Page 87), and "Sylvandale" (all territory shown on Parcel Map 1-73 recorded in the office of the Mendocino County Recorder, Map Case 2, Drawer 22, Page 15) and (2) lands designated "Forestland" per the County's General Plan and for which a timber harvest plan has been approved by the State. (Ord. No. 3885 (part), adopted 1994; Ord. No. 3898 (part), adopted 1994; Ord. No. 3959 (part), adopted 1997)
+Sec. 20.232.020 Definitions.
+(A)
+Architectural Review Commission.All references to "Architectural Review Commission" shall be to the Brooktrails Architectural Review Commission ("BARC") appointed by the Board of Directors of Brooktrails Township Community Services District pursuant to District Ordinance Number 60 to hear appeals by an applicant aggrieved by any decision made by the District Architect.
+(B)
+Development Review Board.All references to the "Development Review Board" shall be to the Board of Directors of Brooktrails Township Community Services District which shall be responsible for causing development review of all new construction and further acting as an appeals board for discretionary appeals from decisions of the Brooktrails Architectural Review Commission.
+(C)
+District Architect.All references to the "District Architect" shall be to the office of District Architect as created by Article 2 of Brooktrails Township Ordinance Number 60.
+(D)
+District. All references to "District" shall be to the territory of Brooktrails Township Community Services District, excepting and excluding Spring Creek and Sylvandale.
+(E)
+New Construction.All references to "new construction" shall be to the clearing or grading of a parcel, and construction which requires the issuance of a building permit relating to something other than interior alterations of an existing structure.
+(F)
+Person. All references to "person" shall include any person, firm, association, organization, partnership, business trust, corporation or company. (Ord. No. 3885 (part), adopted 1994; Ord. No. 3898 (part), adopted 1994; Ord. No. 3959 (part), adopted 1997)
+Sec. 20.232.025 Establishment of Development Review Board.
+There is hereby established a Development Review Board whose function and duty shall be to cause the review of all applications for new construction in the District. The Development Review Board may delegate the review of such applications to the District Architect. (Ord. No. 3885 (part), adopted 1994; Ord. No. 3898 (part), adopted 1994; Ord. No. 3959 (part), adopted 1997)
+Sec. 20.232.030 Work in District Requiring Approval.
+None of the following work shall be commenced or continued within the District, nor shall any building or other permit necessary for such work be issued without prior approval of the Development Review Board.
+(A)
+Construction of any structure where such work requires the issuance of a building permit relating to something other than interior alterations of an existing structure;
+(B)
+Removal of vegetation where such action involves the removal of trees with a diameter of six (6) inches or more as measured at breast height;
+(C)
+Any excavation of, or deposit of material upon a parcel in such manner as to materially alter the existing contour or condition of the land, including leveling, grading, piling or paving. (Ord. No. 3885 (part), adopted 1994; Ord. No. 3898 (part), adopted 1994; Ord. No. 3959 (part), adopted 1997)
+Sec. 20.232.035 Procedure for Submission to Development Review Board.
+Any person desiring to do or to have done any of the work mentioned in Section 20.232.030 of this Chapter, shall prior to the commencement of such work submit to the Development Review Board a comprehensive site plan, information sufficient for calculation of square footage, an elevation plan and a general list of materials to be used. All proposed and existing structures and other improvements and features shall be shown to scale including where relevant or when required by the Development Review Board or its agents:
+(A)
+Adjoining Features.The location of all adjoining parcels including pavement, curb and sidewalk and for contiguous parcels, the location of principal and accessory buildings, curb cuts and driveways;
+(B)
+Architectural Elevations.The proposed elevations including exterior materials to be used, showing all sides of the development. If the exterior of an existing building is to be changed or enlarged, the proposed and existing elevations of the buildings and additions shall be shown.
+(C)
+Parking, Loading and Circulation Plan.All driveways, off-street parking and off-street loading areas, the locations of entrances and exits, and direction of traffic flow ingressing and egressing from off-street parking and off-street loading areas.
+(D)
+Existing Trees.The location, type and approximate size of all trees over six (6) inches in diameter, as measured at breast height, proposed to be removed, which trees shall not be removed unless such removal is approved.
+(E)
+Utilities.The description of any private water supplies and description of any private sewage disposal system.
+(F)
+Additional Information.Any relevant additional information required by the Development Review Board, or its agents. (Ord. No. 3885 (part), adopted 1994; Ord. No. 3898 (part), adopted 1994; Ord. No. 3959 (part), adopted 1997)
+Sec.20.232.040 Standards.
+The design guidelines and site development standards to be used by the Development Review Board in considering applications for approval are detailed in Chapter 10 of the adopted Brooktrails Specific Plan and are incorporated by reference and made part of this Chapter. A current version of the Specific Plan shall be kept on file at all times in the Brooktrails Community Services District office and the Department of Planning and Building Services. (Ord. No. 3885 (part), adopted 1994; Ord. No. 3898 (part), adopted 1994; Ord. No. 3959 (part), adopted 1997; Ord. No. 3986 (part), adopted 1997)
+Sec.20.232.045 Approvals.
+The District Architect shall act upon each application for new construction deemed by him to be complete within ten (10) days of receipt. Upon accepting an application as complete, the District Architect shall certify in writing to the General Manager of the District that all information required by this Chapter has been included in the application. The General Manager shall thereupon cause Notice of Receipt of the Application to be posted upon the subject parcel and posted in the District in the manner other notices are posted. The District Architect shall notify the General Manager of the District in writing of each action taken upon an application, therein specifying the reasons for such action. The decision of the District Architect shall be final unless such decision is appealed to the Brooktrails Architectural Review Commission within ten (10) days from the date that the District Architect notifies the applicant of his decision. (Ord. No. 3885 (part), adopted 1994; Ord. No. 3898 (part), adopted 1994; Ord. No. 3959 (part), adopted 1997)
+Sec.20.232.050 Appeals.
+Any applicant may appeal the decision of the District Architect by delivering a written Notice of Appeal to the General Manager of the District within ten (10) days of the District Architect's decision. Each appeal filed with the General Manager shall be placed upon the agenda of the Architectural Review Commission and set for hearing within thirty-five (35) days after receipt of the Notice of Appeal. (Ord. No. 3885 (part), adopted 1994; Ord. No. 3898 (part), adopted 1994; Ord. No. 3959 (part), adopted 1997)
+Sec. 20.232.055 Conduct of Appeal.
+Appeal hearings shall be noticed in the same manner that the District notices the meetings of its governing body. The initial appeal shall be heard before the Architectural Review Commission. Either the District Architect or the Applicant may appeal the decision of the Architectural Review Commission by giving Notice of Appeal to the General Manager of the District within ten (10) days that the Architectural Review Commission renders its decision. Thereupon the appeal shall be heard and considered by the Board of Directors of the District acting as the Brooktrails Development Review Board and its decision shall be final, unless appealed to the Board of Supervisors in writing and submitted to the Clerk of the Board of Supervisors within ten (10) days of the decision of theBoard of Directors. (Ord. No. 3885 (part), adopted 1994; Ord. No. 3898 (part), adopted 1994; Ord. No. 3959 (part), adopted 1997)
+Sec. 20.232.060 Conduct of Hearings.
+Hearings shall be conducted in the following order:
+(A)
+A staff report shall be presented by the General Manager of the District outlining the issues under consideration.
+(B)
+The applicant shall then be given an opportunity to present a statement amplifying the Notice of Appeal or providing supplemental information. The applicant may appear on his own behalf, by written document, or by representative.
+(C)
+The District Architect shall then state the basis for his decision.
+(D)
+The applicant shall then be offered an opportunity to offer statements in rebuttal.
+(E)
+The matter shall then be opened to input from the public at which time either the District Architect or applicant may participate.
+(F)
+The appeal body shall then deliberate and either (1) defer taking action on the matter and continuing it until the earliest practicable time within thirty-five (35) days; (2) take action by either granting or denying the appeal; or (3) grant the appeal subject to condition or conditions. In any case, the action of the appeal body shall be in writing. (Ord. No. 3885 (part), adopted 1994; Ord. No. 3898 (part), adopted 1994; Ord. No. 3959 (part), adopted 1997)
+Sec.20.232.065 Violations.
+Any new construction made without the approvals required herein is hereby declared a public nuisance.(Ord. No. 3885 (part), adopted 1994; Ord. No. 3898 (part), adopted 1994; Ord. No. 3959 (part), adopted 1997)
+Sec. 20.232.070 Severability
+If any section, paragraph, sentence, clause or phrase of this Chapter is for any reason held to be unconstitutional or invalid or ineffective by any court of competent jurisdiction, such decision shall not affect the validity or effectiveness of the remaining portions of this Chapter.(Ord. No. 3885 (part), adopted 1994; Ord. No. 3898 (part), adopted 1994; Ord. No. 3959 (part), adopted 1997)
+© 2019-2026 Brooktrails Township.
+Originally Designed & Developed by Go West.
+bottom of page
+```
+
+## BTCSD BRD MTG 07222025 | Brooktrails-1
+
+Source: https://www.btcsd.org/brd-mtg-07222025
+
+```text
+BTCSD BRD MTG 07222025 | Brooktrails-1
+top of page
+Brooktrails Township
+About
+The Essence of Brooktrails
+Map of Brooktrails
+Historical Photo Album
+1939 Southern Pacific Railroad Brochure
+Events
+Admin
+Township Administration
+Township Policy Manual
+Township Ordinances
+Township Enterprise Systems
+Employment With Brooktrails
+Board and Meetings
+Township Board
+Fire Department
+About Brooktrails Fire Dept
+Wildfire Preparedness & Evacuation
+Links
+Other Emergency Services
+Water & Sewer
+Application for Sewer Lateral Inspection
+Brooktrails Water System
+Water Conservation Links
+Parks & Recreation
+Brooktrails Golf Course
+Recreation Greenbelt & Conservation Cmte
+Trail Maintenance Request Form
+Community Center Rental Application
+Ohl Redwood Grove Rental Application
+Brooktrails Hiking Trail Map
+Trail Locations on GoogleMaps
+Redwood Park
+Map of Redwood Park
+Redwood Park Greenbelt Stewardship Plan
+Ordinance 63 (Establishing Redwood Park)
+Planning & Design
+Building Permits
+Development Review Process
+Development Standards & Process PDF
+Design Review Application Packet
+Water Meter Construction Application
+Chapter 20.232 (Development Review)
+Ordinance 121 (Sewer Backflow Device)
+Ordinance 112 (Construction Meters)
+Contact
+More
+Use tab to navigate through the menu items.
+© 2019-2026 Brooktrails Township.
+Originally Designed & Developed by Go West.
+bottom of page
+```
+
+## Copy of Township Ordinances | Brooktrails-1
+
+Source: https://www.btcsd.org/copy-of-township-ordinances
+
+```text
+Copy of Township Ordinances | Brooktrails-1
+top of page
+Brooktrails Township
+About
+The Essence of Brooktrails
+Map of Brooktrails
+Historical Photo Album
+1939 Southern Pacific Railroad Brochure
+Events
+Admin
+Township Administration
+Township Policy Manual
+Township Ordinances
+Township Enterprise Systems
+Employment With Brooktrails
+Board and Meetings
+Township Board
+Fire Department
+About Brooktrails Fire Dept
+Wildfire Preparedness & Evacuation
+Links
+Other Emergency Services
+Water & Sewer
+Application for Sewer Lateral Inspection
+Brooktrails Water System
+Water Conservation Links
+Parks & Recreation
+Brooktrails Golf Course
+Recreation Greenbelt & Conservation Cmte
+Trail Maintenance Request Form
+Community Center Rental Application
+Ohl Redwood Grove Rental Application
+Brooktrails Hiking Trail Map
+Trail Locations on GoogleMaps
+Redwood Park
+Map of Redwood Park
+Redwood Park Greenbelt Stewardship Plan
+Ordinance 63 (Establishing Redwood Park)
+Planning & Design
+Building Permits
+Development Review Process
+Development Standards & Process PDF
+Design Review Application Packet
+Water Meter Construction Application
+Chapter 20.232 (Development Review)
+Ordinance 121 (Sewer Backflow Device)
+Ordinance 112 (Construction Meters)
+Contact
+More
+Use tab to navigate through the menu items.
+Township Ordinances
+Contact Us
+Book#
+​
+1
+2
+3
+4
+​
+Ord.#
+(Link)
+1
+2
+3
+4
+5
+6
+7
+8
+9
+​
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+​
+30
+31
+32
+​
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+​
+44
+45
+​
+46
+47
+48
+​
+49
+​
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+​
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+​
+78
+​
+79
+​
+80
+​
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+​
+96
+97
+98
+99
+100
+101
+102
+103
+104
+​
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+​
+126
+​
+127
+Title
+​
+AN ORDINANCE APPOINTING FINANCE OFFICER AND FIXING COMPENSATION AND BOND
+(Repealed by Ord.44)
+​
+ORDINANCE ESTABLISHING THE POSITION OF PURCHASING OFFICER AND PROVIDING FOR THE LETTING OF CONTRACTS FOR THE DOING OF WORK AND THE PURCHASE AND SALE OF SUPPLIES, SERVICES AND EQUIPMENT
+(Repealed by Ord.44)
+​
+AN ORDINANCE ESTABLISHING RULES AND REGULATIONS FOR WATER SERVICE BY BROOKTRAILS RESORT IMPROVEMENT DISTRICT
+(Amended by Ord.9) (Rescinded by Ord.10)
+​
+AN ORDINANCE REGULATING THE USE OF LAKES WITHIN BROOKTRAILS RESORT IMPROVEMENT DISTRICT, PROVIDING FOR THE LETTING OF CONCESSIONS THEREON AND FIXING FEES AND CHARGES
+(Rescinded by Ord.44)
+​
+AN ORDINANCE REGULATING THE USE OF PUBLIC AND PRIVATE SEWERS AND DRAINS, THE INSTALLATION AND CONNECTION OF BUILDING SEWERS, THE INSTALLATION OF SEWER LATERALS AND PUBLIC SEWER MAIN EXTENSIONS, PROVIDING FOR EMPLOYMENT OF A MANAGER AND DISTRICT INSPECTOR, PROVIDING PERMITS AND FIXING FEES AND CHARGES, REGULATING THE DISCHARGE OF WATERS AND WASTES INTO THE PUBLIC SEWER SYSTEM, AND PROVIDING PENALTIES FOR THE VIOLATION OF THE PROVISIONS THEREOF
+(Amended by Ord.6 & 7) (Rescinded by Ord.10)
+​
+AN ORDINANCE AMENDING ORDINANCE NO.5
+(Repealed by Ord.44)
+AN ORDINANCE AMENDING ORDINANCE NO.5
+(Repealed by Ord.44)
+AN ORDINANCE ESTABLISHING A POLICE DEPARTMENT
+(Repealed by Ord.64)
+AN ORDINANCE AMENDING ORDINANCE NO. 3
+(Repealed by Ord.44)
+​
+AN ORDINANCE RESCINDING ORDINANCES 3 AND 5, AS AMENDED, AND ADOPTING WATER AND SEWER SERVICE CODES ESTABLISHING RATES, RULES AND REGULATIONS FOR WATER SERVICE AND REGULATING THE USE OF PUBLIC AND PRIVATE SEWERS AND DRAINS, THE INSTALLATION AND CONNECTION OF BUILDING SEWERS, THE INSTALLATION OF SEWER LATERALS AND PUBLIC SEWER MAIN EXTENSIONS, PROVIDING FOR EMPLOYMENT OF A MANAGER AND DISTRICT INSPECTOR, PROVIDING PERMITS AND FIXING FEES AND CHARGES, REGULATING THE DISCHARGE OF WATERS AND WASTES INTO THE PUBLIC SEWER SYSTEM, AND PROVIDING PENALTIES FOR THE VIOLATION OF THE PROVISIONS THEREOF.
+(Amended by Ord.14,19,20,24 & 28) (Repealed by Ord.44)
+​
+AN ORDINANCE DETERMINING REVENUES ARE INADEQUATE AND FIXING THE AMOUNT OF MONEY NECESSARY TO BE RAISED BY TAXATION - BOND INTEREST AND REDEMPTION FUND
+​
+AN ORDINANCE DETERMINING REVENUES ARE INADEQUATE AND FIXING THE AMOUNT OF MONEY NECESSARY TO BE RAISED BY TAXATION - MAINTENANCE DISTRICT NO. 1
+​
+AN ORDINANCE DETERMINING REVENUES ARE INADEQUATE AND FIXING THE AMOUNT OF MONEY NECESSARY TO BE RAISED BY TAXATION OPERATING EXPENSES
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 10 OF THE BROOKTRAILS RESORT IMPROVEMENT DISTRICT, THE BROOKTRAILS RESORT IMPROVEMENT DISTRICT WATER AND
+SEWER SERVICE CODE
+(Repealed by Ord. 44)
+​
+AN ORDINANCE DETERMINING REVENUES ARE INADEQUATE AND FIXING THE AMOUNT OF MONEY NECESSARY TO BE RAISED BY TAXATION - OPERATING EXPENSES
+​
+AN ORDINANCE DETERMINING REVENUES ARE INADEQUATE AND FIXING THE AMOUNT OF MONEY NECESSARY TO BE RAISED BY TAXATION - BOND INTEREST AND REDEMPTION FUND
+​
+AN ORDINANCE DETERMINING REVENUES ARE INADEQUATE AND FIXING THE AMOUNT OF MONEY NECESSARY TO BE RAISED BY TAXATION - MAINTENANCE DISTRICT NO. 1
+AN ORDINANCE DETERMINING REVENUES ARE INADEQUATE AND FIXING THE AMOUNT OF MONEY NECESSARY TO BE RAISED By TAXATION MAINTENANCE DISTRICT NO. 1976/1
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 10 WITH RESPECT TO THE ESTABLISHMENT OF SEWER RATES AND CHARGES
+(Repealed by Ord. 44)
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 10 WITH RESPECT
+TO GUARANTEE DEPOSIT RATE ($25.00 TO $50.00)
+(Repealed by Ord. 44)
+​
+AN ORDINANCE DETERMINING REVENUES ARE INADEQUATE AND FIXING THE AMOUNT OF MONEY NECESSARY TO BE RAISED BY TAXATION - BROOKTRAILS COMMUNITY SERVICES DISTRICT ORDINANCE
+​
+AN ORDINANCE DECLARING CERTAIN CONDITIONS ON PRIVATE REAL PROPERTY A PUBLIC NUISANCE AND PRESCRIBING A PROCEDURE FOR THE ABATEMENT OF SAME AND MAKING THE ABATEMENT EXPENSE A LIEN UPON THE PROPERTY AND PRESCRIBING A PROCEDURE FOR ENFORCEMENT OF LIEN
+(Amended by Ord. 32, repealed by Ord. 44)
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 1979—1980
+​
+AN ORDINANCE AMENDING DISTRICT ORDINANCE 10 RE: SEWER CONNECTION CHARGES
+(Amended by Ord. 41, repealed by Ord. 44)
+​
+AN ORDINANCE FIXING TAX LEVY FOR GENERAL OBLIGATION BONDS OF 1964 AND GENERAL OBLIGATION BONDS OF 1975
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 1980-1981
+​
+AN ORDINANCE FIXING TAX LEVY FOR GENERAL OBLIGATION BONDS OF 1964 AND GENERAL OBLIGATION BONDS OF 1975
+​
+AN ORDINANCE AMENDING THE WATER SERVICE CODE WITH RESPECT TO THE RELOCATION OF METERS, NON-TRANSFERABILITY OF WATER CONNECTIONS, CASH GUARANTEE DEPOSITS AND THE RETURN OF CASH GUARANTEE DEPOSITS
+(Repealed by Ord.44)
+​
+AN ORDINANCE DETERMINING AND PROPOSING FOR ADOPTION A SPECIAL TAX FOR FIRE PROTECTION AND PREVENTION PURSUANT TO GOVERNMENT CODE SECTION 53978
+(See Res 1981-24)
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 1981-1982
+​
+AN ORDINANCE FIXING TAX LEVY FOR GENERAL OBLIGATION BONDS OF 1964 AND GENERAL OBLIGATION BONDS OF 1975
+​
+AN ORDINANCE AMENDING DISTRICT ORDINANCE NO. 22
+DECLARING CERTAIN CONDITIONS ON IMPROVED
+PRIVATE PROPERTY AS A HAZARD AND PROVIDING
+FOR THE ABATEMENT THEREOF
+(Repealed by Ord. 44)
+​
+AN ORDINANCE FIXING WATER SERVICE AND SEWER SERVICE RATES FOR BROOKTRAILS COMMUNITY SERVICES DISTRICT
+(Rescinded by Ord.34 & 35) (Repealed by Ord. 44)
+​
+AN ORDINANCE FIXING WATER SERVICE RATES FOR BROOKTRAILS COMMUNITY SERVICES DISTRICT
+​
+AN ORDINANCE FIXING SEWER SERVICE RATES FOR BROOKTRAILS COMMUNITY SERVICES DISTRICT
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 1982-83
+​
+AN ORDINANCE FIXING TAX LEVY FOR GENERAL OBLIGATION BONDS OF 1964 and GENERAL OBLIGATION BONDS OF 1975
+​
+AN ORDINANCE ADOPTING THE UNIFORM FIRE CODE AND UNIFORM FIRE CODE STANDARDS PRESCRIBING REGULATIONS GOVERNING CONDITIONS HAZARDOUS TO LIFE AND PROPERTY FROM FIRE OR EXPLOSION, PROVIDING FOR THE ISSUANCE OF PERMITS FOR HAZARDOUS USES OR OPERATIONS, AND ESTABLISHING A BUREAU OF FIRE PREVENTION AND PROVIDING OFFICERS THEREFOR AND DEFINING THEIR POWERS AND DUTIES
+​
+AN ORDINANCE PROVIDING FOR THE DESIGNATION OF EMPLOYEES AND OFFICERS AUTHORIZED TO ISSUE ARREST CITATIONS
+​
+AN ORDINANCE PROVIDING FOR INSPECTION OF NEW CONSTRUCTION TO INSURE COMPLIANCE WITH FIRE HAZARD REDUCTION REQUIREMENTS
+​
+AN ORDINANCE AMENDING DISTRICT ORDINANCE 24 RE: SEWER CONNECTION CHARGES(CONDOMINIUMS)
+(Repealed by Ord. 44)
+​
+AN ORDINANCE FIXING TAX LEVY FOR GENERAL OBLIGATION BONDS OF 1964 AND GENERAL OBLIGATION BONDS OP 1975
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 1983-84
+​
+AN ORDINANCE ADOPTING WATER AND SEWER SERVICE CODES, ESTABLISHING RATES, RULES AND REGULATIONS FOR WATER SERVICE AND REGULATING THE USE OF PUBLIC AND PRIVATE SEWERS AND DRAINS, THE INSTALLATION AND CONNECTION OF BUILDING SEWERS, THE INSTALLATION OF SEWER LATERALS AND PUBLIC SEWER MAIN EXTENSIONS, PROVIDING FOR EMPLOYMENT OF MANAGER AND DISTRICT INSPECTOR, PROVIDING PERMITS AND FIXING FEES AND CHARGES, REGULATING THE DISCHARGE OF WATERS AND WASTES INTO THE PUBLIC SEWER SYSTEM, PROVIDING FOR THE ALLOCATION OF WATER AND SEWER SERVICE CAPACITY, PROVIDING PENALTIES FOR THE VIOLATION OF THE PROVISIONS THEREOF, AND REPEALING ORDINANCES NOS. 1, 2, 3, 4, 5, 6, 7, 9, 10, 14, 19, 20, 22, 24, 28, 32, 33 and 41.
+(amended by Ord. 47, 58, 59)
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 1984-1985
+​
+AN ORDINANCE FIXING TAX LEVY FOR GENERAL OBLIGATION BONDS OF 1964 AND GENERAL OBLIGATION BONDS OF 1975
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 44, SECTION 1, CHAPTER I - WATER SERVICE CODE, ARTICLE 5, SECTIONS 1-505 and 1-510; ARTICLE 7, SECTION 1—702; ARTICLE 9, SECTIONS 1-901 AND 1-902 AND ARTICLE 13 AND SECTION 2, CHAPTER II - SEWER SERVICE CODE, ARTICLE 8, SECTION 1—807
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 1985 — 1986
+​
+AN ORDINANCE FIXING TAX LEVY FOR GENERAL OBLIGATION BONDS OF 1964 AND GENERAL OBLIGATION BONDS OF 1975
+​
+AN ORDINANCE ESTABLISHING REGULATIONS GOVERNING ENCROACHMENTS AND OBSTRUCTIONS ON PUBLIC PROPERTY
+​
+AN ORDINANCE PRESCRIBING PROCEDURE FOR SALE OF PROPERTY ACQUIRED UNDER THE DELINQUENT ASSESSMENT ACQUISITION AND SALE LAW OF 1915
+(Rescinded by Res. 1986-34)
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 51, SECTION 1, SALES AGENT OFFICE ESTABLISHED AND SECTION 2, GENERAL DUTIES
+(Rescinded by Res. 1986-34)
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 1986 — 1987
+​
+AN ORDINANCE FIXING TAX LEVY FOR GENERAL OBLIGATION BONDS OF 1964 AND GENERAL OBLIGATION BONDS OF 1975
+​
+AN ORDINANCE IMPLEMENTING THE INFORMAL BIDDING PROCEDURES AUTHORIZED BY DIVISION TWO, PART THREE, ARTICLE THREE PUBLIC CONTRACTS
+CODE (SECTIONS 21200 ET SEQ.)
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 1987 - 1988
+​
+AN ORDINANCE FIXING TAX LEVY FOR GENERAL OBLIGATION BONDS OF 1984 AND GENERAL OBLIGATION BONDS OF 1975
+​
+AN ORDINANCE AMENDING WATER SERVICE CODE (ORDINANCE 44 AS AMENDED BY ORDINANCE NO. 47) INSTITUTING( A CROSS-CONNECTION CONTROL PROGRAM TO PROTECT THE PUBLIC WATER SUPPLY
+​
+AN ORDINANCE AMENDING THE WATER SERVICE CODE, TO REQUIRE WATER SERVICE APPLICANTS TO DEMONSTRATE COMPLIANCE WITH COVENANTS, CONDITIONS AND RESTRICTIONS
+​
+AN ORDINANCE RELATING TO THE ENFORCEMENT OF COVENANTS, CONDITIONS, AND RESTRICTIONS: CREATING THE OFFICE OF DISTRICT ARCHITECT AND CREATING AN ARCHITECTURAL APPEALS BOARD
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 1988-89
+​
+AN ORDINANCE ADOPTING A BROOKTRAILS ARCHITECTURAL REVIEW CODE
+(Amended by Ord. 88)
+​
+AN ORDINANCE ESTABLISHING BROOKTRAILS REDWOOD PARK, PROVIDING FOR AND RESTRICTING THE USE THEREOF AND PROVIDING FOR THE ADOPTION OF REGULATIONS GOVERNING THE USE OF THE PARK
+(Amended by Ord. 109)
+​
+AN ORDINANCE PROVIDING FOR THE PROTECTION OF BROOKTRAILS REDWOOD PARK BY ESTABLISHING THE POSITIONS OF PARK SUPERINTENDENT, CHIEF FIRE OFFICER OF THE PARK, AND PARK RANGERS, DESIGNATING PARK RANGERS AS PEACE OFFICERS, AND PROVIDING FOR REGULATIONS GOVERNING THE CONDUCT OF PARK RANGERS, AND REPEALING ORDINANCE NO.8 WHICH ESTABLISHED A POLICE DEPARTMENT WITHIN THE DISTRICT
+(Repealed by Ord. 111)
+​
+AN ORDINANCE DETERMINING SUMS NECESSARY FOR PRINCIPAL AND INTEREST ON GENERAL OBLIGATION BONDS OF 1964 AND GENERAL OBLIGATION BONDS OF 1975
+​
+AN ORDINANCE REQUIRING THE ESTABLISHMENT OF A MERIT EMPLOYEE RELATIONS SYSTEM FOR EMPLOYEES; AND PROVIDING FOR THE APPOINTMENT OF A GENERAL COUNSEL, AND AN AUDITOR, AND PRESCRIBING THE DUTIES THEREFORE
+​
+AN ORDINANCE AMENDING THE BROOKTRAILS ARCHITECTURAL REVIEW CODE TO REQUIRE NOTICE OF ARCHITECT APPROVAL TO DEFINE THE MANNER FOR APPEALING ARCHITECT_S APPROVAL; AND TO AMEND THE PROCEDURE FOR CONDUCTING COMMISSION VOTES.
+​
+AN ORDINANCE ADOPTING A MASTER PLAN FOR BROOKTRAILS REDWOOD PARK
+​
+AN ORDINANCE CREATING AND PROVIDING FOR THE APPOINTMENT OF A GREEN COMMITTEE, ESTABLISHING ITS DUTIES, AND PROVIDING FOR ITS RULES AND REGULATIONS
+(Repealed by Ord. 114)
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 1989-90
+​
+AN ORDINANCE AMENDING AND ADOPTING THE UNIFORM FIRE CODE AND UNIFORM FIRE CODE STANDARDS PRESCRIBING REGULATIONS GOVERNING CONDITIONS HAZARDOUS TO LIFE AND PROPERTY AND PROVIDING FOR THE ISSUANCE OF PERMITS AND CERTIFICATES FOR CERTAIN USES OR ACTIVITIES: DELINEATING TEE BOUNDARIES OF LIMITS FOR STORAGE OF CERTAIN FLAMMABLE LIQUIDS, CASES, AND EXPLOSIVES AND FOR HAZARDOUS FIRE AREAS: PROVIDING FOR THE ESTABLISHMENT OF FEES FOR SERVICES: PROVIDING FOR ABATEMENT OF VIOLATIONS AND PENALTIES FOR VIOLATIONS: PROVIDING FOR ENFORCEMENT OF MISDEMEANOR VIOLATIONS OF DISTRICT ORDINANCES BY OFFICERS AND EMPLOYEES OF THE DISTRICT BY AUTHORIZING THE ISSUANCE OF ARREST CITATIONS: AND REPEALING DISTRICT ORDINANCES NUMBERS 38, 39, and 40
+(Amended by Ord. 83 and Ord. 85)
+​
+AN ORDINANCE PROVIDING FOR THE EXERCISE OF THE AUTHORITY OF THE BOARD OF DIRECTORS AND ESTABLISHING RULES FOR THE ELECTION OF BOARD OFFICERS, THE CONDUCT OF MEMBERS OF THE BOARD OF DIRECTORS AND THE PROCEDURES FOR HOLDING BOARD MEETINGS INCLUDING PUBLIC HEARINGS
+(Repealed by Ord. 93)
+​
+AN ORDINANCE PROVIDING FOR THE PROPER STORAGE OF, THE ORDERLY COLLECTION OF, THE EFFECTIVE RECYCLING OF, AND THE SAFE DISPOSAL OF SOLID WASTE
+(Repealed by Ord.76)
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 73 BY PROVIDING FOR THE BURNING OF GARDEN CLIPPINGS AS A LAWFUL MEANS OF DISPOSAL
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 1990-91
+​
+76 Utility Table of Contents
+76 Utility Ordinance complete without an index
+​
+AN ORDINANCE ADOPTING A UTILITIES CODE ESTABLISHING REGULATIONS FOR WATER SERVICE AND THE USE OF PUBLIC AND PRIVATE SEWERS AND DRAINS, FOR THE CONSTRUCTION THEREOF AND THE CONNECTION THERETO, PROVIDING FOR PERMITS AND FIXING FEES AND CHARGES FOR THE USE THEREOF, PROVIDING FOR THE ALLOCATION OF WATER AND SEWER SERVICE CAPACITY, PROVIDING FOR THE PROPER STORAGE OF, THE ORDERLY COLLECTION OF, THE EFFECTIVE RECYCLING OF, AND THE SAFE DISPOSAL OF SOLID WASTE, PROVIDING PENALTIES FOR THE VIOLATION OF THE PROVISIONS THEREOF, AND REPEALING ORDINANCES 34, 35, 44, 47, 58, 59, and 73
+(Amended by Ord. 86, 103, . . . 113, 121, 122, 123, 127, 128, 130 (temporary, expired), 132, 134 and 138.)
+​
+AN ORDINANCE AMENDING BROOKTRAILS ARCHITECTURAL REVIEW
+CODE TO CLARIFY SIZE OF TREES REQUIRING ARCHITECTURAL
+APPROVAL PRIOR TO FELLING
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 71 BY ESTABLISHING PERIODS WHEN OUTDOOR BURNING IS PROHIBITED IN HAZARDOUS FIRE AREAS, BY EXCLUDING FROM THE DEFINITION OF “HAZARDOUS FIRE AREA” THE SPRING CREEK AND SYLVANDALE SUBDIVISIONS, AND BY PROVIDING FOR ENFORCEMENT OF CERTAIN PROVISIONS OF THE MENDOCINO COUNTY AND STATE STATUTE BY DISTRICT OFFICERS AND EMPLOYEES
+​
+AN ORDINANCE REPEALING ORDINANCE NO. 78
+​
+AN ORDINANCE PROHIBITING THE ISSUANCE OF FIRE PERMITS DURING THE SEASON OF EXTREME FIRE DANGER
+​
+AN ORDINANCE CANVASSING ELECTION RETURNS ON THE ELECTION HELD ON ORDINANCE NO.80 AND ADOPTING THE PROVISIONS THEREOF IN CONFIRMATION OF SAID RESULTS
+​
+AN ORDINANCE ADDING LOT 34 OF BLOCK. 58 OF TRACT 86 TO EXHIBIT A OF ORDINANCE NO.63
+​
+AN ORDINANCE AMENDING ORDINANCE NO.71 BY PROVIDING FOR ENFORCEMENT OF CERTAIN PROVISIONS OF THE MENDOCINO COUNTY CODE AND STATE STATUTES BY DISTRICT OFFICERS AND EMPLOYEES AND BY DELETING CERTAIN PROVISIONS RELATING TO FILING CITATIONS AND TRAINING
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 1991-1992
+​
+AN ORDINANCE AMENDING ORDINANCE NO.71 BY ADOPTING THE 1991 EDITIONS OF THE UNIFORM FIRE CODE AND UNIFORM FIRE CODE STANDARDS, REPLACING THE DEFINITION OF RUBBISH IN SAID CODE, AND PROVIDING THAT MORE RESTRICTIVE PROVISIONS OF STATE AND COUNTY LAWS AND REGULATIONS REGARDING FIRE SAFETY SHALL PREVAIL
+​
+AN ORDINANCE AMENDING SUBSECTION 4-102 OF SECTION 1 OF ORDINANCE NO. 76 BY LIMITING THE NUMBER OF WATER SERVICES TO CERTAIN PARCELS ZONED C-1 TO ONE PER PARCEL
+​
+AN ORDINANCE AMENDING ORDINANCE NO.72 BY ADDING THE PLEDGE OF ALLEGIANCE TO THE ORDER OF BUSINESS AND BY ADDING PROVISIONS RELATED TO THE ORDER OF DISCUSSION ON EACH ITEM OF BUSINESS AND BY CHANGING THE DAY OF REGULAR BOARD MEETINGS AND STUDY SESSIONS FROM THURSDAY TO TUESDAY
+​
+AN ORDINANCE AMENDING ORDINANCE NO.62 BY CHANGING THE REGULAR MEETING DAY OF THE ARCHITECTURAL REVIEW COMMISSION FROM THE SECOND TUESDAY OF EACH MONTH TO THE FIRST TUESDAY OF EACH MONTH AND THE PLACE FROM THE FIRE DEPARTMENT TO THE COMMUNITY CENTER
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 1992-1993
+​
+AN ORDINANCE AMENDING SECTIONS 3.01 AND 3.02 OF ORDINANCE NO. 72 BY PROVIDING FOR MEETINGS OF THE BOARD IN ITS ROLE AS THE BROOKTRAILS AREA PLANNING COMMISSION
+(Repealed by Ord. 105)
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 1993-94
+​
+AN ORDINANCE REVISING ORDINANCE NO.69 TO CHANGE THE MEETING DAYS OF THE GREEN COMMITTEE
+(Revised by Ord. 96) (Repealed by Ord. 114)
+​
+AN ORDINANCE PROVIDING FOR THE EXERCISE OF THE AUTHORITY OF THE BOARD OF DIRECTORS AND ESTABLISHING RULES FOR THE ELECTION OF BOARD OFFICERS, THE CONDUCT OF THE MEMBERS OF THE BOARD OF DIRECTORS AND THE PROCEDURES FOR HOLDING BOARD MEETINGS INCLUDING PUBLIC HEARINGS, AND REPEALING ORDINANCE NO.72
+(Amended by Ord. 95, 101, 105, 106 and 107)
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 1994-1995
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 93 PROVIDING FOR THE ELECTION OF PRESIDENT
+​
+AN ORDINANCE REVISING ORDINANCE NO. 92 TO CHANGE THE MEETING SCHEDULE OF THE GREEN COMMITTEE
+(Repealed by Ord. 114)
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 1995-1996
+​
+AN ORDINANCE PRESCRIBING A PROCEDURE FOR ABATEMENT OF CONDITIONS CONSTITUTING A PUBLIC NUISANCE UPON PRIVATE PROPERTY; AND FOR RECOVERING THE EXPENSE OF SUCH ABATEMENT
+(Amended by Ord. 99)
+​
+AN ORDINANCE AMENDING ORDINANCE NO.98 RELATING TO NOTICE OF ABATEMENT
+​
+AN ORDINANCE REQUIRING CLASS "A" ROOFS THROUGHOUT BROOKTRAILS, AND AUTHORIZING A CONTINUING EDUCATION PROGRAM FOR EXISTING ROOFS
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 93 TO AMEND SECTION 3.01 REGULAR MEETINGS, SECTION 3.05 ORDER OF BUSINESS AND SECTION 3.13 RULES OF DEBATE
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 1996 - 1997
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 76 TO REVISE CHAPTER VI-SOLID WASTE COLLECTION AND DISPOSAL
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE EFFECTIVE OCTOBER 31, 1996
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 93 TO REVISE SECTION 3.01, REGULAR MEETINGS AND REPEALING ORDINANCE NO. 90
+​
+AN ORDINANCE AMENDING SECTION 3.05 AND ARTICLE OF ORDINANCE NO. 93 RELATING TO ORDER OF BUSINESS AND CONDUCT OF HEARINGS
+​
+AN ORDINANCE REPEALING SECTION 5.03 OF ORD. NO. 93
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 76 TO REVISE SECTION 2-903 TO PROVIDE FOR THE DISTRICT COVERING THE COST OF ANY REQUIRED BACKFLOW PREVENTION DEVICES
+​
+AN ORDINANCE AMENDING ORD.63 AND ESTABLISHING DISTRICT POLICY REGARDING LOTS SUBSEQUENTLY DONATED TO THE DISTRICT
+​
+Number not used
+​
+AN ORDINANCE PROVIDING FOR THE PROTECTION OF BROOKTRAILS REDWOOD PARK BY PROVIDING FOR REGULATIONS GOVERNING THE CONDUCT OF DESIGNATED OFFICERS AND REPEALING ORD. NO.64
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 76 (UTILITIES CODE) TO PROVIDE FOR CONSTRUCTION SERVICE AND REQUIRED CHANGES TO COMPLY WITH STATE GOVERNMENT CODE CHAPTER 9.6
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 76 (UTILITIES CODE) TO ALLOW FOR GRAYWATER SYSTEMS
+​
+AN ORDINANCE REPEALING ORDINANCES 69, 92 AND 96
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 76 TO LIMIT THE NUMBER OF WATER SERVICES TO ONE CONNECTION PER PARCEL OR LOT NOT ZONED FOR MULTIPLE RESIDENTIAL, AND TO CLARIFY “ANNEXATION” TO THE DISTRICT
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 76 TO LIMIT THE NUMBER OF WATER SERVICES TO ONE CONNECTION PER PARCEL OR LOT NOT ZONED FOR MULTIPLE RESIDENTIAL, AND TO CLARIFY “ANNEXATION” TO THE DISTRICT
+​
+Number not used
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 93 TO AMEND SECTION 3.05 ORDER OF BUSINESS AND TO AMEND SECTION 6.03(a) CORRESPONDENCE FROM THE DISTRICT
+(Repealed by Ord. 119)
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 93 TO AMEND SECTION 3.05 ORDER OF BUSINESS; TO AMEND SECTION 6.03(a) CORRESPONDENCE FROM THE DISTRICT AND REPEALING ORDINANCE NO. 118
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 2003-2004 AND REPEALING ORDINANCE NO. 104
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 76 TO REVISE CHAPTER III, ARTICLE 4, SECTION 3-404 TO REQUIRE A SEWER BACKFLOW PREVENTION DEVICE IN ALL NEW CONSTRUCTION, AND TO ADD THE DEFINITION OF “READY TO PROCEED” TO ARTICLE 2 OF CHAPTER IV
+​
+AN ORDINANCE AMENDING ORDINANCE 76, BROOKTRAILS UTILITY CODE
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 76 TO REVISE CHAPTER IV, ARTICLE 3, SECTION 4-303 TO ALLOW APPLICANTS ONE YEAR TO OBTAIN A COUNTY BUILDING PERMIT AND PAY CONNECTION FEES TO THE DISTRICT
+​
+AN ORDINANCE AMENDING ORDINANCE NO. 93 TO AMEND SECTION 3.01 REGULAR MEETINGS, SECTION 3.11 ABSTENTIONS AND SECTION 6.02 CORRESPONDENCE RECEIVED
+​
+AN ORDINANCE PRESCRIBING A SEWER STANDBY CHARGE FOR FISCAL YEAR 2004-2005 AND REPEALING ORDINANCE NO. 120
+AN ORDINANCE AMENDING DISTRICT ORDINANCE NO. 29 (FIRE PROTECTION SPECIAL TAX)
+​
+AN ORDINANCE OF THE BROOKTRAILS TOWNSHIP COMMUNITY SERVICES DISTRICT AMENDING ORDINANCE NO. 76, Section 1, Chapter II, BY ADDING A NEW ARTICLE 8 PRESCRIBING STANDARDS FOR PRIVATE WATER TANKS
+​
+Date
+​
+07/02/64
+​
+09/09/64
+​
+02/10/65
+​
+04/21/65
+05/12/65
+​
+06/09/71
+08/08/73
+03/12/75
+06/16/76
+12/08/76
+08/10/77
+​
+08/10/77
+07/13/78
+09/14/78
+08-25-78
+11-09-78
+05-10-79
+06—14—79
+08—09—79
+05-22-80
+07-10-80
+12-11-80
+01-08-81
+04-23-81
+08-13-81
+12-17-81
+03-11-82
+05-27-82
+06-24-82
+12-09-82
+02-24-83
+04-28-83
+05-26-83
+05-10-84
+05-24-84
+06-28-84
+11/08/84
+05/23/85
+06/27/85
+​
+07/25/85
+​
+10/10/85
+03/27/86
+​
+05/22/86
+06/26/86
+07/24/86
+05/28/87
+06/25/87
+02/11/88
+03/10/88
+03/24/88
+05/26/88
+07/28/88
+06/23/88
+07/28/88
+09-22-88
+11-11-88
+11/17/88
+03/09/89
+05/25/89
+07/14/89
+01/25/90
+02/22/90
+05/24/90
+02/16/10
+10/25/90
+01/10/91
+03/26/91
+​
+04/25/91
+05/09/91
+05/23/91
+06/20/91
+07/25/91
+02/13/92
+03/26/92
+05/26/92
+08/25/92
+​
+06/08/93
+09/14/93
+05/24/94
+10/18/94
+​
+10/25/94
+​
+05/23/95
+​
+08/08/95
+10/24/95
+02/13/96
+03/27/96
+​
+05/28/96
+08/13/96
+10/01/96
+11/12/96
+4 04/08/97
+​
+04/14/98
+05/26/98
+​
+01/12/99
+​
+07/27/99
+​
+02/08/2000
+08/08/2000
+07/11/2000
+02/06/2001
+02/13/2001
+03/12/2002
+07/23/02
+06/10/03
+07/22/03
+11/11/03
+05/11/04
+11/09/04
+Note: The complete BTCSD book of ordinances is available at the district office.
+© 2019-2026 Brooktrails Township.
+Originally Designed & Developed by Go West.
+bottom of page
+```
+
+## BTCSD BRD MTG 07082025 VID | Brooktrails-1
+
+Source: https://www.btcsd.org/btcsd-brd-mtg-07082025-vid
+
+```text
+BTCSD BRD MTG 07082025 VID | Brooktrails-1
+top of page
+Brooktrails Township
+About
+The Essence of Brooktrails
+Map of Brooktrails
+Historical Photo Album
+1939 Southern Pacific Railroad Brochure
+Events
+Admin
+Township Administration
+Township Policy Manual
+Township Ordinances
+Township Enterprise Systems
+Employment With Brooktrails
+Board and Meetings
+Township Board
+Fire Department
+About Brooktrails Fire Dept
+Wildfire Preparedness & Evacuation
+Links
+Other Emergency Services
+Water & Sewer
+Application for Sewer Lateral Inspection
+Brooktrails Water System
+Water Conservation Links
+Parks & Recreation
+Brooktrails Golf Course
+Recreation Greenbelt & Conservation Cmte
+Trail Maintenance Request Form
+Community Center Rental Application
+Ohl Redwood Grove Rental Application
+Brooktrails Hiking Trail Map
+Trail Locations on GoogleMaps
+Redwood Park
+Map of Redwood Park
+Redwood Park Greenbelt Stewardship Plan
+Ordinance 63 (Establishing Redwood Park)
+Planning & Design
+Building Permits
+Development Review Process
+Development Standards & Process PDF
+Design Review Application Packet
+Water Meter Construction Application
+Chapter 20.232 (Development Review)
+Ordinance 121 (Sewer Backflow Device)
+Ordinance 112 (Construction Meters)
+Contact
+More
+Use tab to navigate through the menu items.
+© 2019-2026 Brooktrails Township.
+Originally Designed & Developed by Go West.
+bottom of page
+```

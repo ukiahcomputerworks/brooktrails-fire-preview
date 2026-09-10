@@ -1,0 +1,917 @@
+{
+  "documents": [
+    {
+      "title": "1967 New York Times Brooktrails Article",
+      "file": "documents/08349b-e6b9db5719f64a00adcc772b80829831.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/08349b_e6b9db5719f64a00adcc772b80829831.pdf",
+      "contentType": "application/pdf",
+      "bytes": 1509688,
+      "sha256": "95e3eb683a5b4b22c7422a45762736d409421f3f7ae98b7c0191df00717dd910",
+      "referencedFrom": [
+        "https://www.btcsd.org/brooktrails-redwood-park"
+      ]
+    },
+    {
+      "title": "1939 Southern Pacific Railroad Brochure",
+      "file": "documents/08349b-161c6dad8ed647178fb04770be5e877e.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/08349b_161c6dad8ed647178fb04770be5e877e.pdf",
+      "contentType": "application/pdf",
+      "bytes": 2421716,
+      "sha256": "0a5421dd368b08b1bdc397d57b527f0d237d918e9502ef55f4778566b5251279",
+      "referencedFrom": [
+        "https://www.btcsd.org/",
+        "https://www.btcsd.org/site-map",
+        "https://www.btcsd.org/contact",
+        "https://www.btcsd.org/the-essence-of-brooktrails",
+        "https://www.btcsd.org/copy-of-development-review-process-1",
+        "https://www.btcsd.org/historical-photo-album",
+        "https://www.btcsd.org/events",
+        "https://www.btcsd.org/administration",
+        "https://www.btcsd.org/township-ordinances",
+        "https://www.btcsd.org/enterprise-systems",
+        "https://www.btcsd.org/employment",
+        "https://www.btcsd.org/township-board",
+        "https://www.btcsd.org/brooktrails-fire-department",
+        "https://www.btcsd.org/about-brooktrails-fire-department",
+        "https://www.btcsd.org/fire-department-links",
+        "https://www.btcsd.org/emergency-services",
+        "https://www.btcsd.org/water-sewer",
+        "https://www.btcsd.org/application-for-sewer-lateral-inspe",
+        "https://www.btcsd.org/brooktrails-water-sewer-system",
+        "https://www.btcsd.org/water-conservation-links",
+        "https://www.btcsd.org/recreation-greenbelt-conservation-c",
+        "https://www.btcsd.org/brooktrails-redwood-park",
+        "https://www.btcsd.org/map-of-redwood-park",
+        "https://www.btcsd.org/ordinance-63",
+        "https://www.btcsd.org/planning-design",
+        "https://www.btcsd.org/development-review-process",
+        "https://www.btcsd.org/copy-of-development-review-process",
+        "https://www.btcsd.org/brd-mtg-07222025",
+        "https://www.btcsd.org/copy-of-township-ordinances",
+        "https://www.btcsd.org/btcsd-brd-mtg-07082025-vid"
+      ]
+    },
+    {
+      "title": "1987 Department of Water Resources groundwater study",
+      "file": "documents/08349b-9ebc89bde94f47d7838ceb97ef260f24.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/08349b_9ebc89bde94f47d7838ceb97ef260f24.pdf",
+      "contentType": "application/pdf",
+      "bytes": 2299317,
+      "sha256": "8fb5fd14a85470e6aea92aedac91865f898ce2709a1223c5c320499f5051ef2e",
+      "referencedFrom": [
+        "https://www.btcsd.org/brooktrails-water-sewer-system"
+      ]
+    },
+    {
+      "title": "2004 Specific Plan Amendments",
+      "file": "documents/08349b-237af44430984fe78f9b302bb2a65e72.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/08349b_237af44430984fe78f9b302bb2a65e72.pdf",
+      "contentType": "application/pdf",
+      "bytes": 736525,
+      "sha256": "a0a71916102dccbb3ba4665de56130323cc94502059994f5ef3f272c7078a5e0",
+      "referencedFrom": [
+        "https://www.btcsd.org/site-map",
+        "https://www.btcsd.org/planning-design"
+      ]
+    },
+    {
+      "title": "2025 Consumer Confidence Report Available Here",
+      "file": "documents/677c29-804c534669c243edb85ea05f1b11fd18.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/677c29_804c534669c243edb85ea05f1b11fd18.pdf",
+      "contentType": "application/pdf",
+      "bytes": 290969,
+      "sha256": "d56824c3781b43b6e05e9cb6a68289544a02148f7b7b1da7b95354a5f9447bde",
+      "referencedFrom": [
+        "https://www.btcsd.org/water-sewer"
+      ]
+    },
+    {
+      "title": "677c29 16ba328865e54f859256ee8a7d4c296f",
+      "file": "documents/677c29-16ba328865e54f859256ee8a7d4c296f.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/677c29_16ba328865e54f859256ee8a7d4c296f.pdf",
+      "contentType": "application/pdf",
+      "bytes": 14814412,
+      "sha256": "dcedaf50fab689e4ac2b01c09b3813029a0c0f55139064e8f3c911f0c6fd5e9b",
+      "referencedFrom": [
+        "https://www.btcsd.org/administration"
+      ]
+    },
+    {
+      "title": "677c29 85fcb22e96f6498baf3046f1d6b9fcfd",
+      "file": "documents/677c29-85fcb22e96f6498baf3046f1d6b9fcfd.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/677c29_85fcb22e96f6498baf3046f1d6b9fcfd.pdf",
+      "contentType": "application/pdf",
+      "bytes": 43205,
+      "sha256": "8a9236650c97ac1d859b1e1a08e267045bd249a79416bf69db18b1b35e256a66",
+      "referencedFrom": [
+        "https://www.btcsd.org/administration"
+      ]
+    },
+    {
+      "title": "677c29 af12fde1b12c4b6ba3853f4454527ad6",
+      "file": "documents/677c29-af12fde1b12c4b6ba3853f4454527ad6.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/677c29_af12fde1b12c4b6ba3853f4454527ad6.pdf",
+      "contentType": "application/pdf",
+      "bytes": 19044,
+      "sha256": "55c2f9347aebe0a904c404be2284776cf771be960d609a10c03045c6009efee9",
+      "referencedFrom": [
+        "https://www.btcsd.org/brooktrails-water-sewer-system"
+      ]
+    },
+    {
+      "title": "a coordinated effort",
+      "file": "documents/08349b-5396b43563f448caa07c0f717f8a28b7.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/08349b_5396b43563f448caa07c0f717f8a28b7.pdf",
+      "contentType": "application/pdf",
+      "bytes": 187304,
+      "sha256": "9bf38f1604f463646dadaecc6496480aba8cbd8b8aa56eccdaea243b00244965",
+      "referencedFrom": [
+        "https://www.btcsd.org/the-essence-of-brooktrails"
+      ]
+    },
+    {
+      "title": "Agenda for Most Recent Board Meeting",
+      "file": "documents/08349b-576fa01a20a244dd80a94f87a8414cda.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/08349b_576fa01a20a244dd80a94f87a8414cda.pdf",
+      "contentType": "application/pdf",
+      "bytes": 185748,
+      "sha256": "afecf5a820e93a22b6754803fdbc83be590733b5f7380967b5329a69c50c8456",
+      "referencedFrom": [
+        "https://www.btcsd.org/site-map"
+      ]
+    },
+    {
+      "title": "ALways accepting applications for volunteers",
+      "file": "documents/677c29-d324f233bb2c476d9b8f0a421d23b659.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/677c29_d324f233bb2c476d9b8f0a421d23b659.pdf",
+      "contentType": "application/pdf",
+      "bytes": 79959,
+      "sha256": "fae487295ea064f0b436f87fc25a16c63cc7a921ae83b75d1da26d7825c46bd6",
+      "referencedFrom": [
+        "https://www.btcsd.org/brooktrails-fire-department"
+      ]
+    },
+    {
+      "title": "annual audit for Fiscal Year 2024-25",
+      "file": "documents/677c29-51ca18a7fdcb42edba5b1a5862882b9c.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/677c29_51ca18a7fdcb42edba5b1a5862882b9c.pdf",
+      "contentType": "application/pdf",
+      "bytes": 655974,
+      "sha256": "b4b6b87ed17cab96a8c80baf3bc141260abe65638ab3199d5b9b75c4ce38eeca",
+      "referencedFrom": [
+        "https://www.btcsd.org/administration"
+      ]
+    },
+    {
+      "title": "application for sewer lateral inspection",
+      "file": "documents/677c29-7bede8e36b1040a784060786f1f573fa.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/677c29_7bede8e36b1040a784060786f1f573fa.pdf",
+      "contentType": "application/pdf",
+      "bytes": 41673,
+      "sha256": "38c88c510ca7b4101d877ff647545944cb3e4a84ce54d69afb001682b6a44804",
+      "referencedFrom": [
+        "https://www.btcsd.org/application-for-sewer-lateral-inspe"
+      ]
+    },
+    {
+      "title": "Brooktrails Greenbelt Forest Management Plan",
+      "file": "documents/08349b-83b275faec88447c92cdb6aa2bd00672.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/08349b_83b275faec88447c92cdb6aa2bd00672.pdf",
+      "contentType": "application/pdf",
+      "bytes": 2894622,
+      "sha256": "0d20d6ed88fd98b718dfacb132c7cbbed0b0943af6a88e5884a8371f223af760",
+      "referencedFrom": [
+        "https://www.btcsd.org/brooktrails-redwood-park"
+      ]
+    },
+    {
+      "title": "Brooktrails Hiking Trail Map",
+      "file": "documents/677c29-a1dc034b74f9435c8d6c598555facd5a.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/677c29_a1dc034b74f9435c8d6c598555facd5a.pdf",
+      "contentType": "application/pdf",
+      "bytes": 4285179,
+      "sha256": "1e160e1e5cf8cf76046c09e5a31e0ef0fbeeed64ad0113224d738ae137737987",
+      "referencedFrom": [
+        "https://www.btcsd.org/",
+        "https://www.btcsd.org/site-map",
+        "https://www.btcsd.org/contact",
+        "https://www.btcsd.org/the-essence-of-brooktrails",
+        "https://www.btcsd.org/copy-of-development-review-process-1",
+        "https://www.btcsd.org/historical-photo-album",
+        "https://www.btcsd.org/events",
+        "https://www.btcsd.org/administration",
+        "https://www.btcsd.org/township-ordinances",
+        "https://www.btcsd.org/enterprise-systems",
+        "https://www.btcsd.org/employment",
+        "https://www.btcsd.org/township-board",
+        "https://www.btcsd.org/brooktrails-fire-department",
+        "https://www.btcsd.org/about-brooktrails-fire-department",
+        "https://www.btcsd.org/fire-department-links",
+        "https://www.btcsd.org/emergency-services",
+        "https://www.btcsd.org/water-sewer",
+        "https://www.btcsd.org/application-for-sewer-lateral-inspe",
+        "https://www.btcsd.org/brooktrails-water-sewer-system",
+        "https://www.btcsd.org/water-conservation-links",
+        "https://www.btcsd.org/recreation-greenbelt-conservation-c",
+        "https://www.btcsd.org/brooktrails-redwood-park",
+        "https://www.btcsd.org/map-of-redwood-park",
+        "https://www.btcsd.org/ordinance-63",
+        "https://www.btcsd.org/planning-design",
+        "https://www.btcsd.org/development-review-process",
+        "https://www.btcsd.org/copy-of-development-review-process",
+        "https://www.btcsd.org/brd-mtg-07222025",
+        "https://www.btcsd.org/copy-of-township-ordinances",
+        "https://www.btcsd.org/btcsd-brd-mtg-07082025-vid"
+      ]
+    },
+    {
+      "title": "Brooktrails Township Enterprise Systems",
+      "file": "documents/08349b-a74720a4591146f3833b77a099f5d262.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/08349b_a74720a4591146f3833b77a099f5d262.pdf",
+      "contentType": "application/pdf",
+      "bytes": 48502,
+      "sha256": "c31b0d5958b13cabbc6d42e5dabc82a96002d0edcfb2ac7274ccb9225d61ff5f",
+      "referencedFrom": [
+        "https://www.btcsd.org/enterprise-systems"
+      ]
+    },
+    {
+      "title": "Click here to download a PDF version of this article.",
+      "file": "documents/08349b-a1fd8e19783e4854b152913dd3541e4f.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/08349b_a1fd8e19783e4854b152913dd3541e4f.pdf",
+      "contentType": "application/pdf",
+      "bytes": 3444568,
+      "sha256": "a1456d1fea20a269d6367237e8214354814e17893abcbf495c28caab04add562",
+      "referencedFrom": [
+        "https://www.btcsd.org/the-essence-of-brooktrails"
+      ]
+    },
+    {
+      "title": "Committee Charter",
+      "file": "documents/677c29-15bd19e407104fd3ae51179844a51282.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/677c29_15bd19e407104fd3ae51179844a51282.pdf",
+      "contentType": "application/pdf",
+      "bytes": 75571,
+      "sha256": "a53d2b9bdf4411a475a4ea76ee16e7b63b938478d5eceba728aac7e0cc3ddac8",
+      "referencedFrom": [
+        "https://www.btcsd.org/recreation-greenbelt-conservation-c"
+      ]
+    },
+    {
+      "title": "Community Center Rental Application",
+      "file": "documents/677c29-1f23adf09a824ed3b460bc2b8e8f3be6.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/677c29_1f23adf09a824ed3b460bc2b8e8f3be6.pdf",
+      "contentType": "application/pdf",
+      "bytes": 148943,
+      "sha256": "3b6d3aed6b000a74c774e90f6972839eaf788238ea592a22856d424cbdc10ac0",
+      "referencedFrom": [
+        "https://www.btcsd.org/",
+        "https://www.btcsd.org/site-map",
+        "https://www.btcsd.org/contact",
+        "https://www.btcsd.org/the-essence-of-brooktrails",
+        "https://www.btcsd.org/copy-of-development-review-process-1",
+        "https://www.btcsd.org/historical-photo-album",
+        "https://www.btcsd.org/events",
+        "https://www.btcsd.org/administration",
+        "https://www.btcsd.org/township-ordinances",
+        "https://www.btcsd.org/enterprise-systems",
+        "https://www.btcsd.org/employment",
+        "https://www.btcsd.org/township-board",
+        "https://www.btcsd.org/brooktrails-fire-department",
+        "https://www.btcsd.org/about-brooktrails-fire-department",
+        "https://www.btcsd.org/fire-department-links",
+        "https://www.btcsd.org/emergency-services",
+        "https://www.btcsd.org/water-sewer",
+        "https://www.btcsd.org/application-for-sewer-lateral-inspe",
+        "https://www.btcsd.org/brooktrails-water-sewer-system",
+        "https://www.btcsd.org/water-conservation-links",
+        "https://www.btcsd.org/recreation-greenbelt-conservation-c",
+        "https://www.btcsd.org/brooktrails-redwood-park",
+        "https://www.btcsd.org/map-of-redwood-park",
+        "https://www.btcsd.org/ordinance-63",
+        "https://www.btcsd.org/planning-design",
+        "https://www.btcsd.org/development-review-process",
+        "https://www.btcsd.org/copy-of-development-review-process",
+        "https://www.btcsd.org/brd-mtg-07222025",
+        "https://www.btcsd.org/copy-of-township-ordinances",
+        "https://www.btcsd.org/btcsd-brd-mtg-07082025-vid"
+      ]
+    },
+    {
+      "title": "Design Review Application Packet",
+      "file": "documents/08349b-d9bf301663da446ba6468b774f0a8cd2.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/08349b_d9bf301663da446ba6468b774f0a8cd2.pdf",
+      "contentType": "application/pdf",
+      "bytes": 47839,
+      "sha256": "78042622c6e2ff5fafe2eb30bbddcbd98630b6f3f4ace67125900b3a779b3b2f",
+      "referencedFrom": [
+        "https://www.btcsd.org/",
+        "https://www.btcsd.org/site-map",
+        "https://www.btcsd.org/contact",
+        "https://www.btcsd.org/the-essence-of-brooktrails",
+        "https://www.btcsd.org/copy-of-development-review-process-1",
+        "https://www.btcsd.org/historical-photo-album",
+        "https://www.btcsd.org/events",
+        "https://www.btcsd.org/administration",
+        "https://www.btcsd.org/township-ordinances",
+        "https://www.btcsd.org/enterprise-systems",
+        "https://www.btcsd.org/employment",
+        "https://www.btcsd.org/township-board",
+        "https://www.btcsd.org/brooktrails-fire-department",
+        "https://www.btcsd.org/about-brooktrails-fire-department",
+        "https://www.btcsd.org/fire-department-links",
+        "https://www.btcsd.org/emergency-services",
+        "https://www.btcsd.org/water-sewer",
+        "https://www.btcsd.org/application-for-sewer-lateral-inspe",
+        "https://www.btcsd.org/brooktrails-water-sewer-system",
+        "https://www.btcsd.org/water-conservation-links",
+        "https://www.btcsd.org/recreation-greenbelt-conservation-c",
+        "https://www.btcsd.org/brooktrails-redwood-park",
+        "https://www.btcsd.org/map-of-redwood-park",
+        "https://www.btcsd.org/ordinance-63",
+        "https://www.btcsd.org/planning-design",
+        "https://www.btcsd.org/development-review-process",
+        "https://www.btcsd.org/copy-of-development-review-process",
+        "https://www.btcsd.org/brd-mtg-07222025",
+        "https://www.btcsd.org/copy-of-township-ordinances",
+        "https://www.btcsd.org/btcsd-brd-mtg-07082025-vid"
+      ]
+    },
+    {
+      "title": "Development Standards & Process PDF",
+      "file": "documents/08349b-cca1fe8ae2a34093abb7d5cc3836b02a.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/08349b_cca1fe8ae2a34093abb7d5cc3836b02a.pdf",
+      "contentType": "application/pdf",
+      "bytes": 77008,
+      "sha256": "d2485db6d764c50e9779dfa8beba4214520900ea5d5fdcb199ccded3e7ea43f1",
+      "referencedFrom": [
+        "https://www.btcsd.org/",
+        "https://www.btcsd.org/site-map",
+        "https://www.btcsd.org/contact",
+        "https://www.btcsd.org/the-essence-of-brooktrails",
+        "https://www.btcsd.org/copy-of-development-review-process-1",
+        "https://www.btcsd.org/historical-photo-album",
+        "https://www.btcsd.org/events",
+        "https://www.btcsd.org/administration",
+        "https://www.btcsd.org/township-ordinances",
+        "https://www.btcsd.org/enterprise-systems",
+        "https://www.btcsd.org/employment",
+        "https://www.btcsd.org/township-board",
+        "https://www.btcsd.org/brooktrails-fire-department",
+        "https://www.btcsd.org/about-brooktrails-fire-department",
+        "https://www.btcsd.org/fire-department-links",
+        "https://www.btcsd.org/emergency-services",
+        "https://www.btcsd.org/water-sewer",
+        "https://www.btcsd.org/application-for-sewer-lateral-inspe",
+        "https://www.btcsd.org/brooktrails-water-sewer-system",
+        "https://www.btcsd.org/water-conservation-links",
+        "https://www.btcsd.org/recreation-greenbelt-conservation-c",
+        "https://www.btcsd.org/brooktrails-redwood-park",
+        "https://www.btcsd.org/map-of-redwood-park",
+        "https://www.btcsd.org/ordinance-63",
+        "https://www.btcsd.org/planning-design",
+        "https://www.btcsd.org/development-review-process",
+        "https://www.btcsd.org/copy-of-development-review-process",
+        "https://www.btcsd.org/brd-mtg-07222025",
+        "https://www.btcsd.org/copy-of-township-ordinances",
+        "https://www.btcsd.org/btcsd-brd-mtg-07082025-vid"
+      ]
+    },
+    {
+      "title": "Download Complete Job Description (PDF)",
+      "file": "documents/677c29-04593d99de2f4aa9a24583a1df9d0ca0.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/677c29_04593d99de2f4aa9a24583a1df9d0ca0.pdf",
+      "contentType": "application/pdf",
+      "bytes": 165149,
+      "sha256": "18d32f3c5ea5582c28d6dc4abcdbb8d57b9ac1df0b34530ea72d5aee4601d2dc",
+      "referencedFrom": [
+        "https://www.btcsd.org/employment"
+      ]
+    },
+    {
+      "title": "Download here a sample plan prepared by the District Architect containing installation suggestions",
+      "file": "documents/08349b-d14980765e69478b873d529a90aba591.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/08349b_d14980765e69478b873d529a90aba591.pdf",
+      "contentType": "application/pdf",
+      "bytes": 100695,
+      "sha256": "04c65f13964db9f7dbb89d056beb88dbc9c287702b7b9f50534b8179394946a0",
+      "referencedFrom": [
+        "https://www.btcsd.org/brooktrails-water-sewer-system"
+      ]
+    },
+    {
+      "title": "Download Hiking Trail Map",
+      "file": "documents/08349b-51b13bc9b0444262b244af290cb46c10.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/08349b_51b13bc9b0444262b244af290cb46c10.pdf",
+      "contentType": "application/pdf",
+      "bytes": 7528621,
+      "sha256": "334270aaac01b1f063d77299ee6c07ab137a7739d9f2d78fcabb320e647296e7",
+      "referencedFrom": [
+        "https://www.btcsd.org/site-map"
+      ]
+    },
+    {
+      "title": "EMPLOYMENT APPLICATION",
+      "file": "documents/677c29-d634e6747b3c42d5ad7ad4b46628649e.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/677c29_d634e6747b3c42d5ad7ad4b46628649e.pdf",
+      "contentType": "application/pdf",
+      "bytes": 129866,
+      "sha256": "bdd176a91a361158472872e4ac03746075dc4f1f54e2ed62125a87388d2088fd",
+      "referencedFrom": [
+        "https://www.btcsd.org/employment"
+      ]
+    },
+    {
+      "title": "Financial Plan for Services (the budget),",
+      "file": "documents/677c29-29b1d16c63734bd49bfdc5e8b5b419c8.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/677c29_29b1d16c63734bd49bfdc5e8b5b419c8.pdf",
+      "contentType": "application/pdf",
+      "bytes": 2715406,
+      "sha256": "68896d1a1625a895281307bbc15a8e5ab8fa3caac2387dc8bc855787d032bf4c",
+      "referencedFrom": [
+        "https://www.btcsd.org/administration"
+      ]
+    },
+    {
+      "title": "Financials - Annual Audit",
+      "file": "documents/677c29-022f12123d7a4957811143d58c34ecf2.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/677c29_022f12123d7a4957811143d58c34ecf2.pdf",
+      "contentType": "application/pdf",
+      "bytes": 469002,
+      "sha256": "860251db7406b70c8de12c417b589ac2e28c095406d64ccec9e69da116db2999",
+      "referencedFrom": [
+        "https://www.btcsd.org/"
+      ]
+    },
+    {
+      "title": "General Manager,",
+      "file": "documents/677c29-b2c3715f5aa94a009a1e431a823bef4b.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/677c29_b2c3715f5aa94a009a1e431a823bef4b.pdf",
+      "contentType": "application/pdf",
+      "bytes": 188563,
+      "sha256": "dca11239e8318147aec473d63e9932c76f61a0743913bcef4d15984249fc7f37",
+      "referencedFrom": [
+        "https://www.btcsd.org/administration"
+      ]
+    },
+    {
+      "title": "Most Recent Agenda & Minutes",
+      "file": "documents/677c29-d2e312f221c2414389573b6c93ff3c54-docx-dn-btcsd-rgcc-meeting-agenda-1-22-2.docx",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/677c29_d2e312f221c2414389573b6c93ff3c54.docx?dn=BTCSD_RGCC%20meeting%20agenda%201_22_26.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "bytes": 21115,
+      "sha256": "a915469816acbcd59adec8140ca421338521adca6033898a9dfeaed89b3cbd65",
+      "referencedFrom": [
+        "https://www.btcsd.org/recreation-greenbelt-conservation-c"
+      ]
+    },
+    {
+      "title": "Most Recent Board Meeting Agenda",
+      "file": "documents/677c29-c121f7d0b43948838c91c8b640cf332e.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/677c29_c121f7d0b43948838c91c8b640cf332e.pdf",
+      "contentType": "application/pdf",
+      "bytes": 281413,
+      "sha256": "c8624d11cdae613b1df46f6df0e6bc57035b429deb391fab7d9f74bc758bb402",
+      "referencedFrom": [
+        "https://www.btcsd.org/",
+        "https://www.btcsd.org/township-board"
+      ]
+    },
+    {
+      "title": "newspaper articles",
+      "file": "documents/08349b-264cb8f2f70e45e6bb4c11c8433b6e80.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/08349b_264cb8f2f70e45e6bb4c11c8433b6e80.pdf",
+      "contentType": "application/pdf",
+      "bytes": 1509688,
+      "sha256": "95e3eb683a5b4b22c7422a45762736d409421f3f7ae98b7c0191df00717dd910",
+      "referencedFrom": [
+        "https://www.btcsd.org/the-essence-of-brooktrails"
+      ]
+    },
+    {
+      "title": "Ohl Redwood Grove Rental Application",
+      "file": "documents/677c29-f292ed6ac4104df798a5efce3c774ce9.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/677c29_f292ed6ac4104df798a5efce3c774ce9.pdf",
+      "contentType": "application/pdf",
+      "bytes": 330582,
+      "sha256": "42644023e5bd40c49673a87f005ee052b9140e17c141e1fb8e5ff6b3c1ae11bb",
+      "referencedFrom": [
+        "https://www.btcsd.org/",
+        "https://www.btcsd.org/site-map",
+        "https://www.btcsd.org/contact",
+        "https://www.btcsd.org/the-essence-of-brooktrails",
+        "https://www.btcsd.org/copy-of-development-review-process-1",
+        "https://www.btcsd.org/historical-photo-album",
+        "https://www.btcsd.org/events",
+        "https://www.btcsd.org/administration",
+        "https://www.btcsd.org/township-ordinances",
+        "https://www.btcsd.org/enterprise-systems",
+        "https://www.btcsd.org/employment",
+        "https://www.btcsd.org/township-board",
+        "https://www.btcsd.org/brooktrails-fire-department",
+        "https://www.btcsd.org/about-brooktrails-fire-department",
+        "https://www.btcsd.org/fire-department-links",
+        "https://www.btcsd.org/emergency-services",
+        "https://www.btcsd.org/water-sewer",
+        "https://www.btcsd.org/application-for-sewer-lateral-inspe",
+        "https://www.btcsd.org/brooktrails-water-sewer-system",
+        "https://www.btcsd.org/water-conservation-links",
+        "https://www.btcsd.org/recreation-greenbelt-conservation-c",
+        "https://www.btcsd.org/brooktrails-redwood-park",
+        "https://www.btcsd.org/map-of-redwood-park",
+        "https://www.btcsd.org/ordinance-63",
+        "https://www.btcsd.org/planning-design",
+        "https://www.btcsd.org/development-review-process",
+        "https://www.btcsd.org/copy-of-development-review-process",
+        "https://www.btcsd.org/brd-mtg-07222025",
+        "https://www.btcsd.org/copy-of-township-ordinances",
+        "https://www.btcsd.org/btcsd-brd-mtg-07082025-vid"
+      ]
+    },
+    {
+      "title": "Ordinance 112 (Construction Meters)",
+      "file": "documents/08349b-97200914fe364198be3f94d560229ead.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/08349b_97200914fe364198be3f94d560229ead.pdf",
+      "contentType": "application/pdf",
+      "bytes": 12324,
+      "sha256": "38a8aba1983086dabb5aa921ed9c90af288cd3c4f516fb8d39ba2add3bec5a81",
+      "referencedFrom": [
+        "https://www.btcsd.org/",
+        "https://www.btcsd.org/site-map",
+        "https://www.btcsd.org/contact",
+        "https://www.btcsd.org/the-essence-of-brooktrails",
+        "https://www.btcsd.org/copy-of-development-review-process-1",
+        "https://www.btcsd.org/historical-photo-album",
+        "https://www.btcsd.org/events",
+        "https://www.btcsd.org/administration",
+        "https://www.btcsd.org/township-ordinances",
+        "https://www.btcsd.org/enterprise-systems",
+        "https://www.btcsd.org/employment",
+        "https://www.btcsd.org/township-board",
+        "https://www.btcsd.org/brooktrails-fire-department",
+        "https://www.btcsd.org/about-brooktrails-fire-department",
+        "https://www.btcsd.org/fire-department-links",
+        "https://www.btcsd.org/emergency-services",
+        "https://www.btcsd.org/water-sewer",
+        "https://www.btcsd.org/application-for-sewer-lateral-inspe",
+        "https://www.btcsd.org/brooktrails-water-sewer-system",
+        "https://www.btcsd.org/water-conservation-links",
+        "https://www.btcsd.org/recreation-greenbelt-conservation-c",
+        "https://www.btcsd.org/brooktrails-redwood-park",
+        "https://www.btcsd.org/map-of-redwood-park",
+        "https://www.btcsd.org/ordinance-63",
+        "https://www.btcsd.org/planning-design",
+        "https://www.btcsd.org/development-review-process",
+        "https://www.btcsd.org/copy-of-development-review-process",
+        "https://www.btcsd.org/brd-mtg-07222025",
+        "https://www.btcsd.org/copy-of-township-ordinances",
+        "https://www.btcsd.org/btcsd-brd-mtg-07082025-vid"
+      ]
+    },
+    {
+      "title": "Ordinance 121 (Sewer Backflow Device)",
+      "file": "documents/08349b-5e9f28db6a364bfbb7961ec4b27cc76e.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/08349b_5e9f28db6a364bfbb7961ec4b27cc76e.pdf",
+      "contentType": "application/pdf",
+      "bytes": 9048,
+      "sha256": "4277040a71b77d21521227dca7a16565460563159285d805faeee4878108134b",
+      "referencedFrom": [
+        "https://www.btcsd.org/",
+        "https://www.btcsd.org/site-map",
+        "https://www.btcsd.org/contact",
+        "https://www.btcsd.org/the-essence-of-brooktrails",
+        "https://www.btcsd.org/copy-of-development-review-process-1",
+        "https://www.btcsd.org/historical-photo-album",
+        "https://www.btcsd.org/events",
+        "https://www.btcsd.org/administration",
+        "https://www.btcsd.org/township-ordinances",
+        "https://www.btcsd.org/enterprise-systems",
+        "https://www.btcsd.org/employment",
+        "https://www.btcsd.org/township-board",
+        "https://www.btcsd.org/brooktrails-fire-department",
+        "https://www.btcsd.org/about-brooktrails-fire-department",
+        "https://www.btcsd.org/fire-department-links",
+        "https://www.btcsd.org/emergency-services",
+        "https://www.btcsd.org/water-sewer",
+        "https://www.btcsd.org/application-for-sewer-lateral-inspe",
+        "https://www.btcsd.org/brooktrails-water-sewer-system",
+        "https://www.btcsd.org/water-conservation-links",
+        "https://www.btcsd.org/recreation-greenbelt-conservation-c",
+        "https://www.btcsd.org/brooktrails-redwood-park",
+        "https://www.btcsd.org/map-of-redwood-park",
+        "https://www.btcsd.org/ordinance-63",
+        "https://www.btcsd.org/planning-design",
+        "https://www.btcsd.org/development-review-process",
+        "https://www.btcsd.org/copy-of-development-review-process",
+        "https://www.btcsd.org/brd-mtg-07222025",
+        "https://www.btcsd.org/copy-of-township-ordinances",
+        "https://www.btcsd.org/btcsd-brd-mtg-07082025-vid"
+      ]
+    },
+    {
+      "title": "Ordinance 68",
+      "file": "documents/08349b-cc32d3992e544ba2b5b65a23f4e5e7ed.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/08349b_cc32d3992e544ba2b5b65a23f4e5e7ed.pdf",
+      "contentType": "application/pdf",
+      "bytes": 2524036,
+      "sha256": "1a8b43059aa9d215d8589ab8ae883d33d78b67d2ec3e2ebaadeb083024b5a4e5",
+      "referencedFrom": [
+        "https://www.btcsd.org/the-essence-of-brooktrails",
+        "https://www.btcsd.org/brooktrails-redwood-park"
+      ]
+    },
+    {
+      "title": "Payment Plan Application",
+      "file": "documents/677c29-52525af746db4c4486283bd5d9af0c1f.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/677c29_52525af746db4c4486283bd5d9af0c1f.pdf",
+      "contentType": "application/pdf",
+      "bytes": 127869,
+      "sha256": "cb7d719d6b9c85f139c188f4e392355c1c3aaea768e523642d45ff89b9eda7db",
+      "referencedFrom": [
+        "https://www.btcsd.org/water-sewer"
+      ]
+    },
+    {
+      "title": "Policy Manual",
+      "file": "documents/677c29-6492cacd12ee415b967504028e502e1a.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/677c29_6492cacd12ee415b967504028e502e1a.pdf",
+      "contentType": "application/pdf",
+      "bytes": 979429,
+      "sha256": "0be40a0cf267df762e7fb0b39bb272d9f97be677562065537ae634e7c748d88c",
+      "referencedFrom": [
+        "https://www.btcsd.org/administration"
+      ]
+    },
+    {
+      "title": "Rates and Fees for Services",
+      "file": "documents/677c29-31de1c3b92d542b28b945444732c9e53.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/677c29_31de1c3b92d542b28b945444732c9e53.pdf",
+      "contentType": "application/pdf",
+      "bytes": 19459,
+      "sha256": "372f9538d1a01a11fbb42209c3450cb2f17b1ef875c9c62029d794c189dbe296",
+      "referencedFrom": [
+        "https://www.btcsd.org/administration"
+      ]
+    },
+    {
+      "title": "Recent projects improve Brooktrails fire safety",
+      "file": "documents/08349b-dcf5adfedc754f469b3255e4ec44c0d0.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/08349b_dcf5adfedc754f469b3255e4ec44c0d0.pdf",
+      "contentType": "application/pdf",
+      "bytes": 9217,
+      "sha256": "a653d67f3d47b53b98ba96067f1e4d82fbc63dae885a753a855000fba7dd7251",
+      "referencedFrom": [
+        "https://www.btcsd.org/the-essence-of-brooktrails"
+      ]
+    },
+    {
+      "title": "Redwood Park Greenbelt Stewardship Plan",
+      "file": "documents/08349b-7beff5bcc1af467aa0975f3a4df33b0d.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/08349b_7beff5bcc1af467aa0975f3a4df33b0d.pdf",
+      "contentType": "application/pdf",
+      "bytes": 58678,
+      "sha256": "f4ab81a7b4ad4bad30a2e9da5924f7bd952185073d6aa012905112b8ff31517e",
+      "referencedFrom": [
+        "https://www.btcsd.org/",
+        "https://www.btcsd.org/site-map",
+        "https://www.btcsd.org/contact",
+        "https://www.btcsd.org/the-essence-of-brooktrails",
+        "https://www.btcsd.org/copy-of-development-review-process-1",
+        "https://www.btcsd.org/historical-photo-album",
+        "https://www.btcsd.org/events",
+        "https://www.btcsd.org/administration",
+        "https://www.btcsd.org/township-ordinances",
+        "https://www.btcsd.org/enterprise-systems",
+        "https://www.btcsd.org/employment",
+        "https://www.btcsd.org/township-board",
+        "https://www.btcsd.org/brooktrails-fire-department",
+        "https://www.btcsd.org/about-brooktrails-fire-department",
+        "https://www.btcsd.org/fire-department-links",
+        "https://www.btcsd.org/emergency-services",
+        "https://www.btcsd.org/water-sewer",
+        "https://www.btcsd.org/application-for-sewer-lateral-inspe",
+        "https://www.btcsd.org/brooktrails-water-sewer-system",
+        "https://www.btcsd.org/water-conservation-links",
+        "https://www.btcsd.org/recreation-greenbelt-conservation-c",
+        "https://www.btcsd.org/brooktrails-redwood-park",
+        "https://www.btcsd.org/map-of-redwood-park",
+        "https://www.btcsd.org/ordinance-63",
+        "https://www.btcsd.org/planning-design",
+        "https://www.btcsd.org/development-review-process",
+        "https://www.btcsd.org/copy-of-development-review-process",
+        "https://www.btcsd.org/brd-mtg-07222025",
+        "https://www.btcsd.org/copy-of-township-ordinances",
+        "https://www.btcsd.org/btcsd-brd-mtg-07082025-vid"
+      ]
+    },
+    {
+      "title": "report providing an update on State funding for the project",
+      "file": "documents/08349b-d153321debc141e08f76006ff5d28b86.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/08349b_d153321debc141e08f76006ff5d28b86.pdf",
+      "contentType": "application/pdf",
+      "bytes": 108188,
+      "sha256": "d0f2777d86f880fd4b8a2d64cd53024e0cc73a42d1c4e8b1c92abe771d7a0c9a",
+      "referencedFrom": [
+        "https://www.btcsd.org/brooktrails-water-sewer-system"
+      ]
+    },
+    {
+      "title": "Resolution 2013-14",
+      "file": "documents/08349b-6ec1ded530a04dceb33a0dc65bf8e2f2.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/08349b_6ec1ded530a04dceb33a0dc65bf8e2f2.pdf",
+      "contentType": "application/pdf",
+      "bytes": 68478,
+      "sha256": "86f986a713cbeeec44cd634b00bb5c869ea7a7d53bf29ad5b0339426794fc134",
+      "referencedFrom": [
+        "https://www.btcsd.org/brooktrails-redwood-park"
+      ]
+    },
+    {
+      "title": "staff report providing a full explanation of the project",
+      "file": "documents/08349b-1ea5df616a8246a5a99feeb50bbf55a0.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/08349b_1ea5df616a8246a5a99feeb50bbf55a0.pdf",
+      "contentType": "application/pdf",
+      "bytes": 735569,
+      "sha256": "f2cc0b0dc308c24c3457ca3dcacb4c9b122e6f99930b6063f1c9aa6fae853c11",
+      "referencedFrom": [
+        "https://www.btcsd.org/brooktrails-water-sewer-system"
+      ]
+    },
+    {
+      "title": "staff report which includes a PowerPoint presentation and two news articles",
+      "file": "documents/08349b-937bcae6b3384080b113245b5acc3eb3.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/08349b_937bcae6b3384080b113245b5acc3eb3.pdf",
+      "contentType": "application/pdf",
+      "bytes": 1265220,
+      "sha256": "7a40458bdc490907804245647a2b9cbc3ab1d20594297a67a859dac2b0f7b98d",
+      "referencedFrom": [
+        "https://www.btcsd.org/brooktrails-water-sewer-system"
+      ]
+    },
+    {
+      "title": "Township Policy Manual",
+      "file": "documents/677c29-7fff62887f594cc98c691db2ffe51932.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/677c29_7fff62887f594cc98c691db2ffe51932.pdf",
+      "contentType": "application/pdf",
+      "bytes": 1029899,
+      "sha256": "e4dab75d812f704962d756969164ccfe2c08422b1165a97d018f3ce4ee342c45",
+      "referencedFrom": [
+        "https://www.btcsd.org/",
+        "https://www.btcsd.org/site-map",
+        "https://www.btcsd.org/contact",
+        "https://www.btcsd.org/the-essence-of-brooktrails",
+        "https://www.btcsd.org/copy-of-development-review-process-1",
+        "https://www.btcsd.org/historical-photo-album",
+        "https://www.btcsd.org/events",
+        "https://www.btcsd.org/administration",
+        "https://www.btcsd.org/township-ordinances",
+        "https://www.btcsd.org/enterprise-systems",
+        "https://www.btcsd.org/employment",
+        "https://www.btcsd.org/township-board",
+        "https://www.btcsd.org/brooktrails-fire-department",
+        "https://www.btcsd.org/about-brooktrails-fire-department",
+        "https://www.btcsd.org/fire-department-links",
+        "https://www.btcsd.org/emergency-services",
+        "https://www.btcsd.org/water-sewer",
+        "https://www.btcsd.org/application-for-sewer-lateral-inspe",
+        "https://www.btcsd.org/brooktrails-water-sewer-system",
+        "https://www.btcsd.org/water-conservation-links",
+        "https://www.btcsd.org/recreation-greenbelt-conservation-c",
+        "https://www.btcsd.org/brooktrails-redwood-park",
+        "https://www.btcsd.org/map-of-redwood-park",
+        "https://www.btcsd.org/ordinance-63",
+        "https://www.btcsd.org/planning-design",
+        "https://www.btcsd.org/development-review-process",
+        "https://www.btcsd.org/copy-of-development-review-process",
+        "https://www.btcsd.org/brd-mtg-07222025",
+        "https://www.btcsd.org/copy-of-township-ordinances",
+        "https://www.btcsd.org/btcsd-brd-mtg-07082025-vid"
+      ]
+    },
+    {
+      "title": "Township Policy Manual",
+      "file": "documents/08349b-5664dbf48f414d05a11efaae4c888e06.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/08349b_5664dbf48f414d05a11efaae4c888e06.pdf",
+      "contentType": "application/pdf",
+      "bytes": 782315,
+      "sha256": "40ef8a3b768695cee16fecbbf07fb3e7b0f52180670e60ce8bd873fa9986082a",
+      "referencedFrom": [
+        "https://www.btcsd.org/site-map",
+        "https://www.btcsd.org/administration"
+      ]
+    },
+    {
+      "title": "Utilities Code",
+      "file": "documents/677c29-52b4efee5f1e4ab5bb0033471c042651.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/677c29_52b4efee5f1e4ab5bb0033471c042651.pdf",
+      "contentType": "application/pdf",
+      "bytes": 334798,
+      "sha256": "c2df197b53b301cf18e0a49e6e511a62f00e5bd457f2529b5f582846a0971d33",
+      "referencedFrom": [
+        "https://www.btcsd.org/water-sewer"
+      ]
+    },
+    {
+      "title": "Water Meter Construction Application",
+      "file": "documents/08349b-e2754931600c45e9a9121effe815729e.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/08349b_e2754931600c45e9a9121effe815729e.pdf",
+      "contentType": "application/pdf",
+      "bytes": 20557,
+      "sha256": "f75eda03562802e274020cd48c7bacc242dbb6e3913c09ba2d6d5d10ee847628",
+      "referencedFrom": [
+        "https://www.btcsd.org/",
+        "https://www.btcsd.org/site-map",
+        "https://www.btcsd.org/contact",
+        "https://www.btcsd.org/the-essence-of-brooktrails",
+        "https://www.btcsd.org/copy-of-development-review-process-1",
+        "https://www.btcsd.org/historical-photo-album",
+        "https://www.btcsd.org/events",
+        "https://www.btcsd.org/administration",
+        "https://www.btcsd.org/township-ordinances",
+        "https://www.btcsd.org/enterprise-systems",
+        "https://www.btcsd.org/employment",
+        "https://www.btcsd.org/township-board",
+        "https://www.btcsd.org/brooktrails-fire-department",
+        "https://www.btcsd.org/about-brooktrails-fire-department",
+        "https://www.btcsd.org/fire-department-links",
+        "https://www.btcsd.org/emergency-services",
+        "https://www.btcsd.org/water-sewer",
+        "https://www.btcsd.org/application-for-sewer-lateral-inspe",
+        "https://www.btcsd.org/brooktrails-water-sewer-system",
+        "https://www.btcsd.org/water-conservation-links",
+        "https://www.btcsd.org/recreation-greenbelt-conservation-c",
+        "https://www.btcsd.org/brooktrails-redwood-park",
+        "https://www.btcsd.org/map-of-redwood-park",
+        "https://www.btcsd.org/ordinance-63",
+        "https://www.btcsd.org/planning-design",
+        "https://www.btcsd.org/development-review-process",
+        "https://www.btcsd.org/copy-of-development-review-process",
+        "https://www.btcsd.org/brd-mtg-07222025",
+        "https://www.btcsd.org/copy-of-township-ordinances",
+        "https://www.btcsd.org/btcsd-brd-mtg-07082025-vid"
+      ]
+    },
+    {
+      "title": "Water Shut-Off Policy",
+      "file": "documents/677c29-7d3015e7423c44f2b0ec243bbc917e36.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/677c29_7d3015e7423c44f2b0ec243bbc917e36.pdf",
+      "contentType": "application/pdf",
+      "bytes": 44264,
+      "sha256": "bd584184961d7a76754e0bb55c9cfcb02f5f55ab333e100177e9c2c6efb5e624",
+      "referencedFrom": [
+        "https://www.btcsd.org/water-sewer"
+      ]
+    },
+    {
+      "title": "Wildfire Preparedness & Evacuation",
+      "file": "documents/08349b-c4808416aadd4f54ba1a918e1eb31dc0.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/08349b_c4808416aadd4f54ba1a918e1eb31dc0.pdf",
+      "contentType": "application/pdf",
+      "bytes": 1059250,
+      "sha256": "04c458eb8693edf6b51453afa34570977b02692c781e53bf677e234ed43c89fb",
+      "referencedFrom": [
+        "https://www.btcsd.org/",
+        "https://www.btcsd.org/site-map",
+        "https://www.btcsd.org/contact",
+        "https://www.btcsd.org/the-essence-of-brooktrails",
+        "https://www.btcsd.org/copy-of-development-review-process-1",
+        "https://www.btcsd.org/historical-photo-album",
+        "https://www.btcsd.org/events",
+        "https://www.btcsd.org/administration",
+        "https://www.btcsd.org/township-ordinances",
+        "https://www.btcsd.org/enterprise-systems",
+        "https://www.btcsd.org/employment",
+        "https://www.btcsd.org/township-board",
+        "https://www.btcsd.org/brooktrails-fire-department",
+        "https://www.btcsd.org/about-brooktrails-fire-department",
+        "https://www.btcsd.org/fire-department-links",
+        "https://www.btcsd.org/emergency-services",
+        "https://www.btcsd.org/water-sewer",
+        "https://www.btcsd.org/application-for-sewer-lateral-inspe",
+        "https://www.btcsd.org/brooktrails-water-sewer-system",
+        "https://www.btcsd.org/water-conservation-links",
+        "https://www.btcsd.org/recreation-greenbelt-conservation-c",
+        "https://www.btcsd.org/brooktrails-redwood-park",
+        "https://www.btcsd.org/map-of-redwood-park",
+        "https://www.btcsd.org/ordinance-63",
+        "https://www.btcsd.org/planning-design",
+        "https://www.btcsd.org/development-review-process",
+        "https://www.btcsd.org/copy-of-development-review-process",
+        "https://www.btcsd.org/brd-mtg-07222025",
+        "https://www.btcsd.org/copy-of-township-ordinances",
+        "https://www.btcsd.org/btcsd-brd-mtg-07082025-vid"
+      ]
+    },
+    {
+      "title": "Willits News article",
+      "file": "documents/08349b-f31900eb84a04c20854c3be2b872e74e.pdf",
+      "sourceUrl": "https://www.btcsd.org/_files/ugd/08349b_f31900eb84a04c20854c3be2b872e74e.pdf",
+      "contentType": "application/pdf",
+      "bytes": 56220,
+      "sha256": "62101d578f1bff33e0eaa68d58f9ca8a305884795366ac1559c9f5825f082825",
+      "referencedFrom": [
+        "https://www.btcsd.org/planning-design"
+      ]
+    }
+  ]
+}
