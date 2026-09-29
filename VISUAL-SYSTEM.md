@@ -8,20 +8,20 @@
 - Creek light `#6EDAD2`: links, water cues, and interactive energy
 - Lantern gold `#F2C56B`: wayfinding, focus states, and resident-action rewards
 - Fern `#75C78E`: landscape, parks, and positive status cues
-- Ember `#FF735C`: fire, emergency readiness, and urgent content only
+- Ember `#FF735C`: the universal 911 indicator only
 - Dusk violet `#A9A0FF`: planning, governance, and secondary civic depth
 
 Trebuchet is the architectural display face: compact, modern, and strong enough for trail-marker headlines. Georgia appears selectively in the softer landscape phrasework. The operating-system sans serif stack remains the practical interface face for navigation, body text, metadata, and forms. The combination stays dependency-free while making the experience feel authored rather than templated.
 
 ## Experience idea
 
-Redwood Afterglow treats the district website as a field guide after dusk: deep canopy layers, creek reflections, lantern-like calls to action, and a controlled ember signal for Fire. The emotional reward comes from discovering a useful path quickly, without hiding public information behind spectacle.
+Redwood Afterglow treats the district website as a field guide after dusk: deep canopy layers, creek reflections, and lantern-like calls to action. The emotional reward comes from discovering a useful path quickly, without hiding public information behind spectacle.
 
 - topographic linework and local landscape photography create depth without interfering with text
 - clipped corners and trail-marker numbers turn routine cards into distinctive wayfinding objects
 - each service route receives one accent color while retaining a single shared civic system
 - restrained reveal and cursor-light effects reward exploration and disappear under reduced-motion preferences
-- operational records, notices, and emergency actions remain plain, high contrast, and scannable
+- operational records, notices, and universal safety links remain plain, high contrast, and scannable
 
 ## Layout rules
 
@@ -35,10 +35,10 @@ Redwood Afterglow treats the district website as a field guide after dusk: deep 
 
 ## Reusable components
 
-- emergency safety bar
+- universal 911 and county-alert utility bar
 - sticky district masthead and collapsible mobile navigation
 - task-first quick action rail
-- service cards with reserved emergency variant
+- numbered district-service cards with route accents
 - page hero with optional local image
 - document search and download rows
 - resource panels and contact directories
@@ -49,13 +49,13 @@ Redwood Afterglow treats the district website as a field guide after dusk: deep 
 
 | Route | Primary accent | Hero role | Main repeated component | Operational emphasis |
 |---|---|---|---|---|
-| Home | Creek + lantern | Cinematic district field guide | Six numbered trail cards | Emergency strip + resident task rail |
+| Home | Creek + lantern | Cinematic district field guide | Five numbered trail cards | Safety utility strip + resident task rail |
 | Water | Creek | Service orientation | Resource panels and notices | Billing, quality, conservation |
-| Fire | Ember | Readiness command point | Emergency action cards | 911 and preparedness priority |
 | Parks | Fern | Outdoor access | Amenity and policy panels | Current rules and reservations |
 | Planning | Dusk violet | Project pathway | Process steps | Permits and district confirmation |
 | Government | Lantern | Civic transparency | Meeting and governance panels | Agendas, minutes, board information |
 | Resources | Creek | Public record library | Searchable download rows | Clear file metadata and provenance |
+| Archive | Creek | Migration evidence | Expandable retained source text | Fire material retained without a district Fire section |
 | Contact | Lantern | Human help | Contact directory | Phone, office, and official-site fallback |
 | History | Fern | Place narrative | Story panels | Rights-aware archival context |
 | Accessibility / 404 | Creek | Recovery and access | Plain action links | Fast return to a valid destination |

@@ -19,11 +19,13 @@ Evidence root: `evidence/source-capture/2026-09-10-r2`
 
 The extracted content dataset contains 30 pages, 78 headings, 1,614 links, 321 image references, zero forms, and 161,796 characters of rendered text. The public preview carries 51 documents, selected first-party images, a 30-route disposition table, and the full retained rendered-text archive.
 
+The district-facing information architecture now contains 9 primary pages and 29 legacy or separated-section redirects. Five Fire-related routes land in the retained archive while the dedicated Fire website is developed.
+
 ## Migration disposition
 
 - `/` is redesigned as the district-wide resident homepage.
 - Water and sewer content is consolidated under `/water/`.
-- Fire, emergency services, and fire links are consolidated under `/fire/`.
+- Fire Department source pages remain in `/archive/`; their public section and legacy routes are separated from this district preview while a dedicated Fire website is developed.
 - Redwood Park, maps, recreation, and committee material are consolidated under `/parks/`.
 - Development review and planning material is consolidated under `/planning/`.
 - Board, administration, meetings, ordinances, enterprise systems, and employment are consolidated under `/government/`.

@@ -1,0 +1,108 @@
+{
+  "protocol": "CWU-SKILL-HANDOFF/1",
+  "taskId": "brooktrails-fire-separation-2026-09-29",
+  "project": {
+    "linearId": "09f18a38-d2ec-48fe-b90c-395da0dd15c1",
+    "coordinationFile": "C:\\Users\\Admin\\OneDrive - CWU\\AI\\Projects\\Brooktrails-Township-CSD-Website-Redesign-Content-Migration\\PROJECT.md",
+    "workingRoot": "C:\\Users\\Admin\\OneDrive - CWU\\Apps\\Prospect-Web-Mockups\\brooktrails-fire-preview",
+    "identityStatus": "verified"
+  },
+  "lane": "Client Delivery",
+  "phase": "design-consistency",
+  "scope": [
+    "replace the homepage title",
+    "remove the district-facing Fire section",
+    "retain Fire source continuity for the separate-site project",
+    "validate responsive and legacy-route behavior"
+  ],
+  "authority": {
+    "action": "modify and publish the existing GitHub Pages preview",
+    "source": "explicit user request in the current Codex task",
+    "target": "ukiahcomputerworks/brooktrails-fire-preview on GitHub Pages"
+  },
+  "evidence": [
+    {
+      "claim": "The owner directed the exact title Between the Water and the Redwoods, and removal of the Fire Department section because a separate Fire site is being built.",
+      "source": "current user request",
+      "grade": "user-reported"
+    },
+    {
+      "claim": "The district-facing site contains nine primary pages, five service cards, and no Fire navigation, card, contact, or primary page.",
+      "source": "scripts/build-site.mjs and rendered primary pages",
+      "grade": "locally-verified"
+    },
+    {
+      "claim": "Five former Fire destinations resolve to the retained source archive.",
+      "source": "data/source-routes.json and evidence/test-output/report.json",
+      "grade": "locally-verified"
+    }
+  ],
+  "selectedSkill": {
+    "id": "cwu-web-design-consistency",
+    "sha256": "8ddf2243758fd986652ade3c2a670b817df993f7abaa862518a5a3301be1f403",
+    "sessionAvailable": true,
+    "requiredToolsVerified": true,
+    "entrypointRead": true,
+    "requirementsChecked": true,
+    "requirementsSource": "entrypoint",
+    "requirementsEvidence": "SKILL.md requires a route matrix, shared-component updates, desktop and phone rendering, computed-style checks, cache busting, and full retained-route verification; all applicable requirements were executed.",
+    "verifiedInputs": [
+      "owner title and separation direction",
+      "nine-page primary route inventory",
+      "five Fire-route separation inventory"
+    ],
+    "verifiedCapabilities": [
+      "local filesystem",
+      "Chromium browser automation",
+      "image inspection"
+    ],
+    "loadedReferences": [
+      "VISUAL-SYSTEM.md",
+      "DESIGN-NOTES.md",
+      "SOURCE-INVENTORY.md",
+      "scripts/test-site.mjs"
+    ]
+  },
+  "inputArtifacts": [
+    "scripts/build-site.mjs",
+    "data/source-routes.json",
+    "styles.css"
+  ],
+  "requiredOutputs": [
+    "five-path district design",
+    "Fire-route archive redirects",
+    "responsive browser audit",
+    "home and contact desktop and mobile screenshots"
+  ],
+  "result": {
+    "status": "completed",
+    "outputArtifacts": [
+      "VISUAL-SYSTEM.md",
+      "DESIGN-NOTES.md",
+      "SOURCE-INVENTORY.md",
+      "evidence/test-output/report.json",
+      "evidence/test-output/home-desktop.png",
+      "evidence/test-output/home-mobile.png",
+      "evidence/test-output/contact-desktop.png",
+      "evidence/test-output/contact-mobile.png"
+    ],
+    "acceptance": [
+      {
+        "criterion": "The exact requested homepage title is rendered and the Fire section is absent from primary navigation and content.",
+        "source": "index.html and representative screenshots",
+        "grade": "locally-verified"
+      },
+      {
+        "criterion": "All nine primary pages pass desktop and mobile checks without static or browser errors.",
+        "source": "evidence/test-output/report.json",
+        "grade": "locally-verified"
+      },
+      {
+        "criterion": "All five Fire-related routes resolve to the retained archive.",
+        "source": "evidence/test-output/report.json",
+        "grade": "locally-verified"
+      }
+    ],
+    "nextAction": "Run the GitHub Pages release gate and verify the exact live commit."
+  }
+}

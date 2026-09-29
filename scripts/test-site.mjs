@@ -62,7 +62,8 @@ const server = liveBase ? null : createServer(async (req, res) => {
 
 if (server) await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
 const base = liveBase || `http://127.0.0.1:${server.address().port}`;
-const routes = ['/', '/water/', '/fire/', '/parks/', '/planning/', '/government/', '/history/', '/resources/', '/archive/', '/contact/'];
+const routes = ['/', '/water/', '/parks/', '/planning/', '/government/', '/history/', '/resources/', '/archive/', '/contact/'];
+const separatedFireRoutes = ['/fire/', '/about-brooktrails-fire-department/', '/brooktrails-fire-department/', '/emergency-services/', '/fire-department-links/'];
 const viewports = [{ name:'desktop', width:1440, height:1000 }, { name:'mobile', width:390, height:844 }];
 const browserErrors = [];
 const results = [];
@@ -110,7 +111,7 @@ try {
       if (!record.styles.headingFamily.toLowerCase().includes('trebuchet')) browserErrors.push(`${viewport.name} ${route}: unexpected heading family ${record.styles.headingFamily}`);
       if (!record.styles.bodyFamily.toLowerCase().includes('system-ui')) browserErrors.push(`${viewport.name} ${route}: unexpected body family ${record.styles.bodyFamily}`);
       if (!/^page-/.test(record.bodyClass)) browserErrors.push(`${viewport.name} ${route}: missing page route class`);
-      if ((route === '/' || route === '/fire/' || route === '/resources/' || route === '/parks/') && (viewport.name === 'desktop' || viewport.name === 'mobile')) {
+      if ((route === '/' || route === '/resources/' || route === '/parks/' || route === '/contact/') && (viewport.name === 'desktop' || viewport.name === 'mobile')) {
         await page.evaluate(async () => {
           const distance = Math.max(window.innerHeight * 0.72, 420);
           for (let position = 0; position < document.documentElement.scrollHeight; position += distance) {
@@ -118,7 +119,7 @@ try {
             await new Promise((resolve) => setTimeout(resolve, 35));
           }
           window.scrollTo({ top: 0, behavior: 'instant' });
-          await new Promise((resolve) => setTimeout(resolve, 80));
+          await new Promise((resolve) => setTimeout(resolve, 800));
         });
         const slug = route === '/' ? 'home' : route.split('/').filter(Boolean)[0];
         await page.screenshot({ path:path.join(outputDir, `${slug}-${viewport.name}.png`), fullPage:true });
@@ -127,6 +128,18 @@ try {
     }
     await context.close();
   }
+
+  const redirectContext = await browser.newContext({ viewport:viewports[0] });
+  for (const route of separatedFireRoutes) {
+    const page = await redirectContext.newPage();
+    const response = await page.goto(`${base}${route}`, { waitUntil:'networkidle', timeout:30000 });
+    const finalPath = new URL(page.url()).pathname;
+    results.push({ route, viewport:'redirect', status:response?.status(), finalPath });
+    if (response?.status() !== 200) browserErrors.push(`redirect ${route}: HTTP ${response?.status()}`);
+    if (!finalPath.endsWith('/archive/')) browserErrors.push(`redirect ${route}: expected retained archive, reached ${finalPath}`);
+    await page.close();
+  }
+  await redirectContext.close();
 } finally {
   await browser.close();
   server?.close();

@@ -1,15 +1,15 @@
 # Brooktrails Township CSD 48-hour preview
 
-Mobile-first redesign concept for the complete Brooktrails Township Community Services District website. The **Redwood Afterglow** revision turns the district experience into a modern field guide built from nocturnal forest depth, creek light, lantern wayfinding, and a controlled ember signal for Fire. It covers water and sewer, fire and emergency safety, parks and trails, planning, government, history, contacts, and public documents.
+Mobile-first redesign concept for the Brooktrails Township Community Services District website. The **Redwood Afterglow** revision turns the district experience into a modern field guide built from nocturnal forest depth, creek light, lantern wayfinding, and redwood landscape cues. It covers water and sewer, parks and trails, planning, government, history, contacts, and public documents. Fire Department information is being developed as a separate website.
 
 Preview: <https://ukiahcomputerworks.github.io/brooktrails-fire-preview/>
 
 ## What is included
 
-- 10 primary redesigned pages and 28 legacy-route redirects
+- 9 primary redesigned pages and 29 legacy or separated-section redirects
 - 30 retained source pages represented in the route map and full text archive
 - 51 locally retained public documents
-- emergency-first public-safety treatment and direct 911 action
+- universal 911 and county-alert utility links without a district Fire section
 - searchable document center
 - atmospheric local imagery, tactile service markers, and restrained progressive motion
 - responsive layouts verified at 390 px and 1440 px
