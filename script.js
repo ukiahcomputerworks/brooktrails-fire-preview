@@ -30,6 +30,46 @@
     window.addEventListener('scroll', updateHeader, { passive: true });
   }
 
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const revealTargets = [
+    ...document.querySelectorAll(
+      '.section-intro, .service-card, .action-grid > a, .story-grid > *, .two-column > *, .split-feature > *, .metric-row > *, .contact-directory > article'
+    ),
+  ];
+
+  if (!reducedMotion && 'IntersectionObserver' in window) {
+    revealTargets.forEach((node, index) => {
+      node.classList.add('reveal-ready');
+      node.style.setProperty('--reveal-delay', `${Math.min(index % 4, 3) * 65}ms`);
+    });
+
+    const revealObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+          entry.target.classList.add('is-visible');
+          revealObserver.unobserve(entry.target);
+        });
+      },
+      { threshold: 0.12, rootMargin: '0px 0px -6% 0px' }
+    );
+
+    revealTargets.forEach((node) => revealObserver.observe(node));
+  }
+
+  document.querySelectorAll('.service-card').forEach((card) => {
+    card.addEventListener('pointermove', (event) => {
+      const bounds = card.getBoundingClientRect();
+      card.style.setProperty('--mouse-x', `${event.clientX - bounds.left}px`);
+      card.style.setProperty('--mouse-y', `${event.clientY - bounds.top}px`);
+    });
+
+    card.addEventListener('pointerleave', () => {
+      card.style.removeProperty('--mouse-x');
+      card.style.removeProperty('--mouse-y');
+    });
+  });
+
   document.querySelectorAll('[data-year]').forEach((node) => {
     node.textContent = new Date().getFullYear();
   });

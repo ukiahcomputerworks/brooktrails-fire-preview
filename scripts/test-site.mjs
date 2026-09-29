@@ -83,6 +83,20 @@ try {
         overflow: document.documentElement.scrollWidth - document.documentElement.clientWidth,
         brokenImages: [...document.images].filter(image => !image.complete || image.naturalWidth === 0).map(image => image.getAttribute('src')),
         unlabeledButtons: [...document.querySelectorAll('button')].filter(button => !button.textContent.trim() && !button.getAttribute('aria-label')).length,
+        bodyClass: document.body.className,
+        activeNavigation: document.querySelectorAll('.site-nav [aria-current="page"]').length,
+        styles: (() => {
+          const heading = getComputedStyle(document.querySelector('h1'));
+          const body = getComputedStyle(document.body);
+          const primaryAction = document.querySelector('.button, .quick-link');
+          const action = primaryAction ? getComputedStyle(primaryAction) : null;
+          return {
+            headingFamily: heading.fontFamily,
+            headingWeight: heading.fontWeight,
+            bodyFamily: body.fontFamily,
+            actionMinHeight: action?.minHeight || null,
+          };
+        })(),
       }));
       const record = { route, viewport:viewport.name, status:response?.status(), ...audit, consoleErrors };
       results.push(record);
@@ -92,8 +106,21 @@ try {
       if (record.brokenImages.length) browserErrors.push(`${viewport.name} ${route}: broken images ${record.brokenImages.join(', ')}`);
       if (record.unlabeledButtons) browserErrors.push(`${viewport.name} ${route}: unlabeled buttons ${record.unlabeledButtons}`);
       if (record.consoleErrors.length) browserErrors.push(`${viewport.name} ${route}: console errors ${record.consoleErrors.join(' | ')}`);
-      if ((route === '/' || route === '/fire/') && (viewport.name === 'desktop' || viewport.name === 'mobile')) {
-        const slug = route === '/' ? 'home' : 'fire';
+      if (record.activeNavigation !== 1) browserErrors.push(`${viewport.name} ${route}: expected one active primary navigation item, found ${record.activeNavigation}`);
+      if (!record.styles.headingFamily.toLowerCase().includes('trebuchet')) browserErrors.push(`${viewport.name} ${route}: unexpected heading family ${record.styles.headingFamily}`);
+      if (!record.styles.bodyFamily.toLowerCase().includes('system-ui')) browserErrors.push(`${viewport.name} ${route}: unexpected body family ${record.styles.bodyFamily}`);
+      if (!/^page-/.test(record.bodyClass)) browserErrors.push(`${viewport.name} ${route}: missing page route class`);
+      if ((route === '/' || route === '/fire/' || route === '/resources/' || route === '/parks/') && (viewport.name === 'desktop' || viewport.name === 'mobile')) {
+        await page.evaluate(async () => {
+          const distance = Math.max(window.innerHeight * 0.72, 420);
+          for (let position = 0; position < document.documentElement.scrollHeight; position += distance) {
+            window.scrollTo({ top: position, behavior: 'instant' });
+            await new Promise((resolve) => setTimeout(resolve, 35));
+          }
+          window.scrollTo({ top: 0, behavior: 'instant' });
+          await new Promise((resolve) => setTimeout(resolve, 80));
+        });
+        const slug = route === '/' ? 'home' : route.split('/').filter(Boolean)[0];
         await page.screenshot({ path:path.join(outputDir, `${slug}-${viewport.name}.png`), fullPage:true });
       }
       await page.close();

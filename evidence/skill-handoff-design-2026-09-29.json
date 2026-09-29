@@ -1,0 +1,105 @@
+{
+  "protocol": "CWU-SKILL-HANDOFF/1",
+  "taskId": "brooktrails-redwood-afterglow-2026-09-29",
+  "project": {
+    "linearId": "09f18a38-d2ec-48fe-b90c-395da0dd15c1",
+    "coordinationFile": "C:\\Users\\Admin\\OneDrive - CWU\\AI\\Projects\\Brooktrails-Township-CSD-Website-Redesign-Content-Migration\\PROJECT.md",
+    "workingRoot": "C:\\Users\\Admin\\OneDrive - CWU\\Apps\\Prospect-Web-Mockups\\brooktrails-fire-preview",
+    "identityStatus": "verified"
+  },
+  "lane": "Client Delivery",
+  "phase": "design-consistency",
+  "scope": [
+    "Redwood Afterglow visual system",
+    "cross-route responsive implementation",
+    "browser validation before release"
+  ],
+  "authority": {
+    "action": "redesign and publish the existing GitHub Pages preview",
+    "source": "explicit user request in the current Codex task",
+    "target": "ukiahcomputerworks/brooktrails-fire-preview on GitHub Pages"
+  },
+  "evidence": [
+    {
+      "claim": "The exact Linear project, coordination file, and implementation root were verified before changes.",
+      "source": "Linear project P-COM-27, coordination PROJECT.md, and git worktree inspection",
+      "grade": "locally-verified"
+    },
+    {
+      "claim": "Thirty-nine HTML files and twenty primary-route viewport checks pass with no static or browser errors.",
+      "source": "evidence/test-output/report.json",
+      "grade": "locally-verified"
+    },
+    {
+      "claim": "The preview remains noindex and preserves ten primary pages, twenty-eight redirects, and fifty-one documents.",
+      "source": "scripts/build-site.mjs and evidence/test-output/report.json",
+      "grade": "locally-verified"
+    }
+  ],
+  "selectedSkill": {
+    "id": "cwu-web-design-consistency",
+    "sha256": "8ddf2243758fd986652ade3c2a670b817df993f7abaa862518a5a3301be1f403",
+    "sessionAvailable": true,
+    "requiredToolsVerified": true,
+    "entrypointRead": true,
+    "requirementsChecked": true,
+    "requirementsSource": "entrypoint",
+    "requirementsEvidence": "SKILL.md requires a route-by-component matrix, shared tokens, computed-style checks, representative screenshots, and documented exceptions; all applicable requirements were executed.",
+    "verifiedInputs": [
+      "generated multi-page website",
+      "route inventory",
+      "Redwood Afterglow design direction"
+    ],
+    "verifiedCapabilities": [
+      "local filesystem",
+      "Chromium browser automation",
+      "image inspection"
+    ],
+    "loadedReferences": [
+      "VISUAL-SYSTEM.md",
+      "DESIGN-NOTES.md",
+      "scripts/test-site.mjs"
+    ]
+  },
+  "inputArtifacts": [
+    "scripts/build-site.mjs",
+    "styles.css",
+    "script.js"
+  ],
+  "requiredOutputs": [
+    "shared design tokens",
+    "route and component matrix",
+    "responsive browser audit",
+    "representative desktop and mobile screenshots"
+  ],
+  "result": {
+    "status": "completed",
+    "outputArtifacts": [
+      "VISUAL-SYSTEM.md",
+      "DESIGN-NOTES.md",
+      "evidence/test-output/report.json",
+      "evidence/test-output/home-desktop.png",
+      "evidence/test-output/home-mobile.png",
+      "evidence/test-output/fire-mobile.png",
+      "evidence/test-output/parks-desktop.png"
+    ],
+    "acceptance": [
+      {
+        "criterion": "All primary routes share intentional typography, navigation, cards, and route accents.",
+        "source": "VISUAL-SYSTEM.md and evidence/test-output/report.json",
+        "grade": "locally-verified"
+      },
+      {
+        "criterion": "Desktop and mobile routes have no horizontal overflow, broken images, unlabeled buttons, or console errors.",
+        "source": "evidence/test-output/report.json",
+        "grade": "locally-verified"
+      },
+      {
+        "criterion": "Representative home, Fire, Parks, and Resources renders were visually inspected.",
+        "source": "evidence/test-output screenshots",
+        "grade": "locally-verified"
+      }
+    ],
+    "nextAction": "Run the GitHub Pages release gate and verify the exact live commit."
+  }
+}
