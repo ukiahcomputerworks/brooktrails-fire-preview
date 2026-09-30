@@ -64,7 +64,7 @@ if (server) await new Promise(resolve => server.listen(0, '127.0.0.1', resolve))
 const base = liveBase || `http://127.0.0.1:${server.address().port}`;
 const routes = ['/', '/services/', '/water/', '/parks/', '/planning/', '/government/', '/history/', '/resources/', '/archive/', '/contact/'];
 const separatedFireRoutes = ['/fire/', '/about-brooktrails-fire-department/', '/brooktrails-fire-department/', '/emergency-services/', '/fire-department-links/'];
-const viewports = [{ name:'desktop', width:1440, height:1000 }, { name:'mobile', width:390, height:844 }];
+const viewports = [{ name:'laptop', width:1513, height:618 }, { name:'desktop', width:1440, height:1000 }, { name:'mobile', width:390, height:844 }];
 const browserErrors = [];
 const results = [];
 const browser = await chromium.launch({ headless:true, executablePath:'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' });
@@ -86,6 +86,12 @@ try {
         unlabeledButtons: [...document.querySelectorAll('button')].filter(button => !button.textContent.trim() && !button.getAttribute('aria-label')).length,
         bodyClass: document.body.className,
         activeNavigation: document.querySelectorAll('.site-nav [aria-current="page"]').length,
+        heroFit: (() => {
+          const copy = document.querySelector('.page-hero-copy, .home-hero-copy');
+          if (!copy) return null;
+          const rect = copy.getBoundingClientRect();
+          return { top:rect.top, bottom:rect.bottom, viewportHeight:window.innerHeight };
+        })(),
         styles: (() => {
           const heading = getComputedStyle(document.querySelector('h1'));
           const body = getComputedStyle(document.body);
@@ -113,6 +119,7 @@ try {
       if (record.activeNavigation !== 1) browserErrors.push(`${viewport.name} ${route}: expected one active primary navigation item, found ${record.activeNavigation}`);
       if (!record.styles.headingFamily.toLowerCase().includes('trebuchet')) browserErrors.push(`${viewport.name} ${route}: unexpected heading family ${record.styles.headingFamily}`);
       if (!record.styles.bodyFamily.toLowerCase().includes('system-ui')) browserErrors.push(`${viewport.name} ${route}: unexpected body family ${record.styles.bodyFamily}`);
+      if (viewport.name === 'laptop' && record.heroFit?.bottom > viewport.height - 12) browserErrors.push(`${viewport.name} ${route}: hero copy extends below the usable first screen (${record.heroFit.bottom.toFixed(1)}px of ${viewport.height}px)`);
       if (record.styles.calloutText) {
         const callout = record.styles.calloutText;
         if (callout.color !== 'rgb(16, 36, 30)') browserErrors.push(`${viewport.name} ${route}: callout text color regressed to ${callout.color}`);
@@ -138,7 +145,7 @@ try {
         const visibleDocuments = await page.locator('[data-resource-item]:visible').count();
         if (visibleDocuments < 1) browserErrors.push(`${viewport.name} ${route}: resource search returned no water records`);
       }
-      if ((route === '/' || route === '/services/' || route === '/resources/' || route === '/parks/' || route === '/government/' || route === '/history/' || route === '/contact/') && (viewport.name === 'desktop' || viewport.name === 'mobile')) {
+      if (viewport.name === 'laptop' || ((route === '/' || route === '/services/' || route === '/resources/' || route === '/parks/' || route === '/government/' || route === '/history/' || route === '/contact/') && (viewport.name === 'desktop' || viewport.name === 'mobile'))) {
         await page.evaluate(async () => {
           const distance = Math.max(window.innerHeight * 0.72, 420);
           for (let position = 0; position < document.documentElement.scrollHeight; position += distance) {
@@ -149,7 +156,7 @@ try {
           await new Promise((resolve) => setTimeout(resolve, 800));
         });
         const slug = route === '/' ? 'home' : route.split('/').filter(Boolean)[0];
-        await page.screenshot({ path:path.join(outputDir, `${slug}-${viewport.name}.png`), fullPage:true });
+        await page.screenshot({ path:path.join(outputDir, `${slug}-${viewport.name}.png`), fullPage:viewport.name !== 'laptop' });
       }
       await page.close();
     }
