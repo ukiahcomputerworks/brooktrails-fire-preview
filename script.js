@@ -31,6 +31,21 @@
   }
 
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const playGolfReveal = (scene) => {
+    if (!scene || reducedMotion) return;
+    scene.classList.add('is-animatable');
+    scene.classList.remove('is-playing');
+    void scene.offsetWidth;
+    scene.classList.add('is-playing');
+  };
+
+  document.querySelectorAll('[data-golf-reveal]').forEach((scene) => {
+    if (!reducedMotion) scene.classList.add('is-animatable');
+  });
+
+  document.querySelectorAll('[data-golf-replay]').forEach((button) => {
+    button.addEventListener('click', () => playGolfReveal(button.closest('[data-story-panel]')?.querySelector('[data-golf-reveal]')));
+  });
   const revealTargets = [
     ...document.querySelectorAll(
       '.section-intro, .service-card, .action-grid > a, .story-grid > *, .two-column > *, .split-feature > *, .metric-row > *, .contact-directory > article'
@@ -92,6 +107,7 @@
         const selected = panel.id === target;
         panel.hidden = !selected;
         panel.classList.toggle('is-active', selected);
+        if (selected) playGolfReveal(panel.querySelector('[data-golf-reveal]'));
       });
       if (stage) {
         stage.classList.remove('is-receiving');

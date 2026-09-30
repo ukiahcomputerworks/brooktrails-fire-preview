@@ -171,9 +171,23 @@ try {
               if ((await destinations.first().evaluate(element => getComputedStyle(element).outlineStyle)) === 'none') browserErrors.push(`${viewport.name} ${route}: operations destination focus indicator is missing`);
             }
           }
+          if (route === '/parks/') {
+            const golfScene = page.locator('[data-golf-reveal]');
+            const golfPhone = page.locator('.golf-phone');
+            const replay = page.locator('[data-golf-replay]');
+            if (await golfScene.count() !== 1) browserErrors.push(`${viewport.name} ${route}: expected one animated golf scene`);
+            if (await golfPhone.getAttribute('href') !== 'tel:+17074596761') browserErrors.push(`${viewport.name} ${route}: golf reveal is missing the course phone link`);
+            if (await replay.count() !== 1) browserErrors.push(`${viewport.name} ${route}: golf scene is missing a replay control`);
+            await page.waitForTimeout(1850);
+            const revealOpacity = Number.parseFloat(await golfPhone.evaluate(element => getComputedStyle(element).opacity));
+            if (revealOpacity < .98) browserErrors.push(`${viewport.name} ${route}: golf phone number did not reveal after the shot`);
+            await replay.focus();
+            if ((await replay.evaluate(element => getComputedStyle(element).outlineStyle)) === 'none') browserErrors.push(`${viewport.name} ${route}: golf replay control lacks a focus indicator`);
+          }
           if (viewport.name === 'compactLaptop') {
             const inspectionIndex = route === '/history/' ? 3 : count - 1;
             await tabs.nth(inspectionIndex).click();
+            if (route === '/parks/') await page.waitForTimeout(1850);
             const storyStage = page.locator('.story-deck-stage');
             await storyStage.scrollIntoViewIfNeeded();
             const slug = route.split('/').filter(Boolean)[0];
@@ -217,6 +231,20 @@ try {
     await page.close();
   }
   await redirectContext.close();
+
+  const reducedContext = await browser.newContext({ viewport:{ width:390, height:844 }, reducedMotion:'reduce' });
+  const reducedPage = await reducedContext.newPage();
+  const reducedResponse = await reducedPage.goto(`${base}/parks/`, { waitUntil:'networkidle', timeout:30000 });
+  await reducedPage.locator('#parks-tab-golf').click();
+  const reducedGolf = await reducedPage.locator('[data-golf-reveal]').evaluate(element => ({
+    animatable:element.classList.contains('is-animatable'),
+    phoneOpacity:getComputedStyle(element.querySelector('.golf-phone')).opacity,
+  }));
+  results.push({ route:'/parks/', viewport:'reduced-motion', status:reducedResponse?.status(), ...reducedGolf });
+  if (reducedGolf.animatable) browserErrors.push('reduced-motion /parks/: golf scene should not animate');
+  if (Number.parseFloat(reducedGolf.phoneOpacity) < .98) browserErrors.push('reduced-motion /parks/: golf phone number should be immediately visible');
+  await reducedPage.close();
+  await reducedContext.close();
 } finally {
   await browser.close();
   server?.close();
