@@ -74,20 +74,102 @@
     node.textContent = new Date().getFullYear();
   });
 
+  document.querySelectorAll('[data-story-deck]').forEach((deck) => {
+    const tabs = [...deck.querySelectorAll('[data-story-target]')];
+    const panels = [...deck.querySelectorAll('[data-story-panel]')];
+    const stage = deck.querySelector('.story-deck-stage');
+
+    const activate = (tab, { focus = false, scroll = false } = {}) => {
+      if (!tab) return;
+      const target = tab.dataset.storyTarget;
+      tabs.forEach((candidate) => {
+        const selected = candidate === tab;
+        candidate.classList.toggle('is-active', selected);
+        candidate.setAttribute('aria-selected', String(selected));
+        candidate.tabIndex = selected ? 0 : -1;
+      });
+      panels.forEach((panel) => {
+        const selected = panel.id === target;
+        panel.hidden = !selected;
+        panel.classList.toggle('is-active', selected);
+      });
+      if (stage) {
+        stage.classList.remove('is-receiving');
+        void stage.offsetWidth;
+        stage.classList.add('is-receiving');
+      }
+      if (focus) tab.focus();
+      if (scroll && stage && window.matchMedia('(max-width: 760px)').matches) {
+        stage.scrollIntoView({ behavior: reducedMotion ? 'auto' : 'smooth', block: 'start' });
+      }
+    };
+
+    tabs.forEach((tab, index) => {
+      tab.addEventListener('click', () => activate(tab, { scroll: true }));
+      tab.addEventListener('keydown', (event) => {
+        let nextIndex = null;
+        if (event.key === 'ArrowDown' || event.key === 'ArrowRight') nextIndex = (index + 1) % tabs.length;
+        if (event.key === 'ArrowUp' || event.key === 'ArrowLeft') nextIndex = (index - 1 + tabs.length) % tabs.length;
+        if (event.key === 'Home') nextIndex = 0;
+        if (event.key === 'End') nextIndex = tabs.length - 1;
+        if (nextIndex === null) return;
+        event.preventDefault();
+        activate(tabs[nextIndex], { focus: true });
+      });
+    });
+
+    const requestedPanel = window.location.hash.slice(1);
+    const requestedTab = tabs.find((tab) => tab.dataset.storyTarget === requestedPanel);
+    activate(requestedTab || tabs.find((tab) => tab.getAttribute('aria-selected') === 'true') || tabs[0]);
+  });
+
   const search = document.querySelector('[data-resource-search]');
   const items = [...document.querySelectorAll('[data-resource-item]')];
   const empty = document.querySelector('[data-resource-empty]');
+  const library = document.querySelector('[data-resource-library]');
+  const shelves = [...document.querySelectorAll('[data-resource-category]')];
+  const resourceHeading = document.querySelector('[data-resource-heading]');
+  const resourceCount = document.querySelector('[data-resource-count]');
   if (search && items.length) {
+    const requestedCategory = new URLSearchParams(window.location.search).get('category');
+    let activeCategory = shelves.some((shelf) => shelf.dataset.resourceCategory === requestedCategory)
+      ? requestedCategory
+      : (library?.dataset.defaultCategory || shelves[0]?.dataset.resourceCategory || 'all');
+
     const filterResources = () => {
       const query = search.value.trim().toLowerCase();
       let visible = 0;
       items.forEach((item) => {
-        const match = !query || item.dataset.search.includes(query);
+        const matchesQuery = !query || item.dataset.search.includes(query);
+        const matchesCategory = query || activeCategory === 'all' || item.dataset.category.split(' ').includes(activeCategory);
+        const match = matchesQuery && matchesCategory;
         item.hidden = !match;
         if (match) visible += 1;
       });
       if (empty) empty.hidden = visible !== 0;
+      if (resourceCount) resourceCount.textContent = `${visible} ${visible === 1 ? 'file' : 'files'}`;
+      if (resourceHeading && query) resourceHeading.textContent = `Search results for “${search.value.trim()}”`;
     };
+
+    const selectShelf = (shelf) => {
+      activeCategory = shelf.dataset.resourceCategory;
+      search.value = '';
+      shelves.forEach((candidate) => {
+        const selected = candidate === shelf;
+        candidate.classList.toggle('is-active', selected);
+        candidate.setAttribute('aria-pressed', String(selected));
+      });
+      if (resourceHeading) resourceHeading.textContent = shelf.querySelector('strong')?.textContent || 'Documents';
+      const url = new URL(window.location.href);
+      url.searchParams.set('category', activeCategory);
+      window.history.replaceState({}, '', url);
+      filterResources();
+    };
+
+    shelves.forEach((shelf) => shelf.addEventListener('click', () => selectShelf(shelf)));
     search.addEventListener('input', filterResources);
+    const initialShelf = shelves.find((shelf) => shelf.dataset.resourceCategory === activeCategory);
+    if (initialShelf) selectShelf(initialShelf);
+    else filterResources();
   }
 })();

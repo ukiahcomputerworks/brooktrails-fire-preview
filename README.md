@@ -6,11 +6,13 @@ Preview: <https://ukiahcomputerworks.github.io/brooktrails-fire-preview/>
 
 ## What is included
 
-- 9 primary redesigned pages and 29 legacy or separated-section redirects
-- 30 retained source pages represented in the route map and full text archive
-- 51 locally retained public documents
+- 10 primary redesigned pages and 29 legacy or separated-section redirects
+- six-door primary navigation with a consolidated Resident Services hub
+- 30 retained source pages represented in the retained text archive and a separate reviewer deliverable
+- 51 locally retained source documents, with 48 district records in the public guided library and 3 Fire-only files held for the separate Fire website
 - universal 911 and county-alert utility links without a district Fire section
-- searchable document center
+- interactive Parks, civic, and Discover dashboards with keyboard-operable detail cards
+- guided document library with seven task-based shelves and full search
 - atmospheric local imagery, tactile service markers, and restrained progressive motion
 - responsive layouts verified at 390 px and 1440 px
 - `noindex`, `nofollow`, and `noarchive` on every preview page
@@ -26,6 +28,8 @@ node scripts/test-site.mjs
 ```
 
 The source capture is intentionally excluded from Git because it is an 83 MB evidence snapshot. Public documents and selected first-party images needed by the preview are committed. See `SOURCE-INVENTORY.md`, `DESIGN-RESEARCH.md`, and `VISUAL-SYSTEM.md` for the migration and design rationale.
+
+The reviewer migration handoff is generated separately at `deliverables/content-migration-review.html`. It contains the 30-route disposition table and review boundaries without exposing implementation accounting in the resident experience.
 
 ## Preview boundary
 

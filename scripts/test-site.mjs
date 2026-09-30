@@ -62,7 +62,7 @@ const server = liveBase ? null : createServer(async (req, res) => {
 
 if (server) await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
 const base = liveBase || `http://127.0.0.1:${server.address().port}`;
-const routes = ['/', '/water/', '/parks/', '/planning/', '/government/', '/history/', '/resources/', '/archive/', '/contact/'];
+const routes = ['/', '/services/', '/water/', '/parks/', '/planning/', '/government/', '/history/', '/resources/', '/archive/', '/contact/'];
 const separatedFireRoutes = ['/fire/', '/about-brooktrails-fire-department/', '/brooktrails-fire-department/', '/emergency-services/', '/fire-department-links/'];
 const viewports = [{ name:'desktop', width:1440, height:1000 }, { name:'mobile', width:390, height:844 }];
 const browserErrors = [];
@@ -111,7 +111,25 @@ try {
       if (!record.styles.headingFamily.toLowerCase().includes('trebuchet')) browserErrors.push(`${viewport.name} ${route}: unexpected heading family ${record.styles.headingFamily}`);
       if (!record.styles.bodyFamily.toLowerCase().includes('system-ui')) browserErrors.push(`${viewport.name} ${route}: unexpected body family ${record.styles.bodyFamily}`);
       if (!/^page-/.test(record.bodyClass)) browserErrors.push(`${viewport.name} ${route}: missing page route class`);
-      if ((route === '/' || route === '/resources/' || route === '/parks/' || route === '/contact/') && (viewport.name === 'desktop' || viewport.name === 'mobile')) {
+      if (['/parks/','/government/','/history/'].includes(route)) {
+        const tabs = page.locator('[data-story-target]');
+        const count = await tabs.count();
+        if (count < 2) browserErrors.push(`${viewport.name} ${route}: story deck has fewer than two choices`);
+        else {
+          await tabs.nth(count - 1).click();
+          const targetId = await tabs.nth(count - 1).getAttribute('data-story-target');
+          const targetVisible = await page.locator(`#${targetId}`).isVisible();
+          if (!targetVisible) browserErrors.push(`${viewport.name} ${route}: selected story panel did not open`);
+        }
+      }
+      if (route === '/resources/') {
+        const shelves = page.locator('[data-resource-category]');
+        if (await shelves.count() < 5) browserErrors.push(`${viewport.name} ${route}: expected guided document shelves`);
+        await page.locator('[data-resource-search]').fill('water');
+        const visibleDocuments = await page.locator('[data-resource-item]:visible').count();
+        if (visibleDocuments < 1) browserErrors.push(`${viewport.name} ${route}: resource search returned no water records`);
+      }
+      if ((route === '/' || route === '/services/' || route === '/resources/' || route === '/parks/' || route === '/government/' || route === '/history/' || route === '/contact/') && (viewport.name === 'desktop' || viewport.name === 'mobile')) {
         await page.evaluate(async () => {
           const distance = Math.max(window.innerHeight * 0.72, 420);
           for (let position = 0; position < document.documentElement.scrollHeight; position += distance) {

@@ -40,24 +40,26 @@ Redwood Afterglow treats the district website as a field guide after dusk: deep 
 - task-first quick action rail
 - numbered district-service cards with route accents
 - page hero with optional local image
-- document search and download rows
+- shared field-card dashboard with numbered choice rail and adjacent detail stage
+- guided document shelves, search, result count, and download rows
 - resource panels and contact directories
-- route disposition table and retained source archive
+- reviewer-only route disposition deliverable and retained source archive
 - district footer with official-site fallback
 
 ## Route and component matrix
 
 | Route | Primary accent | Hero role | Main repeated component | Operational emphasis |
 |---|---|---|---|---|
-| Home | Creek + lantern | Cinematic district field guide | Five numbered trail cards | Safety utility strip + resident task rail |
+| Home | Creek + lantern | Cinematic district field guide | Six numbered trail cards | Safety utility strip + resident task rail |
+| Resident Services | Creek | Task-first hub | Four outcome cards | Utilities, property, records, human help |
 | Water | Creek | Service orientation | Resource panels and notices | Billing, quality, conservation |
-| Parks | Fern | Outdoor access | Amenity and policy panels | Current rules and reservations |
+| Parks | Fern | Outdoor access | Interactive field-card dashboard | Trails, gathering, stewardship, golf |
 | Planning | Dusk violet | Project pathway | Process steps | Permits and district confirmation |
-| Government | Lantern | Civic transparency | Meeting and governance panels | Agendas, minutes, board information |
-| Resources | Creek | Public record library | Searchable download rows | Clear file metadata and provenance |
+| Government | Dusk violet | Civic transparency | Interactive civic dashboard | Representation, meetings, money, rules |
+| Resources | Creek | Guided public-record library | Seven shelves + search | 48 district files; Fire-only files withheld |
 | Archive | Creek | Migration evidence | Expandable retained source text | Fire material retained without a district Fire section |
 | Contact | Lantern | Human help | Contact directory | Phone, office, and official-site fallback |
-| History | Fern | Place narrative | Story panels | Rights-aware archival context |
+| History / Discover | Lantern | Place narrative | Interactive story dashboard | Origins, forest, water, photos, maps |
 | Accessibility / 404 | Creek | Recovery and access | Plain action links | Fast return to a valid destination |
 
 The generated pages use one shared stylesheet and one small progressive-enhancement script. Core navigation and content remain usable without JavaScript; hover light, reveal motion, and mobile navigation are enhancements rather than content dependencies.

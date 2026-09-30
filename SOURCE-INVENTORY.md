@@ -17,9 +17,9 @@ Evidence root: `evidence/source-capture/2026-09-10-r2`
 - 20 failed stale, malformed, rate-limited, or previously removed legacy references recorded in the manifest
 - 298 external references retained for review
 
-The extracted content dataset contains 30 pages, 78 headings, 1,614 links, 321 image references, zero forms, and 161,796 characters of rendered text. The public preview carries 51 documents, selected first-party images, a 30-route disposition table, and the full retained rendered-text archive.
+The extracted content dataset contains 30 pages, 78 headings, 1,614 links, 321 image references, zero forms, and 161,796 characters of rendered text. The repository retains 51 documents and selected first-party images. The district-facing guided library exposes 48 district documents; three Fire-only documents remain retained for the separate Fire website. The 30-route disposition table is generated as a separate reviewer deliverable, and the full rendered-text archive remains preserved.
 
-The district-facing information architecture now contains 9 primary pages and 29 legacy or separated-section redirects. Five Fire-related routes land in the retained archive while the dedicated Fire website is developed.
+The district-facing information architecture now contains 10 primary pages and 29 legacy or separated-section redirects. Six public navigation doors lead to a consolidated Resident Services hub, interactive Parks and civic dashboards, Discover, and Contact. Five Fire-related routes land in the retained archive while the dedicated Fire website is developed.
 
 ## Migration disposition
 

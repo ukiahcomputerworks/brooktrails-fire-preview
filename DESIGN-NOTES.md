@@ -4,7 +4,11 @@ The redesign treats Brooktrails as one public-service district organized around 
 
 The September 29 revision makes an experiential leap under the name **Redwood Afterglow**. It uses the emotional logic of a rewarding, destination-quality experience without copying the Alpha After Dark look. The visual language belongs to Brooktrails: nocturnal redwood greens, creek-light cyan, lantern gold, warm mist text, and topographic linework. Architectural sans serif headlines create a distinctive trail-marker voice, with selective serif phrasework adding a softer sense of place; plain system sans serif text keeps operational information easy to scan.
 
-The home page is now a field guide rather than an agency landing page. “Choose your trail” frames five district-service destinations as tactile, numbered markers. Landscape photography is atmospheric rather than decorative, while metrics and calls to action provide small moments of discovery and confidence. Interior routes stay calmer and more operational so the visual reward never competes with records or instructions.
+The home page is now a field guide rather than an agency landing page. “Choose your trail” frames six district-service destinations as tactile, numbered markers. Primary navigation is reduced to six public doors: Home, Resident Services, Parks & Trails, Board & Meetings, Discover, and Contact. Water, planning, and the guided library are disseminated through Resident Services rather than competing as separate top-level departments.
+
+Parks & Trails, Board & Meetings, and Discover use a shared field-card dashboard. A numbered choice rail opens one adjacent information card with concise steps and relevant actions. The structure is informed by the successful Alpha regulations interaction, while color, language, motion, and materials remain distinctly Brooktrails. The document library uses seven plain-language shelves and search instead of displaying 51 filenames at once. Fire-only files do not appear in district-facing search.
+
+Migration accounting is no longer resident content. The legacy 30-route table and its review caveats are generated as `deliverables/content-migration-review.html`; the full source archive remains available for evidence and continuity.
 
 Motion is progressive enhancement. Elements reveal only when JavaScript, viewport observation, and the visitor's motion preference allow it. Pointer lighting is decorative and does not carry meaning. Keyboard focus, touch targets, reading order, and print output remain explicit parts of the system.
 
