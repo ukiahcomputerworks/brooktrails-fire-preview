@@ -64,7 +64,7 @@ if (server) await new Promise(resolve => server.listen(0, '127.0.0.1', resolve))
 const base = liveBase || `http://127.0.0.1:${server.address().port}`;
 const routes = ['/', '/services/', '/water/', '/parks/', '/planning/', '/government/', '/history/', '/resources/', '/archive/', '/contact/'];
 const separatedFireRoutes = ['/fire/', '/about-brooktrails-fire-department/', '/brooktrails-fire-department/', '/emergency-services/', '/fire-department-links/'];
-const viewports = [{ name:'laptop', width:1513, height:618 }, { name:'desktop', width:1440, height:1000 }, { name:'mobile', width:390, height:844 }];
+const viewports = [{ name:'compactLaptop', width:1080, height:583 }, { name:'laptop', width:1513, height:618 }, { name:'desktop', width:1440, height:1000 }, { name:'mobile', width:390, height:844 }];
 const browserErrors = [];
 const results = [];
 const browser = await chromium.launch({ headless:true, executablePath:'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' });
@@ -123,7 +123,7 @@ try {
       if (record.activeNavigation !== 1) browserErrors.push(`${viewport.name} ${route}: expected one active primary navigation item, found ${record.activeNavigation}`);
       if (!record.styles.headingFamily.toLowerCase().includes('trebuchet')) browserErrors.push(`${viewport.name} ${route}: unexpected heading family ${record.styles.headingFamily}`);
       if (!record.styles.bodyFamily.toLowerCase().includes('system-ui')) browserErrors.push(`${viewport.name} ${route}: unexpected body family ${record.styles.bodyFamily}`);
-      if (viewport.name === 'laptop' && record.heroFit?.bottom > viewport.height - 12) browserErrors.push(`${viewport.name} ${route}: hero copy extends below the usable first screen (${record.heroFit.bottom.toFixed(1)}px of ${viewport.height}px)`);
+      if ((viewport.name === 'laptop' || viewport.name === 'compactLaptop') && record.heroFit?.bottom > viewport.height - 12) browserErrors.push(`${viewport.name} ${route}: hero copy extends below the usable first screen (${record.heroFit.bottom.toFixed(1)}px of ${viewport.height}px)`);
       if (route === '/') {
         if (record.homeSpringboard?.count !== 6) browserErrors.push(`${viewport.name} ${route}: expected six home springboards`);
         if (record.homeSpringboard?.cues.some(cue => !cue)) browserErrors.push(`${viewport.name} ${route}: a home springboard is missing its invitation cue`);
@@ -146,10 +146,17 @@ try {
         const count = await tabs.count();
         if (count < 2) browserErrors.push(`${viewport.name} ${route}: story deck has fewer than two choices`);
         else {
-          await tabs.nth(count - 1).click();
-          const targetId = await tabs.nth(count - 1).getAttribute('data-story-target');
-          const targetVisible = await page.locator(`#${targetId}`).isVisible();
-          if (!targetVisible) browserErrors.push(`${viewport.name} ${route}: selected story panel did not open`);
+          for (let tabIndex = 0; tabIndex < count; tabIndex += 1) {
+            await tabs.nth(tabIndex).click();
+            const targetId = await tabs.nth(tabIndex).getAttribute('data-story-target');
+            const targetVisible = await page.locator(`#${targetId}`).isVisible();
+            if (!targetVisible) browserErrors.push(`${viewport.name} ${route}: story panel ${tabIndex + 1} did not open`);
+            if (viewport.name === 'compactLaptop') {
+              const fit = await page.locator('.story-deck-stage').evaluate(element => ({ height:element.getBoundingClientRect().height, clientHeight:element.clientHeight, scrollHeight:element.scrollHeight }));
+              if (fit.height > viewport.height - 24) browserErrors.push(`${viewport.name} ${route}: story panel ${tabIndex + 1} is taller than the visible card area (${fit.height.toFixed(1)}px)`);
+              if (fit.scrollHeight > fit.clientHeight + 1) browserErrors.push(`${viewport.name} ${route}: story panel ${tabIndex + 1} clips content (${fit.scrollHeight}px inside ${fit.clientHeight}px)`);
+            }
+          }
           if (route === '/government/') {
             const destinations = page.locator('.story-deck-destination');
             if (await destinations.count() !== 3) browserErrors.push(`${viewport.name} ${route}: expected three clearly linked operations destinations`);
@@ -163,6 +170,14 @@ try {
               await destinations.first().focus();
               if ((await destinations.first().evaluate(element => getComputedStyle(element).outlineStyle)) === 'none') browserErrors.push(`${viewport.name} ${route}: operations destination focus indicator is missing`);
             }
+          }
+          if (viewport.name === 'compactLaptop') {
+            const inspectionIndex = route === '/history/' ? 3 : count - 1;
+            await tabs.nth(inspectionIndex).click();
+            const storyStage = page.locator('.story-deck-stage');
+            await storyStage.scrollIntoViewIfNeeded();
+            const slug = route.split('/').filter(Boolean)[0];
+            await storyStage.screenshot({ path:path.join(outputDir, `${slug}-compact-card.png`) });
           }
         }
       }
