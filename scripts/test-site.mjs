@@ -91,11 +91,14 @@ try {
           const body = getComputedStyle(document.body);
           const primaryAction = document.querySelector('.button, .quick-link');
           const action = primaryAction ? getComputedStyle(primaryAction) : null;
+          const calloutParagraph = document.querySelector('.callout p');
+          const calloutText = calloutParagraph ? getComputedStyle(calloutParagraph) : null;
           return {
             headingFamily: heading.fontFamily,
             headingWeight: heading.fontWeight,
             bodyFamily: body.fontFamily,
             actionMinHeight: action?.minHeight || null,
+            calloutText: calloutText ? { color:calloutText.color, fontSize:calloutText.fontSize, fontWeight:calloutText.fontWeight, lineHeight:calloutText.lineHeight } : null,
           };
         })(),
       }));
@@ -110,6 +113,12 @@ try {
       if (record.activeNavigation !== 1) browserErrors.push(`${viewport.name} ${route}: expected one active primary navigation item, found ${record.activeNavigation}`);
       if (!record.styles.headingFamily.toLowerCase().includes('trebuchet')) browserErrors.push(`${viewport.name} ${route}: unexpected heading family ${record.styles.headingFamily}`);
       if (!record.styles.bodyFamily.toLowerCase().includes('system-ui')) browserErrors.push(`${viewport.name} ${route}: unexpected body family ${record.styles.bodyFamily}`);
+      if (record.styles.calloutText) {
+        const callout = record.styles.calloutText;
+        if (callout.color !== 'rgb(16, 36, 30)') browserErrors.push(`${viewport.name} ${route}: callout text color regressed to ${callout.color}`);
+        if (Number.parseFloat(callout.fontSize) < 16.8) browserErrors.push(`${viewport.name} ${route}: callout text too small at ${callout.fontSize}`);
+        if (Number.parseInt(callout.fontWeight, 10) < 600) browserErrors.push(`${viewport.name} ${route}: callout text weight too light at ${callout.fontWeight}`);
+      }
       if (!/^page-/.test(record.bodyClass)) browserErrors.push(`${viewport.name} ${route}: missing page route class`);
       if (['/parks/','/government/','/history/'].includes(route)) {
         const tabs = page.locator('[data-story-target]');
