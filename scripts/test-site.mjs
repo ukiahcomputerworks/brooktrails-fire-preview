@@ -120,7 +120,8 @@ try {
       if (record.brokenImages.length) browserErrors.push(`${viewport.name} ${route}: broken images ${record.brokenImages.join(', ')}`);
       if (record.unlabeledButtons) browserErrors.push(`${viewport.name} ${route}: unlabeled buttons ${record.unlabeledButtons}`);
       if (record.consoleErrors.length) browserErrors.push(`${viewport.name} ${route}: console errors ${record.consoleErrors.join(' | ')}`);
-      if (record.activeNavigation !== 1) browserErrors.push(`${viewport.name} ${route}: expected one active primary navigation item, found ${record.activeNavigation}`);
+      const expectedActiveNavigation = route === '/contact/' ? 0 : 1;
+      if (record.activeNavigation !== expectedActiveNavigation) browserErrors.push(`${viewport.name} ${route}: expected ${expectedActiveNavigation} active primary navigation item, found ${record.activeNavigation}`);
       if (!record.styles.headingFamily.toLowerCase().includes('trebuchet')) browserErrors.push(`${viewport.name} ${route}: unexpected heading family ${record.styles.headingFamily}`);
       if (!record.styles.bodyFamily.toLowerCase().includes('system-ui')) browserErrors.push(`${viewport.name} ${route}: unexpected body family ${record.styles.bodyFamily}`);
       if ((viewport.name === 'laptop' || viewport.name === 'compactLaptop') && record.heroFit?.bottom > viewport.height - 12) browserErrors.push(`${viewport.name} ${route}: hero copy extends below the usable first screen (${record.heroFit.bottom.toFixed(1)}px of ${viewport.height}px)`);
@@ -141,6 +142,16 @@ try {
         if (Number.parseInt(callout.fontWeight, 10) < 600) browserErrors.push(`${viewport.name} ${route}: callout text weight too light at ${callout.fontWeight}`);
       }
       if (!/^page-/.test(record.bodyClass)) browserErrors.push(`${viewport.name} ${route}: missing page route class`);
+      const primaryNavLabels = await page.locator('.site-nav a').allTextContents();
+      if (primaryNavLabels.length !== 5) browserErrors.push(`${viewport.name} ${route}: expected five exploration hubs, found ${primaryNavLabels.length}`);
+      if (primaryNavLabels.some(label => label.trim().toLowerCase() === 'contact')) browserErrors.push(`${viewport.name} ${route}: utility contact destination remains in primary navigation`);
+      if ((await page.locator('.masthead-actions .button').textContent()).trim() !== 'District desk') browserErrors.push(`${viewport.name} ${route}: masthead utility destination is not labeled District desk`);
+      if (route === '/contact/') {
+        const contactText = await page.locator('main').innerText();
+        for (const requiredContact of ['707-459-2494','btcsd@btcsd.org','24860 Birch Street','707-459-0358','707-459-6761']) {
+          if (!contactText.includes(requiredContact)) browserErrors.push(`${viewport.name} ${route}: consolidated District Desk is missing ${requiredContact}`);
+        }
+      }
       if (['/parks/','/government/','/history/'].includes(route)) {
         const tabs = page.locator('[data-story-target]');
         const count = await tabs.count();

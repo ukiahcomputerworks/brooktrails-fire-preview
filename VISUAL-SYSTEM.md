@@ -58,7 +58,7 @@ Redwood Afterglow treats the district website as a field guide after dusk: deep 
 | Government | Dusk violet | Civic transparency | Interactive civic dashboard | Representation, meetings, money, rules |
 | Resources | Creek | Guided public-record library | Seven shelves + search | 48 district files; Fire-only files withheld |
 | Archive | Creek | Migration evidence | Expandable retained source text | Fire material retained without a district Fire section |
-| Contact | Lantern | Human help | Contact directory | Phone, office, and official-site fallback |
+| District Desk | Lantern | Human help | Masthead utility destination | Consolidated phone, email, fax, office, and golf contacts; intentionally outside primary exploration navigation |
 | History / Discover | Lantern | Place narrative | Interactive story dashboard | Origins, forest, water, photos, maps |
 | Accessibility / 404 | Creek | Recovery and access | Plain action links | Fast return to a valid destination |
 
