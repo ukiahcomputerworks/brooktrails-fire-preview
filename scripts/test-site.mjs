@@ -150,6 +150,20 @@ try {
           const targetId = await tabs.nth(count - 1).getAttribute('data-story-target');
           const targetVisible = await page.locator(`#${targetId}`).isVisible();
           if (!targetVisible) browserErrors.push(`${viewport.name} ${route}: selected story panel did not open`);
+          if (route === '/government/') {
+            const destinations = page.locator('.story-deck-destination');
+            if (await destinations.count() !== 3) browserErrors.push(`${viewport.name} ${route}: expected three clearly linked operations destinations`);
+            else {
+              const labels = await destinations.locator('.story-deck-destination-copy b').allTextContents();
+              if (labels.some(label => !label.trim())) browserErrors.push(`${viewport.name} ${route}: an operations destination is missing visible action text`);
+              const hrefs = await destinations.evaluateAll(links => links.map(link => link.getAttribute('href')));
+              if (hrefs.some(href => !href || href === '#')) browserErrors.push(`${viewport.name} ${route}: an operations destination is not linked`);
+              await destinations.first().hover();
+              if ((await destinations.first().evaluate(element => getComputedStyle(element).transform)) === 'none') browserErrors.push(`${viewport.name} ${route}: operations destination hover treatment is missing`);
+              await destinations.first().focus();
+              if ((await destinations.first().evaluate(element => getComputedStyle(element).outlineStyle)) === 'none') browserErrors.push(`${viewport.name} ${route}: operations destination focus indicator is missing`);
+            }
+          }
         }
       }
       if (route === '/resources/') {
