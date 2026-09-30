@@ -96,6 +96,10 @@ try {
           const rect = copy.getBoundingClientRect();
           return { top:rect.top, bottom:rect.bottom, viewportHeight:window.innerHeight };
         })(),
+        firstSectionPaddingTop: (() => {
+          const section = document.querySelector('.page-content > .section:first-child');
+          return section ? Number.parseFloat(getComputedStyle(section).paddingTop) : null;
+        })(),
         styles: (() => {
           const heading = getComputedStyle(document.querySelector('h1'));
           const body = getComputedStyle(document.body);
@@ -125,6 +129,7 @@ try {
       if (!record.styles.headingFamily.toLowerCase().includes('trebuchet')) browserErrors.push(`${viewport.name} ${route}: unexpected heading family ${record.styles.headingFamily}`);
       if (!record.styles.bodyFamily.toLowerCase().includes('system-ui')) browserErrors.push(`${viewport.name} ${route}: unexpected body family ${record.styles.bodyFamily}`);
       if ((viewport.name === 'laptop' || viewport.name === 'compactLaptop') && record.heroFit?.bottom > viewport.height - 12) browserErrors.push(`${viewport.name} ${route}: hero copy extends below the usable first screen (${record.heroFit.bottom.toFixed(1)}px of ${viewport.height}px)`);
+      if ((viewport.name === 'laptop' || viewport.name === 'compactLaptop') && record.firstSectionPaddingTop !== null && record.firstSectionPaddingTop > 64) browserErrors.push(`${viewport.name} ${route}: first content section leaves ${record.firstSectionPaddingTop}px of empty top space`);
       if (route === '/') {
         if (record.homeSpringboard?.count !== 6) browserErrors.push(`${viewport.name} ${route}: expected six home springboards`);
         if (record.homeSpringboard?.cues.some(cue => !cue)) browserErrors.push(`${viewport.name} ${route}: a home springboard is missing its invitation cue`);
