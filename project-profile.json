@@ -27,8 +27,8 @@
     "G5": "not-applicable-preview-will-not-submit-forms-or-claim-delivery",
     "G6": "passed-2026-09-10-no-fake-forms-or-secrets",
     "G7": "passed-2026-09-10-all-html-noindex-nofollow-noarchive",
-    "G8": "pending-current-interaction-revision-release-verification",
-    "G9": "preview-owner-review-pending-after-current-interaction-revision",
+    "G8": "passed-2026-09-29-github-pages-exact-head-build-and-live-route-suite-verified",
+    "G9": "preview-released-guided-hubs-owner-review-pending",
     "G10": "not-applicable-no-universal-learning-promotion-requested"
   },
   "exceptions": [],
