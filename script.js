@@ -139,6 +139,42 @@
     activate(requestedTab || tabs.find((tab) => tab.getAttribute('aria-selected') === 'true') || tabs[0]);
   });
 
+  const portraitTriggers = [...document.querySelectorAll('[data-member-portrait-trigger]')];
+  if (portraitTriggers.length) {
+    const setPortraitState = (trigger, open) => {
+      const member = trigger.closest('.board-member');
+      const portrait = document.getElementById(trigger.getAttribute('aria-controls'));
+      trigger.setAttribute('aria-expanded', String(open));
+      member?.classList.toggle('is-portrait-open', open);
+      portrait?.setAttribute('aria-hidden', String(!open));
+    };
+
+    const closePortraits = (except = null) => {
+      portraitTriggers.forEach((trigger) => {
+        if (trigger !== except) setPortraitState(trigger, false);
+      });
+    };
+
+    portraitTriggers.forEach((trigger) => {
+      trigger.addEventListener('click', () => {
+        const open = trigger.getAttribute('aria-expanded') !== 'true';
+        closePortraits(trigger);
+        setPortraitState(trigger, open);
+      });
+    });
+
+    document.addEventListener('click', (event) => {
+      if (!event.target.closest('.board-member')) closePortraits();
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key !== 'Escape') return;
+      const openTrigger = portraitTriggers.find((trigger) => trigger.getAttribute('aria-expanded') === 'true');
+      closePortraits();
+      openTrigger?.focus();
+    });
+  }
+
   const search = document.querySelector('[data-resource-search]');
   const items = [...document.querySelectorAll('[data-resource-item]')];
   const empty = document.querySelector('[data-resource-empty]');

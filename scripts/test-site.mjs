@@ -10,7 +10,7 @@ const liveBase = process.env.SITE_BASE?.replace(/\/$/, '');
 const outputDir = path.join(root, 'evidence', liveBase ? 'test-output-live' : 'test-output');
 await mkdir(outputDir, { recursive: true });
 
-const mime = { '.html':'text/html; charset=utf-8', '.css':'text/css', '.js':'text/javascript', '.svg':'image/svg+xml', '.png':'image/png', '.jpg':'image/jpeg', '.jpeg':'image/jpeg', '.gif':'image/gif', '.pdf':'application/pdf', '.docx':'application/vnd.openxmlformats-officedocument.wordprocessingml.document' };
+const mime = { '.html':'text/html; charset=utf-8', '.css':'text/css', '.js':'text/javascript', '.svg':'image/svg+xml', '.png':'image/png', '.webp':'image/webp', '.jpg':'image/jpeg', '.jpeg':'image/jpeg', '.gif':'image/gif', '.pdf':'application/pdf', '.docx':'application/vnd.openxmlformats-officedocument.wordprocessingml.document' };
 const skipDirs = new Set(['.git', 'evidence', 'scripts', 'data', 'node_modules']);
 
 async function walk(dir, files = []) {
@@ -186,6 +186,34 @@ try {
               await destinations.first().focus();
               if ((await destinations.first().evaluate(element => getComputedStyle(element).outlineStyle)) === 'none') browserErrors.push(`${viewport.name} ${route}: operations destination focus indicator is missing`);
             }
+            await tabs.first().click();
+            const portraitTriggers = page.locator('[data-member-portrait-trigger]');
+            const portraits = page.locator('[data-member-portrait]');
+            if (await portraitTriggers.count() !== 5) browserErrors.push(`${viewport.name} ${route}: expected five Board portrait triggers`);
+            if (await portraits.count() !== 5) browserErrors.push(`${viewport.name} ${route}: expected five Board portrait bubbles`);
+            const portraitImagesLoaded = await portraits.locator('img').evaluateAll(images => images.every(image => image.complete && image.naturalWidth > 0));
+            if (!portraitImagesLoaded) browserErrors.push(`${viewport.name} ${route}: one or more Board portraits failed to load`);
+            const boardPanelText = await page.locator('#civic-panel-board').innerText();
+            for (const member of ['Tina Tyler-O\'Shea','Rick Williams','Ed Horrick','Susan Mahoney','Mary Ziady']) {
+              if (!boardPanelText.includes(member)) browserErrors.push(`${viewport.name} ${route}: Board panel is missing ${member}`);
+            }
+            await portraitTriggers.first().click();
+            if (await portraitTriggers.first().getAttribute('aria-expanded') !== 'true') browserErrors.push(`${viewport.name} ${route}: portrait trigger did not open on click`);
+            await page.waitForTimeout(220);
+            const openOpacity = Number.parseFloat(await portraits.first().evaluate(element => getComputedStyle(element).opacity));
+            if (openOpacity < .98) browserErrors.push(`${viewport.name} ${route}: opened portrait bubble is not visible`);
+            await page.keyboard.press('Escape');
+            if (await portraitTriggers.first().getAttribute('aria-expanded') !== 'false') browserErrors.push(`${viewport.name} ${route}: Escape did not close the portrait bubble`);
+            await portraitTriggers.first().focus();
+            if ((await portraitTriggers.first().evaluate(element => getComputedStyle(element).outlineStyle)) === 'none') browserErrors.push(`${viewport.name} ${route}: portrait trigger focus indicator is missing`);
+            const groupCaption = await page.locator('.split-feature figcaption').last().innerText();
+            if (!groupCaption.includes('Left to right: Susan Mahoney, Mary Ziady, Tina Tyler-O\'Shea, Ed Horrick, and Rick Williams.')) browserErrors.push(`${viewport.name} ${route}: Board group photo lacks the left-to-right caption`);
+            const groupPhotoFit = await page.locator('.board-group-photo img').last().evaluate(image => {
+              const style = getComputedStyle(image);
+              const bounds = image.getBoundingClientRect();
+              return { objectFit: style.objectFit, ratio: bounds.width / bounds.height };
+            });
+            if (groupPhotoFit.objectFit !== 'contain' || Math.abs(groupPhotoFit.ratio - (1170 / 724)) > .08) browserErrors.push(`${viewport.name} ${route}: Board group photo crops members instead of preserving the full five-person image`);
           }
           if (route === '/parks/') {
             const golfScene = page.locator('[data-golf-reveal]');
