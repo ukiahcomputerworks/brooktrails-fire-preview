@@ -86,6 +86,10 @@ try {
         unlabeledButtons: [...document.querySelectorAll('button')].filter(button => !button.textContent.trim() && !button.getAttribute('aria-label')).length,
         bodyClass: document.body.className,
         activeNavigation: document.querySelectorAll('.site-nav [aria-current="page"]').length,
+        homeSpringboard: document.body.classList.contains('page-home') ? (() => {
+          const cards = [...document.querySelectorAll('.service-card')];
+          return { count:cards.length, cues:cards.map(card => card.dataset.invite || ''), pseudo:cards.map(card => getComputedStyle(card, '::before').content) };
+        })() : null,
         heroFit: (() => {
           const copy = document.querySelector('.page-hero-copy, .home-hero-copy');
           if (!copy) return null;
@@ -120,6 +124,16 @@ try {
       if (!record.styles.headingFamily.toLowerCase().includes('trebuchet')) browserErrors.push(`${viewport.name} ${route}: unexpected heading family ${record.styles.headingFamily}`);
       if (!record.styles.bodyFamily.toLowerCase().includes('system-ui')) browserErrors.push(`${viewport.name} ${route}: unexpected body family ${record.styles.bodyFamily}`);
       if (viewport.name === 'laptop' && record.heroFit?.bottom > viewport.height - 12) browserErrors.push(`${viewport.name} ${route}: hero copy extends below the usable first screen (${record.heroFit.bottom.toFixed(1)}px of ${viewport.height}px)`);
+      if (route === '/') {
+        if (record.homeSpringboard?.count !== 6) browserErrors.push(`${viewport.name} ${route}: expected six home springboards`);
+        if (record.homeSpringboard?.cues.some(cue => !cue)) browserErrors.push(`${viewport.name} ${route}: a home springboard is missing its invitation cue`);
+        if (record.homeSpringboard?.pseudo.some(content => /^['\"]?0[1-6]['\"]?$/.test(content))) browserErrors.push(`${viewport.name} ${route}: numeric home-card label remains`);
+        const firstSpringboard = page.locator('.service-card').first();
+        await firstSpringboard.hover();
+        if ((await firstSpringboard.evaluate(element => getComputedStyle(element).transform)) === 'none') browserErrors.push(`${viewport.name} ${route}: springboard hover reward is missing`);
+        await firstSpringboard.focus();
+        if ((await firstSpringboard.evaluate(element => getComputedStyle(element).outlineStyle)) === 'none') browserErrors.push(`${viewport.name} ${route}: springboard focus indicator is missing`);
+      }
       if (record.styles.calloutText) {
         const callout = record.styles.calloutText;
         if (callout.color !== 'rgb(16, 36, 30)') browserErrors.push(`${viewport.name} ${route}: callout text color regressed to ${callout.color}`);
