@@ -30,6 +30,94 @@
     window.addEventListener('scroll', updateHeader, { passive: true });
   }
 
+  document.querySelectorAll('[data-site-search]').forEach(async (form) => {
+    const input = form.querySelector('[data-site-search-input]');
+    const results = form.querySelector('[data-site-search-results]');
+    if (!input || !results) return;
+    let items = [];
+    let activeIndex = -1;
+
+    const closeResults = () => {
+      results.hidden = true;
+      results.replaceChildren();
+      input.setAttribute('aria-expanded', 'false');
+      input.removeAttribute('aria-activedescendant');
+      activeIndex = -1;
+    };
+
+    const setActive = (index) => {
+      const options = [...results.querySelectorAll('[role="option"]')];
+      if (!options.length) return;
+      activeIndex = (index + options.length) % options.length;
+      options.forEach((option, optionIndex) => option.classList.toggle('is-active', optionIndex === activeIndex));
+      input.setAttribute('aria-activedescendant', options[activeIndex].id);
+      options[activeIndex].scrollIntoView({ block:'nearest' });
+    };
+
+    const renderResults = () => {
+      const query = input.value.trim().toLowerCase();
+      if (query.length < 2 || !items.length) return closeResults();
+      const terms = query.split(/\s+/).filter(Boolean);
+      const matches = items
+        .map((item) => {
+          const title = item.title.toLowerCase();
+          const haystack = `${item.title} ${item.detail} ${item.keywords || ''}`.toLowerCase();
+          if (!terms.every(term => haystack.includes(term))) return null;
+          const score = title === query ? 0 : title.startsWith(query) ? 1 : title.includes(query) ? 2 : 3;
+          return { item, score };
+        })
+        .filter(Boolean)
+        .sort((a, b) => a.score - b.score || a.item.title.localeCompare(b.item.title))
+        .slice(0, 7);
+      results.replaceChildren();
+      matches.forEach(({ item }, index) => {
+        const link = document.createElement('a');
+        link.id = `${results.id}-option-${index}`;
+        link.href = new URL(item.href, new URL(form.dataset.searchRoot, window.location.href)).href;
+        link.setAttribute('role', 'option');
+        const copy = document.createElement('span');
+        const title = document.createElement('strong');
+        const detail = document.createElement('small');
+        const type = document.createElement('b');
+        title.textContent = item.title;
+        detail.textContent = item.detail;
+        type.textContent = item.type;
+        copy.append(title, detail);
+        link.append(copy, type);
+        results.append(link);
+      });
+      results.hidden = matches.length === 0;
+      input.setAttribute('aria-expanded', String(matches.length > 0));
+      activeIndex = -1;
+    };
+
+    try {
+      const response = await fetch(form.dataset.searchIndex);
+      if (response.ok) items = await response.json();
+    } catch {
+      items = [];
+    }
+
+    input.addEventListener('input', renderResults);
+    input.addEventListener('focus', renderResults);
+    input.addEventListener('keydown', (event) => {
+      const options = [...results.querySelectorAll('[role="option"]')];
+      if (event.key === 'ArrowDown' && options.length) { event.preventDefault(); setActive(activeIndex + 1); }
+      if (event.key === 'ArrowUp' && options.length) { event.preventDefault(); setActive(activeIndex - 1); }
+      if (event.key === 'Enter' && activeIndex >= 0 && options[activeIndex]) { event.preventDefault(); options[activeIndex].click(); }
+      if (event.key === 'Escape') closeResults();
+    });
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();
+      const choice = results.querySelector('.is-active, [role="option"]');
+      if (choice) return choice.click();
+      const destination = new URL('resources/', new URL(form.dataset.searchRoot, window.location.href));
+      destination.searchParams.set('q', input.value.trim());
+      window.location.assign(destination);
+    });
+    document.addEventListener('click', (event) => { if (!form.contains(event.target)) closeResults(); });
+  });
+
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const playGolfReveal = (scene) => {
     if (!scene || reducedMotion) return;
@@ -48,7 +136,7 @@
   });
   const revealTargets = [
     ...document.querySelectorAll(
-      '.section-intro, .service-card, .action-grid > a, .story-grid > *, .two-column > *, .split-feature > *, .metric-row > *, .contact-directory > article'
+      '.section-intro, .hub-springboard, .service-switchboard > a, .service-card, .action-grid > a, .story-grid > *, .two-column > *, .split-feature > *, .metric-row > *, .contact-directory > article'
     ),
   ];
 
@@ -88,6 +176,15 @@
   document.querySelectorAll('[data-year]').forEach((node) => {
     node.textContent = new Date().getFullYear();
   });
+
+  const openArchiveTarget = () => {
+    const archiveTarget = window.location.hash ? document.querySelector(`.archive-list ${window.location.hash}`) : null;
+    if (!(archiveTarget instanceof HTMLDetailsElement)) return;
+    archiveTarget.open = true;
+    requestAnimationFrame(() => archiveTarget.scrollIntoView({ behavior: reducedMotion ? 'auto' : 'smooth', block: 'start' }));
+  };
+  openArchiveTarget();
+  window.addEventListener('hashchange', openArchiveTarget);
 
   document.querySelectorAll('[data-story-deck]').forEach((deck) => {
     const tabs = [...deck.querySelectorAll('[data-story-target]')];
@@ -184,6 +281,7 @@
   const resourceCount = document.querySelector('[data-resource-count]');
   if (search && items.length) {
     const requestedCategory = new URLSearchParams(window.location.search).get('category');
+    const requestedQuery = new URLSearchParams(window.location.search).get('q');
     let activeCategory = shelves.some((shelf) => shelf.dataset.resourceCategory === requestedCategory)
       ? requestedCategory
       : (library?.dataset.defaultCategory || shelves[0]?.dataset.resourceCategory || 'all');
@@ -221,7 +319,11 @@
     shelves.forEach((shelf) => shelf.addEventListener('click', () => selectShelf(shelf)));
     search.addEventListener('input', filterResources);
     const initialShelf = shelves.find((shelf) => shelf.dataset.resourceCategory === activeCategory);
-    if (initialShelf) selectShelf(initialShelf);
+    if (requestedQuery) {
+      search.value = requestedQuery;
+      shelves.forEach((shelf) => { shelf.classList.remove('is-active'); shelf.setAttribute('aria-pressed', 'false'); });
+      filterResources();
+    } else if (initialShelf) selectShelf(initialShelf);
     else filterResources();
   }
 })();

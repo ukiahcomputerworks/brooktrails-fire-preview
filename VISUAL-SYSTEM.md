@@ -18,7 +18,7 @@ Trebuchet is the architectural display face: compact, modern, and strong enough 
 Redwood Afterglow treats the district website as a field guide after dusk: deep canopy layers, creek reflections, and lantern-like calls to action. The emotional reward comes from discovering a useful path quickly, without hiding public information behind spectacle.
 
 - topographic linework and local landscape photography create depth without interfering with text
-- clipped corners and trail-marker numbers turn routine cards into distinctive wayfinding objects
+- four non-card gateway metaphors turn the home page into distinct wayfinding: a water current, trailhead, public docket, and compass
 - each service route receives one accent color while retaining a single shared civic system
 - restrained reveal and cursor-light effects reward exploration and disappear under reduced-motion preferences
 - operational records, notices, and universal safety links remain plain, high contrast, and scannable
@@ -37,8 +37,10 @@ Redwood Afterglow treats the district website as a field guide after dusk: deep 
 
 - universal 911 and county-alert utility bar
 - sticky district masthead and collapsible mobile navigation
-- task-first quick action rail
-- numbered district-service cards with route accents
+- three-item utility dock for payment access, search, and the District Desk
+- site-wide header search with auto-populated page, direct-answer, and document suggestions
+- four unique semantic home springboards with shared focus and motion rules
+- service switchboard rows for task-first resident outcomes
 - page hero with optional local image
 - shared field-card dashboard with numbered choice rail and adjacent detail stage
 - guided document shelves, search, result count, and download rows
@@ -50,16 +52,16 @@ Redwood Afterglow treats the district website as a field guide after dusk: deep 
 
 | Route | Primary accent | Hero role | Main repeated component | Operational emphasis |
 |---|---|---|---|---|
-| Home | Creek + lantern | Cinematic district field guide | Six numbered trail cards | Safety utility strip + resident task rail |
-| Resident Services | Creek | Task-first hub | Four outcome cards | Utilities, property, records, human help |
-| Water | Creek | Service orientation | Resource panels and notices | Billing, quality, conservation |
-| Parks | Fern | Outdoor access | Interactive field-card dashboard | Trails, gathering, stewardship, golf |
+| Home | Creek + lantern | Cinematic district field guide | Current, trailhead, docket, compass | Safety strip + three-item utility dock |
+| Services | Creek | Task-first hub | Four switchboard rows | Utilities, property, records, human help |
+| Water | Creek | Service orientation | Jump rail, resource panels, notices | Billing, system, conservation, sewer |
+| Parks & Places | Fern | Outdoor access | Interactive field-card dashboard | Trails, gathering, stewardship, golf |
 | Planning | Dusk violet | Project pathway | Process steps | Permits and district confirmation |
-| Government | Dusk violet | Civic transparency | Interactive civic dashboard | Representation, meetings, money, rules |
+| District & Board | Dusk violet | Civic transparency | Seven-question civic dashboard | Representation, meetings, money, rules, operations, work |
 | Resources | Creek | Guided public-record library | Seven shelves + search | 48 district files; Fire-only files withheld |
 | Archive | Creek | Migration evidence | Expandable retained source text | Fire material retained without a district Fire section |
 | District Desk | Lantern | Human help | Masthead utility destination | Consolidated phone, email, fax, office, and golf contacts; intentionally outside primary exploration navigation |
 | History / Discover | Lantern | Place narrative | Interactive story dashboard | Origins, forest, water, photos, maps |
 | Accessibility / 404 | Creek | Recovery and access | Plain action links | Fast return to a valid destination |
 
-The generated pages use one shared stylesheet and one small progressive-enhancement script. Core navigation and content remain usable without JavaScript; hover light, reveal motion, and mobile navigation are enhancements rather than content dependencies.
+The generated pages use one shared stylesheet and one progressive-enhancement script. Core navigation and content remain usable without JavaScript. Autocomplete, exact-panel opening, retained-source expansion, hover rewards, reveal motion, and mobile navigation enhance directness without hiding the underlying links or records.

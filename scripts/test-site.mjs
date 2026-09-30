@@ -87,8 +87,14 @@ try {
         bodyClass: document.body.className,
         activeNavigation: document.querySelectorAll('.site-nav [aria-current="page"]').length,
         homeSpringboard: document.body.classList.contains('page-home') ? (() => {
-          const cards = [...document.querySelectorAll('.service-card')];
-          return { count:cards.length, cues:cards.map(card => card.dataset.invite || ''), pseudo:cards.map(card => getComputedStyle(card, '::before').content) };
+          const hubs = [...document.querySelectorAll('.hub-springboard')];
+          return {
+            count:hubs.length,
+            classes:hubs.map(hub => [...hub.classList].find(name => name.startsWith('hub-') && name !== 'hub-springboard')),
+            hrefs:hubs.map(hub => hub.getAttribute('href')),
+            oldCards:document.querySelectorAll('.service-card').length,
+            mainLinks:document.querySelectorAll('main a[href]').length,
+          };
         })() : null,
         heroFit: (() => {
           const copy = document.querySelector('.page-hero-copy, .home-hero-copy');
@@ -131,10 +137,14 @@ try {
       if ((viewport.name === 'laptop' || viewport.name === 'compactLaptop') && record.heroFit?.bottom > viewport.height - 12) browserErrors.push(`${viewport.name} ${route}: hero copy extends below the usable first screen (${record.heroFit.bottom.toFixed(1)}px of ${viewport.height}px)`);
       if ((viewport.name === 'laptop' || viewport.name === 'compactLaptop') && record.firstSectionPaddingTop !== null && record.firstSectionPaddingTop > 64) browserErrors.push(`${viewport.name} ${route}: first content section leaves ${record.firstSectionPaddingTop}px of empty top space`);
       if (route === '/') {
-        if (record.homeSpringboard?.count !== 6) browserErrors.push(`${viewport.name} ${route}: expected six home springboards`);
-        if (record.homeSpringboard?.cues.some(cue => !cue)) browserErrors.push(`${viewport.name} ${route}: a home springboard is missing its invitation cue`);
-        if (record.homeSpringboard?.pseudo.some(content => /^['\"]?0[1-6]['\"]?$/.test(content))) browserErrors.push(`${viewport.name} ${route}: numeric home-card label remains`);
-        const firstSpringboard = page.locator('.service-card').first();
+        const expectedClasses = ['hub-current','hub-trailhead','hub-docket','hub-compass'];
+        const expectedHrefs = ['services/','parks/','government/','history/'];
+        if (record.homeSpringboard?.count !== 4) browserErrors.push(`${viewport.name} ${route}: expected four home springboards`);
+        if (JSON.stringify(record.homeSpringboard?.classes) !== JSON.stringify(expectedClasses)) browserErrors.push(`${viewport.name} ${route}: springboards do not use four distinct visual metaphors`);
+        if (JSON.stringify(record.homeSpringboard?.hrefs) !== JSON.stringify(expectedHrefs)) browserErrors.push(`${viewport.name} ${route}: springboards do not map exactly to the four hubs`);
+        if (record.homeSpringboard?.oldCards !== 0) browserErrors.push(`${viewport.name} ${route}: old service cards remain on the home page`);
+        if (record.homeSpringboard?.mainLinks > 9) browserErrors.push(`${viewport.name} ${route}: home still presents too many competing links (${record.homeSpringboard.mainLinks})`);
+        const firstSpringboard = page.locator('.hub-springboard').first();
         await firstSpringboard.hover();
         if ((await firstSpringboard.evaluate(element => getComputedStyle(element).transform)) === 'none') browserErrors.push(`${viewport.name} ${route}: springboard hover reward is missing`);
         await firstSpringboard.focus();
@@ -149,13 +159,25 @@ try {
       if (!/^page-/.test(record.bodyClass)) browserErrors.push(`${viewport.name} ${route}: missing page route class`);
       const primaryNavLabels = await page.locator('.site-nav a').allTextContents();
       if (primaryNavLabels.length !== 5) browserErrors.push(`${viewport.name} ${route}: expected five exploration hubs, found ${primaryNavLabels.length}`);
+      if (JSON.stringify(primaryNavLabels.map(label => label.trim())) !== JSON.stringify(['Home','Services','Parks & Places','District & Board','Discover Brooktrails'])) browserErrors.push(`${viewport.name} ${route}: primary navigation does not match the four-hub architecture`);
       if (primaryNavLabels.some(label => label.trim().toLowerCase() === 'contact')) browserErrors.push(`${viewport.name} ${route}: utility contact destination remains in primary navigation`);
       if ((await page.locator('.masthead-actions .button').textContent()).trim() !== 'District desk') browserErrors.push(`${viewport.name} ${route}: masthead utility destination is not labeled District desk`);
+      if (await page.locator('[data-site-search-input]').count() !== 1) browserErrors.push(`${viewport.name} ${route}: site-wide search is missing from the header`);
+      if (route === '/') {
+        const siteSearch = page.locator('[data-site-search-input]');
+        await siteSearch.fill('ordinance 63');
+        await page.waitForTimeout(150);
+        const searchOptions = page.locator('[data-site-search-results] [role="option"]');
+        if (await searchOptions.count() < 1) browserErrors.push(`${viewport.name} ${route}: site search did not auto-populate suggestions`);
+        else if (!(await searchOptions.first().innerText()).toLowerCase().includes('ordinance 63')) browserErrors.push(`${viewport.name} ${route}: site search did not prioritize the exact Ordinance 63 suggestion`);
+        await page.keyboard.press('Escape');
+      }
       if (route === '/contact/') {
         const contactText = await page.locator('main').innerText();
         for (const requiredContact of ['707-459-2494','btcsd@btcsd.org','24860 Birch Street','707-459-0358','707-459-6761']) {
           if (!contactText.includes(requiredContact)) browserErrors.push(`${viewport.name} ${route}: consolidated District Desk is missing ${requiredContact}`);
         }
+        if (await page.locator('.district-desk-paths, main .action-grid').count()) browserErrors.push(`${viewport.name} ${route}: District Desk still repeats the hub navigation`);
       }
       if (['/parks/','/government/','/history/'].includes(route)) {
         const tabs = page.locator('[data-story-target]');
@@ -174,6 +196,9 @@ try {
             }
           }
           if (route === '/government/') {
+            if (count !== 7) browserErrors.push(`${viewport.name} ${route}: employment is not exposed as the seventh civic question`);
+            if (await page.locator('#civic-panel-work').count() !== 1) browserErrors.push(`${viewport.name} ${route}: employment panel is missing`);
+            await page.locator('#civic-tab-inside').click();
             const destinations = page.locator('.story-deck-destination');
             if (await destinations.count() !== 3) browserErrors.push(`${viewport.name} ${route}: expected three clearly linked operations destinations`);
             else {
@@ -216,6 +241,8 @@ try {
             if (groupPhotoFit.objectFit !== 'contain' || Math.abs(groupPhotoFit.ratio - (1170 / 724)) > .08) browserErrors.push(`${viewport.name} ${route}: Board group photo crops members instead of preserving the full five-person image`);
           }
           if (route === '/parks/') {
+            if (await page.locator('a[href="../contact/?topic=trails"]').count() !== 1) browserErrors.push(`${viewport.name} ${route}: trail help does not reach the District Desk directly`);
+            if (await page.locator('a[href="../archive/#source-ordinance-63"]').count() !== 1) browserErrors.push(`${viewport.name} ${route}: Ordinance 63 does not deep-link to its retained source`);
             const golfScene = page.locator('[data-golf-reveal]');
             const golfPhone = page.locator('.golf-phone');
             const replay = page.locator('[data-golf-replay]');
@@ -245,6 +272,10 @@ try {
         await page.locator('[data-resource-search]').fill('water');
         const visibleDocuments = await page.locator('[data-resource-item]:visible').count();
         if (visibleDocuments < 1) browserErrors.push(`${viewport.name} ${route}: resource search returned no water records`);
+      }
+      if (route === '/water/') {
+        const jumpHrefs = await page.locator('.water-jump a').evaluateAll(links => links.map(link => link.getAttribute('href')));
+        if (JSON.stringify(jumpHrefs) !== JSON.stringify(['#billing','#system','#conservation','#sewer'])) browserErrors.push(`${viewport.name} ${route}: water page jump rail is incomplete`);
       }
       if (viewport.name === 'laptop' || ((route === '/' || route === '/services/' || route === '/resources/' || route === '/parks/' || route === '/government/' || route === '/history/' || route === '/contact/') && (viewport.name === 'desktop' || viewport.name === 'mobile'))) {
         await page.evaluate(async () => {
@@ -289,6 +320,17 @@ try {
   if (Number.parseFloat(reducedGolf.phoneOpacity) < .98) browserErrors.push('reduced-motion /parks/: golf phone number should be immediately visible');
   await reducedPage.close();
   await reducedContext.close();
+
+  const deepLinkContext = await browser.newContext({ viewport:{ width:1280, height:800 } });
+  const deepLinkPage = await deepLinkContext.newPage();
+  await deepLinkPage.goto(`${base}/government/#civic-panel-meeting`, { waitUntil:'networkidle', timeout:30000 });
+  if (!await deepLinkPage.locator('#civic-panel-meeting').isVisible()) browserErrors.push('deep link /government/#civic-panel-meeting did not open the meeting panel');
+  await deepLinkPage.goto(`${base}/archive/#source-ordinance-63`, { waitUntil:'networkidle', timeout:30000 });
+  if (!await deepLinkPage.locator('#source-ordinance-63').evaluate(element => element.open)) browserErrors.push('deep link /archive/#source-ordinance-63 did not open the retained source');
+  await deepLinkPage.goto(`${base}/archive/#source-the-essence-of-brooktrails`, { waitUntil:'networkidle', timeout:30000 });
+  if (!await deepLinkPage.locator('#source-the-essence-of-brooktrails').evaluate(element => element.open)) browserErrors.push('deep link to the retained Brooktrails story did not open the source');
+  await deepLinkPage.close();
+  await deepLinkContext.close();
 } finally {
   await browser.close();
   server?.close();
