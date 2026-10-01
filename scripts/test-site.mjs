@@ -339,6 +339,13 @@ try {
         if (await fullTextResults.count() < 1) browserErrors.push(`${viewport.name} ${route}: full document text search returned no result`);
         const shelves = page.locator('[data-resource-category]');
         if (await shelves.count() < 5) browserErrors.push(`${viewport.name} ${route}: expected guided document shelves`);
+        if (viewport.name === 'mobile') {
+          await shelves.nth(2).click();
+          await page.waitForTimeout(700);
+          const reveal = await page.locator('.library-results').evaluate((node) => ({ top:node.getBoundingClientRect().top, active:document.activeElement?.hasAttribute('data-resource-heading') }));
+          if (reveal.top < 0 || reveal.top > viewport.height * .45) browserErrors.push(`${viewport.name} ${route}: shelf selection did not reveal the document results (${reveal.top}px)`);
+          if (!reveal.active) browserErrors.push(`${viewport.name} ${route}: shelf selection did not focus the updated result heading`);
+        }
         await page.locator('[data-resource-search]').fill('water');
         const visibleDocuments = await page.locator('[data-resource-item]:visible').count();
         if (visibleDocuments < 1) browserErrors.push(`${viewport.name} ${route}: resource search returned no water records`);

@@ -319,6 +319,7 @@
   const library = document.querySelector('[data-resource-library]');
   const shelves = [...document.querySelectorAll('[data-resource-category]')];
   const resourceHeading = document.querySelector('[data-resource-heading]');
+  const resourceResults = document.querySelector('.library-results');
   const resourceCount = document.querySelector('[data-resource-count]');
   if (search && items.length) {
     const requestedCategory = new URLSearchParams(window.location.search).get('category');
@@ -342,7 +343,7 @@
       if (resourceHeading && query) resourceHeading.textContent = `Search results for “${search.value.trim()}”`;
     };
 
-    const selectShelf = (shelf) => {
+    const selectShelf = (shelf, { reveal = false } = {}) => {
       activeCategory = shelf.dataset.resourceCategory;
       search.value = '';
       shelves.forEach((candidate) => {
@@ -355,9 +356,13 @@
       url.searchParams.set('category', activeCategory);
       window.history.replaceState({}, '', url);
       filterResources();
+      if (reveal && resourceResults && window.matchMedia('(max-width: 63.99rem)').matches) {
+        resourceHeading?.focus({ preventScroll:true });
+        requestAnimationFrame(() => resourceResults.scrollIntoView({ behavior:reducedMotion ? 'auto' : 'smooth', block:'start' }));
+      }
     };
 
-    shelves.forEach((shelf) => shelf.addEventListener('click', () => selectShelf(shelf)));
+    shelves.forEach((shelf) => shelf.addEventListener('click', () => selectShelf(shelf, { reveal:true })));
     search.addEventListener('input', filterResources);
     const initialShelf = shelves.find((shelf) => shelf.dataset.resourceCategory === activeCategory);
     if (requestedQuery) {
