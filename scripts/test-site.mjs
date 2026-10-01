@@ -26,6 +26,15 @@ async function walk(dir, files = []) {
 const htmlFiles = (await walk(root)).filter(file => file.endsWith('.html'));
 const staticErrors = [];
 try {
+  const searchIndex = JSON.parse(await readFile(path.join(root, 'search-index.json'), 'utf8'));
+  const indexedDocuments = searchIndex.filter(item => item.type === 'Document');
+  const fullTextDocuments = indexedDocuments.filter(item => (item.keywords || '').length > 500);
+  if (indexedDocuments.length !== 47) staticErrors.push(`search: expected 47 published district documents, found ${indexedDocuments.length}`);
+  if (fullTextDocuments.length < 35) staticErrors.push(`search: only ${fullTextDocuments.length} documents include readable full text`);
+} catch (error) {
+  staticErrors.push(`search: index could not be validated (${error.message})`);
+}
+try {
   await stat(path.join(root, 'documents', '08349b-e2754931600c45e9a9121effe815729e.pdf'));
   staticErrors.push('privacy: legacy construction-meter form containing identity-data fields remains publishable');
 } catch {}
@@ -187,7 +196,7 @@ try {
       if (JSON.stringify(primaryNavLabels.map(label => label.trim())) !== JSON.stringify(['Home','Services','Parks & Places','District & Board','Discover Brooktrails'])) browserErrors.push(`${viewport.name} ${route}: primary navigation does not match the four-hub architecture`);
       if (primaryNavLabels.some(label => label.trim().toLowerCase() === 'contact')) browserErrors.push(`${viewport.name} ${route}: utility contact destination remains in primary navigation`);
       if ((await page.locator('.masthead-actions .button').textContent()).trim() !== 'District desk') browserErrors.push(`${viewport.name} ${route}: masthead utility destination is not labeled District desk`);
-      if (await page.locator('[data-site-search-input]').count() !== 1) browserErrors.push(`${viewport.name} ${route}: site-wide search is missing from the header`);
+      if (await page.locator('[data-site-search-input]').count() !== 1) browserErrors.push(`${viewport.name} ${route}: expected exactly one site-wide search`);
       if (route === '/') {
         const siteSearch = page.locator('[data-site-search-input]');
         const searchOptions = page.locator('[data-site-search-results] [role="option"]');
@@ -321,6 +330,13 @@ try {
         }
       }
       if (route === '/resources/') {
+        const centralSearch = page.locator('.library-primary-search');
+        if (await centralSearch.count() !== 1) browserErrors.push(`${viewport.name} ${route}: central all-site search is missing`);
+        if (await page.locator('.masthead [data-site-search]').count()) browserErrors.push(`${viewport.name} ${route}: duplicate header search remains on the library page`);
+        await centralSearch.locator('[data-site-search-input]').fill('chlorine residual');
+        await page.waitForTimeout(150);
+        const fullTextResults = centralSearch.locator('[role="option"]');
+        if (await fullTextResults.count() < 1) browserErrors.push(`${viewport.name} ${route}: full document text search returned no result`);
         const shelves = page.locator('[data-resource-category]');
         if (await shelves.count() < 5) browserErrors.push(`${viewport.name} ${route}: expected guided document shelves`);
         await page.locator('[data-resource-search]').fill('water');

@@ -61,9 +61,12 @@
       const matches = items
         .map((item) => {
           const title = item.title.toLowerCase();
-          const haystack = `${item.title} ${item.detail} ${item.keywords || ''}`.toLowerCase();
+          const keywords = (item.keywords || '').toLowerCase();
+          const haystack = `${item.title} ${item.detail} ${keywords}`.toLowerCase();
           if (!terms.every(term => haystack.includes(term))) return null;
-          const score = title === query ? 0 : title.startsWith(query) ? 1 : title.includes(query) ? 2 : 3;
+          const relevance = title === query ? 0 : title.startsWith(query) ? 1 : title.includes(query) ? 2 : keywords.includes(query) ? 3 : 4;
+          const typeWeight = item.type === 'Document' ? 2 : item.type === 'Guided path' || item.type === 'Direct answer' ? -1 : 0;
+          const score = relevance + typeWeight;
           return { item, score };
         })
         .filter(Boolean)
