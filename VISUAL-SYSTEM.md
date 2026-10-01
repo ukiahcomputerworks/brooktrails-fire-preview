@@ -18,7 +18,7 @@ Trebuchet is the architectural display face: compact, modern, and strong enough 
 Redwood Afterglow treats the district website as a field guide after dusk: deep canopy layers, creek reflections, and lantern-like calls to action. The emotional reward comes from discovering a useful path quickly, without hiding public information behind spectacle.
 
 - topographic linework and local landscape photography create depth without interfering with text
-- four non-card gateway metaphors turn the home page into distinct wayfinding: a water current, trailhead, public docket, and compass
+- four non-card gateway metaphors turn the home page into distinct wayfinding: a water-works gauge with moving current, trailhead, public-records cabinet, and folded ranger map with compass
 - each service route receives one accent color while retaining a single shared civic system
 - restrained reveal and cursor-light effects reward exploration and disappear under reduced-motion preferences
 - operational records, notices, and universal safety links remain plain, high contrast, and scannable
@@ -52,7 +52,7 @@ Redwood Afterglow treats the district website as a field guide after dusk: deep 
 
 | Route | Primary accent | Hero role | Main repeated component | Operational emphasis |
 |---|---|---|---|---|
-| Home | Creek + lantern | Cinematic district field guide | Current, trailhead, docket, compass | Safety strip + three-item utility dock |
+| Home | Creek + lantern | Cinematic district field guide | Water-works gauge/current, trailhead, records cabinet, ranger map/compass | Safety strip + three-item utility dock |
 | Services | Creek | Task-first hub | Four switchboard rows | Utilities, property, records, human help |
 | Water | Creek | Service orientation | Jump rail, resource panels, notices | Billing, system, conservation, sewer |
 | Parks & Places | Fern | Outdoor access | Interactive field-card dashboard | Trails, gathering, stewardship, golf |

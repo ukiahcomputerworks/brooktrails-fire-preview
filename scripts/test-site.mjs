@@ -98,6 +98,16 @@ try {
             hrefs:hubs.map(hub => hub.getAttribute('href')),
             oldCards:document.querySelectorAll('.service-card').length,
             mainLinks:document.querySelectorAll('main a[href]').length,
+            currentGauge:(() => {
+              const gauge = document.querySelector('.hub-current .current-gauge');
+              if (!gauge) return null;
+              const rect = gauge.getBoundingClientRect();
+              return { count:document.querySelectorAll('.hub-current .current-gauge').length, width:rect.width, height:rect.height };
+            })(),
+            oldCurrentRipples:document.querySelectorAll('.hub-current-ripple').length,
+            recordCabinet:document.querySelectorAll('.hub-docket .record-cabinet').length,
+            cabinetDrawers:document.querySelectorAll('.record-cabinet > i').length,
+            rangerMap:document.querySelectorAll('.hub-compass .ranger-map').length,
           };
         })() : null,
         heroFit: (() => {
@@ -147,6 +157,11 @@ try {
         if (JSON.stringify(record.homeSpringboard?.classes) !== JSON.stringify(expectedClasses)) browserErrors.push(`${viewport.name} ${route}: springboards do not use four distinct visual metaphors`);
         if (JSON.stringify(record.homeSpringboard?.hrefs) !== JSON.stringify(expectedHrefs)) browserErrors.push(`${viewport.name} ${route}: springboards do not map exactly to the four hubs`);
         if (record.homeSpringboard?.oldCards !== 0) browserErrors.push(`${viewport.name} ${route}: old service cards remain on the home page`);
+        if (record.homeSpringboard?.currentGauge?.count !== 1) browserErrors.push(`${viewport.name} ${route}: Services water-works landmark is missing`);
+        if ((record.homeSpringboard?.currentGauge?.width || 0) < (viewport.name === 'mobile' ? 90 : 115)) browserErrors.push(`${viewport.name} ${route}: Services water-works landmark is too small (${record.homeSpringboard?.currentGauge?.width || 0}px)`);
+        if (record.homeSpringboard?.oldCurrentRipples !== 0) browserErrors.push(`${viewport.name} ${route}: legacy Services line decoration remains`);
+        if (record.homeSpringboard?.recordCabinet !== 1 || record.homeSpringboard?.cabinetDrawers !== 3) browserErrors.push(`${viewport.name} ${route}: District & Board records cabinet is incomplete`);
+        if (record.homeSpringboard?.rangerMap !== 1) browserErrors.push(`${viewport.name} ${route}: Discover ranger-map landmark is missing`);
         if (record.homeSpringboard?.mainLinks > 11) browserErrors.push(`${viewport.name} ${route}: home still presents too many competing links (${record.homeSpringboard.mainLinks})`);
         const firstSpringboard = page.locator('.hub-springboard').first();
         await firstSpringboard.hover();
