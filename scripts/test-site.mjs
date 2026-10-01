@@ -116,6 +116,11 @@ try {
           const rect = copy.getBoundingClientRect();
           return { top:rect.top, bottom:rect.bottom, viewportHeight:window.innerHeight };
         })(),
+        homeHeroLeadGap: document.body.classList.contains('page-home') ? (() => {
+          const header = document.querySelector('.site-header');
+          const eyebrow = document.querySelector('.home-hero-copy .eyebrow');
+          return header && eyebrow ? eyebrow.getBoundingClientRect().top - header.getBoundingClientRect().bottom : null;
+        })() : null,
         firstSectionPaddingTop: (() => {
           const section = document.querySelector('.page-content > .section:first-child');
           return section ? Number.parseFloat(getComputedStyle(section).paddingTop) : null;
@@ -149,6 +154,7 @@ try {
       if (!record.styles.headingFamily.toLowerCase().includes('trebuchet')) browserErrors.push(`${viewport.name} ${route}: unexpected heading family ${record.styles.headingFamily}`);
       if (!record.styles.bodyFamily.toLowerCase().includes('system-ui')) browserErrors.push(`${viewport.name} ${route}: unexpected body family ${record.styles.bodyFamily}`);
       if ((viewport.name === 'laptop' || viewport.name === 'compactLaptop') && record.heroFit?.bottom > viewport.height - 12) browserErrors.push(`${viewport.name} ${route}: hero copy extends below the usable first screen (${record.heroFit.bottom.toFixed(1)}px of ${viewport.height}px)`);
+      if (route === '/' && viewport.name === 'mobile' && (record.homeHeroLeadGap === null || record.homeHeroLeadGap < 16 || record.homeHeroLeadGap > 52)) browserErrors.push(`${viewport.name} ${route}: field-guide lead gap is ${record.homeHeroLeadGap}px; expected 16-52px below the header`);
       if ((viewport.name === 'laptop' || viewport.name === 'compactLaptop') && record.firstSectionPaddingTop !== null && record.firstSectionPaddingTop > 64) browserErrors.push(`${viewport.name} ${route}: first content section leaves ${record.firstSectionPaddingTop}px of empty top space`);
       if (route === '/') {
         const expectedClasses = ['hub-current','hub-trailhead','hub-docket','hub-compass'];
