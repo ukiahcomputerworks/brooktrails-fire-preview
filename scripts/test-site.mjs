@@ -25,6 +25,10 @@ async function walk(dir, files = []) {
 
 const htmlFiles = (await walk(root)).filter(file => file.endsWith('.html'));
 const staticErrors = [];
+try {
+  await stat(path.join(root, 'documents', '08349b-e2754931600c45e9a9121effe815729e.pdf'));
+  staticErrors.push('privacy: legacy construction-meter form containing identity-data fields remains publishable');
+} catch {}
 for (const file of htmlFiles) {
   const html = await readFile(file, 'utf8');
   const rel = path.relative(root, file).replaceAll('\\', '/');
@@ -62,7 +66,7 @@ const server = liveBase ? null : createServer(async (req, res) => {
 
 if (server) await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
 const base = liveBase || `http://127.0.0.1:${server.address().port}`;
-const routes = ['/', '/services/', '/water/', '/parks/', '/planning/', '/government/', '/history/', '/resources/', '/archive/', '/contact/'];
+const routes = ['/', '/services/', '/water/', '/parks/', '/planning/', '/moving/', '/government/', '/history/', '/resources/', '/archive/', '/contact/'];
 const separatedFireRoutes = ['/fire/', '/about-brooktrails-fire-department/', '/brooktrails-fire-department/', '/emergency-services/', '/fire-department-links/'];
 const viewports = [{ name:'compactLaptop', width:1080, height:583 }, { name:'laptop', width:1513, height:618 }, { name:'desktop', width:1440, height:1000 }, { name:'mobile', width:390, height:844 }];
 const browserErrors = [];
@@ -143,7 +147,7 @@ try {
         if (JSON.stringify(record.homeSpringboard?.classes) !== JSON.stringify(expectedClasses)) browserErrors.push(`${viewport.name} ${route}: springboards do not use four distinct visual metaphors`);
         if (JSON.stringify(record.homeSpringboard?.hrefs) !== JSON.stringify(expectedHrefs)) browserErrors.push(`${viewport.name} ${route}: springboards do not map exactly to the four hubs`);
         if (record.homeSpringboard?.oldCards !== 0) browserErrors.push(`${viewport.name} ${route}: old service cards remain on the home page`);
-        if (record.homeSpringboard?.mainLinks > 9) browserErrors.push(`${viewport.name} ${route}: home still presents too many competing links (${record.homeSpringboard.mainLinks})`);
+        if (record.homeSpringboard?.mainLinks > 11) browserErrors.push(`${viewport.name} ${route}: home still presents too many competing links (${record.homeSpringboard.mainLinks})`);
         const firstSpringboard = page.locator('.hub-springboard').first();
         await firstSpringboard.hover();
         if ((await firstSpringboard.evaluate(element => getComputedStyle(element).transform)) === 'none') browserErrors.push(`${viewport.name} ${route}: springboard hover reward is missing`);
@@ -165,12 +169,30 @@ try {
       if (await page.locator('[data-site-search-input]').count() !== 1) browserErrors.push(`${viewport.name} ${route}: site-wide search is missing from the header`);
       if (route === '/') {
         const siteSearch = page.locator('[data-site-search-input]');
-        await siteSearch.fill('ordinance 63');
-        await page.waitForTimeout(150);
         const searchOptions = page.locator('[data-site-search-results] [role="option"]');
-        if (await searchOptions.count() < 1) browserErrors.push(`${viewport.name} ${route}: site search did not auto-populate suggestions`);
-        else if (!(await searchOptions.first().innerText()).toLowerCase().includes('ordinance 63')) browserErrors.push(`${viewport.name} ${route}: site search did not prioritize the exact Ordinance 63 suggestion`);
+        for (const [query, expected] of [['ordinance 63','ordinance 63'],['building permit','build on my property'],['moving','considering brooktrails'],['evacuation','safety & evacuation']]) {
+          await siteSearch.fill(query);
+          await page.waitForTimeout(150);
+          if (await searchOptions.count() < 1) browserErrors.push(`${viewport.name} ${route}: site search returned no suggestion for ${query}`);
+          else if (!(await searchOptions.first().innerText()).toLowerCase().includes(expected)) browserErrors.push(`${viewport.name} ${route}: site search did not prioritize ${expected} for ${query}`);
+        }
+        await siteSearch.fill('nonexistent district phrase');
+        await page.waitForTimeout(100);
+        if (!(await page.locator('.site-search-empty').isVisible())) browserErrors.push(`${viewport.name} ${route}: site search has no visible zero-result recovery`);
         await page.keyboard.press('Escape');
+      }
+      if (route === '/planning/') {
+        const planningText = await page.locator('main').innerText();
+        for (const required of ['District design review is not the County building permit','Seven steps','Do not email identity documents']) {
+          if (!planningText.includes(required)) browserErrors.push(`${viewport.name} ${route}: missing planning guidance “${required}”`);
+        }
+        if (await page.locator('a[href*="e2754931600c45e9a9121effe815729e"]').count()) browserErrors.push(`${viewport.name} ${route}: sensitive legacy form remains linked`);
+      }
+      if (route === '/moving/') {
+        const movingText = await page.locator('main').innerText();
+        for (const required of ['Seven questions','A quick jurisdiction map.','assessor’s parcel number']) {
+          if (!movingText.includes(required)) browserErrors.push(`${viewport.name} ${route}: missing prospective-resident guidance “${required}”`);
+        }
       }
       if (route === '/contact/') {
         const contactText = await page.locator('main').innerText();

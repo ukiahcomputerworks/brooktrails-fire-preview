@@ -86,8 +86,19 @@
         link.append(copy, type);
         results.append(link);
       });
-      results.hidden = matches.length === 0;
-      input.setAttribute('aria-expanded', String(matches.length > 0));
+      if (!matches.length) {
+        const empty = document.createElement('div');
+        empty.className = 'site-search-empty';
+        empty.setAttribute('role', 'status');
+        const message = document.createElement('strong');
+        message.textContent = `No quick match for “${input.value.trim()}”`;
+        const hint = document.createElement('small');
+        hint.textContent = 'Press Enter to search every record, or try permit, moving, water, evacuation, or Board.';
+        empty.append(message, hint);
+        results.append(empty);
+      }
+      results.hidden = false;
+      input.setAttribute('aria-expanded', 'true');
       activeIndex = -1;
     };
 
@@ -117,6 +128,33 @@
     });
     document.addEventListener('click', (event) => { if (!form.contains(event.target)) closeResults(); });
   });
+
+  const topicBrief = document.querySelector('[data-contact-topic]');
+  if (topicBrief) {
+    const topic = new URLSearchParams(window.location.search).get('topic');
+    const topics = {
+      planning: {
+        label:'Planning question',
+        title:'Bring the address or assessor’s parcel number.',
+        detail:'Describe the proposed work and ask about water and sewer availability, current design-review requirements, fees, plan copies, and the approved submission method.'
+      },
+      moving: {
+        label:'Prospective resident question',
+        title:'Ask what the district can confirm about the exact property.',
+        detail:'Bring the address or assessor’s parcel number. Confirm district services and planning review here; County departments and other providers control many other property questions.'
+      },
+      trails: {
+        label:'Trail or greenbelt report',
+        title:'Name the trail, nearest landmark, and condition.',
+        detail:'Include when you observed it and a callback method. For an immediate threat to life or safety, call 911 instead of using ordinary district contact.'
+      }
+    };
+    if (topic && topics[topic]) {
+      const content = topics[topic];
+      topicBrief.innerHTML = `<p class="eyebrow">${content.label}</p><h2>${content.title}</h2><p>${content.detail}</p>`;
+      topicBrief.hidden = false;
+    }
+  }
 
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const playGolfReveal = (scene) => {
