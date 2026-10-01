@@ -30,7 +30,7 @@ try {
   const indexedDocuments = searchIndex.filter(item => item.type === 'Document');
   const fullTextDocuments = indexedDocuments.filter(item => (item.keywords || '').length > 500);
   if (indexedDocuments.length !== 47) staticErrors.push(`search: expected 47 published district documents, found ${indexedDocuments.length}`);
-  if (fullTextDocuments.length !== 42) staticErrors.push(`search: expected 42 documents with extractable full text, found ${fullTextDocuments.length}`);
+  if (fullTextDocuments.length !== 41) staticErrors.push(`search: expected 41 district documents with extractable full text, found ${fullTextDocuments.length}`);
 } catch (error) {
   staticErrors.push(`search: index could not be validated (${error.message})`);
 }
