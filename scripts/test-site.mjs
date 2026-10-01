@@ -282,10 +282,21 @@ try {
             if (await page.locator('a[href="../archive/#source-ordinance-63"]').count() !== 1) browserErrors.push(`${viewport.name} ${route}: Ordinance 63 does not deep-link to its retained source`);
             const golfScene = page.locator('[data-golf-reveal]');
             const golfPhone = page.locator('.golf-phone');
+            const golfPlayer = page.locator('.golf-player');
             const replay = page.locator('[data-golf-replay]');
             if (await golfScene.count() !== 1) browserErrors.push(`${viewport.name} ${route}: expected one animated golf scene`);
             if (await golfPhone.getAttribute('href') !== 'tel:+17074596761') browserErrors.push(`${viewport.name} ${route}: golf reveal is missing the course phone link`);
             if (await replay.count() !== 1) browserErrors.push(`${viewport.name} ${route}: golf scene is missing a replay control`);
+            if (await golfPlayer.getAttribute('role') !== 'img' || !(await golfPlayer.getAttribute('aria-label'))?.includes('follow-through')) browserErrors.push(`${viewport.name} ${route}: golfer sprite lacks a meaningful accessible description`);
+            const golferSprite = await golfPlayer.evaluate(async element => {
+              const background = getComputedStyle(element).backgroundImage;
+              const match = background.match(/url\(["']?(.*?)["']?\)/);
+              if (!match) return { background, loaded:false, width:0, height:0 };
+              const image = new Image();
+              const loaded = await new Promise(resolve => { image.onload = () => resolve(true); image.onerror = () => resolve(false); image.src = match[1]; });
+              return { background, loaded, width:image.naturalWidth, height:image.naturalHeight };
+            });
+            if (!golferSprite.background.includes('golfer-swing-sprite.png') || !golferSprite.loaded || golferSprite.width < 1500 || golferSprite.height < 700) browserErrors.push(`${viewport.name} ${route}: production golfer sprite is missing or undersized`);
             await page.waitForTimeout(1850);
             const revealOpacity = Number.parseFloat(await golfPhone.evaluate(element => getComputedStyle(element).opacity));
             if (revealOpacity < .98) browserErrors.push(`${viewport.name} ${route}: golf phone number did not reveal after the shot`);

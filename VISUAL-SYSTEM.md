@@ -43,6 +43,7 @@ Redwood Afterglow treats the district website as a field guide after dusk: deep 
 - service switchboard rows for task-first resident outcomes
 - page hero with optional local image
 - shared field-card dashboard with numbered choice rail and adjacent detail stage
+- three-phase transparent golfer sprite for the Parks golf reveal, with address, impact, and full follow-through frames
 - guided document shelves, search, result count, and download rows
 - resource panels and contact directories
 - reviewer-only route disposition deliverable and retained source archive
