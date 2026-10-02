@@ -238,9 +238,9 @@ const parksBody = `<section class="section section-tint"><div class="shell"><div
         <div class="trail-walk-stage" aria-label="Hiker takes a right step, left step, and right step, then plants a walking stick and looks toward the trail information sign">
           <span class="trail-walk-forest" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
           <span class="trail-walk-ground" aria-hidden="true"></span>
-          <img class="trail-walk-hiker trail-walk-right-one" src="../assets/images/trail-hiker-right-step.png" alt="">
-          <img class="trail-walk-hiker trail-walk-left" src="../assets/images/trail-hiker.png" alt="">
-          <img class="trail-walk-hiker trail-walk-right-two" src="../assets/images/trail-hiker-right-step.png" alt="">
+          <img class="trail-walk-hiker trail-walk-right-one" src="../assets/images/trail-hiker-right-stick.png" alt="">
+          <img class="trail-walk-hiker trail-walk-left" src="../assets/images/trail-hiker-left-stick.png" alt="">
+          <img class="trail-walk-hiker trail-walk-right-two" src="../assets/images/trail-hiker-right-stick.png" alt="">
           <img class="trail-walk-hiker trail-walk-planted" src="../assets/images/trail-hiker-summit.png" alt="Hiker plants her walking stick and looks toward a rustic Brooktrails trail sign">
           <nav class="trail-plank-sign" aria-label="Trail maps and current conditions"><span>Brooktrails trails</span><strong>Choose your next step</strong><a href="../documents/brooktrails-hiking-trail-map-reader.pdf">District trail map →</a><a href="https://www.trailforks.com/region/brooktrails-greenbelt-26604/" target="_blank" rel="noopener">Navigate live · Trailforks ↗</a><a href="../contact/?topic=trails">Current conditions →</a></nav>
         </div>

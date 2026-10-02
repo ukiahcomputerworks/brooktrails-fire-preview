@@ -311,6 +311,8 @@ try {
             if (await page.locator('[data-trail-journey], [data-trail-scene], [data-trail-step], .trail-actions').count() !== 0) browserErrors.push(`${viewport.name} ${route}: removed Discover, Map, Prepare journey controls or redundant action cards remain`);
             const trailHikersLoaded = await trailHikers.evaluateAll(images => images.length === 4 && images.every(image => image.complete && image.naturalWidth > 800 && image.naturalHeight > 1200));
             if (!trailHikersLoaded) browserErrors.push(`${viewport.name} ${route}: one or more trail gait frames did not load at source quality`);
+            const gaitSources = await trailHikers.evaluateAll(images => images.map(image => image.getAttribute('src')));
+            if (gaitSources.join(',') !== ['trail-hiker-right-stick.png','trail-hiker-left-stick.png','trail-hiker-right-stick.png','trail-hiker-summit.png'].map(name => `../assets/images/${name}`).join(',')) browserErrors.push(`${viewport.name} ${route}: gait must carry the walking stick through all steps before planting`);
             if (await trailSignLinks.count() !== 3) browserErrors.push(`${viewport.name} ${route}: rustic trail sign does not contain all three useful links`);
             else {
               const signHrefs = await trailSignLinks.evaluateAll(links => links.map(link => link.getAttribute('href')));
