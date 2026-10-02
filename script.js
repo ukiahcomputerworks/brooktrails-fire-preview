@@ -136,6 +136,11 @@
   if (topicBrief) {
     const topic = new URLSearchParams(window.location.search).get('topic');
     const topics = {
+      parks: {
+        label:'Gathering and rental question',
+        title:'Bring your preferred setting, date, and guest count.',
+        detail:'Ask district staff to confirm availability, current fees, capacity, rules, and how to submit the application. A downloaded application is not a confirmed reservation.'
+      },
       planning: {
         label:'Planning question',
         title:'Bring the address or assessor’s parcel number.',
@@ -292,6 +297,21 @@
     const requestedPanel = window.location.hash.slice(1);
     const requestedTab = tabs.find((tab) => tab.dataset.storyTarget === requestedPanel);
     activate(requestedTab || tabs.find((tab) => tab.getAttribute('aria-selected') === 'true') || tabs[0]);
+  });
+
+  document.querySelectorAll('[data-gather]').forEach((experience) => {
+    const choices = [...experience.querySelectorAll('[data-gather-choice]')];
+    const details = [...experience.querySelectorAll('[data-gather-detail]')];
+    const select = (choice) => {
+      const setting = choice.dataset.gatherChoice;
+      experience.dataset.setting = setting;
+      choices.forEach((button) => button.setAttribute('aria-pressed', String(button === choice)));
+      details.forEach((detail) => { detail.hidden = detail.dataset.gatherDetail !== setting; });
+      const status = experience.querySelector('[data-gather-status]');
+      if (status) status.textContent = `${choice.querySelector('strong').textContent} application is ready below.`;
+    };
+    choices.forEach((choice) => choice.addEventListener('click', () => select(choice)));
+    select(choices[0]);
   });
 
   const portraitTriggers = [...document.querySelectorAll('[data-member-portrait-trigger]')];

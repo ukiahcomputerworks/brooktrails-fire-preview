@@ -299,6 +299,25 @@ try {
             if (groupPhotoFit.objectFit !== 'contain' || Math.abs(groupPhotoFit.ratio - (1170 / 724)) > .08) browserErrors.push(`${viewport.name} ${route}: Board group photo crops members instead of preserving the full five-person image`);
           }
           if (route === '/parks/') {
+            await page.locator('#parks-tab-gather').click();
+            const gathering = page.locator('[data-gather]');
+            const venueChoices = gathering.locator('[data-gather-choice]');
+            if (await venueChoices.count() !== 2) browserErrors.push(`${viewport.name} ${route}: gathering must offer two distinct settings`);
+            for (const venue of ['grove','center']) {
+              const choice = gathering.locator(`[data-gather-choice="${venue}"]`);
+              await choice.click();
+              const ticket = gathering.locator(`[data-gather-detail="${venue}"]`);
+              if (!await ticket.isVisible() || await choice.getAttribute('aria-pressed') !== 'true') browserErrors.push(`${viewport.name} ${route}: ${venue} does not reveal its application`);
+              if (await gathering.locator('[data-gather-detail]:visible').count() !== 1) browserErrors.push(`${viewport.name} ${route}: gathering reveals more than one application`);
+              const href = await ticket.locator('a').getAttribute('href');
+              const expected = venue === 'center' ? '../documents/677c29-1f23adf09a824ed3b460bc2b8e8f3be6.pdf' : '../documents/677c29-f292ed6ac4104df798a5efce3c774ce9.pdf';
+              if (href !== expected) browserErrors.push(`${viewport.name} ${route}: ${venue} links to the wrong application`);
+              if ((await choice.boundingBox()).height < 44 || (await ticket.locator('a').boundingBox()).height < 44) browserErrors.push(`${viewport.name} ${route}: gathering targets are smaller than 44px`);
+              await page.keyboard.press('Tab');
+              await choice.focus();
+              if (await choice.evaluate(element => getComputedStyle(element).outlineStyle) === 'none') browserErrors.push(`${viewport.name} ${route}: gathering choice lacks keyboard focus`);
+            }
+            if (!await gathering.locator('.gather-confirm').innerText().then(text => text.includes('not a reservation'))) browserErrors.push(`${viewport.name} ${route}: gathering lacks staff-confirmation boundary`);
             const parkChoices = await tabs.locator('strong').allTextContents();
             const parkNumbers = await tabs.locator(':scope > span').allTextContents();
             if (parkChoices[0]?.trim() !== 'Tee off among the trees' || parkNumbers.join(',') !== '01,02,03,04,05') browserErrors.push(`${viewport.name} ${route}: Tee off is not the first numbered park choice`);

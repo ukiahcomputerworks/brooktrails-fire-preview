@@ -35,6 +35,8 @@ Redwood Afterglow treats the district website as a field guide after dusk: deep 
 
 ## Reusable components
 
+Gather venue variant (Parks only): two setting buttons share the field-stage font and fern/lantern tokens. A code-native, explicitly illustrative scene opens the Center doors or lights the Grove canopy on selection. A parchment application ticket is the reward; only the chosen venue's PDF appears, followed by a shared staff-confirmation path. Controls and application links retain 44 px targets at phone and compact laptop sizes. No facility photographs, current capacities, prices, availability, or reservation delivery are invented. Motion is selection-triggered and disabled under reduced motion; scoped `.gather-*` styles leave the route-by-component typography and navigation matrix unchanged.
+
 - universal 911 and county-alert utility bar
 - sticky district masthead and collapsible mobile navigation
 - three-item utility dock for payment access, search, and the District Desk
