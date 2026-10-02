@@ -38,6 +38,12 @@ try {
   await stat(path.join(root, 'documents', '08349b-e2754931600c45e9a9121effe815729e.pdf'));
   staticErrors.push('privacy: legacy construction-meter form containing identity-data fields remains publishable');
 } catch {}
+try {
+  const readerMap = await readFile(path.join(root, 'documents', 'brooktrails-hiking-trail-map-reader.pdf'), 'latin1');
+  if (!/\/Rotate\s+90\b/.test(readerMap)) staticErrors.push('parks: corrected district trail map is not rotated into reader orientation');
+} catch (error) {
+  staticErrors.push(`parks: corrected district trail map is missing (${error.message})`);
+}
 for (const file of htmlFiles) {
   const html = await readFile(file, 'utf8');
   const rel = path.relative(root, file).replaceAll('\\', '/');
@@ -293,8 +299,14 @@ try {
             if (groupPhotoFit.objectFit !== 'contain' || Math.abs(groupPhotoFit.ratio - (1170 / 724)) > .08) browserErrors.push(`${viewport.name} ${route}: Board group photo crops members instead of preserving the full five-person image`);
           }
           if (route === '/parks/') {
+            const parkChoices = await tabs.locator('strong').allTextContents();
+            const parkNumbers = await tabs.locator(':scope > span').allTextContents();
+            if (parkChoices[0]?.trim() !== 'Tee off among the trees' || parkNumbers.join(',') !== '01,02,03,04,05') browserErrors.push(`${viewport.name} ${route}: Tee off is not the first numbered park choice`);
+            await page.locator('#parks-tab-golf').click();
             if (await page.locator('a[href="../contact/?topic=trails"]').count() !== 1) browserErrors.push(`${viewport.name} ${route}: trail help does not reach the District Desk directly`);
             if (await page.locator('a[href="../archive/#source-ordinance-63"]').count() !== 1) browserErrors.push(`${viewport.name} ${route}: Ordinance 63 does not deep-link to its retained source`);
+            if (await page.locator('a[href="../documents/brooktrails-hiking-trail-map-reader.pdf"]').count() !== 1) browserErrors.push(`${viewport.name} ${route}: trail panel does not use the corrected district map`);
+            if (await page.locator('a[href="https://www.trailforks.com/region/brooktrails-greenbelt-26604/"]').count() !== 1) browserErrors.push(`${viewport.name} ${route}: trail panel is missing the live Brooktrails map`);
             const golfScene = page.locator('[data-golf-reveal]');
             const golfPhone = page.locator('.golf-phone');
             const golfPlayer = page.locator('.golf-player');
@@ -312,16 +324,28 @@ try {
               const loaded = await new Promise(resolve => { image.onload = () => resolve(true); image.onerror = () => resolve(false); image.src = match[1]; });
               return { background, loaded, width:image.naturalWidth, height:image.naturalHeight };
             });
-            if (!golferSprite.background.includes('golfer-swing-sprite.png') || !golferSprite.loaded || golferSprite.width < 1500 || golferSprite.height < 700) browserErrors.push(`${viewport.name} ${route}: production golfer sprite is missing or undersized`);
+            if (!golferSprite.background.includes('golfer-swing-sprite-v2.png') || !golferSprite.loaded || golferSprite.width < 2000 || golferSprite.height < 700) browserErrors.push(`${viewport.name} ${route}: four-phase golfer sprite is missing or undersized`);
             const focusDelay = await golfPlayer.evaluate(element => Number.parseFloat(getComputedStyle(element).animationDelay) || 0);
             if (focusDelay < .75 || focusDelay > .9) browserErrors.push(`${viewport.name} ${route}: golf address-position hold is not approximately 800ms (${focusDelay}s)`);
+            await replayButton.click();
             await page.waitForTimeout(400);
             const focusHold = await golfScene.evaluate(element => ({
               playerPosition:getComputedStyle(element.querySelector('.golf-player')).backgroundPosition,
               phoneOpacity:Number.parseFloat(getComputedStyle(element.querySelector('.golf-phone')).opacity),
+              ballLeft:element.querySelector('.golf-ball').getBoundingClientRect().left,
+              playerLeft:element.querySelector('.golf-player').getBoundingClientRect().left,
+              playerRight:element.querySelector('.golf-player').getBoundingClientRect().right,
+              fairwayLeft:element.querySelector('.golf-fairway').getBoundingClientRect().left,
             }));
             if (!focusHold.playerPosition.startsWith('0') || focusHold.phoneOpacity > .05) browserErrors.push(`${viewport.name} ${route}: golf scene does not hold the address position before swinging`);
-            await page.waitForTimeout(2350);
+            const ballAcrossPlayer = (focusHold.ballLeft - focusHold.playerLeft) / (focusHold.playerRight - focusHold.playerLeft);
+            if (ballAcrossPlayer < .72 || ballAcrossPlayer > .98 || focusHold.ballLeft < focusHold.fairwayLeft - 16) browserErrors.push(`${viewport.name} ${route}: golf ball is not aligned just beyond the clubhead on the fairway`);
+            if (viewport.name === 'mobile' && !liveBase) await golfScene.screenshot({ path:path.join(outputDir, 'parks-golf-address-mobile.png') });
+            await page.waitForTimeout(750);
+            const backswingPosition = await golfPlayer.evaluate(element => getComputedStyle(element).backgroundPosition);
+            if (!backswingPosition.startsWith('33.333')) browserErrors.push(`${viewport.name} ${route}: golfer animation has no distinct backswing frame (${backswingPosition})`);
+            if (viewport.name === 'mobile' && !liveBase) await golfScene.screenshot({ path:path.join(outputDir, 'parks-golf-backswing-mobile.png') });
+            await page.waitForTimeout(1950);
             const revealOpacity = Number.parseFloat(await golfPhone.evaluate(element => getComputedStyle(element).opacity));
             if (revealOpacity < .98) browserErrors.push(`${viewport.name} ${route}: golf phone number did not reveal after the shot`);
             await golfPlayer.click();
@@ -337,9 +361,9 @@ try {
             if ((await replayButton.evaluate(element => getComputedStyle(element).outlineStyle)) === 'none') browserErrors.push(`${viewport.name} ${route}: replay button lacks a focus indicator`);
           }
           if (viewport.name === 'compactLaptop') {
-            const inspectionIndex = route === '/history/' ? 3 : count - 1;
+            const inspectionIndex = route === '/history/' ? 3 : route === '/parks/' ? 0 : count - 1;
             await tabs.nth(inspectionIndex).click();
-            if (route === '/parks/') await page.waitForTimeout(2750);
+            if (route === '/parks/') await page.waitForTimeout(3150);
             const storyStage = page.locator('.story-deck-stage');
             await storyStage.scrollIntoViewIfNeeded();
             const slug = route.split('/').filter(Boolean)[0];
