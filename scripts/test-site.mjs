@@ -316,45 +316,45 @@ try {
             if (await golfPhone.getAttribute('href') !== 'tel:+17074596761') browserErrors.push(`${viewport.name} ${route}: golf reveal is missing the course phone link`);
             if (await replayControls.count() !== 2) browserErrors.push(`${viewport.name} ${route}: golfer and replay button are not both replay controls`);
             if (await golfPlayer.evaluate(element => element.tagName) !== 'BUTTON' || await golfPlayer.getAttribute('type') !== 'button' || !(await golfPlayer.getAttribute('aria-label'))?.toLowerCase().includes('replay')) browserErrors.push(`${viewport.name} ${route}: golfer is not an accessible replay button`);
-            const golferSprite = await golfPlayer.evaluate(async element => {
-              const background = getComputedStyle(element).backgroundImage;
-              const match = background.match(/url\(["']?(.*?)["']?\)/);
-              if (!match) return { background, loaded:false, width:0, height:0 };
+            const golferFrames = await golfPlayer.evaluate(async () => Promise.all(['address','backswing','impact','followthrough'].map(async frame => {
+              const url = new URL(`../assets/images/golfer-swing-${frame}.png`, window.location.href).href;
               const image = new Image();
-              const loaded = await new Promise(resolve => { image.onload = () => resolve(true); image.onerror = () => resolve(false); image.src = match[1]; });
-              return { background, loaded, width:image.naturalWidth, height:image.naturalHeight };
-            });
-            if (!golferSprite.background.includes('golfer-swing-sprite-v2.png') || !golferSprite.loaded || golferSprite.width < 2000 || golferSprite.height < 700) browserErrors.push(`${viewport.name} ${route}: four-phase golfer sprite is missing or undersized`);
+              const loaded = await new Promise(resolve => { image.onload = () => resolve(true); image.onerror = () => resolve(false); image.src = url; });
+              return { frame, loaded, width:image.naturalWidth, height:image.naturalHeight };
+            })));
+            if (golferFrames.some(frame => !frame.loaded || frame.width !== 543 || frame.height !== 724)) browserErrors.push(`${viewport.name} ${route}: one or more isolated golfer frames are missing or incorrectly sized`);
             const focusDelay = await golfPlayer.evaluate(element => Number.parseFloat(getComputedStyle(element).animationDelay) || 0);
             if (focusDelay < .75 || focusDelay > .9) browserErrors.push(`${viewport.name} ${route}: golf address-position hold is not approximately 800ms (${focusDelay}s)`);
             await replayButton.click();
             await page.waitForTimeout(400);
             const focusHold = await golfScene.evaluate(element => ({
-              playerPosition:getComputedStyle(element.querySelector('.golf-player')).backgroundPosition,
+              playerImage:getComputedStyle(element.querySelector('.golf-player')).backgroundImage,
               phoneOpacity:Number.parseFloat(getComputedStyle(element.querySelector('.golf-phone')).opacity),
               ballLeft:element.querySelector('.golf-ball').getBoundingClientRect().left,
               playerLeft:element.querySelector('.golf-player').getBoundingClientRect().left,
               playerRight:element.querySelector('.golf-player').getBoundingClientRect().right,
               fairwayLeft:element.querySelector('.golf-fairway').getBoundingClientRect().left,
             }));
-            if (!focusHold.playerPosition.startsWith('0') || focusHold.phoneOpacity > .05) browserErrors.push(`${viewport.name} ${route}: golf scene does not hold the address position before swinging`);
+            if (!focusHold.playerImage.includes('golfer-swing-address.png') || focusHold.phoneOpacity > .05) browserErrors.push(`${viewport.name} ${route}: golf scene does not hold the address position before swinging`);
             const ballAcrossPlayer = (focusHold.ballLeft - focusHold.playerLeft) / (focusHold.playerRight - focusHold.playerLeft);
             if (ballAcrossPlayer < .72 || ballAcrossPlayer > .98 || focusHold.ballLeft < focusHold.fairwayLeft - 16) browserErrors.push(`${viewport.name} ${route}: golf ball is not aligned just beyond the clubhead on the fairway`);
             if (viewport.name === 'mobile' && !liveBase) await golfScene.screenshot({ path:path.join(outputDir, 'parks-golf-address-mobile.png') });
             await page.waitForTimeout(750);
-            const backswingPosition = await golfPlayer.evaluate(element => getComputedStyle(element).backgroundPosition);
-            if (!backswingPosition.startsWith('33.333')) browserErrors.push(`${viewport.name} ${route}: golfer animation has no distinct backswing frame (${backswingPosition})`);
+            const backswingImage = await golfPlayer.evaluate(element => getComputedStyle(element).backgroundImage);
+            if (!backswingImage.includes('golfer-swing-backswing.png')) browserErrors.push(`${viewport.name} ${route}: golfer animation has no distinct backswing frame (${backswingImage})`);
             if (viewport.name === 'mobile' && !liveBase) await golfScene.screenshot({ path:path.join(outputDir, 'parks-golf-backswing-mobile.png') });
             await page.waitForTimeout(1950);
             const revealOpacity = Number.parseFloat(await golfPhone.evaluate(element => getComputedStyle(element).opacity));
             if (revealOpacity < .98) browserErrors.push(`${viewport.name} ${route}: golf phone number did not reveal after the shot`);
+            const followthroughImage = await golfPlayer.evaluate(element => getComputedStyle(element).backgroundImage);
+            if (!followthroughImage.includes('golfer-swing-followthrough.png')) browserErrors.push(`${viewport.name} ${route}: golfer animation does not finish on the isolated follow-through frame`);
             await golfPlayer.click();
             await page.waitForTimeout(150);
             const replayReset = await golfScene.evaluate(element => ({
-              playerPosition:getComputedStyle(element.querySelector('.golf-player')).backgroundPosition,
+              playerImage:getComputedStyle(element.querySelector('.golf-player')).backgroundImage,
               phoneOpacity:Number.parseFloat(getComputedStyle(element.querySelector('.golf-phone')).opacity),
             }));
-            if (!replayReset.playerPosition.startsWith('0') || replayReset.phoneOpacity > .05) browserErrors.push(`${viewport.name} ${route}: clicking the golfer did not restart from the address position`);
+            if (!replayReset.playerImage.includes('golfer-swing-address.png') || replayReset.phoneOpacity > .05) browserErrors.push(`${viewport.name} ${route}: clicking the golfer did not restart from the address position`);
             await golfPlayer.focus();
             if ((await golfPlayer.evaluate(element => getComputedStyle(element).outlineStyle)) === 'none') browserErrors.push(`${viewport.name} ${route}: golfer replay control lacks a focus indicator`);
             await replayButton.focus();
