@@ -2,7 +2,7 @@
 
 Mobile-first redesign concept for the Brooktrails Township Community Services District website. The **Redwood Afterglow** revision turns the district experience into a modern field guide built from nocturnal forest depth, creek light, lantern wayfinding, and redwood landscape cues. It covers water and sewer, parks and trails, planning, government, history, contacts, and public documents. Fire Department information is being developed as a separate website.
 
-Preview: <https://ukiahcomputerworks.github.io/BTFD-Preview/>
+Preview: <https://ukiahcomputerworks.github.io/btfd-preview/>
 
 ## What is included
 
@@ -25,7 +25,7 @@ Preview: <https://ukiahcomputerworks.github.io/BTFD-Preview/>
 node scripts/build-site.mjs
 $env:NODE_PATH='C:\Users\Admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\node_modules'
 node scripts/test-site.mjs
-$env:SITE_BASE='https://ukiahcomputerworks.github.io/BTFD-Preview'
+$env:SITE_BASE='https://ukiahcomputerworks.github.io/btfd-preview'
 node scripts/test-site.mjs
 ```
 
