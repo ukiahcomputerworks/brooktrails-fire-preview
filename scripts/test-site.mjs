@@ -75,8 +75,8 @@ const server = liveBase ? null : createServer(async (req, res) => {
 
 if (server) await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
 const base = liveBase || `http://127.0.0.1:${server.address().port}`;
-const routes = ['/', '/services/', '/water/', '/parks/', '/planning/', '/moving/', '/government/', '/history/', '/resources/', '/archive/', '/contact/', '/fire/'];
-const separatedFireRoutes = ['/about-brooktrails-fire-department/', '/brooktrails-fire-department/', '/emergency-services/', '/fire-department-links/'];
+const routes = ['/', '/services/', '/water/', '/parks/', '/planning/', '/moving/', '/government/', '/history/', '/resources/', '/archive/', '/contact/'];
+const separatedFireRoutes = ['/fire/', '/about-brooktrails-fire-department/', '/brooktrails-fire-department/', '/emergency-services/', '/fire-department-links/'];
 const viewports = [{ name:'compactLaptop', width:1080, height:583 }, { name:'laptop', width:1513, height:618 }, { name:'desktop', width:1440, height:1000 }, { name:'mobile', width:390, height:844 }];
 const browserErrors = [];
 const results = [];
@@ -354,15 +354,7 @@ try {
         const jumpHrefs = await page.locator('.water-jump a').evaluateAll(links => links.map(link => link.getAttribute('href')));
         if (JSON.stringify(jumpHrefs) !== JSON.stringify(['#billing','#system','#conservation','#sewer'])) browserErrors.push(`${viewport.name} ${route}: water page jump rail is incomplete`);
       }
-      if (route === '/fire/') {
-        const formCards = await page.locator('.fire-form-card').count();
-        const volunteerDownload = await page.locator('.fire-form-card-volunteer a[download]').count();
-        const privacyHold = await page.locator('.fire-form-card-volunteer').getByText('Privacy hold:', { exact:false }).count();
-        if (formCards !== 3) browserErrors.push(`${viewport.name} ${route}: expected 3 fire form pathways, found ${formCards}`);
-        if (volunteerDownload !== 1) browserErrors.push(`${viewport.name} ${route}: volunteer PDF download is missing`);
-        if (privacyHold !== 1) browserErrors.push(`${viewport.name} ${route}: volunteer privacy hold is missing`);
-      }
-      if (viewport.name === 'laptop' || ((route === '/' || route === '/services/' || route === '/resources/' || route === '/parks/' || route === '/government/' || route === '/history/' || route === '/contact/' || route === '/fire/') && (viewport.name === 'desktop' || viewport.name === 'mobile'))) {
+      if (viewport.name === 'laptop' || ((route === '/' || route === '/services/' || route === '/resources/' || route === '/parks/' || route === '/government/' || route === '/history/' || route === '/contact/') && (viewport.name === 'desktop' || viewport.name === 'mobile'))) {
         await page.evaluate(async () => {
           const distance = Math.max(window.innerHeight * 0.72, 420);
           for (let position = 0; position < document.documentElement.scrollHeight; position += distance) {
