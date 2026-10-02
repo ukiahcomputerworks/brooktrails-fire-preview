@@ -175,6 +175,52 @@
   document.querySelectorAll('[data-golf-replay]').forEach((button) => {
     button.addEventListener('click', () => playGolfReveal(button.closest('[data-story-panel]')?.querySelector('[data-golf-reveal]')));
   });
+
+  const trailTimers = new WeakMap();
+  const stopTrailJourney = (journey) => {
+    (trailTimers.get(journey) || []).forEach(window.clearTimeout);
+    trailTimers.delete(journey);
+  };
+  const showTrailStep = (journey, step) => {
+    if (!journey) return;
+    const scenes = [...journey.querySelectorAll('[data-trail-scene]')];
+    const controls = [...journey.querySelectorAll('[data-trail-step]')];
+    scenes.forEach((scene) => {
+      const selected = Number(scene.dataset.trailScene) === step;
+      scene.hidden = !selected;
+      scene.classList.toggle('is-active', selected);
+      scene.setAttribute('aria-hidden', String(!selected));
+      scene.tabIndex = selected ? 0 : -1;
+    });
+    controls.forEach((button) => {
+      const selected = Number(button.dataset.trailStep) === step;
+      button.classList.toggle('is-active', selected);
+      button.setAttribute('aria-pressed', String(selected));
+    });
+    journey.dataset.trailCurrentStep = String(step);
+  };
+  const playTrailJourney = (journey) => {
+    if (!journey) return;
+    stopTrailJourney(journey);
+    if (reducedMotion) {
+      showTrailStep(journey, 3);
+      return;
+    }
+    showTrailStep(journey, 0);
+    const timers = [1, 2, 3].map((step, index) => window.setTimeout(() => showTrailStep(journey, step), 1200 * (index + 1)));
+    trailTimers.set(journey, timers);
+  };
+
+  document.querySelectorAll('[data-trail-journey]').forEach((journey) => {
+    showTrailStep(journey, reducedMotion ? 3 : 0);
+    journey.querySelectorAll('[data-trail-step]').forEach((button) => {
+      button.addEventListener('click', () => {
+        stopTrailJourney(journey);
+        showTrailStep(journey, Number(button.dataset.trailStep));
+      });
+    });
+    journey.querySelector('[data-trail-replay]')?.addEventListener('click', () => playTrailJourney(journey));
+  });
   const revealTargets = [
     ...document.querySelectorAll(
       '.section-intro, .hub-springboard, .service-switchboard > a, .service-card, .action-grid > a, .story-grid > *, .two-column > *, .split-feature > *, .metric-row > *, .contact-directory > article'
@@ -245,7 +291,10 @@
         const selected = panel.id === target;
         panel.hidden = !selected;
         panel.classList.toggle('is-active', selected);
-        if (selected) playGolfReveal(panel.querySelector('[data-golf-reveal]'));
+        if (selected) {
+          playGolfReveal(panel.querySelector('[data-golf-reveal]'));
+          playTrailJourney(panel.querySelector('[data-trail-journey]'));
+        }
       });
       if (stage) {
         stage.classList.remove('is-receiving');

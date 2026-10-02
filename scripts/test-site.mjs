@@ -302,11 +302,40 @@ try {
             const parkChoices = await tabs.locator('strong').allTextContents();
             const parkNumbers = await tabs.locator(':scope > span').allTextContents();
             if (parkChoices[0]?.trim() !== 'Tee off among the trees' || parkNumbers.join(',') !== '01,02,03,04,05') browserErrors.push(`${viewport.name} ${route}: Tee off is not the first numbered park choice`);
+            await page.locator('#parks-tab-trails').click();
+            const trailJourney = page.locator('[data-trail-journey]');
+            const trailScenes = trailJourney.locator('[data-trail-scene]');
+            const trailSteps = trailJourney.locator('[data-trail-step]');
+            const trailActions = page.locator('.trail-actions a');
+            if (await trailJourney.count() !== 1 || await trailScenes.count() !== 4) browserErrors.push(`${viewport.name} ${route}: trail journey does not contain four linked stages`);
+            if (await trailSteps.count() !== 4 || await trailJourney.locator('[data-trail-replay]').count() !== 1) browserErrors.push(`${viewport.name} ${route}: trail journey controls are incomplete`);
+            if (await trailActions.count() !== 3) browserErrors.push(`${viewport.name} ${route}: expected three explicit trail action links`);
+            else {
+              const actionHrefs = await trailActions.evaluateAll(links => links.map(link => link.getAttribute('href')));
+              if (actionHrefs.some(href => !href || href === '#')) browserErrors.push(`${viewport.name} ${route}: a numbered trail action is not linked`);
+              const actionLabels = await trailActions.locator('b').allTextContents();
+              if (actionLabels.some(label => !label.trim())) browserErrors.push(`${viewport.name} ${route}: a trail action lacks visible link text`);
+              await trailActions.first().focus();
+              if ((await trailActions.first().evaluate(element => getComputedStyle(element).outlineStyle)) === 'none') browserErrors.push(`${viewport.name} ${route}: trail action lacks a focus indicator`);
+            }
+            const trailHikersLoaded = await page.locator('.trail-hiker').evaluateAll(images => images.length === 2 && images.every(image => image.complete && image.naturalWidth > 800 && image.naturalHeight > 1200));
+            if (!trailHikersLoaded) browserErrors.push(`${viewport.name} ${route}: walking and summit hiker frames did not load at source quality`);
+            await trailSteps.nth(1).click();
+            if (!await trailScenes.nth(1).isVisible() || await trailScenes.nth(0).isVisible()) browserErrors.push(`${viewport.name} ${route}: Map control did not select the map stage`);
+            await trailSteps.nth(3).click();
+            if (!await trailScenes.nth(3).isVisible() || !(await trailScenes.nth(3).innerText()).toLowerCase().includes('trail maps and park conditions')) browserErrors.push(`${viewport.name} ${route}: Go control did not reveal the summit action panel`);
+            await page.waitForTimeout(2350);
+            const summitState = await trailScenes.nth(3).evaluate(element => ({ summit:Number.parseFloat(getComputedStyle(element.querySelector('.trail-hiker-summit')).opacity), card:Number.parseFloat(getComputedStyle(element.querySelector('.trail-summit-card')).opacity), actions:element.querySelectorAll('.trail-summit-card a').length }));
+            if (summitState.summit < .98 || summitState.card < .98 || summitState.actions !== 2) browserErrors.push(`${viewport.name} ${route}: summit pose and two-action conditions card did not hold after the climb`);
+            if (viewport.name === 'mobile' && !liveBase) await trailJourney.locator('.trail-journey-stage').screenshot({ path:path.join(outputDir, 'parks-trail-journey-mobile.png') });
+            await trailJourney.locator('[data-trail-replay]').click();
+            await page.waitForTimeout(120);
+            if (!await trailScenes.nth(0).isVisible()) browserErrors.push(`${viewport.name} ${route}: trail replay did not restart at discovery`);
             await page.locator('#parks-tab-golf').click();
-            if (await page.locator('a[href="../contact/?topic=trails"]').count() !== 1) browserErrors.push(`${viewport.name} ${route}: trail help does not reach the District Desk directly`);
+            if (await page.locator('a[href="../contact/?topic=trails"]').count() < 4) browserErrors.push(`${viewport.name} ${route}: trail help does not reach the District Desk directly from the preparation, summit, action list, and care guidance`);
             if (await page.locator('a[href="../archive/#source-ordinance-63"]').count() !== 1) browserErrors.push(`${viewport.name} ${route}: Ordinance 63 does not deep-link to its retained source`);
-            if (await page.locator('a[href="../documents/brooktrails-hiking-trail-map-reader.pdf"]').count() !== 1) browserErrors.push(`${viewport.name} ${route}: trail panel does not use the corrected district map`);
-            if (await page.locator('a[href="https://www.trailforks.com/region/brooktrails-greenbelt-26604/"]').count() !== 1) browserErrors.push(`${viewport.name} ${route}: trail panel is missing the live Brooktrails map`);
+            if (await page.locator('a[href="../documents/brooktrails-hiking-trail-map-reader.pdf"]').count() !== 3) browserErrors.push(`${viewport.name} ${route}: discovery, summit, and route actions do not all use the corrected district map`);
+            if (await page.locator('a[href="https://www.trailforks.com/region/brooktrails-greenbelt-26604/"]').count() !== 2) browserErrors.push(`${viewport.name} ${route}: map and navigation actions do not both reach the live Brooktrails map`);
             const golfScene = page.locator('[data-golf-reveal]');
             const golfPhone = page.locator('.golf-phone');
             const golfPlayer = page.locator('.golf-player');
@@ -437,6 +466,10 @@ try {
   results.push({ route:'/parks/', viewport:'reduced-motion', status:reducedResponse?.status(), ...reducedGolf });
   if (reducedGolf.animatable) browserErrors.push('reduced-motion /parks/: golf scene should not animate');
   if (Number.parseFloat(reducedGolf.phoneOpacity) < .98) browserErrors.push('reduced-motion /parks/: golf phone number should be immediately visible');
+  await reducedPage.locator('#parks-tab-trails').click();
+  if (!await reducedPage.locator('[data-trail-scene="3"]').isVisible() || await reducedPage.locator('[data-trail-scene="0"]').isVisible()) browserErrors.push('reduced-motion /parks/: trail journey should present the final useful outcome without auto-animation');
+  const reducedTrail = await reducedPage.locator('[data-trail-scene="3"]').evaluate(element => ({ walking:getComputedStyle(element.querySelector('.trail-hiker-walking')).display, summitAnimation:getComputedStyle(element.querySelector('.trail-hiker-summit')).animationName, cardAnimation:getComputedStyle(element.querySelector('.trail-summit-card')).animationName, cardOpacity:getComputedStyle(element.querySelector('.trail-summit-card')).opacity }));
+  if (reducedTrail.walking !== 'none' || reducedTrail.summitAnimation !== 'none' || reducedTrail.cardAnimation !== 'none' || Number.parseFloat(reducedTrail.cardOpacity) < .98) browserErrors.push('reduced-motion /parks/: summit outcome should be static and immediately readable');
   await reducedPage.close();
   await reducedContext.close();
 
