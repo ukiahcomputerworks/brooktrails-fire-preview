@@ -298,11 +298,12 @@ try {
             const golfScene = page.locator('[data-golf-reveal]');
             const golfPhone = page.locator('.golf-phone');
             const golfPlayer = page.locator('.golf-player');
-            const replay = page.locator('[data-golf-replay]');
+            const replayControls = page.locator('[data-golf-replay]');
+            const replayButton = page.locator('button.button[data-golf-replay]');
             if (await golfScene.count() !== 1) browserErrors.push(`${viewport.name} ${route}: expected one animated golf scene`);
             if (await golfPhone.getAttribute('href') !== 'tel:+17074596761') browserErrors.push(`${viewport.name} ${route}: golf reveal is missing the course phone link`);
-            if (await replay.count() !== 1) browserErrors.push(`${viewport.name} ${route}: golf scene is missing a replay control`);
-            if (await golfPlayer.getAttribute('role') !== 'img' || !(await golfPlayer.getAttribute('aria-label'))?.includes('follow-through')) browserErrors.push(`${viewport.name} ${route}: golfer sprite lacks a meaningful accessible description`);
+            if (await replayControls.count() !== 2) browserErrors.push(`${viewport.name} ${route}: golfer and replay button are not both replay controls`);
+            if (await golfPlayer.evaluate(element => element.tagName) !== 'BUTTON' || await golfPlayer.getAttribute('type') !== 'button' || !(await golfPlayer.getAttribute('aria-label'))?.toLowerCase().includes('replay')) browserErrors.push(`${viewport.name} ${route}: golfer is not an accessible replay button`);
             const golferSprite = await golfPlayer.evaluate(async element => {
               const background = getComputedStyle(element).backgroundImage;
               const match = background.match(/url\(["']?(.*?)["']?\)/);
@@ -312,16 +313,33 @@ try {
               return { background, loaded, width:image.naturalWidth, height:image.naturalHeight };
             });
             if (!golferSprite.background.includes('golfer-swing-sprite.png') || !golferSprite.loaded || golferSprite.width < 1500 || golferSprite.height < 700) browserErrors.push(`${viewport.name} ${route}: production golfer sprite is missing or undersized`);
-            await page.waitForTimeout(1850);
+            const focusDelay = await golfPlayer.evaluate(element => Number.parseFloat(getComputedStyle(element).animationDelay) || 0);
+            if (focusDelay < .75 || focusDelay > .9) browserErrors.push(`${viewport.name} ${route}: golf address-position hold is not approximately 800ms (${focusDelay}s)`);
+            await page.waitForTimeout(400);
+            const focusHold = await golfScene.evaluate(element => ({
+              playerPosition:getComputedStyle(element.querySelector('.golf-player')).backgroundPosition,
+              phoneOpacity:Number.parseFloat(getComputedStyle(element.querySelector('.golf-phone')).opacity),
+            }));
+            if (!focusHold.playerPosition.startsWith('0') || focusHold.phoneOpacity > .05) browserErrors.push(`${viewport.name} ${route}: golf scene does not hold the address position before swinging`);
+            await page.waitForTimeout(2350);
             const revealOpacity = Number.parseFloat(await golfPhone.evaluate(element => getComputedStyle(element).opacity));
             if (revealOpacity < .98) browserErrors.push(`${viewport.name} ${route}: golf phone number did not reveal after the shot`);
-            await replay.focus();
-            if ((await replay.evaluate(element => getComputedStyle(element).outlineStyle)) === 'none') browserErrors.push(`${viewport.name} ${route}: golf replay control lacks a focus indicator`);
+            await golfPlayer.click();
+            await page.waitForTimeout(150);
+            const replayReset = await golfScene.evaluate(element => ({
+              playerPosition:getComputedStyle(element.querySelector('.golf-player')).backgroundPosition,
+              phoneOpacity:Number.parseFloat(getComputedStyle(element.querySelector('.golf-phone')).opacity),
+            }));
+            if (!replayReset.playerPosition.startsWith('0') || replayReset.phoneOpacity > .05) browserErrors.push(`${viewport.name} ${route}: clicking the golfer did not restart from the address position`);
+            await golfPlayer.focus();
+            if ((await golfPlayer.evaluate(element => getComputedStyle(element).outlineStyle)) === 'none') browserErrors.push(`${viewport.name} ${route}: golfer replay control lacks a focus indicator`);
+            await replayButton.focus();
+            if ((await replayButton.evaluate(element => getComputedStyle(element).outlineStyle)) === 'none') browserErrors.push(`${viewport.name} ${route}: replay button lacks a focus indicator`);
           }
           if (viewport.name === 'compactLaptop') {
             const inspectionIndex = route === '/history/' ? 3 : count - 1;
             await tabs.nth(inspectionIndex).click();
-            if (route === '/parks/') await page.waitForTimeout(1850);
+            if (route === '/parks/') await page.waitForTimeout(2750);
             const storyStage = page.locator('.story-deck-stage');
             await storyStage.scrollIntoViewIfNeeded();
             const slug = route.split('/').filter(Boolean)[0];
