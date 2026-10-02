@@ -161,5 +161,6 @@ p{margin:0 0 1.15rem}
 @media (min-width:64rem) and (max-height:50rem){.trail-walk{margin:.45rem 0}.trail-walk-stage{height:10rem}.trail-walk-hiker{height:119%;bottom:-18%}.trail-walk-planted{height:115%;bottom:-14%}.trail-plank-sign{top:8%;padding:.5rem .7rem}.trail-plank-sign>strong{font-size:.82rem}.trail-plank-sign>a{padding:.22rem .1rem;font-size:.5rem}.trail-plank-sign::before,.trail-plank-sign::after{height:5rem}.trail-walk-replay{margin-top:.3rem;padding:.25rem .45rem;font-size:.52rem}}
 @media (prefers-reduced-motion:reduce){.trail-walk-hiker{animation:none!important;opacity:0}.trail-walk-planted{opacity:1}.trail-walk-replay{display:none}}
 #parks-panel-trails{animation:none}
+.trail-plank-sign{transform:perspective(650px) rotateY(-18deg) rotateZ(-1deg);transform-origin:left center;box-shadow:inset 0 0 0 1px rgba(255,210,130,.15),5px 1px 0 #3b1c11,9px 2px 0 #28130c,12px 4px 0 #1b100a,0 1rem 2rem rgba(0,0,0,.42)}
 .trail-walk-right-one{left:-10%}.trail-walk-left{left:-4%}.trail-walk-right-two{left:2%}.trail-walk-planted{left:8%;z-index:7}
 @media (max-width:37.99rem){.trail-walk-right-one{left:-18%}.trail-walk-left{left:-12%}.trail-walk-right-two{left:-6%}.trail-walk-planted{left:0}}

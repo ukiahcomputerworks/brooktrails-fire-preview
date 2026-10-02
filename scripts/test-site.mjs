@@ -311,10 +311,10 @@ try {
             if (await page.locator('[data-trail-journey], [data-trail-scene], [data-trail-step], .trail-actions').count() !== 0) browserErrors.push(`${viewport.name} ${route}: removed Discover, Map, Prepare journey controls or redundant action cards remain`);
             const trailHikersLoaded = await trailHikers.evaluateAll(images => images.length === 4 && images.every(image => image.complete && image.naturalWidth > 800 && image.naturalHeight > 1200));
             if (!trailHikersLoaded) browserErrors.push(`${viewport.name} ${route}: one or more trail gait frames did not load at source quality`);
-            if (await trailSignLinks.count() !== 2) browserErrors.push(`${viewport.name} ${route}: rustic trail sign does not contain exactly two useful links`);
+            if (await trailSignLinks.count() !== 3) browserErrors.push(`${viewport.name} ${route}: rustic trail sign does not contain all three useful links`);
             else {
               const signHrefs = await trailSignLinks.evaluateAll(links => links.map(link => link.getAttribute('href')));
-              if (signHrefs[0] !== '../documents/brooktrails-hiking-trail-map-reader.pdf' || signHrefs[1] !== '../contact/?topic=trails') browserErrors.push(`${viewport.name} ${route}: sign links do not reach the district trail map and current conditions`);
+              if (signHrefs[0] !== '../documents/brooktrails-hiking-trail-map-reader.pdf' || signHrefs[1] !== 'https://www.trailforks.com/region/brooktrails-greenbelt-26604/' || signHrefs[2] !== '../contact/?topic=trails') browserErrors.push(`${viewport.name} ${route}: sign links do not reach the district map, live navigation, and current conditions`);
               await trailSignLinks.first().focus();
               if ((await trailSignLinks.first().evaluate(element => getComputedStyle(element).outlineStyle)) === 'none') browserErrors.push(`${viewport.name} ${route}: trail sign link lacks a focus indicator`);
             }
@@ -339,7 +339,7 @@ try {
             if (await page.locator('a[href="../contact/?topic=trails"]').count() !== 2) browserErrors.push(`${viewport.name} ${route}: current conditions should appear once on the sign and once in greenbelt-care guidance`);
             if (await page.locator('a[href="../archive/#source-ordinance-63"]').count() !== 1) browserErrors.push(`${viewport.name} ${route}: Ordinance 63 does not deep-link to its retained source`);
             if (await page.locator('a[href="../documents/brooktrails-hiking-trail-map-reader.pdf"]').count() !== 1) browserErrors.push(`${viewport.name} ${route}: district trail map should appear once on the rustic sign`);
-            if (await page.locator('a[href="https://www.trailforks.com/region/brooktrails-greenbelt-26604/"]').count() !== 0) browserErrors.push(`${viewport.name} ${route}: redundant live-map links remain after consolidating the trail card`);
+            if (await page.locator('a[href="https://www.trailforks.com/region/brooktrails-greenbelt-26604/"]').count() !== 1) browserErrors.push(`${viewport.name} ${route}: live navigation should appear once on the rustic sign`);
             const golfScene = page.locator('[data-golf-reveal]');
             const golfPhone = page.locator('.golf-phone');
             const golfPlayer = page.locator('.golf-player');
@@ -472,7 +472,7 @@ try {
   if (Number.parseFloat(reducedGolf.phoneOpacity) < .98) browserErrors.push('reduced-motion /parks/: golf phone number should be immediately visible');
   await reducedPage.locator('#parks-tab-trails').click();
   const reducedTrail = await reducedPage.locator('[data-trail-walk]').evaluate(element => ({ walking:element.classList.contains('is-walking'), rightOpacity:getComputedStyle(element.querySelector('.trail-walk-right-one')).opacity, plantedOpacity:getComputedStyle(element.querySelector('.trail-walk-planted')).opacity, replay:getComputedStyle(element.querySelector('[data-trail-walk-replay]')).display, animations:element.getAnimations({ subtree:true }).length, links:element.querySelectorAll('.trail-plank-sign a').length }));
-  if (reducedTrail.walking || Number.parseFloat(reducedTrail.rightOpacity) > .02 || Number.parseFloat(reducedTrail.plantedOpacity) < .98 || reducedTrail.replay !== 'none' || reducedTrail.animations !== 0 || reducedTrail.links !== 2) browserErrors.push('reduced-motion /parks/: planted hiker and both sign links should be static and immediately available');
+  if (reducedTrail.walking || Number.parseFloat(reducedTrail.rightOpacity) > .02 || Number.parseFloat(reducedTrail.plantedOpacity) < .98 || reducedTrail.replay !== 'none' || reducedTrail.animations !== 0 || reducedTrail.links !== 3) browserErrors.push('reduced-motion /parks/: planted hiker and all three sign links should be static and immediately available');
   await reducedPage.close();
   await reducedContext.close();
 
